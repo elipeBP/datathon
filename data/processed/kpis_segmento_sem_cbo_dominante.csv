@@ -1,0 +1,4 @@
+segmento,movimentos,admissoes,desligamentos,saldo,desl_a_pedido,pop,kpi1_pct_a_pedido,kpi2_saldo_10mil_hab,kpi1_suficiente,kpi2_suficiente
+Construção,270075,135713,134362,1351,51267,7610361,38.155877405814145,1.7752114518614819,true,true
+Extrativa e utilidades,28358,14116,14242,-126,5966,7610361,41.89018396292656,-0.16556376234977552,true,true
+Transformação,633739,309542,324197,-14655,160387,7610361,49.47208024750383,-19.256642359015558,true,true
