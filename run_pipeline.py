@@ -6,7 +6,7 @@
 import argparse
 
 import config as cfg
-from src import clean, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
+from src import clean, exportar_web, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
 from src.log import iniciar_log
 
 
@@ -22,7 +22,8 @@ def main(sem_regioes: bool) -> None:
     kpis.main()
     testes.main()         # T1, conferência da seção 3, T2–T5
     figuras.main()
-    recomendacoes.main()  # rascunho em app/recomendacoes.yaml (a equipe aprova)
+    recomendacoes.main()  # rascunho em app/recomendacoes.yaml (a equipe aprova; não sobrescreve se aprovado)
+    exportar_web.main()   # web/public/dados.json e GeoJSON para o site React
 
 
 if __name__ == "__main__":

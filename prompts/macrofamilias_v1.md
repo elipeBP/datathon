@@ -1,9 +1,9 @@
 # Prompt de macrofamílias — v1
 
 - Versão: v1
-- Modelo: `gemini-3.8-flash`
-- Data: 2026-11-10 15:17
-- Caminho: ainda não executado
+- Modelo: `gemini-3.5-flash-lite`
+- Data: 2026-11-11 22:36
+- Caminho: API do Gemini
 - Temperatura: 0 · lotes de 50 CBOs · saída JSON com enums (6.3)
 
 ## Instrução de sistema

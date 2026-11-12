@@ -10,6 +10,7 @@
 
 A ação sugerida é uma regra simples, só para o rascunho. A equipe escolhe, reescreve e aprova.
 """
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -98,6 +99,11 @@ def texto(r: dict, ref: dict) -> dict:
 
 
 def main(proc: Path = cfg.PROCESSED, yaml_path: Path = cfg.RECOMENDACOES_YAML, md_path: Path = cfg.RECOMENDACOES_MD) -> list[dict]:
+    if yaml_path.exists():
+        atual = yaml.safe_load(yaml_path.read_text(encoding="utf-8")) or {}
+        if atual.get("status_geral") == "aprovada":
+            print(f"{yaml_path.name} está aprovado pela equipe: não sobrescrito (candidatas só em {md_path.name}).")
+            yaml_path = Path(os.devnull)
     if not (proc / "kpis_micro_macrofamilia.csv").exists():
         motivo = "faltam as microrregiões do IBGE (V21) e/ou a classificação das macrofamílias (Fase 2)"
         yaml_path.write_text(yaml.safe_dump({"gerado_em": f"{datetime.now():%Y-%m-%d %H:%M}", "status_geral": "pendente",

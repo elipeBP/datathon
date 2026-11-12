@@ -90,18 +90,37 @@ def dispersao_quadrantes(q: pl.DataFrame, segmento: str) -> go.Figure:
                    f"Microrregião × grupo setorial · {segmento} · linhas na mediana das unidades com volume suficiente", 560)
 
 
-def mapa_microrregioes(t: pl.DataFrame, geojson_path: Path, segmento: str) -> go.Figure:
+def mapa_microrregioes(t: pl.DataFrame, geojson_path: Path, segmento: str, kpi: str = "kpi1") -> go.Figure:
+    """kpi1 = % a pedido (escala de alerta); kpi2 = saldo por 10 mil hab. (divergente, centrada em zero)."""
     geo = json.loads(Path(geojson_path).read_text(encoding="utf-8"))
+    col, sufic = ("kpi1_pct_a_pedido", "kpi1_suficiente") if kpi == "kpi1" else ("kpi2_saldo_10mil_hab", "kpi2_suficiente")
     d = t.filter(pl.col("segmento") == segmento).with_columns(
-        pl.when(pl.col("kpi1_suficiente")).then(pl.col("kpi1_pct_a_pedido")).otherwise(None).alias("kpi1_mapa"))
+        pl.when(pl.col(sufic)).then(pl.col(col)).otherwise(None).alias("valor_mapa"))
+    hover = {"kpi1_pct_a_pedido": ":.1f", "kpi2_saldo_10mil_hab": ":.1f", "saldo": ":,", "movimentos": ":,",
+             "cod_microrregiao": False, "valor_mapa": False}
+    rotulos = {"kpi1_pct_a_pedido": "% a pedido", "kpi2_saldo_10mil_hab": "Saldo/10 mil hab.", "saldo": "Saldo (12 meses)"}
+    if kpi == "kpi1":
+        escala, extra = [[0, "#F2F3F5"], [1, DESTAQUE]], {}
+        rotulos["valor_mapa"] = "% a pedido"
+    else:
+        lim = float(d["valor_mapa"].abs().max() or 1)
+        escala, extra = [[0, NEUTRO], [0.5, "#F2F3F5"], [1, COMPARACAO]], {"range_color": (-lim, lim)}
+        rotulos["valor_mapa"] = "Saldo/10 mil hab."
     fig = px.choropleth(d.to_pandas(), geojson=geo, locations="cod_microrregiao", featureidkey="properties.codarea",
-                        color="kpi1_mapa", color_continuous_scale=[[0, "#F2F3F5"], [1, DESTAQUE]],
-                        hover_name="microrregiao", hover_data={"kpi1_pct_a_pedido": ":.1f", "movimentos": ":,", "cod_microrregiao": False},
-                        labels={"kpi1_mapa": "% a pedido"})
+                        color="valor_mapa", color_continuous_scale=escala, hover_name="microrregiao",
+                        hover_data=hover, labels=rotulos, **extra)
     fig.update_geos(fitbounds="locations", visible=False)
-    topo = d.filter(pl.col("kpi1_suficiente")).sort("kpi1_pct_a_pedido", descending=True).row(0, named=True)
-    return _layout(fig, f"{topo['microrregiao']} lidera as saídas a pedido: {fmt_pct(topo['kpi1_pct_a_pedido'])}",
-                   f"{segmento} · microrregiões com volume insuficiente ficam em branco", 520)
+    ok = d.filter(pl.col(sufic))
+    if kpi == "kpi1":
+        topo = ok.sort(col, descending=True).row(0, named=True)
+        titulo = f"{topo['microrregiao']} lidera as saídas a pedido: {fmt_pct(topo[col])}"
+    else:
+        topo, fundo = ok.sort(col, descending=True).row(0, named=True), ok.sort(col).row(0, named=True)
+        num = lambda v: f"{v:+.1f}".replace(".", ",")
+        titulo = (f"{topo['microrregiao']} mais cresce ({num(topo[col])} por 10 mil hab.); "
+                  f"{fundo['microrregiao']} mais encolhe ({num(fundo[col])})")
+    return _layout(fig, titulo, f"{segmento} · saldo de 12 meses · microrregiões com volume insuficiente ficam em branco"
+                   if kpi == "kpi2" else f"{segmento} · microrregiões com volume insuficiente ficam em branco", 520)
 
 
 def barras_kpi_macrofamilia(t: pl.DataFrame, referencia: float, recorte: str) -> go.Figure:

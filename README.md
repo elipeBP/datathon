@@ -4,13 +4,14 @@
 
 **Resposta que os dados sustentam até aqui:** a transformação catarinense quase não cresce em saldo (+1.008 vagas em 12 meses, em 835.866 movimentações), mas **51% dos desligamentos são a pedido do trabalhador**. Alimentos e bebidas (56%), madeira e móveis (53%) e têxtil (52%) lideram. O setor pesa, mas a maior parte da diferença entre setores vem das ocupações de linha: descontada a mistura de ocupações, a diferença cai de 13,3 para 5,6 pontos percentuais (teste T2). O gargalo é de **retenção**, não de falta de gente.
 
-**Painel:** `streamlit run app/streamlit_app.py` · Streamlit Community Cloud: _(colocar o link aqui depois do deploy)_
+**Painel (site React, Vercel):** _(colocar o link aqui depois do deploy)_ · código em [`web/`](web/), dados gerados pelo pipeline Python em `web/public/dados.json`.
+**Painel Python (Streamlit, local):** `streamlit run app/streamlit_app.py`.
 
 O contrato do projeto é [`docs/SDD_v2.md`](docs/SDD_v2.md). O pipeline está documentado em [`notebooks/01_pipeline.ipynb`](notebooks/01_pipeline.ipynb).
 
 ## Como rodar
 
-1. Python 3.11 ou 3.12. Crie um ambiente e instale as dependências:
+1. Python 3.11, 3.12 ou 3.13 (testado no Windows com 3.13). Crie um ambiente e instale as dependências:
    ```bash
    python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
@@ -50,6 +51,7 @@ Se a exportação de PNG reclamar do Chrome, rode `plotly_get_chrome`; se ainda 
 | Testes T1–T5 | `src/testes.py` | `reports/testes.md`, `reports/testes_detalhe/` |
 | Figuras | `src/figuras.py` | `reports/figures/*.png` |
 | Recomendações | `src/recomendacoes.py` | `reports/recomendacoes_candidatas.md`, `app/recomendacoes.yaml` |
+| Exportação para o site | `src/exportar_web.py` | `web/public/dados.json`, `web/public/sc_microrregioes.geojson` |
 | Auditoria | `src/auditoria.py` | verificação antes do push |
 
 ## Os quatro KPIs
@@ -87,7 +89,20 @@ Ver [`reports/testes.md`](reports/testes.md). Resumo: T1 (reconciliação com a 
 18. 751 CBOs pequenas (2,44% dos movimentos) ficam como "Outros" nas macrofamílias, porque não há CBO classificada da mesma família; não entram nas recomendações.
 19. Uma única ocupação, o alimentador de linha de produção (CBO 784205), responde por cerca de um quarto dos movimentos da transformação. Sem ela, o saldo da transformação seria negativo e a madeira cairia de 54,2% para 48,5% de saídas a pedido.
 
-## Deploy no Streamlit Community Cloud
+## Site React (Vercel)
+
+O site não calcula nada: `python src/exportar_web.py` (já incluído no `run_pipeline.py`) grava `web/public/dados.json` e o GeoJSON a partir de `data/processed/` e de `app/recomendacoes.yaml`. Depois de mudar dados ou recomendações, rode o exportador e faça commit dos dois arquivos.
+
+Local (Node 20+):
+```bash
+cd web
+npm install
+npm run dev        # http://localhost:5173
+```
+
+Deploy: em vercel.com → **Add New → Project** → importe este repositório → **Root Directory: `web`** → Deploy. A Vercel detecta o Vite sozinha (build `npm run build`, saída `dist`). Cada push na branch principal publica de novo.
+
+## Deploy no Streamlit Community Cloud (opcional)
 
 1. Suba o repositório público no GitHub (depois de `python src/auditoria.py` dar OK).
 2. Em share.streamlit.io: **New app** → escolha o repositório → arquivo principal `app/streamlit_app.py`.

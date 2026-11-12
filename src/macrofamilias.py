@@ -233,7 +233,7 @@ def classificar_com_gemini(escopo: pl.DataFrame) -> tuple[list[Classificacao], l
                 cache.unlink()
         for tentativa in range(1, cfg.LLM_MAX_TENTATIVAS + 1):
             try:
-                resp = client.models.generate_content(model=cfg.GEMINI_MODEL, contents=linhas_entrada(lote), config=config)
+                resp = _chamar_com_espera(client, lote, config, n)
                 itens = _validar_lote(resp.text, esperadas)
                 cache.write_text(json.dumps({"modelo": cfg.GEMINI_MODEL, "data": datetime.now().isoformat(),
                                              "texto": resp.text}, ensure_ascii=False), encoding="utf-8")
@@ -256,6 +256,21 @@ def classificar_com_gemini(escopo: pl.DataFrame) -> tuple[list[Classificacao], l
                     manuais.append(n)
                     print(f"lote {n:02d}: marcado para classificação manual")
     return resultado, manuais
+
+
+def _chamar_com_espera(client, lote, config, n: int):
+    """503 (pico de demanda) é passageiro: espera mais, sem gastar as tentativas de validação do lote.
+    Mantém o mesmo modelo em todos os lotes, para a classificação ficar consistente."""
+    from google.genai import errors
+    for i in range(cfg.LLM_ESPERAS_503 + 1):
+        try:
+            return client.models.generate_content(model=cfg.GEMINI_MODEL, contents=linhas_entrada(lote), config=config)
+        except errors.APIError as e:
+            if e.code != 503 or i == cfg.LLM_ESPERAS_503:
+                raise
+            espera = min(15 * 2 ** i, 120)
+            print(f"lote {n:02d}: 503 (alta demanda), esperando {espera}s ({i + 1}/{cfg.LLM_ESPERAS_503})")
+            time.sleep(espera)
 
 
 # ---------------------------------------------------------------- plano B (6.6)

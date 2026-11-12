@@ -9,3 +9,8 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# site React (web/)
+web/node_modules/
+web/dist/
+.vercel/

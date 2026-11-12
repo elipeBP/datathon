@@ -36,7 +36,10 @@ else:
 
 # ---------------------------------------------------------------- mapa e quadrantes
 if disponivel("kpis_microrregiao") and cfg.GEOJSON_MICRO.exists():
-    st.plotly_chart(g.mapa_microrregioes(ler("kpis_microrregiao"), cfg.GEOJSON_MICRO, segmento), width="stretch")
+    visao = st.radio("Colorir o mapa por", ["Saídas a pedido (apagão)", "Saldo por 10 mil hab. (expansão)"],
+                     horizontal=True, key="mapa_kpi")
+    kpi_mapa = "kpi1" if visao.startswith("Saídas") else "kpi2"
+    st.plotly_chart(g.mapa_microrregioes(ler("kpis_microrregiao"), cfg.GEOJSON_MICRO, segmento, kpi_mapa), width="stretch")
 if disponivel("quadrantes"):
     q = ler("quadrantes")
     if q.filter(pl.col("segmento") == segmento).height:

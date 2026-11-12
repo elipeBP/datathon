@@ -1,0 +1,1579 @@
+cbo,titulo_cbo,area,nivel,confianca,justificativa,origem,revisado
+784205,Alimentador de Linha de Producao,Operação de linha e montagem,Qualificação até 200h,alta,"Função genérica de produção, aprendida diretamente no posto de trabalho.",llm,false
+717020,Servente de Obras,Construção,Qualificação até 200h,alta,"Atividade auxiliar de construção, aprendida rapidamente na prática.",llm,false
+715210,Pedreiro,Construção,Qualificação acima de 200h,alta,Profissão da construção que exige prática prolongada e qualificação.,llm,false
+848520,Magarefe,Alimentos e bebidas,Qualificação acima de 200h,alta,Abate e desossa exigem treinamento técnico específico e prática.,llm,false
+411005,"Auxiliar de Escritorio, em Geral","Gestão, administrativo e comercial",Qualificação acima de 200h,alta,Rotinas de escritório exigem cursos básicos de formação administrativa.,llm,false
+411010,Assistente Administrativo,"Gestão, administrativo e comercial",Qualificação acima de 200h,alta,Assistência administrativa requer qualificação e conhecimento em rotinas de escritório.,llm,false
+763210,Costureiro na Confeccao em Serie,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Costura industrial exige curso de qualificação ou experiência prolongada.,llm,false
+763215,"Costureiro, a  Maquina  na Confeccao em Serie","Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de máquinas de costura industrial exige treinamento especializado.,llm,false
+414105,Almoxarife,Logística e movimentação,Qualificação acima de 200h,alta,Gestão de almoxarifado requer treinamento específico em controle de estoque.,llm,false
+715505,Carpinteiro,Construção,Qualificação acima de 200h,alta,Carpintaria de obras exige qualificação e prática prolongada.,llm,false
+782510,Motorista de Caminhao (Rotas Regionais e Internacionais),Logística e movimentação,Qualificação acima de 200h,alta,Exige CNH específica e treinamento para transporte rodoviário.,llm,false
+514320,Faxineiro (Desativado em 2010),Serviços de apoio,Qualificação até 200h,alta,Serviços de limpeza aprendidos rapidamente no posto de trabalho.,llm,false
+724315,Soldador,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Soldagem exige curso de qualificação prolongado e certificação técnica.,llm,false
+763125,Ajudante de Confecção,"Têxtil, confecção e calçados",Qualificação até 200h,alta,"Atividade de apoio na confecção, aprendida rapidamente no posto.",llm,false
+911305,"Mecanico de Manutencao de Maquinas, em Geral",Manutenção industrial,Qualificação acima de 200h,alta,Manutenção mecânica industrial exige curso de qualificação aprofundado.,llm,false
+784105,"Embalador, a Mao",Operação de linha e montagem,Qualificação até 200h,alta,Embalagem manual é aprendida diretamente no posto de trabalho.,llm,false
+761815,Revisor de Tecidos Acabados,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Revisão de tecidos exige treinamento específico e atenção a defeitos.,llm,false
+414135,Expedidor de Mercadorias,Logística e movimentação,Qualificação até 200h,alta,Expedição de mercadorias aprendida por meio de treinamento prático curto.,llm,false
+716610,Pintor de Obras,Construção,Qualificação acima de 200h,alta,Pintura de obras exige técnicas específicas e prática prolongada.,llm,false
+862150,"Operador de Maquinas Fixas, em Geral",Operação de linha e montagem,Qualificação até 200h,alta,Operação genérica de máquinas simples aprendida no próprio posto.,llm,false
+715525,Carpinteiro de Obras,Construção,Qualificação acima de 200h,alta,Carpintaria de obras exige treinamento técnico e prática contínua.,llm,false
+724205,Montador de Estruturas Metalicas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Montagem de estruturas metálicas exige qualificação e normas de segurança.,llm,false
+715615,Eletricista de Instalacoes,Construção,Qualificação acima de 200h,alta,Instalações elétricas prediais exigem curso de qualificação específico.,llm,false
+715315,Armador de Estrutura de Concreto Armado,Construção,Qualificação acima de 200h,alta,Armação de concreto armado exige treinamento prático prolongado.,llm,false
+521110,Vendedor de Comercio Varejista,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Atendimento e vendas no varejo aprendidos diretamente no posto.,llm,false
+514205,Coletor de Lixo Domiciliar,Serviços de apoio,Qualificação até 200h,alta,Coleta de lixo aprendida rapidamente através de orientação prática.,llm,false
+513505,Auxiliar nos Serviços de Alimentação,Serviços de apoio,Qualificação até 200h,alta,Serviços auxiliares de alimentação aprendidos no próprio posto.,llm,false
+391205,Inspetor de Qualidade,Qualidade e controle,Técnico,alta,Inspeção de qualidade frequentemente apoiada por formação técnica.,llm,false
+771105,Marceneiro,Madeira e móveis,Qualificação acima de 200h,alta,Marcenaria exige curso de qualificação e prática prolongada no manejo.,llm,false
+761005,Operador Polivalente da Industria Textil,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Polivalência têxtil exige treinamento aprofundado em múltiplos processos.,llm,false
+710205,Mestre (Construcao Civil),Construção,Qualificação acima de 200h,alta,Liderança de obras construída com vasta experiência prática.,llm,false
+414210,Apontador de Producao,Logística e movimentação,Qualificação acima de 200h,alta,Apontamento de produção exige conhecimentos de rotinas administrativas e fabris.,llm,false
+715305,Armador de Estrutura de Concreto,Construção,Qualificação acima de 200h,alta,Armação de estruturas de concreto exige treinamento prático especializado.,llm,false
+721215,Operador de Maquinas-Ferramenta Convencionais,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de máquinas-ferramenta exige curso profissionalizante e prática.,llm,false
+811770,Moldador de Plastico por Injecao,"Plástico, borracha e química",Qualificação acima de 200h,alta,Moldagem de plásticos exige treinamento específico em operação de injetoras.,llm,false
+725205,Montador de Maquinas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Montagem mecânica exige qualificação em leitura de desenhos e ferramentas.,llm,false
+724110,Encanador,Construção,Qualificação acima de 200h,alta,Serviços de encanamento exigem treinamento e prática prolongada.,llm,false
+414140,Auxiliar de Logistica,Logística e movimentação,Qualificação até 200h,alta,Atividades básicas de logística aprendidas no próprio posto de trabalho.,llm,false
+782220,Operador de Empilhadeira,Logística e movimentação,Qualificação acima de 200h,alta,Operação de empilhadeira exige curso específico e reciclagem obrigatória.,llm,false
+731175,Operador de Linha de Montagem (Aparelhos Eletricos),Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem de aparelhos elétricos exige treinamento técnico específico.,llm,false
+521140,Atendente de Lojas e Mercados,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Atendimento ao cliente aprendido rapidamente no posto de trabalho.,llm,false
+354125,Assistente de Vendas,"Gestão, administrativo e comercial",Qualificação acima de 200h,alta,Assistência de vendas requer qualificação em técnicas comerciais.,llm,false
+763105,Auxiliar de Corte (Preparacao da Confeccao de Roupas),"Têxtil, confecção e calçados",Qualificação até 200h,alta,Preparação e auxílio no corte aprendidos no próprio posto.,llm,false
+414110,Armazenista,Logística e movimentação,Qualificação até 200h,alta,Armazenagem básica aprendida por meio de treinamento prático curto.,llm,false
+724440,Serralheiro,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Serralheria exige curso de qualificação e prática prolongada.,llm,false
+813125,"Operador de Producao (Quimica, Petroquimica e Afins)","Plástico, borracha e química",Qualificação acima de 200h,alta,Processos químicos exigem treinamento específico em segurança e operação.,llm,false
+783225,Ajudante de Motorista,Logística e movimentação,Qualificação até 200h,alta,Auxílio de transporte aprendido rapidamente no próprio posto.,llm,false
+761330,Tecelao de Malhas (Maquina Circular),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de teares circulares exige qualificação específica.,llm,false
+951105,Eletricista de Manutencao Eletroeletronica,Manutenção industrial,Qualificação acima de 200h,alta,Manutenção eletroeletrônica exige curso de qualificação aprofundado.,llm,false
+351605,Tecnico em Seguranca no Trabalho,Qualidade e controle,Técnico,alta,Segurança do trabalho exige curso técnico de nível médio.,llm,false
+821450,Rebarbador de Metal,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Rebarbação de metal exige prática e conhecimento de ferramentas industriais.,llm,false
+774105,Montador de Moveis e Artefatos de Madeira,Madeira e móveis,Qualificação acima de 200h,alta,Montagem de móveis exige treinamento específico e manuseio de ferramentas.,llm,false
+725105,"Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Montagem seriada de máquinas mecânicas exige qualificação técnica.,llm,false
+513435,Atendente de Lanchonete,Alimentos e bebidas,Qualificação até 200h,alta,Atendimento de lanchonete é aprendido no posto de trabalho.,llm,false
+954125,Operador Eletromecanico,Manutenção industrial,Qualificação acima de 200h,alta,Manutenção eletromecânica exige qualificação especializada prolongada.,llm,false
+782310,Motorista de Furgao ou Veiculo Similar,Logística e movimentação,Qualificação até 200h,alta,Condução de veículos utilitários exige CNH e prática rápida.,llm,false
+514325,Trabalhador da Manutenção de Edificações,Construção,Qualificação até 200h,alta,Manutenção predial básica aprendida em curta qualificação.,llm,false
+724410,Caldeireiro (Chapas de Ferro e Aco),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Caldeiraria exige curso de qualificação avançado e prática.,llm,false
+761410,Estampador de Tecido,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Estamparia têxtil demanda conhecimento de processos e tintas.,llm,false
+841484,Trabalhador de Preparacao de Pescados (Limpeza),Alimentos e bebidas,Qualificação até 200h,alta,Limpeza de pescados é aprendida diretamente no posto.,llm,false
+763110,Cortador de Roupas,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Corte de roupas exige técnica e conhecimento de moldes.,llm,false
+752305,Ceramista,"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Fabricação cerâmica requer manuseio especializado de materiais.,llm,false
+715125,Operador de Maquinas de Construcao Civil e Mineracao,Construção,Qualificação acima de 200h,alta,Operação de máquinas pesadas exige curso específico e habilitação.,llm,false
+391125,Tecnico de Planejamento de Producao,"Gestão, administrativo e comercial",Técnico,alta,Planejamento de produção geralmente exige formação técnica.,llm,false
+721405,Operador de Centro de Usinagem com Comando Numerico,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de CNC exige curso de qualificação prolongado.,llm,false
+731120,Montador de Equipamentos Eletricos (Aparelhos Eletrodomesticos),Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem de eletrodomésticos requer treinamento técnico específico.,llm,false
+715115,Operador de Escavadeira,Construção,Qualificação acima de 200h,alta,Operação de escavadeira exige curso de capacitação.,llm,false
+761309,Tecelao (Tear Automatico),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de teares automáticos exige qualificação específica.,llm,false
+841505,Trabalhador de Tratamento do Leite e Fabricacao de Laticinios e Afins,Alimentos e bebidas,Qualificação acima de 200h,alta,Processamento de laticínios exige normas sanitárias e treinamento.,llm,false
+772105,Classificador de Madeira,Madeira e móveis,Qualificação acima de 200h,alta,Classificação de madeira exige experiência e conhecimento técnico.,llm,false
+722215,Operador de Acabamento de Pecas Fundidas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Acabamento de peças fundidas requer qualificação em fundição.,llm,false
+773325,"Operador de Maquina de Usinagem Madeira, em Geral",Madeira e móveis,Qualificação acima de 200h,alta,Operação de máquinas de usinagem de madeira exige treinamento.,llm,false
+764005,Trabalhador Polivalente da Confeccao de Calcados,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Polivalência calçadista exige múltiplas habilidades técnicas.,llm,false
+252405,Analista de Recursos Humanos,"Gestão, administrativo e comercial",Superior,alta,Análise de RH exige graduação em Administração ou Psicologia.,llm,false
+783215,Carregador (Veiculos de Transportes Terrestres),Logística e movimentação,Qualificação até 200h,alta,Carga e descarga é aprendida no próprio local de trabalho.,llm,false
+731135,Montador de Equipamentos Eletricos,Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem de equipamentos elétricos exige treinamento técnico.,llm,false
+716510,Ladrilheiro,Construção,Qualificação acima de 200h,alta,Profissão de ladrilheiro exige prática prolongada ou curso.,llm,false
+715230,Pedreiro de Edificacoes,Construção,Qualificação acima de 200h,alta,Ofício de pedreiro requer experiência e qualificação prática.,llm,false
+723330,"Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Pintura industrial a pistola exige curso específico.,llm,false
+723315,Pintor de Estruturas Metalicas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Pintura de estruturas metálicas exige técnicas de segurança e aplicação.,llm,false
+811775,Trefilador de Borracha,"Plástico, borracha e química",Qualificação acima de 200h,alta,Trefilação de borracha exige operação de máquinas industriais.,llm,false
+716405,Gesseiro,Construção,Qualificação acima de 200h,alta,Instalação de gesso requer prática específica.,llm,false
+422105,"Recepcionista, em Geral","Gestão, administrativo e comercial",Qualificação até 200h,alta,Atendimento e recepção aprendidos com treinamento rápido.,llm,false
+761327,"Tecelao de Malhas, a  Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de tecelagem de malhas exige capacitação específica.,llm,false
+784110,"Embalador, a Maquina",Operação de linha e montagem,Qualificação até 200h,alta,Embalagem automatizada aprendida diretamente no posto.,llm,false
+763320,Operador de Maquina de Costura de Acabamento,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de costura de acabamento exige treino prático.,llm,false
+414215,Conferente de Carga e Descarga,Logística e movimentação,Qualificação até 200h,alta,Conferência de carga aprendida rapidamente na prática.,llm,false
+391210,Tecnico de Garantia da Qualidade,Qualidade e controle,Técnico,alta,Garantia da qualidade exige formação técnica específica.,llm,false
+763010,Costureira de Pecas Sob Encomenda,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Costura sob encomenda exige domínio técnico da profissão.,llm,false
+391215,Operador de Inspecao de Qualidade,Qualidade e controle,Técnico,alta,Inspeção da qualidade industrial exige conhecimentos técnicos.,llm,false
+141205,Gerente de Producao e Operacoes,"Gestão, administrativo e comercial",Superior,alta,Gerência de produção exige nível superior em engenharia ou administração.,llm,false
+354205,Comprador,"Gestão, administrativo e comercial",Técnico,media,Função de comprador frequentemente requer formação técnica ou superior.,llm,false
+724220,Preparador de Estruturas Metalicas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Preparação de estruturas metálicas exige leitura de desenhos e prática.,llm,false
+722205,Fundidor de Metais,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Fundição de metais exige treinamento em segurança e processos.,llm,false
+414125,Estoquista,Logística e movimentação,Qualificação até 200h,alta,Organização de estoque aprendida no posto de trabalho.,llm,false
+724510,Operador de Maquina de Dobrar Chapas,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de dobradeiras de chapas exige qualificação específica.,llm,false
+312105,Tecnico de Obras Civis,Construção,Técnico,alta,Técnico de obras exige formação técnica em edificações.,llm,false
+514310,Auxiliar de Manutenção Predial,Construção,Qualificação até 200h,alta,Auxiliar predial realiza tarefas simples aprendidas no posto.,llm,false
+413110,Auxiliar de Contabilidade,"Gestão, administrativo e comercial",Técnico,media,Auxiliar contábil costuma exigir curso técnico em contabilidade.,llm,false
+848505,Abatedor,Alimentos e bebidas,Qualificação até 200h,alta,Abate industrial é aprendido rapidamente em treinamento interno.,llm,false
+721210,Operador de Maquinas Operatrizes,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de máquinas operatrizes requer qualificação industrial específica.,llm,false
+521115,Promotor de Vendas,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Função comercial aprendida na prática ou em cursos curtos.,llm,false
+763310,"Bordador, À Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de máquinas de bordar industriais exige prática.,llm,false
+848305,Padeiro,Alimentos e bebidas,Qualificação acima de 200h,alta,Ofício de padeiro exige curso de qualificação ou experiência.,llm,false
+823325,Trabalhador da Elaboracao de Pre-Fabricados (Concreto Armado),"Cerâmica, vidro e minerais",Qualificação até 200h,alta,Fabricação de pré-moldados aprendida diretamente no posto de trabalho.,llm,false
+842120,Auxiliar de Processamento de Fumo,Alimentos e bebidas,Qualificação até 200h,alta,Processamento de fumo é aprendida no próprio posto de trabalho.,llm,false
+142335,Analista de Pesquisa de Mercado (A),"Gestão, administrativo e comercial",Superior,alta,Pesquisa de mercado e análise exigem formação superior.,llm,false
+725010,Ajustador Mecanico,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Ajustagem mecânica é ofício industrial de qualificação prolongada.,llm,false
+514225,Trabalhador de Servicos de Limpeza e Conservacao de Areas Publicas,Serviços de apoio,Qualificação até 200h,alta,Limpeza pública sem exigência de curso formal prolongado.,llm,false
+766315,Operador de Acabamento (Industria Grafica),Operação de linha e montagem,Qualificação até 200h,alta,Acabamento gráfico aprendido no próprio posto de trabalho.,llm,false
+992225,Auxiliar Geral de Conservacao de Vias Permanentes (Exceto Trilhos),Construção,Qualificação até 200h,alta,Conservação de vias é aprendida na prática da construção.,llm,false
+715610,Eletricista de Instalacoes (Edificios),Construção,Qualificação acima de 200h,alta,Instalações elétricas prediais exigem qualificação profissional específica.,llm,false
+848310,Confeiteiro,Alimentos e bebidas,Qualificação acima de 200h,alta,Confeitaria exige curso de qualificação ou experiência prática.,llm,false
+725505,Montador de Veiculos (Linha de Montagem),Metalmecânica e soldagem,Qualificação até 200h,alta,Montagem em linha de veículos aprendida no posto.,llm,false
+721430,Operador de Torno com Comando Numerico,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de torno CNC exige curso de qualificação específico.,llm,false
+252105,Administrador,"Gestão, administrativo e comercial",Superior,alta,Administração exige graduação em Administração.,llm,false
+311710,Colorista Textil,"Têxtil, confecção e calçados",Técnico,alta,Colorimetria têxtil frequentemente exige nível técnico ou qualificação avançada.,llm,false
+911205,Mecanico de Manutencao e Instalacao de Aparelhos de Climatizacao e  Refrigeracao,Manutenção industrial,Qualificação acima de 200h,alta,Refrigeração e climatização exigem curso de qualificação específico.,llm,false
+622020,Trabalhador Volante da Agricultura,Alimentos e bebidas,Qualificação até 200h,alta,Trabalho agrícola sazonal aprendido sem qualificação prévia.,llm,false
+142105,Gerente Administrativo,"Gestão, administrativo e comercial",Superior,alta,Gerência administrativa exige curso superior.,llm,false
+715405,Operador de Betoneira,Construção,Qualificação até 200h,alta,Operação de betoneira aprendida rapidamente no posto.,llm,false
+773415,Operador de Maquina de Usinagem de Madeira (Producao em Serie),Madeira e móveis,Qualificação acima de 200h,alta,Usinagem de madeira em série exige prática prolongada.,llm,false
+848515,Desossador,Alimentos e bebidas,Qualificação acima de 200h,alta,Desossa é ofício específico da indústria frigorífica aprendido com prática.,llm,false
+252210,Contador,"Gestão, administrativo e comercial",Superior,alta,Contador exige graduação em Ciências Contábeis e registro.,llm,false
+782515,Motorista Operacional de Guincho,Logística e movimentação,Qualificação acima de 200h,alta,Operação de guincho exige CNH específica e curso regulamentado.,llm,false
+410105,Supervisor Administrativo,"Gestão, administrativo e comercial",Superior,media,Supervisão administrativa frequentemente exige ensino superior ou técnico.,llm,false
+773120,Serrador de Madeira,Madeira e móveis,Qualificação acima de 200h,alta,Operação de serraria exige experiência e cuidados de segurança.,llm,false
+761354,Operador de Maquina de Cordoalha,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Operação de máquinas têxteis aprendido no posto de trabalho.,llm,false
+724435,Funileiro Industrial,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Funilaria industrial exige qualificação em caldeiraria ou metalmecânica.,llm,false
+832125,Operador de Maquina de Fabricar Papel e Papelao,"Plástico, borracha e química",Qualificação acima de 200h,alta,Operação de máquinas de papel e celulose requer treinamento específico.,llm,false
+732120,Instalador de Linhas Eletricas de Alta e Baixa - Tensao (Rede Aerea e Subterranea),Eletroeletrônica e automação,Qualificação acima de 200h,alta,Trabalho em redes elétricas de alta tensão exige formação rigorosa.,llm,false
+724210,Montador de Estruturas Metalicas de Embarcacoes,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Montagem de estruturas metálicas navais exige qualificação especializada.,llm,false
+715545,Montador de Andaimes (Edificacoes),Construção,Qualificação acima de 200h,alta,Montagem de andaimes exige curso de segurança NR-35 e prática.,llm,false
+513205,Cozinheiro Geral,Serviços de apoio,Qualificação acima de 200h,alta,Cozinheiro geral exige curso de culinária ou prática prolongada.,llm,false
+716525,Marmorista (Construcao),"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Trabalho com mármore e granito exige ofício especializado.,llm,false
+314110,Tecnico Mecanico,Engenharia e P&D,Técnico,alta,Técnico mecânico exige curso técnico de nível médio.,llm,false
+300305,Tecnico em Eletromecanica,Eletroeletrônica e automação,Técnico,alta,Eletromecânica exige formação técnica de nível médio.,llm,false
+724115,Instalador de Tubulacoes,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Instalação de tubulações industriais exige curso de qualificação.,llm,false
+716305,Vidraceiro,Construção,Qualificação até 200h,alta,Colocação de vidros aprendida na prática da construção.,llm,false
+521105,Vendedor em Comercio Atacadista,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Vendas atacadistas aprendidas no próprio ambiente comercial.,llm,false
+862120,Operador de Caldeira,Manutenção industrial,Qualificação acima de 200h,alta,Operação de caldeira exige NR-13 obrigatória e treinamento prolongado.,llm,false
+766305,Acabador de Embalagens (Flexiveis e Cartotecnicas),Operação de linha e montagem,Qualificação até 200h,alta,Acabamento de embalagens aprendido no posto de trabalho.,llm,false
+519210,Selecionador de Material Reciclável,Serviços de apoio,Qualificação até 200h,alta,Seleção de materiais recicláveis sem exigência de curso formal.,llm,false
+414115,Balanceiro,Logística e movimentação,Qualificação até 200h,alta,Função de balança e pesagem aprendida rapidamente no posto.,llm,false
+811130,Trabalhador de Fabricacao de Tintas,"Plástico, borracha e química",Qualificação acima de 200h,alta,Fabricação de tintas envolve processos químicos e treinamento específico.,llm,false
+763115,Enfestador de Roupas,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Enfestar tecidos é atividade aprendida diretamente na produção.,llm,false
+731170,"Bobinador Eletricista, À Maquina",Eletroeletrônica e automação,Qualificação acima de 200h,alta,Bobinagem de motores elétricos exige qualificação específica.,llm,false
+514120,Zelador de Edificio,Serviços de apoio,Qualificação até 200h,alta,Zeladoria de edifícios aprendida na prática diária.,llm,false
+782205,Guincheiro (Construcao Civil),Construção,Qualificação acima de 200h,alta,Operação de guincho na construção civil exige treinamento de segurança.,llm,false
+841810,"Operador de Maquinas de Fabricacao de Doces, Salgados e Massas Alimenticias",Alimentos e bebidas,Qualificação até 200h,alta,Operação de máquinas alimentícias simples aprendida no posto.,llm,false
+725015,Ajustador Mecanico (Usinagem em Bancada e em Maquinas-Ferramentas),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Usinagem e ajuste mecânico exigem qualificação prolongada.,llm,false
+811760,Moldador de Plastico por Compressao,"Plástico, borracha e química",Qualificação acima de 200h,alta,Operação de moldagem plástica requer treinamento específico.,llm,false
+311410,Tecnico em Plastico,"Plástico, borracha e química",Técnico,alta,Técnico de nível médio em processos plásticos.,llm,false
+761230,Operador de Filatorio,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de filatório têxtil requer prática específica.,llm,false
+823320,Trabalhador da Elaboracao de Pre-Fabricados (Cimento Amianto),"Cerâmica, vidro e minerais",Qualificação até 200h,media,Produção de pré-fabricados aprendida predominantemente no posto.,llm,false
+715410,Operador de Bomba de Concreto,Construção,Qualificação acima de 200h,alta,Operação de equipamentos de concreto exige treinamento específico.,llm,false
+421125,Operador de Caixa,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Função de operador de caixa aprendida no posto.,llm,false
+413115,Auxiliar de Faturamento,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Rotinas administrativas básicas aprendidas rapidamente.,llm,false
+760310,Encarregado de Costura na Confeccao do Vestuario,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Supervisão de costura exige experiência e qualificação.,llm,false
+813115,"Operador de Extrusora (Quimica, Petroquimica e Afins)","Plástico, borracha e química",Qualificação acima de 200h,alta,Operação de extrusoras químicas exige qualificação industrial.,llm,false
+848525,Retalhador de Carne,Alimentos e bebidas,Qualificação acima de 200h,alta,Retalhação de carne exige técnicas industriais específicas.,llm,false
+313105,Eletrotecnico,Eletroeletrônica e automação,Técnico,alta,Profissão regulamentada de técnico em eletrotécnica.,llm,false
+763325,Passadeira de Pecas Confeccionadas,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Atividade de passadeira aprendida no posto de trabalho.,llm,false
+914405,"Mecanico de Manutencao de Automoveis, Motocicletas e Veiculos Similares",Manutenção industrial,Qualificação acima de 200h,alta,Mecânico de manutenção automotiva exige curso de qualificação.,llm,false
+783210,Carregador (Armazem),Logística e movimentação,Qualificação até 200h,alta,Carga e descarga de armazém aprendidas no posto.,llm,false
+712205,Cortador de Pedras,"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Corte de pedras exige técnica e qualificação específica.,llm,false
+848115,"Salsicheiro (Fabricacao de Linguica, Salsicha e Produtos Similares)",Alimentos e bebidas,Qualificação acima de 200h,alta,Processamento de embutidos requer qualificação na área.,llm,false
+862305,Operador de Estacao de Tratamento de Agua e Efluentes,Serviços de apoio,Técnico,alta,Tratamento de água e efluentes requer formação técnica.,llm,false
+721325,Polidor de Metais,Metalmecânica e soldagem,Qualificação até 200h,alta,Polimento de metais aprendido na prática operacional.,llm,false
+721410,Operador de Fresadora com Comando Numerico,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de fresadora CNC exige curso de qualificação.,llm,false
+520110,Supervisor de Vendas Comercial,"Gestão, administrativo e comercial",Superior,media,Supervisão comercial frequentemente requer formação superior.,llm,false
+764115,Preparador de Calcados,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Preparação de calçados exige qualificação específica.,llm,false
+318610,Desenhista Projetista Mecanico,Engenharia e P&D,Técnico,alta,Desenhista projetista mecânico exige formação técnica.,llm,false
+821245,Operador de Area de Corrida,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de laminação siderúrgica exige qualificação específica.,llm,false
+301105,Tecnico de Laboratorio Industrial,Qualidade e controle,Técnico,alta,Técnico de laboratório industrial de nível médio.,llm,false
+765405,Trabalhador do Acabamento de Artefatos de Tecidos e Couros,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Acabamento de artefatos têxteis aprendido no posto.,llm,false
+514215,Varredor de Rua,Serviços de apoio,Qualificação até 200h,alta,Limpeza urbana aprendida no próprio posto.,llm,false
+262410,Desenhista Industrial Grafico (Designer Grafico),Engenharia e P&D,Superior,alta,Designer gráfico exige graduação superior.,llm,false
+811745,Laminador de Plastico,"Plástico, borracha e química",Qualificação acima de 200h,alta,Laminação de plásticos exige treinamento industrial.,llm,false
+761810,Revisor de Fios (Producao Textil),"Têxtil, confecção e calçados",Qualificação até 200h,alta,Revisão de fios aprendida no ambiente de trabalho.,llm,false
+764305,Acabador de Calcados,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Acabamento de calçados aprendido rapidamente no posto.,llm,false
+828110,Oleiro (Fabricacao de Tijolos),"Cerâmica, vidro e minerais",Qualificação até 200h,alta,Fabricação artesanal/industrial de tijolos aprendida no posto.,llm,false
+731320,Instalador-Reparador de Linhas e Aparelhos de Telecomunicacoes,Eletroeletrônica e automação,Qualificação acima de 200h,alta,Instalação de telecomunicações exige curso específico.,llm,false
+142330,Analista de Negocios (A),"Gestão, administrativo e comercial",Superior,alta,Analista de negócios exige formação superior.,llm,false
+911320,Mecanico de Manutencao de Maquinas Texteis,Manutenção industrial,Qualificação acima de 200h,alta,Manutenção de máquinas têxteis exige qualificação prolongada.,llm,false
+252705,Analista de Pcp (Programacao e Controle da Producao),"Gestão, administrativo e comercial",Superior,alta,Planejamento e controle de produção exige graduação.,llm,false
+848325,Trabalhador de Fabricacao de Sorvete,Alimentos e bebidas,Qualificação até 200h,alta,Fabricação de sorvetes aprendida no posto.,llm,false
+623310,Trabalhador da Avicultura de Postura,Alimentos e bebidas,Qualificação até 200h,alta,Atividades de avicultura aprendidas na prática.,llm,false
+721105,Ferramenteiro,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Ferramenteiro exige curso longo e alta qualificação.,llm,false
+313215,Tecnico Eletronico,Eletroeletrônica e automação,Técnico,alta,Técnico eletrônico com formação de nível médio.,llm,false
+761415,Operador de Calandras (Tecidos),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de calandras têxteis exige qualificação.,llm,false
+840105,Supervisor de Producao da Industria Alimenticia,Alimentos e bebidas,Superior,media,Supervisão de produção alimentícia geralmente exige superior.,llm,false
+721225,Preparador de Maquinas-Ferramenta,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Preparação de máquinas-ferramenta exige qualificação específica.,llm,false
+354145,Vendedor Pracista,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Vendas pracistas aprendidas na prática comercial.,llm,false
+732105,"Eletricista de Manutencao de Linhas Eletricas, Telefonicas e de Comunicacao de Dados",Eletroeletrônica e automação,Qualificação acima de 200h,alta,Manutenção de linhas elétricas exige certificação e qualificação.,llm,false
+848210,Queijeiro na Fabricacao de Laticinio,Alimentos e bebidas,Qualificação acima de 200h,alta,Fabricação de queijos exige conhecimentos técnicos específicos.,llm,false
+715205,Calceteiro,Construção,Qualificação acima de 200h,alta,Profissão de calceteiro exige prática prolongada.,llm,false
+516345,Auxiliar de Lavanderia,Serviços de apoio,Qualificação até 200h,alta,Auxiliar de lavanderia aprende a função no posto.,llm,false
+910105,Encarregado de Manutencao Mecanica de Sistemas Operacionais,Manutenção industrial,Qualificação acima de 200h,alta,Encarregado de manutenção mecânica exige experiência e qualificação.,llm,false
+411030,Auxiliar de Pessoal,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Rotinas de departamento pessoal aprendidas no trabalho.,llm,false
+911325,Mecanico de Manutencao de Maquinas-Ferramentas (Usinagem de Metais),Manutenção industrial,Qualificação acima de 200h,alta,Mecânico de manutenção industrial exige qualificação profissional prolongada.,llm,false
+314410,Tecnico em Manutencao de Maquinas,Metalmecânica e soldagem,Técnico,alta,Técnico de nível médio em manutenção de máquinas.,llm,false
+765235,Estofador de Moveis,Madeira e móveis,Qualificação acima de 200h,alta,Estofador de móveis é ofício que exige prática e qualificação.,llm,false
+782115,Operador de Guindaste Movel,Logística e movimentação,Qualificação acima de 200h,alta,Operação de guindaste móvel exige curso específico de operador.,llm,false
+766205,Impressor (Serigrafia),Operação de linha e montagem,Qualificação acima de 200h,media,Impressor serigráfico exige prática e qualificação específica na função.,llm,false
+761435,Operador de Rameuse,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de rameuse exige conhecimento específico do processo têxtil.,llm,false
+517420,Vigia,Serviços de apoio,Qualificação até 200h,alta,Função de vigilância aprendida rapidamente no posto de trabalho.,llm,false
+318810,Modelista de Roupas,"Têxtil, confecção e calçados",Técnico,alta,Modelista de roupas exige formação técnica de nível médio.,llm,false
+715140,"Operador de Pavimentadora (Asfalto, Concreto e Materiais Similares)",Construção,Qualificação acima de 200h,alta,Operador de pavimentadora requer treinamento específico e habilitação.,llm,false
+517410,Porteiro de Edificios,Serviços de apoio,Qualificação até 200h,alta,Porteiro de edifícios aprende a função diretamente no posto.,llm,false
+823210,Extrusor de Fios ou Fibras de Vidro,"Plástico, borracha e química",Qualificação acima de 200h,alta,Operação de extrusão exige qualificação e conhecimento de processos.,llm,false
+848510,Acougueiro,Alimentos e bebidas,Qualificação acima de 200h,alta,Açougueiro é ofício que exige treinamento e prática prolongada.,llm,false
+723215,Galvanizador,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Galvanizador opera processos químicos e superfícies metálicas complexas.,llm,false
+775115,Lustrador de Pecas de Madeira,Madeira e móveis,Qualificação até 200h,alta,Lustrador de madeira aprende a atividade por prática curta.,llm,false
+761820,Revisor de Tecidos Crus,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Revisão de tecidos crus é aprendida no próprio posto.,llm,false
+821440,"Operador de Tesoura Mecanica e Maquina de Corte, no Acabamento de Chapas e Metais",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de tesoura mecânica e corte de chapas exige qualificação.,llm,false
+782145,Sinaleiro (Ponte-Rolante),Logística e movimentação,Qualificação acima de 200h,alta,Sinaleiro exige treinamento de segurança e certificação específica.,llm,false
+823125,Preparador de Esmaltes (Ceramica),"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Preparador de esmaltes cerâmicos exige conhecimentos técnicos específicos.,llm,false
+724515,Prensista (Operador de Prensa),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de prensas industriais exige treinamento e cuidados de segurança.,llm,false
+342125,Tecnólogo em Logistica de Transporte,Logística e movimentação,Superior,alta,Tecnólogo em logística exige curso superior tecnológico.,llm,false
+782305,Motorista de Carro de Passeio,Logística e movimentação,Qualificação acima de 200h,alta,Motorista exige CNH e qualificação específica de trânsito.,llm,false
+414120,Conferente Mercadoria (Exceto Carga e Descarga),Logística e movimentação,Qualificação até 200h,alta,Conferente de mercadorias aprende rotinas rapidamente no posto.,llm,false
+142305,Gerente Comercial,"Gestão, administrativo e comercial",Superior,alta,Cargo gerencial comercial geralmente exige formação superior.,llm,false
+766310,Impressor de Corte e Vinco,Madeira e móveis,Qualificação acima de 200h,alta,Impressor de corte e vinco requer operação especializada de máquina.,llm,false
+722320,"Moldador, a  Maquina",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Moldador industrial à máquina exige qualificação específica.,llm,false
+214205,Engenheiro Civil,Engenharia e P&D,Superior,alta,Engenheiro civil exige graduação superior e registro no conselho.,llm,false
+262425,Desenhista Industrial de Produto de Moda (Designer de Moda),Engenharia e P&D,Superior,alta,Designer de moda exige formação superior específica.,llm,false
+313130,Tecnico Eletricista,Eletroeletrônica e automação,Técnico,alta,Técnico eletricista exige curso técnico de nível médio.,llm,false
+761430,Operador de Maquina de Lavar Fios e Tecidos,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Operação de lavagem têxtil é aprendida no próprio posto.,llm,false
+252545,Analista Financeiro (Instituicoes Financeiras),"Gestão, administrativo e comercial",Superior,alta,Analista financeiro exige formação superior em áreas afins.,llm,false
+318205,Desenhista Tecnico Mecanico,Metalmecânica e soldagem,Técnico,alta,Desenhista técnico mecânico exige formação técnica específica.,llm,false
+715135,Operador de Pa Carregadeira,Construção,Qualificação acima de 200h,alta,Operação de pá carregadeira exige curso de operador e prática.,llm,false
+715705,Aplicador de Asfalto Impermeabilizante (Coberturas),Construção,Qualificação acima de 200h,alta,Aplicador de asfalto impermeabilizante exige qualificação em construção.,llm,false
+725705,Mecanico de Refrigeracao,Manutenção industrial,Qualificação acima de 200h,alta,Mecânico de refrigeração exige curso profissionalizante específico.,llm,false
+317110,Programador de Sistemas de Informacao,Engenharia e P&D,Técnico,alta,Programador de sistemas exige curso técnico ou formação na área.,llm,false
+632125,"Trabalhador de Extracao Florestal, em Geral",Madeira e móveis,Qualificação até 200h,alta,Trabalhador florestal aprende funções básicas diretamente no campo.,llm,false
+818105,Assistente de Laboratorio Industrial,Qualidade e controle,Qualificação acima de 200h,alta,Assistente de laboratório exige conhecimentos técnicos laboratoriais básicos.,llm,false
+723310,Pintor a Pincel e Rolo (Exceto Obras e Estruturas Metalicas),Construção,Qualificação até 200h,alta,Pintor de obras aprende técnicas básicas no próprio posto.,llm,false
+773340,Operador de Serras (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,alta,Operação de serras para usinagem de madeira exige qualificação e segurança.,llm,false
+731150,Montador de Equipamentos Eletronicos,Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem de equipamentos eletrônicos exige destreza e treinamento específico.,llm,false
+811750,Moldador de Borracha por Compressao,"Plástico, borracha e química",Qualificação acima de 200h,alta,Moldagem de borracha exige conhecimento de parâmetros de processo.,llm,false
+770105,Mestre (Industria de Madeira e Mobiliario),Madeira e móveis,Qualificação acima de 200h,alta,Mestre de produção exige longa experiência e qualificação industrial.,llm,false
+524105,Vendedor em Domicilio,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Vendedor em domicílio aprende técnicas de vendas na prática.,llm,false
+314115,"Tecnico Mecanico (Calefacao, Ventilacao e Refrigeracao)",Manutenção industrial,Técnico,alta,Técnico mecânico em HVAC exige formação técnica específica.,llm,false
+773110,Operador de Serras no Desdobramento de Madeira,Madeira e móveis,Qualificação acima de 200h,alta,Operação de serras em desdobramento de madeira requer treinamento de segurança.,llm,false
+313115,"Eletrotenico na Fabricacao, Montagem e Instalacao de Maquinas e Equipamentos",Eletroeletrônica e automação,Técnico,alta,Eletrotécnico industrial exige formação técnica de nível médio.,llm,false
+313120,Tecnico de Manutencao Eletrica,Manutenção industrial,Técnico,alta,Técnico de manutenção elétrica exige curso técnico profissionalizante.,llm,false
+142320,Gerente de Vendas,"Gestão, administrativo e comercial",Superior,alta,Gerência de vendas requer formação superior e experiência comercial.,llm,false
+313310,Tecnico de Rede (Telecomunicacoes),Eletroeletrônica e automação,Técnico,alta,Técnico em telecomunicações exige curso técnico de nível médio.,llm,false
+318510,Desenhista Projetista de Construcao Civil,Engenharia e P&D,Técnico,alta,Desenhista projetista civil exige formação técnica em edificações.,llm,false
+516330,Tingidor de Roupas,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Tingimento têxtil exige conhecimentos específicos do processo produtivo,llm,false
+252305,Secretaria  Executiva,"Gestão, administrativo e comercial",Superior,alta,Secretariado executivo requer formação superior específica,llm,false
+722330,Operador de Maquina de Moldar Automatizada,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de máquinas de fundição automatizadas na indústria metalmecânica,llm,false
+212405,Analista de Desenvolvimento de Sistemas,Engenharia e P&D,Superior,alta,Desenvolvimento de sistemas exige ensino superior em computação,llm,false
+848315,Masseiro (Massas Alimenticias),Alimentos e bebidas,Qualificação até 200h,alta,Produção industrial de massas alimentícias aprendida no posto,llm,false
+821305,Operador de Laminador,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de laminadores metalúrgicos requer qualificação específica,llm,false
+515225,Auxiliar de Producao Farmaceutica,"Plástico, borracha e química",Qualificação até 200h,alta,Auxiliar de produção farmacêutica aprende tarefas no posto,llm,false
+818110,Auxiliar de Laboratorio de Analises Fisico-Quimicas,Qualidade e controle,Qualificação acima de 200h,media,Auxiliar de laboratório físico-químico exige conhecimentos técnicos básicos,llm,false
+722315,"Moldador, a  Mao",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Moldagem manual em fundição exige prática e qualificação prolongada,llm,false
+764120,Preparador de Solas e Palmilhas,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Preparação de solas e palmilhas aprendida rapidamente no posto,llm,false
+732130,Instalador-Reparador de Redes Telefonicas e de Comunicacao de Dados,Eletroeletrônica e automação,Qualificação acima de 200h,alta,Instalação de redes telefônicas e de dados exige curso específico,llm,false
+622010,Jardineiro,Serviços de apoio,Qualificação até 200h,alta,Serviços de jardinagem aprendidos na prática ou cursos curtos,llm,false
+833205,"Cartonageiro, a Mao (Caixas de Papelao)",Operação de linha e montagem,Qualificação até 200h,alta,Montagem manual de caixas de papelão aprendida no posto,llm,false
+833120,Operador de Maquina de Cortar e Dobrar Papelao,Operação de linha e montagem,Qualificação acima de 200h,alta,Operação de máquinas industriais de corte e dobra,llm,false
+311715,Preparador de Tintas,"Têxtil, confecção e calçados",Técnico,media,Preparação de tintas têxteis com forte base técnica,llm,false
+766235,Impressor Flexografico,"Plástico, borracha e química",Qualificação acima de 200h,alta,Impressão flexográfica exige qualificação para operação de máquina,llm,false
+711230,Operador de Maquina Perfuratriz,Construção,Qualificação acima de 200h,alta,Operação de perfuratriz em obras requer treinamento especializado,llm,false
+782130,Operador de Ponte Rolante,Logística e movimentação,Qualificação acima de 200h,alta,Operação de ponte rolante exige curso de capacitação obrigatório,llm,false
+841408,Cozinhador (Conservacao de Alimentos),Alimentos e bebidas,Qualificação acima de 200h,alta,Cozinhador industrial de alimentos exige controle de parâmetros,llm,false
+318805,Projetista de Moveis,Madeira e móveis,Técnico,alta,Projetista de móveis requer formação técnica ou específica,llm,false
+722220,Operador de Maquina Centrifugadora de Fundicao,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de centrífuga de fundição exige qualificação industrial,llm,false
+391115,Controlador de Entrada e Saida,Logística e movimentação,Qualificação acima de 200h,alta,Controle de fluxo de materiais e estoque na produção,llm,false
+752330,Ceramista Prensador,"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Operação de prensas cerâmicas exige treinamento específico,llm,false
+317210,Tecnico de Apoio ao Usuario de Informatica (Helpdesk),Eletroeletrônica e automação,Técnico,alta,Suporte técnico de TI e helpdesk de nível médio,llm,false
+722310,"Macheiro, a  Maquina",Metalmecânica e soldagem,Qualificação acima de 200h,alta,Confecção de machos para fundição exige qualificação prática,llm,false
+311720,Preparador de Tintas (Fabrica de Tecidos),"Têxtil, confecção e calçados",Técnico,media,Preparo de tintas em fábrica de tecidos com suporte técnico,llm,false
+841468,Preparador de Racoes,Alimentos e bebidas,Qualificação acima de 200h,alta,Preparação industrial de rações exige controle de processos,llm,false
+252715,Analista de Logistica,Logística e movimentação,Superior,alta,Analista de logística exige graduação superior,llm,false
+395105,Tecnico de Apoio em Pesquisa e Desenvolvimento (Exceto Agropecuario e Florestal),Engenharia e P&D,Técnico,alta,Apoio em P&D requer formação técnica de nível médio,llm,false
+391105,Cronoanalista,Qualidade e controle,Técnico,alta,Cronoanálise industrial exige formação técnica especializada,llm,false
+761205,Operador de Abertura (Fiacao),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de abertura na fiação têxtil,llm,false
+521125,Repositor de Mercadorias,"Gestão, administrativo e comercial",Qualificação até 200h,alta,Reposição de mercadorias aprendida diretamente no trabalho,llm,false
+318605,Desenhista Projetista de Maquinas,Engenharia e P&D,Técnico,alta,Desenho de projetos mecânicos exige curso técnico,llm,false
+141305,Gerente de Producao e Operacoes da Construcao Civil e Obras Publicas,Construção,Superior,alta,Gerenciamento de construção civil exige graduação em engenharia,llm,false
+354135,Tecnico de Vendas,"Gestão, administrativo e comercial",Técnico,alta,Vendas técnicas exigem formação de nível médio,llm,false
+810205,Mestre (Industria de Borracha e Plastico),"Plástico, borracha e química",Técnico,alta,Supervisão de processos na indústria de borracha e plástico,llm,false
+516415,"Passador de Roupas, À Mao","Têxtil, confecção e calçados",Qualificação até 200h,alta,Passagem de roupas à mão aprendida no posto,llm,false
+354140,Tecnico em Atendimento e Vendas,"Gestão, administrativo e comercial",Técnico,alta,Atendimento e vendas técnicas de nível médio,llm,false
+731125,Montador de Equipamentos Eletricos (Centrais Eletricas),Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem de equipamentos elétricos complexos,llm,false
+773220,Preparador de Aglomerantes,Madeira e móveis,Qualificação acima de 200h,alta,Preparação de aglomerantes e colas na marcenaria industrial,llm,false
+763015,Costureira de Reparacao de Roupas,"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Costura de reparação exige habilidade técnica prática,llm,false
+832135,Operador de Rebobinadeira na Fabricacao de Papel e Papelao,Operação de linha e montagem,Qualificação acima de 200h,alta,Operação de rebobinadeira na indústria de papel,llm,false
+761339,Tecelao de Meias (Maquina Circular),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de tear circular para meias exige qualificação,llm,false
+764205,"Costurador de Calcados, a  Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Costura industrial de calçados requer treinamento específico,llm,false
+731155,Montador de Equipamentos Eletricos (Elevadores e Equipamentos Similares),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Montagem de elevadores e equipamentos mecânicos similares,llm,false
+919315,Montador de Bicicletas,Manutenção industrial,Qualificação acima de 200h,alta,Montagem e reparação de bicicletas exige habilidade técnica,llm,false
+821435,Operador de Jato Abrasivo,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Aplicação de jato abrasivo exige normas de segurança e prática,llm,false
+712120,Operador de Britador de Mandibulas,"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Operação de britador na extração mineral,llm,false
+760105,Contramestre de Acabamento (Industria Textil),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Supervisão de acabamento têxtil exige experiência prática,llm,false
+354120,Agente de Vendas de Servicos,"Gestão, administrativo e comercial",Técnico,alta,Agenciamento de vendas técnicas exige formação de nível médio,llm,false
+414205,Apontador de Mao-De-Obra,Logística e movimentação,Qualificação até 200h,alta,Rotina administrativa de almoxarifado aprendida no posto de trabalho.,llm,false
+821405,Encarregado de Acabamento de Chapas e Metais  (Tempera),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de processos térmicos industriais com treinamento específico.,llm,false
+821415,Marcador de Produtos (Siderurgico e Metalurgico),Metalmecânica e soldagem,Qualificação até 200h,alta,Identificação e marcação de peças na produção siderúrgica.,llm,false
+821445,Preparador de Sucata e Aparas,Logística e movimentação,Qualificação até 200h,alta,Separação e manuseio de materiais recicláveis e sucatas.,llm,false
+841456,Operador de Camaras Frias,Alimentos e bebidas,Qualificação até 200h,alta,Operação de câmaras frias em ambientes produtivos alimentícios.,llm,false
+828105,Oleiro (Fabricacao de Telhas),"Cerâmica, vidro e minerais",Qualificação acima de 200h,alta,Fabricação de cerâmicas estruturais exigindo prática específica.,llm,false
+766225,Impressor de Rotogravura,"Plástico, borracha e química",Qualificação acima de 200h,alta,Regulagem e operação de máquinas gráficas e de rotogravura.,llm,false
+516305,"Lavadeiro, em Geral",Serviços de apoio,Qualificação até 200h,alta,Serviços gerais de lavanderia aprendidos na prática.,llm,false
+632120,Operador de Motosserra,Madeira e móveis,Qualificação acima de 200h,alta,Operação de motosserras exige treinamento em segurança e manejo.,llm,false
+513405,Garcom,Serviços de apoio,Qualificação até 200h,alta,Atendimento em salão aprendido na prática operacional.,llm,false
+833105,"Cartonageiro, a Maquina","Plástico, borracha e química",Qualificação até 200h,alta,Operação de máquinas de cartonagem em linha de produção.,llm,false
+641010,Operador de Maquinas de Beneficiamento de Produtos Agricolas,Alimentos e bebidas,Qualificação acima de 200h,alta,Beneficiamento agrícola industrial com operação de máquinas específicas.,llm,false
+516310,Lavador de Roupas  a Maquina,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Operação de lavadoras industriais têxteis.,llm,false
+300105,Tecnico em Mecatronica - Automacao da Manufatura,Eletroeletrônica e automação,Técnico,alta,Formação técnica de nível médio em mecatrônica.,llm,false
+391130,Tecnico de Planejamento e Programacao da Manutencao,Manutenção industrial,Técnico,alta,Planejamento e programação de manutenção exigem formação técnica.,llm,false
+318415,Desenhista Tecnico (Ilustracoes Tecnicas),"Têxtil, confecção e calçados",Técnico,alta,Elaboração de desenhos técnicos e ilustrações industriais.,llm,false
+731160,Montador de Equipamentos Eletricos (Transformadores),Eletroeletrônica e automação,Qualificação acima de 200h,alta,Montagem especializada de equipamentos elétricos.,llm,false
+251215,Economista Financeiro,"Gestão, administrativo e comercial",Superior,alta,Profissional de economia com graduação superior.,llm,false
+992115,Borracheiro,"Plástico, borracha e química",Qualificação acima de 200h,alta,Serviços de reparação de pneus e artefatos de borracha.,llm,false
+311105,Tecnico Quimico,Engenharia e P&D,Técnico,alta,Profissional com formação técnica em química.,llm,false
+715110,Operador de Compactadora de Solos,Construção,Qualificação acima de 200h,alta,Operação de máquinas de compactação na construção civil.,llm,false
+410205,Supervisor de Almoxarifado,"Gestão, administrativo e comercial",Superior,media,Supervisão de almoxarifado frequentemente exigindo superior ou gestão.,llm,false
+784115,Operador de Maquina de Etiquetar,Operação de linha e montagem,Qualificação até 200h,alta,Operação de etiquetagem automatizada em linha.,llm,false
+142705,Gerente de Projetos e Servicos de Manutencao,Engenharia e P&D,Superior,alta,Gerência de engenharia de manutenção exige graduação.,llm,false
+318005,Desenhista Tecnico,Engenharia e P&D,Técnico,alta,Elaboração de desenhos técnicos industriais.,llm,false
+712220,Polidor de Pedras,Construção,Qualificação acima de 200h,alta,Polimento de rochas e pedras para construção.,llm,false
+722325,Operador de Equipamentos de Preparacao de Areia,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Preparação de areia para fundição metalúrgica.,llm,false
+732110,Emendador de Cabos Eletricos e Telefonicos (Aereos e Subterraneos),Construção,Qualificação acima de 200h,alta,Emenda de cabos elétricos e telefônicos especializados.,llm,false
+322420,Auxiliar de Protese Dentaria,Qualidade e controle,Técnico,alta,Auxiliar técnico em procedimentos de prótese.,llm,false
+631210,Pescador Profissional,Alimentos e bebidas,Qualificação até 200h,alta,Atividade de pesca comercial extrativa.,llm,false
+724325,Soldador Eletrico,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Soldagem elétrica industrial e estrutural.,llm,false
+142205,Gerente de Recursos Humanos,"Gestão, administrativo e comercial",Superior,alta,Gerência de recursos humanos exige nível superior.,llm,false
+354130,Promotor de Vendas Especializado,"Gestão, administrativo e comercial",Técnico,media,Promoção comercial especializada de produtos.,llm,false
+313205,Tecnico de Manutencao Eletronica,Manutenção industrial,Técnico,alta,Manutenção eletrônica industrial requer formação técnica.,llm,false
+314120,Tecnico Mecanico (Maquinas),Manutenção industrial,Técnico,alta,Manutenção mecânica de máquinas com formação técnica.,llm,false
+516325,Passador de Roupas em Geral,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Passagem de roupas e peças têxteis.,llm,false
+914425,Mecanico de Veiculos Automotores a Diesel (Exceto Tratores),Manutenção industrial,Qualificação acima de 200h,alta,Mecânica de motores diesel exige qualificação avançada.,llm,false
+318505,Desenhista Projetista de Arquitetura,Engenharia e P&D,Técnico,alta,Projetos de arquitetura exigem formação técnica.,llm,false
+715130,Operador de Motoniveladora,Construção,Qualificação acima de 200h,alta,Operação de motoniveladora em obras.,llm,false
+142115,Gerente Financeiro,"Gestão, administrativo e comercial",Superior,alta,Gerência financeira requer graduação em administração ou economia.,llm,false
+312320,Topografo,Construção,Técnico,alta,Topografia executada por técnico em agrimensura ou edificações.,llm,false
+722230,Operador de Vazamento (Lingotamento),Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de vazamento e lingotamento em siderurgia.,llm,false
+761250,Operador de Passador (Fiacao),"Têxtil, confecção e calçados",Qualificação acima de 200h,alta,Operação de passador na fiação têxtil.,llm,false
+715725,"Instalador de Material Isolante, a Mao (Edificacoes)",Construção,Qualificação até 200h,alta,Instalação manual de isolamento em edificações.,llm,false
+724310,Oxicortador a Mao e a  Maquina,Metalmecânica e soldagem,Qualificação acima de 200h,alta,Operação de oxicorte em estruturas metálicas.,llm,false
+951305,Instalador de Sistemas Eletroeletronicos de Seguranca,Eletroeletrônica e automação,Qualificação acima de 200h,alta,Instalação de sistemas eletrônicos de segurança.,llm,false
+212420,Analista de Suporte Computacional,Engenharia e P&D,Superior,alta,Suporte computacional avançado com graduação superior.,llm,false
+761225,Operador de Conicaleira,"Têxtil, confecção e calçados",Qualificação até 200h,alta,Operação de conicaleira na fiação têxtil.,llm,false
+954105,Eletromecanico de Manutencao de Elevadores,Manutenção industrial,Qualificação acima de 200h,alta,Manutenção e eletromecânica de elevadores.,llm,false
+813120,"Operador de Processo (Quimica, Petroquimica e Afins)","Plástico, borracha e química",Qualificação acima de 200h,alta,Operação de processos químicos contínuos e petroquímicos.,llm,false
+621005,Trabalhador Agropecuario em Geral,Construção,Qualificação até 200h,baixa,Trabalhador agropecuario alocado na construção com formação básica no posto.,llm,false
+410240,Supervisor de Logistica,Logística e movimentação,Superior,media,Supervisão logística geralmente requer ensino superior ou ampla experiência.,llm,false
+642015,Operador de Trator Florestal,Madeira e móveis,Qualificação acima de 200h,alta,Operação de trator florestal exige curso específico e qualificação.,llm,false
+711320,Sondador de Pocos (Exceto de Petroleo e Gas),Construção,Qualificação acima de 200h,alta,Sondagem de poços exige operador qualificado na construção.,llm,false
+731115,Montador de Equipamentos Eletricos (Instrumentos de Medicao),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+822115,Forneiro de Fundicao (Forno de Reducao),Outros,Outros,,,outros,false
+354305,Analista de Exportacao e Importacao,Outros,Outros,,,outros,false
+811805,Operador de Maquina de Produtos Farmaceuticos,Outros,Outros,,,outros,false
+766215,Impressor de Ofsete (Plano e Rotativo),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+422310,Operador de Telemarketing Ativo e Receptivo,Outros,Outros,,,outros,false
+773320,Operador de Lixadeira (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+715415,Operador de Central de Concreto,Construção,Qualificação até 200h,,herdada da família 7154,heranca,false
+764105,"Cortador de Calcados, a  Maquina (Exceto Solas e Palmilhas)","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7641,heranca,false
+711130,Mineiro,Outros,Outros,,,outros,false
+720215,Mestre (Industria de Maquinas e Outros Equipamentos Mecanicos),Outros,Outros,,,outros,false
+782110,Operador de Guindaste (Fixo),Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+761210,Operador de Binadeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+519905,Cartazeiro,Outros,Outros,,,outros,false
+715720,Instalador de Isolantes Termicos de Caldeira e Tubulacoes,Construção,Qualificação acima de 200h,,herdada da família 7157,heranca,false
+725225,Montador de Maquinas-Ferramentas (Usinagem de Metais),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7252,heranca,false
+762005,Trabalhador Polivalente do Curtimento de Couros e Peles,Outros,Outros,,,outros,false
+523105,"Instalador de Cortinas e Persianas, Portas Sanfonadas e Boxe",Outros,Outros,,,outros,false
+773505,Operador de Centro de Usinagem de Madeira (Cnc),Outros,Outros,,,outros,false
+301110,Tecnico de Laboratorio de Analises Fisico-Quimicas (Materiais de Construcao),Qualidade e controle,Técnico,,herdada da família 3011,heranca,false
+862505,Operador de Instalacao de Refrigeracao,Outros,Outros,,,outros,false
+724125,Instalador de Tubulacoes (Embarcacoes),Construção,Qualificação acima de 200h,,herdada da família 7241,heranca,false
+711210,Operador de Carregadeira,Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+764210,Montador de Calcados,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7642,heranca,false
+761357,Operador de Urdideira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+314210,Tecnico Mecanico na Manutencao de Ferramentas,Outros,Outros,,,outros,false
+862205,"Operador de Estacao de Captacao, Tratamento e Distribuicao de Agua",Outros,Outros,,,outros,false
+773125,Serrador de Madeira (Serra Circular Multipla),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7731,heranca,false
+773510,Operador de Maquinas de Usinar Madeira (Cnc),Outros,Outros,,,outros,false
+862515,Operador de Instalacao de Ar-Condicionado,Outros,Outros,,,outros,false
+313315,Tecnico de Telecomunicacoes (Telefonia),Eletroeletrônica e automação,Técnico,,herdada da família 3133,heranca,false
+214905,Engenheiro de Producao,Outros,Outros,,,outros,false
+715510,Carpinteiro (Esquadrias),Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+519940,Leiturista,Outros,Outros,,,outros,false
+715105,Operador de Bate-Estacas,Construção,Qualificação acima de 200h,,herdada da família 7151,heranca,false
+716105,Acabador de Superficies de Concreto,Outros,Outros,,,outros,false
+833110,"Confeccionador de Bolsas, Sacos e Sacolas e Papel, a Maquina",Operação de linha e montagem,Qualificação acima de 200h,,herdada da família 8331,heranca,false
+253405,Analista De Mídias Sociais,Outros,Outros,,,outros,false
+391135,Tecnico de Materia-Prima e Material,"Gestão, administrativo e comercial",Técnico,,herdada da família 3911,heranca,false
+722115,Forjador Prensista,Outros,Outros,,,outros,false
+730105,Supervisor de Montagem e Instalacao Eletroeletronica,Outros,Outros,,,outros,false
+760305,Encarregado de Corte na Confeccao do Vestuario,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7603,heranca,false
+950105,Supervisor de Manutencao Eletrica de Alta Tensao Industrial,Outros,Outros,,,outros,false
+142315,Gerente de Marketing,"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+760125,Mestre (Industria Textil e de Confeccoes),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7601,heranca,false
+766230,Impressor Digital,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+317115,Programador de Maquinas - Ferramenta com Comando Numerico,Engenharia e P&D,Técnico,,herdada da família 3171,heranca,false
+741105,Ajustador de Instrumentos de Precisao,Outros,Outros,,,outros,false
+723235,Operador de Zincagem (Processo Eletrolitico),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+422305,Operador de Telemarketing Ativo,Outros,Outros,,,outros,false
+715715,Instalador de Isolantes Termicos (Refrigeracao e Climatizacao),Construção,Qualificação acima de 200h,,herdada da família 7157,heranca,false
+715535,Carpinteiro de Formas para Concreto,Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+773115,Serrador de Bordas no Desdobramento de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7731,heranca,false
+413105,Analista de Folha de Pagamento,"Gestão, administrativo e comercial",Técnico,,herdada da família 4131,heranca,false
+913120,Mecanico de Manutencao de Maquinas de Construcao e Terraplenagem,Outros,Outros,,,outros,false
+914205,Mecanico de Manutencao de Motores e Equipamentos Navais,Outros,Outros,,,outros,false
+141615,Gerente de Logistica (Armazenagem e Distribuicao),Outros,Outros,,,outros,false
+784120,Operador de Maquina de Envasar Liquidos,Operação de linha e montagem,Qualificação até 200h,,herdada da família 7841,heranca,false
+142605,Gerente de Pesquisa e Desenvolvimento (P&D),Outros,Outros,,,outros,false
+723205,Decapador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+761405,Alvejador (Tecidos),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7614,heranca,false
+771110,Modelador de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7711,heranca,false
+721425,Operador de Retificadora com Comando Numerico,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7214,heranca,false
+721220,Operador de Usinagem Convencional por Abrasao,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7212,heranca,false
+773105,Cortador de Laminados de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7731,heranca,false
+731130,Montador de Equipamentos Eletricos (Motores e Dinamos),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+919205,"Mecanico de Manutencao de Maquinas Cortadoras de Grama, Rocadeiras, Motosserras e Similares",Outros,Outros,,,outros,false
+841805,"Operador de Forno (Fabricacao de Paes, Biscoitos e Similares)",Alimentos e bebidas,Qualificação até 200h,,herdada da família 8418,heranca,false
+517330,Vigilante,Outros,Outros,,,outros,false
+741115,Montador de Instrumentos de Precisao,Outros,Outros,,,outros,false
+766120,Editor de Texto e Imagem,Outros,Outros,,,outros,false
+731145,Montador de Equipamentos Eletronicos (Maquinas Industriais),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+821205,Forneiro e Operador (Alto-Forno),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+732140,Instalador de Sistemas Fotovoltaicos,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7321,heranca,false
+953110,Eletricista de Instalacoes (Embarcacoes),Outros,Outros,,,outros,false
+770110,Mestre Carpinteiro,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7701,heranca,false
+821110,Operador de Maquina de Sinterizar,Outros,Outros,,,outros,false
+772115,Secador de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7721,heranca,false
+513425,Copeiro,Alimentos e bebidas,Qualificação até 200h,,herdada da família 5134,heranca,false
+519205,Catador de Material Reciclavel,Serviços de apoio,Qualificação até 200h,,herdada da família 5192,heranca,false
+913110,Mecanico de Manutencao de Equipamento de Mineracao,Outros,Outros,,,outros,false
+623015,Trabalhador de Pecuaria Polivalente,Outros,Outros,,,outros,false
+761245,Operador de Open-End,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+318705,Desenhista Projetista de Eletricidade,Outros,Outros,,,outros,false
+716615,"Revestidor de Interiores (Papel, Material Plastico e Emborrachados)",Construção,Qualificação acima de 200h,,herdada da família 7166,heranca,false
+832110,Operador de Cortadeira de Papel,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8321,heranca,false
+313220,Tecnico em Manutencao de Equipamentos de Informatica,Eletroeletrônica e automação,Técnico,,herdada da família 3132,heranca,false
+422315,Operador de Telemarketing Receptivo,Outros,Outros,,,outros,false
+724415,Chapeador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7244,heranca,false
+318405,Desenhista Tecnico (Artes Graficas),"Têxtil, confecção e calçados",Técnico,,herdada da família 3184,heranca,false
+516335,Conferente-Expedidor de Roupas (Lavanderias),Serviços de apoio,Qualificação até 200h,,herdada da família 5163,heranca,false
+212415,Analista de Sistemas de Automacao,Engenharia e P&D,Superior,,herdada da família 2124,heranca,false
+513215,Cozinheiro Industrial,Serviços de apoio,Qualificação acima de 200h,,herdada da família 5132,heranca,false
+780105,Supervisor de Embalagem e Etiquetagem,Outros,Outros,,,outros,false
+421310,Cobrador Interno,Outros,Outros,,,outros,false
+141415,Gerente de Loja e Supermercado,Outros,Outros,,,outros,false
+725310,Montador de Maquinas Agricolas,Outros,Outros,,,outros,false
+253110,Redator de Publicidade,Outros,Outros,,,outros,false
+313415,"Encarregado de Manutencao de Instrumentos de Controle, Medicao e Similares",Outros,Outros,,,outros,false
+784125,Operador de Prensa de Enfardamento,Operação de linha e montagem,Qualificação até 200h,,herdada da família 7841,heranca,false
+311605,Tecnico Textil,Outros,Outros,,,outros,false
+919105,Lubrificador Industrial,Outros,Outros,,,outros,false
+391145,Analista De Planejamento De Manutenção,"Gestão, administrativo e comercial",Técnico,,herdada da família 3911,heranca,false
+142355,Analista De E-Commerce,"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+716215,Telhador (Telhas Metalicas),Outros,Outros,,,outros,false
+760505,"Supervisor da Confeccao de Artefatos de Tecidos, Couros e Afins",Outros,Outros,,,outros,false
+811110,Operador de Maquina Misturadeira (Tratamentos Quimicos e Afins),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8111,heranca,false
+519110,Motociclista no Transporte de Documentos e Pequenos Volumes,Outros,Outros,,,outros,false
+519935,Lavador de Veiculos,Outros,Outros,,,outros,false
+722415,"Trefilador de Metais, À Maquina",Outros,Outros,,,outros,false
+763120,Riscador de Roupas,"Têxtil, confecção e calçados",Qualificação até 200h,,herdada da família 7631,heranca,false
+768105,Tecelao (Tear Manual),Outros,Outros,,,outros,false
+950305,Supervisor de Manutencao Eletromecanica,Outros,Outros,,,outros,false
+716110,Revestidor de Superficies de Concreto,Outros,Outros,,,outros,false
+261140,Revisor de Texto,Outros,Outros,,,outros,false
+641015,Tratorista Agricola,Alimentos e bebidas,Qualificação acima de 200h,,herdada da família 6410,heranca,false
+752230,Lapidador de Vidros e Cristais,Outros,Outros,,,outros,false
+841115,Operador de Processo de Moagem,Outros,Outros,,,outros,false
+992210,Encarregado de Equipe de Conservacao de Vias Permanentes (Exceto Trilhos),Construção,Qualificação até 200h,,herdada da família 9922,heranca,false
+811005,Operador de Processos Quimicos e Petroquimicos,Outros,Outros,,,outros,false
+841420,Cozinhador de Frutas e Legumes,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+715220,Pedreiro (Material Refratario),Construção,Qualificação acima de 200h,,herdada da família 7152,heranca,false
+214915,Engenheiro de Seguranca do Trabalho,Outros,Outros,,,outros,false
+523125,Estampador De Placa De Identificação Veicular (Epiv),Outros,Outros,,,outros,false
+212410,Analista de Redes e de Comunicacao de Dados,Engenharia e P&D,Superior,,herdada da família 2124,heranca,false
+720210,Mestre (Industria de Automotores e Material de Transportes),Outros,Outros,,,outros,false
+760405,Supervisor  (Industria de Calcados e Artefatos de Couro),Outros,Outros,,,outros,false
+717010,Operador de Martelete,Construção,Qualificação até 200h,,herdada da família 7170,heranca,false
+412205,Continuo,Outros,Outros,,,outros,false
+761324,"Tecelao (Tear Mecanico, Exceto Jacquard)","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+716315,Vidraceiro (Vitrais),Construção,Qualificação até 200h,,herdada da família 7163,heranca,false
+823305,Classificador e Empilhador de Tijolos Refratarios,"Cerâmica, vidro e minerais",Qualificação até 200h,,herdada da família 8233,heranca,false
+953115,"Eletricista de Instalacoes (Veiculos Automotores e Maquinas Operatrizes, Exceto Aeronaves e Embarcacoes)",Outros,Outros,,,outros,false
+214215,Engenheiro Civil (Edificacoes),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+723320,Pintor de Veiculos (Fabricacao),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7233,heranca,false
+410230,Supervisor de Orcamento,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+318010,Desenhista Copista,Engenharia e P&D,Técnico,,herdada da família 3180,heranca,false
+766145,Operador de Sistemas de Prova (Analogico e Digital),Outros,Outros,,,outros,false
+768320,Sapateiro (Calcados Sob Medida),Outros,Outros,,,outros,false
+820205,"Supervisor de Fabricacao de Produtos Ceramicos, Porcelanatos e Afins",Outros,Outros,,,outros,false
+950110,"Supervisor de Manutencao Eletromecanica Industrial, Comercial e Predial",Outros,Outros,,,outros,false
+253115,Agente Publicitario,Outros,Outros,,,outros,false
+513420,Barman,Alimentos e bebidas,Qualificação até 200h,,herdada da família 5134,heranca,false
+622615,Trabalhador da Cultura de Erva-Mate,Outros,Outros,,,outros,false
+214405,Engenheiro Mecanico,Outros,Outros,,,outros,false
+319110,Tecnico em Confeccoes do Vestuario,Outros,Outros,,,outros,false
+832120,Operador de Maquina de Fabricar Papel (Fase Seca),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8321,heranca,false
+142405,Gerente de Compras,Outros,Outros,,,outros,false
+233210,Instrutor de Aprendizagem e Treinamento Industrial,Outros,Outros,,,outros,false
+317205,Operador de Computador (Inclusive Microcomputador),Eletroeletrônica e automação,Técnico,,herdada da família 3172,heranca,false
+731180,Operador de Linha de Montagem (Aparelhos Eletronicos),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+321110,Tecnico Agropecuario,Outros,Outros,,,outros,false
+351430,Auxiliar de Servicos Juridicos,Outros,Outros,,,outros,false
+723220,Metalizador a Pistola,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+760120,Contramestre de Tecelagem (Industria Textil),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7601,heranca,false
+322215,Tecnico de Enfermagem do Trabalho,Outros,Outros,,,outros,false
+521120,Demonstrador de Mercadorias,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 5211,heranca,false
+761333,Tecelao de Malhas (Maquina Retilinea),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+354210,Supervisor de Compras,"Gestão, administrativo e comercial",Técnico,,herdada da família 3542,heranca,false
+631205,Pescador Industrial,Alimentos e bebidas,Qualificação até 200h,,herdada da família 6312,heranca,false
+724130,Instalador de Tubulacoes de Gas Combustivel (Producao e Distribuicao),Construção,Qualificação acima de 200h,,herdada da família 7241,heranca,false
+777115,Carpinteiro Naval (Estaleiros),Outros,Outros,,,outros,false
+841432,Desidratador de Alimentos,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+318015,Desenhista Detalhista,Engenharia e P&D,Técnico,,herdada da família 3180,heranca,false
+766250,Impressor Tipografico,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+262420,Desenhista Industrial de Produto (Designer de Produto),Engenharia e P&D,Superior,,herdada da família 2624,heranca,false
+313410,Tecnico em Instrumentacao,Outros,Outros,,,outros,false
+752420,Operador de Esmaltadeira,Outros,Outros,,,outros,false
+773335,Operador de Plaina Desengrossadeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+992120,Lavador de Pecas,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 9921,heranca,false
+391120,Planejista,"Gestão, administrativo e comercial",Técnico,,herdada da família 3911,heranca,false
+325205,Tecnico de Alimentos,Outros,Outros,,,outros,false
+775110,Folheador de Moveis de Madeira,Madeira e móveis,Qualificação até 200h,,herdada da família 7751,heranca,false
+111510,Analista de Planejamento e Orçamento - Apo,Outros,Outros,,,outros,false
+241005,Advogado,Outros,Outros,,,outros,false
+720150,Mestre de Usinagem,Outros,Outros,,,outros,false
+913115,Mecanico de Manutencao de Maquinas Agricolas,Outros,Outros,,,outros,false
+351505,Tecnico em Secretariado,Outros,Outros,,,outros,false
+731165,"Bobinador Eletricista, À Mao",Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+715530,Carpinteiro (Telhados),Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+311505,Tecnico de Controle de Meio Ambiente,Outros,Outros,,,outros,false
+513440,Barista,Alimentos e bebidas,Qualificação até 200h,,herdada da família 5134,heranca,false
+761351,Operador de Espuladeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+512105,Empregado  Domestico  nos Servicos Gerais,Outros,Outros,,,outros,false
+833115,"Confeccionador de Sacos de Celofane, a Maquina",Operação de linha e montagem,Qualificação acima de 200h,,herdada da família 8331,heranca,false
+860115,"Supervisor de Operacao Eletrica (Geracao, Transmissao e Distribuicao de Energia Eletrica)",Outros,Outros,,,outros,false
+919110,Lubrificador de Veiculos Automotores (Exceto Embarcacoes),Outros,Outros,,,outros,false
+992205,Encarregado Geral de Operacoes de Conservacao de Vias Permanentes (Exceto Trilhos),Construção,Qualificação até 200h,,herdada da família 9922,heranca,false
+141410,Comerciante Varejista,Outros,Outros,,,outros,false
+715120,Operador de Maquina de Abrir Valas,Construção,Qualificação acima de 200h,,herdada da família 7151,heranca,false
+768205,"Bordador, a  Mao",Outros,Outros,,,outros,false
+782505,Caminhoneiro Autonomo (Rotas Regionais e Internacionais),Logística e movimentação,Qualificação acima de 200h,,herdada da família 7825,heranca,false
+811820,"Operador de Maquina de Fabricacao de Produtos de Higiene e Limpeza (Sabao, Sabonete, Detergente, Absorvente, Fraldas Cotonetes e Outros)",Outros,Outros,,,outros,false
+765205,Colchoeiro (Confeccao de Colchoes),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7652,heranca,false
+766320,Operador de Guilhotina (Corte de Papel),Operação de linha e montagem,Qualificação até 200h,,herdada da família 7663,heranca,false
+914105,"Mecanico de Manutencao de Aeronaves, em Geral",Outros,Outros,,,outros,false
+252205,Auditor (Contadores e Afins),"Gestão, administrativo e comercial",Superior,,herdada da família 2522,heranca,false
+991315,Pintor de Veiculos (Reparacao),Outros,Outros,,,outros,false
+314205,Tecnico Mecanico na Fabricacao de Ferramentas,Outros,Outros,,,outros,false
+841720,Trabalhador de Fabricacao de Vinhos,Outros,Outros,,,outros,false
+214910,Engenheiro de Controle de Qualidade,Outros,Outros,,,outros,false
+351305,Tecnico em Administracao,Outros,Outros,,,outros,false
+203210,Pesquisador de Engenharia e Tecnologia (Outras Areas da Engenharia),Outros,Outros,,,outros,false
+312210,Tecnico de Saneamento,Outros,Outros,,,outros,false
+766220,Impressor de Rotativa,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+772110,Impregnador de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7721,heranca,false
+773130,Serrador de Madeira (Serra de Fita Multipla),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7731,heranca,false
+862115,Operador de Bateria de Gas de Hulha,Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+251225,Economista do Setor Publico,"Gestão, administrativo e comercial",Superior,,herdada da família 2512,heranca,false
+766125,Montador de Fotolito (Analogico e Digital),Outros,Outros,,,outros,false
+351105,Tecnico de Contabilidade,Outros,Outros,,,outros,false
+523120,Aplicador De Vinil Autoadesivo,Outros,Outros,,,outros,false
+721205,Operador de Maquina de Eletroerosao,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7212,heranca,false
+773330,Operador de Molduradora (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+914410,Mecanico de Manutencao de Empilhadeiras e Outros Veiculos de Cargas Leves,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9144,heranca,false
+723125,Temperador de Metais e de Compositos,Outros,Outros,,,outros,false
+214305,Engenheiro Eletricista,Outros,Outros,,,outros,false
+422110,Recepcionista de Consultorio Medico ou Dentario,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 4221,heranca,false
+752210,Cortador de Vidro,Outros,Outros,,,outros,false
+841815,Operador de Maquinas de Fabricacao de Chocolates e Achocolatados,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8418,heranca,false
+322205,Tecnico de Enfermagem,Outros,Outros,,,outros,false
+342110,Operador de Transporte Multimodal,Logística e movimentação,Superior,,herdada da família 3421,heranca,false
+352205,Agente de Defesa Ambiental,Outros,Outros,,,outros,false
+782410,Motorista de Onibus Urbano,Outros,Outros,,,outros,false
+830105,"Mestre (Industria de Celulose, Papel e Papelao)",Outros,Outros,,,outros,false
+318420,Desenhista Tecnico (Industria Textil),"Têxtil, confecção e calçados",Técnico,,herdada da família 3184,heranca,false
+517415,Porteiro de Locais de Diversao,Serviços de apoio,Qualificação até 200h,,herdada da família 5174,heranca,false
+752235,Surfassagista,Outros,Outros,,,outros,false
+811125,Trabalhador da Fabricacao de Resinas e Vernizes,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8111,heranca,false
+711225,Operador de Maquina Perfuradora (Minas e Pedreiras),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+519215,Operador de Prensa de Material Reciclável,Serviços de apoio,Qualificação até 200h,,herdada da família 5192,heranca,false
+766115,Gravador de Matriz para Flexografia (Clicherista),Outros,Outros,,,outros,false
+313110,Eletrotecnico (Producao de Energia),Eletroeletrônica e automação,Técnico,,herdada da família 3131,heranca,false
+313320,Tecnico de Transmissao (Telecomunicacoes),Eletroeletrônica e automação,Técnico,,herdada da família 3133,heranca,false
+752405,Decorador de Ceramica,Outros,Outros,,,outros,false
+760115,Contramestre de Malharia (Industria Textil),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7601,heranca,false
+813110,"Operador de Calandra (Quimica, Petroquimica e Afins)","Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8131,heranca,false
+352305,Metrologista,Outros,Outros,,,outros,false
+765005,Confeccionador de Artefatos de Couro (Exceto Sapatos),Outros,Outros,,,outros,false
+763305,Arrematadeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7633,heranca,false
+823115,Preparador de Massa de Argila,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+342315,Supervisor de Carga e Descarga,Outros,Outros,,,outros,false
+715145,Operador de Trator de Lamina,Construção,Qualificação acima de 200h,,herdada da família 7151,heranca,false
+761315,Tecelao (Tear Mecanico de Maquineta),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+313505,Tecnico em Fotonica,Outros,Outros,,,outros,false
+318425,Desenhista Tecnico (Mobiliario),"Têxtil, confecção e calçados",Técnico,,herdada da família 3184,heranca,false
+761220,Operador de Cardas,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+782105,Operador de Draga,Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+782125,Operador de Monta-Cargas (Construcao Civil),Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+810110,Mestre de Producao Quimica,Outros,Outros,,,outros,false
+832115,Operador de Maquina de Fabricar Papel  (Fase Umida),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8321,heranca,false
+723325,Pintor por Imersao,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7233,heranca,false
+848205,Pasteurizador,Alimentos e bebidas,Qualificação acima de 200h,,herdada da família 8482,heranca,false
+911120,Mecanico de Manutencao de Motores Diesel (Exceto de Veiculos Automotores),Outros,Outros,,,outros,false
+252725,Analista de Gestao de Estoque,"Gestão, administrativo e comercial",Superior,,herdada da família 2527,heranca,false
+722105,Forjador,Outros,Outros,,,outros,false
+334110,Inspetor de Alunos de Escola Publica,Outros,Outros,,,outros,false
+721115,Modelador de Metais (Fundicao),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7211,heranca,false
+724505,Operador de Maquina de Cilindrar Chapas,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7245,heranca,false
+720110,Mestre de Caldeiraria,Outros,Outros,,,outros,false
+374420,Montador de Filmes,Outros,Outros,,,outros,false
+720135,Mestre de Pintura (Tratamento de Superficies),Outros,Outros,,,outros,false
+782120,Operador de Maquina Rodoferroviaria,Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+833125,Operador de Prensa de Embutir Papelao,Operação de linha e montagem,Qualificação acima de 200h,,herdada da família 8331,heranca,false
+225140,Médico do Trabalho,Outros,Outros,,,outros,false
+252710,Analista de Planejamento de Materiais,"Gestão, administrativo e comercial",Superior,,herdada da família 2527,heranca,false
+375105,Designer de Interiores,Outros,Outros,,,outros,false
+954120,Mecanico de Manutencao de Instalacoes Mecanicas de Edificios,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9541,heranca,false
+321210,Tecnico Florestal,Outros,Outros,,,outros,false
+391225,Escolhedor de Papel,Qualidade e controle,Técnico,,herdada da família 3912,heranca,false
+811420,"Operador de Aparelho de Reacao e Conversao (Produtos Quimicos, Exceto Petroleo)",Outros,Outros,,,outros,false
+823315,Forneiro (Materiais de Construcao),"Cerâmica, vidro e minerais",Qualificação até 200h,,herdada da família 8233,heranca,false
+121010,Diretor Geral de Empresa e Organizacoes (Exceto de Interesse Publico),Outros,Outros,,,outros,false
+513610,Pizzaiolo,Outros,Outros,,,outros,false
+716540,Rejuntador de Revestimentos,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+720140,Mestre de Soldagem,Outros,Outros,,,outros,false
+821220,Forneiro e Operador (Refino de Metais Nao-Ferrosos),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+142410,Gerente de Suprimentos,Outros,Outros,,,outros,false
+251220,Economista Industrial,"Gestão, administrativo e comercial",Superior,,herdada da família 2512,heranca,false
+421105,Atendente Comercial (Agencia Postal),"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 4211,heranca,false
+715710,Instalador de Isolantes Acusticos,Construção,Qualificação acima de 200h,,herdada da família 7157,heranca,false
+721320,Afiador de Serras,Metalmecânica e soldagem,Qualificação até 200h,,herdada da família 7213,heranca,false
+214105,Arquiteto de Edificacoes,Outros,Outros,,,outros,false
+848110,Salgador de Alimentos,Alimentos e bebidas,Qualificação acima de 200h,,herdada da família 8481,heranca,false
+311305,"Tecnico em Materiais, Produtos Ceramicos e Vidros",Outros,Outros,,,outros,false
+811105,Moleiro (Tratamentos Quimicos e Afins),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8111,heranca,false
+811330,Operador de Filtro-Prensa (Tratamentos Quimicos e Afins),Outros,Outros,,,outros,false
+811715,Confeccionador de Pneumaticos,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8117,heranca,false
+710215,Inspetor de Terraplenagem,Construção,Qualificação acima de 200h,,herdada da família 7102,heranca,false
+716515,Pastilheiro,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+123105,Diretor Administrativo,Outros,Outros,,,outros,false
+141420,Gerente de Operacoes de Servicos de Assistencia Tecnica,Outros,Outros,,,outros,false
+720125,Mestre de Fundicao,Outros,Outros,,,outros,false
+765105,Cortador de Artefatos de Couro (Exceto Roupas e Calcados),Outros,Outros,,,outros,false
+781110,Condutor de Processos Robotizados de Soldagem,Outros,Outros,,,outros,false
+999999,Não Identificado,Outros,Outros,,,outros,false
+322410,Protetico Dentario,Qualidade e controle,Técnico,,herdada da família 3224,heranca,false
+623315,Operador de Incubadora,Alimentos e bebidas,Qualificação até 200h,,herdada da família 6233,heranca,false
+642010,Operador de Maquinas Florestais Estaticas,Madeira e móveis,Qualificação acima de 200h,,herdada da família 6420,heranca,false
+791140,Artesão Tecelão,Outros,Outros,,,outros,false
+253125,Analista de Pesquisa de Mercado,Outros,Outros,,,outros,false
+375125,Produtor De Moda,Outros,Outros,,,outros,false
+724105,Assentador de Canalizacao (Edificacoes),Construção,Qualificação acima de 200h,,herdada da família 7241,heranca,false
+731315,Instalador-Reparador de Equipamentos de Transmissao em Telefonia,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7313,heranca,false
+761321,Tecelao (Tear Mecanico Liso),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+910130,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9101,heranca,false
+313125,Tecnico de Manutencao Eletrica de Maquina,Eletroeletrônica e automação,Técnico,,herdada da família 3131,heranca,false
+314405,Tecnico de Manutencao de Sistemas e Instrumentos,Metalmecânica e soldagem,Técnico,,herdada da família 3144,heranca,false
+410235,Supervisor de Tesouraria,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+623215,Trabalhador da Suinocultura,Outros,Outros,,,outros,false
+623305,Trabalhador da Avicultura de Corte,Alimentos e bebidas,Qualificação até 200h,,herdada da família 6233,heranca,false
+716520,Lustrador de Piso,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+720205,Mestre (Construcao Naval),Outros,Outros,,,outros,false
+725005,Ajustador Ferramenteiro,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7250,heranca,false
+862155,"Operador de Utilidade (Producao e Distribuicao de Vapor, Gas, Oleo, Combustivel, Energia, Oxigenio)",Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+991105,Conservador de Via Permanente (Trilhos),Outros,Outros,,,outros,false
+142210,Gerente de Departamento Pessoal,"Gestão, administrativo e comercial",Superior,,herdada da família 1422,heranca,false
+214930,Tecnólogo em Produção Industrial,Outros,Outros,,,outros,false
+223710,Nutricionista,Outros,Outros,,,outros,false
+318815,Modelista de Calcados,"Têxtil, confecção e calçados",Técnico,,herdada da família 3188,heranca,false
+710220,Supervisor de Usina de Concreto,Construção,Qualificação acima de 200h,,herdada da família 7102,heranca,false
+763315,Marcador de Pecas Confeccionadas para Bordar,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7633,heranca,false
+831105,Cilindreiro na Preparacao de Pasta para Fabricacao de Papel,Outros,Outros,,,outros,false
+841745,Xaropeiro,Outros,Outros,,,outros,false
+911110,Mecanico de Manutencao de Bombas,Outros,Outros,,,outros,false
+241040,Consultor Juridico,Outros,Outros,,,outros,false
+322305,Tecnico em Optica e Optometria,Outros,Outros,,,outros,false
+374110,Tecnico em Instalacao de Equipamentos de Audio,Outros,Outros,,,outros,false
+722305,"Macheiro, a Mao",Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7223,heranca,false
+773215,Prensista de Compensados,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7732,heranca,false
+721415,Operador de Mandriladora com Comando Numerico,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7214,heranca,false
+761425,Operador de Impermeabilizador de Tecidos,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7614,heranca,false
+766245,Impressor Tampografico,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+821215,Forneiro e Operador (Forno Eletrico),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+422320,Operador de Telemarketing Tecnico,Outros,Outros,,,outros,false
+515215,Auxiliar de Laboratorio de Analises Clinicas,"Plástico, borracha e química",Qualificação até 200h,,herdada da família 5152,heranca,false
+831115,Operador de Digestor de Pasta para Fabricacao de Papel,Outros,Outros,,,outros,false
+331110,Auxiliar de Desenvolvimento Infantil,Outros,Outros,,,outros,false
+420135,Supervisor de Telemarketing e Atendimento,Outros,Outros,,,outros,false
+514105,Ascensorista,Serviços de apoio,Qualificação até 200h,,herdada da família 5141,heranca,false
+514315,Limpador de Fachadas,Serviços de apoio,Qualificação até 200h,,herdada da família 5143,heranca,false
+732125,Instalador Eletricista (Tracao de Veiculos),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7321,heranca,false
+760605,Supervisor das Artes Graficas  (Industria Editorial e Grafica),Outros,Outros,,,outros,false
+766325,Preparador de Matrizes de Corte e Vinco,Operação de linha e montagem,Qualificação até 200h,,herdada da família 7663,heranca,false
+773345,Operador de Torno Automatico (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+841710,Filtrador de Cerveja,Outros,Outros,,,outros,false
+317105,Programador de Internet,Engenharia e P&D,Técnico,,herdada da família 3171,heranca,false
+411045,Auxiliar de Servicos de Importacao e Exportacao,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+622505,Trabalhador no Cultivo de Arvores Frutiferas,Outros,Outros,,,outros,false
+761260,Operador de Retorcedeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+860110,"Supervisor de Operacao de Fluidos (Distribuicao, Captacao, Tratamento de Agua, Gases, Vapor)",Outros,Outros,,,outros,false
+915305,Tecnico em Manutencao de Equipamentos e Instrumentos Medico-Hospitalares,Outros,Outros,,,outros,false
+271105,Chefe de Cozinha (Desativado em 2010),Outros,Outros,,,outros,false
+311520,Tecnico em Tratamento de Efluentes,Outros,Outros,,,outros,false
+312205,Tecnico de Estradas,Outros,Outros,,,outros,false
+514230,Coletor de Resíduos Sólidos de Serviços de Saúde,Serviços de apoio,Qualificação até 200h,,herdada da família 5142,heranca,false
+725420,Mecanico Montador de Turboalimentadores,Outros,Outros,,,outros,false
+241010,Advogado de Empresa,Outros,Outros,,,outros,false
+311110,Tecnico de Celulose e Papel,Engenharia e P&D,Técnico,,herdada da família 3111,heranca,false
+313210,Tecnico de Manutencao Eletronica (Circuitos de Maquinas com Comando Numerico),Eletroeletrônica e automação,Técnico,,herdada da família 3132,heranca,false
+321105,Tecnico Agricola,Outros,Outros,,,outros,false
+375115,Visual Merchandiser,Outros,Outros,,,outros,false
+622005,Caseiro (Agricultura),Alimentos e bebidas,Qualificação até 200h,,herdada da família 6220,heranca,false
+711120,Detonador,Outros,Outros,,,outros,false
+811705,Bamburista,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8117,heranca,false
+223405,Farmaceutico,Outros,Outros,,,outros,false
+517110,Bombeiro Civil,Outros,Outros,,,outros,false
+521135,Frentista,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 5211,heranca,false
+761303,Tecelao (Redes),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+762325,Operador de Maquinas do Acabamento de Couros e Peles,Outros,Outros,,,outros,false
+123305,Diretor Comercial,Outros,Outros,,,outros,false
+520105,Supervisor de Vendas de Servicos,"Gestão, administrativo e comercial",Superior,,herdada da família 5201,heranca,false
+721315,Afiador de Ferramentas,Metalmecânica e soldagem,Qualificação até 200h,,herdada da família 7213,heranca,false
+723120,Operador de Forno de Tratamento Termico de Metais,Outros,Outros,,,outros,false
+724305,Brasador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7243,heranca,false
+761805,Inspetor de Estamparia (Producao Textil),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7618,heranca,false
+861105,Operador de Central Hidreletrica,Outros,Outros,,,outros,false
+391220,Tecnico de Painel de Controle,Qualidade e controle,Técnico,,herdada da família 3912,heranca,false
+773205,Operador de Maquina Intercaladora e Placas (Compensados),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7732,heranca,false
+913105,Mecanico de Manutencao de Aparelhos de Levantamento,Outros,Outros,,,outros,false
+311515,"Tecnico de Utilidade (Producao e Distribuicao de Vapor, Gases, Oleos, Combustiveis, Energia)",Outros,Outros,,,outros,false
+511210,Despachante de Transportes Coletivos (Exceto Trem),Outros,Outros,,,outros,false
+715215,Pedreiro (Chamines Industriais),Construção,Qualificação acima de 200h,,herdada da família 7152,heranca,false
+811115,Operador de Britadeira (Tratamentos Quimicos e Afins),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8111,heranca,false
+992220,Pedreiro de Conservacao de Vias Permanentes (Exceto Trilhos),Construção,Qualificação até 200h,,herdada da família 9922,heranca,false
+223305,Medico Veterinario,Outros,Outros,,,outros,false
+623020,Tratador de Animais,Outros,Outros,,,outros,false
+724405,Caldeireiro (Chapas de Cobre),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7244,heranca,false
+731305,Instalador-Reparador de Equipamentos de Comutacao em Telefonia,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7313,heranca,false
+811735,Confeccionador de Velas por Moldagem,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8117,heranca,false
+142360,(sem título no dicionário),"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+202120,Tecnologo em Automacao Industrial,Outros,Outros,,,outros,false
+253120,Analista de Negocios,Outros,Outros,,,outros,false
+715540,"Carpinteiro de Obras Civis de Arte (Pontes, Tuneis, Barragens)",Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+725415,Mecanico Montador de Motores de Explosao e Diesel,Outros,Outros,,,outros,false
+760110,Contramestre de Fiacao (Industria Textil),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7601,heranca,false
+761420,Operador de Chamuscadeira de Tecidos,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7614,heranca,false
+840110,Supervisor da Industria de Bebidas,Alimentos e bebidas,Superior,,herdada da família 8401,heranca,false
+954115,Eletromecanico de Manutencao de Portas Automaticas,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9541,heranca,false
+415130,Operador de Maquina Copiadora (Exceto Operador de Grafica Rapida),Outros,Outros,,,outros,false
+711220,Operador de Maquina de Extracao Continua (Minas de Carvao),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+731110,Montador de Equipamentos Eletronicos (Computadores e Equipamentos Auxiliares),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+841448,Lagareiro,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+318105,Desenhista Tecnico (Arquitetura),Outros,Outros,,,outros,false
+391110,Cronometrista,"Gestão, administrativo e comercial",Técnico,,herdada da família 3911,heranca,false
+763205,"Costureiro de Roupas de Couro e Pele, a  Maquina na  Confeccao em Serie","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7632,heranca,false
+811815,Operador de Maquina de Fabricacao de Cosmeticos,Outros,Outros,,,outros,false
+823265,Trabalhador na Fabricacao de Produtos Abrasivos,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+318710,Desenhista Projetista Eletronico,Outros,Outros,,,outros,false
+521130,Atendente de Farmacia - Balconista,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 5211,heranca,false
+823245,Operador de Maquina Extrusora de Varetas e Tubos de Vidro,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+142325,Relacoes Publicas (A),"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+352310,Agente Fiscal de Qualidade,Outros,Outros,,,outros,false
+761215,Operador de Bobinadeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+764110,"Cortador de Solas e Palmilhas, a  Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7641,heranca,false
+776415,"Confeccionador de Escovas, Pinceis e Produtos Similares (A Maquina)",Outros,Outros,,,outros,false
+725305,Montador de Equipamento de Levantamento,Outros,Outros,,,outros,false
+831120,Operador de Lavagem e Depuracao de Pasta para Fabricacao de Papel,Outros,Outros,,,outros,false
+410225,Supervisor de Credito e Cobranca,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+765225,"Confeccionador de Velas Nauticas, Barracas e Toldos",Madeira e móveis,Qualificação acima de 200h,,herdada da família 7652,heranca,false
+862405,"Operador de Instalacao de Extracao, Processamento, Envasamento e Distribuicao de Gases",Outros,Outros,,,outros,false
+214420,Engenheiro Mecanico Industrial,Outros,Outros,,,outros,false
+725020,Ajustador Mecanico em Bancada,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7250,heranca,false
+725220,Montador de Maquinas Texteis,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7252,heranca,false
+725510,Operador de Time de Montagem,Metalmecânica e soldagem,Qualificação até 200h,,herdada da família 7255,heranca,false
+773420,Operador de Prensa de Alta Frequencia na Usinagem de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7734,heranca,false
+782705,Marinheiro de Conves (Maritimo e Fluviario),Outros,Outros,,,outros,false
+848105,Defumador de Carnes e Pescados,Alimentos e bebidas,Qualificação acima de 200h,,herdada da família 8481,heranca,false
+914420,Mecanico de Manutencao de Tratores,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9144,heranca,false
+142415,Gerente de Almoxarifado,Outros,Outros,,,outros,false
+300110,Tecnico em Mecatronica - Robotica,Eletroeletrônica e automação,Técnico,,herdada da família 3001,heranca,false
+313305,Tecnico de Comunicacao de Dados,Eletroeletrônica e automação,Técnico,,herdada da família 3133,heranca,false
+721310,Afiador de Cutelaria,Metalmecânica e soldagem,Qualificação até 200h,,herdada da família 7213,heranca,false
+761312,Tecelao (Tear Jacquard),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+761348,Operador de Engomadeira de Urdume,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+775105,Entalhador  de Madeira,Madeira e móveis,Qualificação até 200h,,herdada da família 7751,heranca,false
+342115,Controlador de Servicos de Maquinas e Veiculos,Logística e movimentação,Superior,,herdada da família 3421,heranca,false
+766105,Copiador de Chapa,Outros,Outros,,,outros,false
+766155,Programador Visual Grafico,Outros,Outros,,,outros,false
+768625,Pintor de Letreiros,Outros,Outros,,,outros,false
+782140,Operador de Talha Eletrica,Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+314845,Inspetor De Soldagem,Outros,Outros,,,outros,false
+342105,Analista de Transporte em Comercio Exterior,Logística e movimentação,Superior,,herdada da família 3421,heranca,false
+374405,Editor de Tv  e Video,Outros,Outros,,,outros,false
+710120,Supervisor de Producao na Mineracao,Outros,Outros,,,outros,false
+716310,Vidraceiro (Edificacoes),Construção,Qualificação até 200h,,herdada da família 7163,heranca,false
+862310,"Operador de Forno de Incineracao no Tratamento de Agua, Efluentes e Residuos Industriais",Serviços de apoio,Técnico,,herdada da família 8623,heranca,false
+720115,Mestre de Ferramentaria,Outros,Outros,,,outros,false
+811410,Destilador de Produtos Quimicos (Exceto Petroleo),Outros,Outros,,,outros,false
+811710,Calandrista de Borracha,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8117,heranca,false
+510205,Supervisor de Lavanderia,Outros,Outros,,,outros,false
+513315,Camareiro  de Hotel,Outros,Outros,,,outros,false
+516320,"Limpador a Seco, À Maquina",Serviços de apoio,Qualificação até 200h,,herdada da família 5163,heranca,false
+725025,Ajustador Naval (Reparo e Construcao),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7250,heranca,false
+318430,"Desenhista Tecnico de Embalagens, Maquetes e Leiautes","Têxtil, confecção e calçados",Técnico,,herdada da família 3184,heranca,false
+423105,Despachante Documentalista,Outros,Outros,,,outros,false
+514335,(sem título no dicionário),Serviços de apoio,Qualificação até 200h,,herdada da família 5143,heranca,false
+721110,"Ferramenteiro de Mandris, Calibradores e Outros Dispositivos",Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7211,heranca,false
+724225,Riscador de Estruturas Metalicas,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7242,heranca,false
+761306,Tecelao (Rendas e Bordados),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+761336,"Tecelao de Meias, a  Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+783105,Agente de Patio,Outros,Outros,,,outros,false
+821315,Operador de Laminador de Barras a Quente,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8213,heranca,false
+821320,Operador de Laminador de Metais Nao-Ferrosos,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8213,heranca,false
+991115,Operador de Maquinas Especiais em Conservacao de Via Permanente (Trilhos),Outros,Outros,,,outros,false
+215305,Piloto de Aeronaves,Outros,Outros,,,outros,false
+318305,Desenhista Tecnico (Eletricidade e Eletronica),Outros,Outros,,,outros,false
+761360,Passamaneiro a  Maquina,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+765110,Cortador de Tapecaria,Outros,Outros,,,outros,false
+810305,Mestre de Producao Farmaceutica,Outros,Outros,,,outros,false
+951315,Monitor de Sistemas Eletronicos de Seguranca Interno,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 9513,heranca,false
+141510,Gerente de Restaurante,Outros,Outros,,,outros,false
+212430,Analista De Testes De Tecnologia Da Informação,Engenharia e P&D,Superior,,herdada da família 2124,heranca,false
+223530,Enfermeiro do Trabalho,Outros,Outros,,,outros,false
+253220,Gerente de Grandes Contas (Corporate),Outros,Outros,,,outros,false
+352210,Agente de Saude Publica,Outros,Outros,,,outros,false
+622015,Trabalhador na Producao de Mudas e Sementes,Alimentos e bebidas,Qualificação até 200h,,herdada da família 6220,heranca,false
+763020,Costureiro de Roupa de Couro e Pele,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7630,heranca,false
+841630,Misturador de Cha ou Mate,Outros,Outros,,,outros,false
+862510,Operador de Refrigeracao com Amonia,Outros,Outros,,,outros,false
+214255,Engenheiro Civil (Rodovias),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+252525,Analista de Credito (Instituicoes Financeiras),"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+519930,"Lavador de Garrafas, Vidros e Outros Utensilios",Outros,Outros,,,outros,false
+715225,Pedreiro (Mineracao),Construção,Qualificação acima de 200h,,herdada da família 7152,heranca,false
+821410,Escarfador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8214,heranca,false
+823215,Forneiro na Fundicao de Vidro,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+915105,Tecnico em Manutencao de Instrumentos de Medicao e Precisao,Outros,Outros,,,outros,false
+141110,Gerente de Producao e Operacoes  Florestais,Outros,Outros,,,outros,false
+314815,Inspetor De Ensaios Não Destrutivos,Outros,Outros,,,outros,false
+371410,Recreador,Outros,Outros,,,outros,false
+715310,Moldador de Corpos de Prova em Usinas de Concreto,Construção,Qualificação acima de 200h,,herdada da família 7153,heranca,false
+724320,Soldador a  Oxigas,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7243,heranca,false
+777210,Carpinteiro de Carrocerias,Outros,Outros,,,outros,false
+811305,Operador de Centrifugadora (Tratamentos Quimicos e Afins),Outros,Outros,,,outros,false
+841440,Esterilizador de Alimentos,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+951310,Mantenedor de Sistemas Eletroeletronicos de Seguranca,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 9513,heranca,false
+992215,Operador de Ceifadeira na Conservacao de Vias Permanentes,Construção,Qualificação até 200h,,herdada da família 9922,heranca,false
+123110,Diretor Administrativo e Financeiro,Outros,Outros,,,outros,false
+141605,Gerente de Operacoes de Transportes,Outros,Outros,,,outros,false
+314825,Inspetor De Dutos,Outros,Outros,,,outros,false
+919310,Mecanico de Manutencao de Bicicletas e Veiculos Similares,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9193,heranca,false
+142520,Gerente de Projetos de Tecnologia da Informacao,Outros,Outros,,,outros,false
+214365,Tecnologo em Eletronica,Outros,Outros,,,outros,false
+214505,Engenheiro Quimico,Outros,Outros,,,outros,false
+262405,Artista (Artes Visuais),Engenharia e P&D,Superior,,herdada da família 2624,heranca,false
+314715,Tecnico de Fundicao em Siderurgia,Outros,Outros,,,outros,false
+410215,Supervisor de Contas a Pagar,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+514110,Garagista,Serviços de apoio,Qualificação até 200h,,herdada da família 5141,heranca,false
+711205,Operador de Caminhao (Minas e Pedreiras),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+717025,Vibradorista,Construção,Qualificação até 200h,,herdada da família 7170,heranca,false
+721420,"Operador de Maquina Eletroerosao, À Fio, com Comando Numerico",Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7214,heranca,false
+723225,Metalizador (Banho Quente),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+723305,Operador de Equipamento de Secagem de Pintura,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7233,heranca,false
+762340,Preparador de Couros Curtidos,Outros,Outros,,,outros,false
+820210,Supervisor de Fabricacao de Produtos de Vidro,Outros,Outros,,,outros,false
+861115,Operador de Central Termoeletrica,Outros,Outros,,,outros,false
+911310,Mecanico de Manutencao de Maquinas Graficas,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9113,heranca,false
+122205,"Diretor de Producao e Operacoes da Industria de Transformacao, Extracao Mineral e Utilidades",Outros,Outros,,,outros,false
+214935,Tecnólogo em Segurança do Trabalho,Outros,Outros,,,outros,false
+322415,Auxiliar em Saude Bucal,Qualidade e controle,Técnico,,herdada da família 3224,heranca,false
+510105,Supervisor de Transportes,Outros,Outros,,,outros,false
+642005,Operador de Colhedor Florestal,Madeira e móveis,Qualificação acima de 200h,,herdada da família 6420,heranca,false
+752105,Artesao Modelador (Vidros),Outros,Outros,,,outros,false
+761240,Operador de Macaroqueira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+911115,Mecanico de Manutencao de Compressores de Ar,Outros,Outros,,,outros,false
+142505,Gerente de Rede,Outros,Outros,,,outros,false
+214005,Engenheiro Ambiental,Outros,Outros,,,outros,false
+214010,Tecnólogo em Meio Ambiente,Outros,Outros,,,outros,false
+252720,Analista de Projetos Logisticos,"Gestão, administrativo e comercial",Superior,,herdada da família 2527,heranca,false
+342305,Chefe de Servico de Transporte Rodoviario (Passageiros e Cargas),Outros,Outros,,,outros,false
+630110,Supervisor da Area Florestal,Outros,Outros,,,outros,false
+731325,Instalador-Reparador de Redes e Cabos Telefonicos,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7313,heranca,false
+761363,Remetedor de Fios,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+766130,Gravador de Matriz para Rotogravura (Eletromecanico e Quimico),Outros,Outros,,,outros,false
+811205,Operador de Calcinacao (Tratamento Quimico e Afins),Outros,Outros,,,outros,false
+911315,Mecanico de Manutencao de Maquinas Operatrizes (Lavra de Madeira),Manutenção industrial,Qualificação acima de 200h,,herdada da família 9113,heranca,false
+991305,Funileiro de Veiculos (Reparacao),Outros,Outros,,,outros,false
+251540,Psicologo do Trabalho,Outros,Outros,,,outros,false
+261215,Analista de Informacoes (Pesquisador de Informacoes de Rede),Outros,Outros,,,outros,false
+314105,Tecnico em Mecanica de Precisao,Engenharia e P&D,Técnico,,herdada da família 3141,heranca,false
+314615,Tecnico em Estruturas Metalicas,Outros,Outros,,,outros,false
+512115,Empregado Domestico  Faxineiro,Outros,Outros,,,outros,false
+632105,Classificador de Toras,Madeira e móveis,Qualificação até 200h,,herdada da família 6321,heranca,false
+711115,Destrocador de Pedra,Outros,Outros,,,outros,false
+775120,Marcheteiro,Madeira e móveis,Qualificação até 200h,,herdada da família 7751,heranca,false
+841110,Moleiro de Especiarias,Outros,Outros,,,outros,false
+314315,Tecnico Mecanico (Embarcacoes),Outros,Outros,,,outros,false
+354705,Representante Comercial Autonomo,Outros,Outros,,,outros,false
+523110,Instalador de Som e Acessorios de Veiculos,Outros,Outros,,,outros,false
+861205,Operador de Subestacao,Outros,Outros,,,outros,false
+910205,Supervisor da Manutencao e Reparacao de Veiculos Leves,Outros,Outros,,,outros,false
+141515,Gerente de Bar,Outros,Outros,,,outros,false
+141610,Gerente de Operacoes de Correios e Telecomunicacoes,Outros,Outros,,,outros,false
+514305,Limpador de Vidros (Desativado em 2010),Serviços de apoio,Qualificação até 200h,,herdada da família 5143,heranca,false
+519910,Controlador de Pragas,Outros,Outros,,,outros,false
+752225,Gravador de Vidro a  Jato de Areia,Outros,Outros,,,outros,false
+768705,"Gravador, À Mao (Encadernacao)",Outros,Outros,,,outros,false
+842110,Processador de Fumo,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8421,heranca,false
+848425,Classificador de Grãos,Outros,Outros,,,outros,false
+862130,Operador de Compressor de Ar,Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+142125,Analista De Compliance,"Gestão, administrativo e comercial",Superior,,herdada da família 1421,heranca,false
+142530,Gerente de Suporte Tecnico de Tecnologia da Informacao,Outros,Outros,,,outros,false
+253140,Diretor de Arte (Publicidade),Outros,Outros,,,outros,false
+341220,Patrao de Pesca de Alto-Mar,Outros,Outros,,,outros,false
+354820,Organizador de Evento,Outros,Outros,,,outros,false
+513615,Sushiman,Outros,Outros,,,outros,false
+724420,Chapeador de Carrocerias Metalicas (Fabricacao),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7244,heranca,false
+765240,Tapeceiro de Autos,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7652,heranca,false
+782420,(sem título no dicionário),Outros,Outros,,,outros,false
+782710,Marinheiro de Maquinas,Outros,Outros,,,outros,false
+820105,Mestre de Siderurgia,Outros,Outros,,,outros,false
+841105,Moleiro de Cereais (Exceto Arroz),Outros,Outros,,,outros,false
+862140,Operador de Estacao de Bombeamento,Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+123115,Diretor Financeiro,Outros,Outros,,,outros,false
+142515,Gerente de Producao de Tecnologia da Informacao,Outros,Outros,,,outros,false
+203205,Pesquisador de Engenharia Civil,Outros,Outros,,,outros,false
+211110,Especialista em Pesquisa Operacional,Outros,Outros,,,outros,false
+314610,Tecnico em Caldeiraria,Outros,Outros,,,outros,false
+314840,Inspetor De Manutenção,Outros,Outros,,,outros,false
+351315,Agente de Recrutamento e Selecao,Outros,Outros,,,outros,false
+513415,Cumim,Alimentos e bebidas,Qualificação até 200h,,herdada da família 5134,heranca,false
+720155,Mestre Serralheiro,Outros,Outros,,,outros,false
+725215,Montador de Maquinas Operatrizes para Madeira,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7252,heranca,false
+762105,Classificador de Peles,Outros,Outros,,,outros,false
+765310,"Costurador de Artefatos de Couro, a  Maquina (Exceto Roupas e Calcados)",Outros,Outros,,,outros,false
+766140,Gravador de Matriz Serigrafica,Outros,Outros,,,outros,false
+813130,"Tecnico de Operacao (Quimica, Petroquimica e Afins)","Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8131,heranca,false
+840120,Chefe de Confeitaria,Alimentos e bebidas,Superior,,herdada da família 8401,heranca,false
+910125,Supervisor de Manutencao de Maquinas Industriais Texteis,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9101,heranca,false
+992105,Alinhador de Pneus,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 9921,heranca,false
+213210,Quimico Industrial,Outros,Outros,,,outros,false
+214605,Engenheiro de Materiais,Outros,Outros,,,outros,false
+222120,Engenheiro Florestal,Outros,Outros,,,outros,false
+314620,Tecnico em Soldagem,Outros,Outros,,,outros,false
+318115,Desenhista Tecnico (Construcao Civil),Outros,Outros,,,outros,false
+319205,Tecnico do Mobiliario,Outros,Outros,,,outros,false
+612005,Produtor Agricola Polivalente,Outros,Outros,,,outros,false
+623110,Trabalhador da Pecuaria (Bovinos Corte),Outros,Outros,,,outros,false
+711305,Operador de Sonda de Percussao,Construção,Qualificação acima de 200h,,herdada da família 7113,heranca,false
+722235,Preparador de Panelas (Lingotamento),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7222,heranca,false
+752325,Ceramista Moldador,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7523,heranca,false
+771120,Tanoeiro,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7711,heranca,false
+910210,Supervisor da Manutencao e Reparacao de Veiculos Pesados,Outros,Outros,,,outros,false
+202110,Engenheiro de Controle e Automacao (A),Outros,Outros,,,outros,false
+412110,Digitador,Outros,Outros,,,outros,false
+511205,Fiscal de Transportes Coletivos (Exceto Trem),Outros,Outros,,,outros,false
+622515,Trabalhador no Cultivo de Trepadeiras Frutiferas,Outros,Outros,,,outros,false
+711215,Operador de Maquina Cortadora (Minas e Pedreiras),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+731205,"Montador de Equipamentos Eletronicos (Estacao de Radio, Tv e Equipamentos de Radar)",Outros,Outros,,,outros,false
+766150,Operador de Processo de Tratamento de Imagem,Outros,Outros,,,outros,false
+781105,Condutor de Processos Robotizados de Pintura,Outros,Outros,,,outros,false
+782405,Motorista de Onibus Rodoviario,Outros,Outros,,,outros,false
+821105,Operador de Centro de Controle,Outros,Outros,,,outros,false
+823220,Forneiro no Recozimento de Vidro,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+831125,Operador de Maquina de Secar Celulose,Outros,Outros,,,outros,false
+142310,Gerente de Comunicacao,"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+212315,Administrador de Sistemas Operacionais,Outros,Outros,,,outros,false
+214940,Higienista Ocupacional,Outros,Outros,,,outros,false
+223435,Farmaceutico Industrial,Outros,Outros,,,outros,false
+252310,Secretario  Bilingue,"Gestão, administrativo e comercial",Superior,,herdada da família 2523,heranca,false
+252515,Analista de Cobranca (Instituicoes Financeiras),"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+341310,Condutor Maquinista Maritimo,Outros,Outros,,,outros,false
+516405,Lavador de Roupas,"Têxtil, confecção e calçados",Qualificação até 200h,,herdada da família 5164,heranca,false
+620110,Supervisor de Exploracao Agropecuaria,Outros,Outros,,,outros,false
+715420,Operador De Usina De Asfalto,Construção,Qualificação até 200h,,herdada da família 7154,heranca,false
+773305,Operador de Desempenadeira na Usinagem Convencional de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+773315,Operador de Fresadora (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+773405,Operador de Maquina Bordatriz,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7734,heranca,false
+776420,"Confeccionador de Moveis de Vime, Junco e Bambu",Outros,Outros,,,outros,false
+782135,Operador de Portico Rolante,Logística e movimentação,Qualificação acima de 200h,,herdada da família 7821,heranca,false
+812110,Trabalhador da Fabricacao de Municao e Explosivos,Outros,Outros,,,outros,false
+823130,Preparador de Aditivos,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+823255,Temperador de Vidro,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+911105,Mecanico de Manutencao de Bomba Injetora (Exceto de Veiculos Automotores),Outros,Outros,,,outros,false
+213205,Quimico,Outros,Outros,,,outros,false
+214110,Arquiteto de Interiores,Outros,Outros,,,outros,false
+214610,Engenheiro Metalurgista,Outros,Outros,,,outros,false
+214615,Tecnólogo em Metalurgia,Outros,Outros,,,outros,false
+251605,Assistente Social,Outros,Outros,,,outros,false
+515210,Auxiliar de Farmacia de Manipulacao,"Plástico, borracha e química",Qualificação até 200h,,herdada da família 5152,heranca,false
+517425,Fiscal de Loja,Serviços de apoio,Qualificação até 200h,,herdada da família 5174,heranca,false
+724215,Rebitador a  Martelo Pneumatico,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7242,heranca,false
+725410,Mecanico Montador de Motores de Embarcacoes,Outros,Outros,,,outros,false
+761345,"Tecelao de Tapetes, a  Maquina","Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+762210,Classificador de Couros,Outros,Outros,,,outros,false
+777110,Carpinteiro Naval (Embarcacoes),Outros,Outros,,,outros,false
+811010,"Operador de Sala de Controle de Instalacoes Quimicas, Petroquimicas e Afins",Outros,Outros,,,outros,false
+214125,Arquiteto Urbanista,Outros,Outros,,,outros,false
+222205,Engenheiro de Alimentos,Outros,Outros,,,outros,false
+261210,Documentalista,Outros,Outros,,,outros,false
+314125,Tecnico Mecanico (Motores),Engenharia e P&D,Técnico,,herdada da família 3141,heranca,false
+371310,Tecnico Grafico,Outros,Outros,,,outros,false
+410220,Supervisor de Controle Patrimonial,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+716535,Taqueiro,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+731105,Montador de Equipamentos Eletronicos (Aparelhos Medicos),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+762205,Curtidor (Couros e Peles),Outros,Outros,,,outros,false
+765215,Confeccionador de Brinquedos de Pano,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7652,heranca,false
+773355,Torneiro na Usinagem Convencional de Madeira,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+782715,Moco de Conves (Maritimo e Fluviario),Outros,Outros,,,outros,false
+791110,Artesão Ceramista,Outros,Outros,,,outros,false
+860105,Supervisor de Manutencao Eletromecanica (Utilidades),Outros,Outros,,,outros,false
+954205,Reparador de Aparelhos Eletrodomesticos (Exceto Imagem e Som),Outros,Outros,,,outros,false
+991310,Montador de Veiculos (Reparacao),Outros,Outros,,,outros,false
+141405,Comerciante Atacadista,Outros,Outros,,,outros,false
+221105,Biologo,Outros,Outros,,,outros,false
+233215,Professor de Aprendizagem e Treinamento Comercial,Outros,Outros,,,outros,false
+253215,Gerente de Contas - Pessoa Fisica e Juridica,Outros,Outros,,,outros,false
+413210,Caixa de Banco,Outros,Outros,,,outros,false
+632420,Trabalhador da Exploracao de Pupunha,Outros,Outros,,,outros,false
+715515,Carpinteiro (Cenarios),Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+761235,Operador de Laminadeira e Reunideira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+768305,Artifice do Couro,Outros,Outros,,,outros,false
+910110,"Supervisor de Manutencao de Aparelhos Termicos, de Climatizacao e de Refrigeracao",Manutenção industrial,Qualificação acima de 200h,,herdada da família 9101,heranca,false
+915115,Tecnico em Manutencao de Balancas,Outros,Outros,,,outros,false
+141115,Gerente de Producao e Operacoes Agropecuarias,Outros,Outros,,,outros,false
+214435,Tecnólogo em Fabricação Mecânica,Outros,Outros,,,outros,false
+252605,Gestor em Segurança,Outros,Outros,,,outros,false
+253210,Gerente de Clientes Especiais (Private),Outros,Outros,,,outros,false
+312305,Tecnico em Agrimensura,Construção,Técnico,,herdada da família 3123,heranca,false
+318215,Desenhista Tecnico Naval,Metalmecânica e soldagem,Técnico,,herdada da família 3182,heranca,false
+375110,Designer de Vitrines,Outros,Outros,,,outros,false
+516315,Lavador de Artefatos de Tapecaria,Serviços de apoio,Qualificação até 200h,,herdada da família 5163,heranca,false
+524305,Vendedor Ambulante,Outros,Outros,,,outros,false
+720120,Mestre de Forjaria,Outros,Outros,,,outros,false
+725030,Operador De Manutenção E Recarga De Extintor De Incêndio,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7250,heranca,false
+741125,Relojoeiro (Reparacao),Outros,Outros,,,outros,false
+752205,Aplicador Serigrafico em Vidros,Outros,Outros,,,outros,false
+768315,"Costurador de Artefatos de Couro, a  Mao (Exceto Roupas e Calcados)",Outros,Outros,,,outros,false
+783220,Estivador,Logística e movimentação,Qualificação até 200h,,herdada da família 7832,heranca,false
+111220,Secretario - Executivo,Outros,Outros,,,outros,false
+111415,Dirigente do Servico Publico Municipal,Outros,Outros,,,outros,false
+213215,Tecnólogo em Processos Químicos,Outros,Outros,,,outros,false
+223505,Enfermeiro,Outros,Outros,,,outros,false
+223810,Fonoaudiologo,Outros,Outros,,,outros,false
+301115,Tecnico Quimico de Petroleo,Qualidade e controle,Técnico,,herdada da família 3011,heranca,false
+311405,Tecnico em Borracha,"Plástico, borracha e química",Técnico,,herdada da família 3114,heranca,false
+311705,Colorista de Papel,"Têxtil, confecção e calçados",Técnico,,herdada da família 3117,heranca,false
+314830,Inspetor De Controle Dimensional,Outros,Outros,,,outros,false
+341215,Mestre Fluvial,Outros,Outros,,,outros,false
+415105,Arquivista de Documentos,Outros,Outros,,,outros,false
+519925,Guardador de Veiculos,Outros,Outros,,,outros,false
+711110,Canteiro,Outros,Outros,,,outros,false
+716505,Assoalhador,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+724425,Chapeador Naval,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7244,heranca,false
+731140,Montador de Equipamentos Eletronicos (Instalacoes de Sinalizacao),Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7311,heranca,false
+731310,Instalador-Reparador de Equipamentos de Energia em Telefonia,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7313,heranca,false
+768110,"Tecelao de Tapetes, a  Mao",Outros,Outros,,,outros,false
+771115,Maquetista na Marcenaria,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7711,heranca,false
+782720,Moco de Maquinas (Maritimo e Fluviario),Outros,Outros,,,outros,false
+811630,Operador de Painel de Controle,Outros,Outros,,,outros,false
+823250,Operador de Prensa de Moldar Vidro,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+842115,Classificador de Fumo,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8421,heranca,false
+123705,Diretor de Pesquisa e Desenvolvimento (P&D),Outros,Outros,,,outros,false
+142510,Gerente de Desenvolvimento de Sistemas,Outros,Outros,,,outros,false
+203215,Pesquisador de Engenharia Eletrica e Eletronica,Outros,Outros,,,outros,false
+203220,Pesquisador de Engenharia Mecanica,Outros,Outros,,,outros,false
+214320,Engenheiro Eletricista de Projetos,Outros,Outros,,,outros,false
+252540,Analista de Produtos Bancarios,"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+311610,Tecnico Textil (Tratamentos Quimicos),Outros,Outros,,,outros,false
+317120,Programador de Multimidia,Engenharia e P&D,Técnico,,herdada da família 3171,heranca,false
+422205,Telefonista,Outros,Outros,,,outros,false
+424210,"Aplicador de Provas (Concurso, Avaliacao,Exame)",Outros,Outros,,,outros,false
+514330,Limpador de Piscinas,Serviços de apoio,Qualificação até 200h,,herdada da família 5143,heranca,false
+620105,Supervisor de Exploracao Agricola,Outros,Outros,,,outros,false
+710225,Fiscal de Patio de Usina de Concreto,Construção,Qualificação acima de 200h,,herdada da família 7102,heranca,false
+712110,Operador de Aparelho de Flotacao,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7121,heranca,false
+715605,Eletricista de Instalacoes (Cenarios),Construção,Qualificação acima de 200h,,herdada da família 7156,heranca,false
+716530,Mosaista,Construção,Qualificação acima de 200h,,herdada da família 7165,heranca,false
+720130,Mestre de Galvanoplastia,Outros,Outros,,,outros,false
+751120,Laminador de Metais Preciosos a  Mao,Outros,Outros,,,outros,false
+752110,Moldador (Vidros),Outros,Outros,,,outros,false
+752115,Soprador de Vidro,Outros,Outros,,,outros,false
+773410,Operador de Maquina de Cortina D´Agua (Producao de Moveis),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7734,heranca,false
+783230,Bloqueiro (Trabalhador Portuario),Logística e movimentação,Qualificação até 200h,,herdada da família 7832,heranca,false
+822120,Forneiro de Reaquecimento e Tratamento Termico na Metalurgia,Outros,Outros,,,outros,false
+822125,Forneiro de Reverbero,Outros,Outros,,,outros,false
+823105,Preparador de Massa (Fabricacao de Abrasivos),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+841428,Cozinhador de Pescado,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+910115,"Supervisor de Manutencao de Bombas, Motores, Compressores e Equipamentos de Transmissao",Manutenção industrial,Qualificação acima de 200h,,herdada da família 9101,heranca,false
+142130,Analista De Riscos,"Gestão, administrativo e comercial",Superior,,herdada da família 1421,heranca,false
+211220,(sem título no dicionário),Outros,Outros,,,outros,false
+214260,Engenheiro Civil (Saneamento),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214310,Engenheiro Eletronico,Outros,Outros,,,outros,false
+214315,Engenheiro Eletricista de Manutencao,Outros,Outros,,,outros,false
+251205,Economista,"Gestão, administrativo e comercial",Superior,,herdada da família 2512,heranca,false
+253305,"Corretor de Valores, Ativos Financeiros, Mercadorias e Derivativos",Outros,Outros,,,outros,false
+261530,Redator de Textos Tecnicos,Outros,Outros,,,outros,false
+261805,Fotografo,Outros,Outros,,,outros,false
+323105,Tecnico em Pecuaria,Outros,Outros,,,outros,false
+374210,Maquinista de Cinema e Video,Outros,Outros,,,outros,false
+510130,Chefe de Bar,Outros,Outros,,,outros,false
+515120,Visitador Sanitario,Outros,Outros,,,outros,false
+516220,Cuidador em Saúde,Outros,Outros,,,outros,false
+622315,"Trabalhador na Olericultura (Raizes, Bulbos e Tuberculos)",Outros,Outros,,,outros,false
+711245,Operador de Trator (Minas e Pedreiras),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+712105,Moleiro de Minerios,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7121,heranca,false
+724610,Trancador de Cabos de Aco,Outros,Outros,,,outros,false
+762310,Fuloneiro no Acabamento de Couros e Peles,Outros,Outros,,,outros,false
+768310,"Cortador de Calcados, a  Mao (Exceto Solas)",Outros,Outros,,,outros,false
+811615,Operador de Destilacao e Subprodutos de Coque,Outros,Outros,,,outros,false
+821330,Operador de Montagem de Cilindros e Mancais,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8213,heranca,false
+821425,Operador de Cabine de Laminacao (Fio-Maquina),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8214,heranca,false
+862110,Maquinista de Embarcacoes,Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+911130,Mecanico de Manutencao de Turbinas (Exceto de Aeronaves),Outros,Outros,,,outros,false
+121005,Diretor de Planejamento Estrategico,Outros,Outros,,,outros,false
+122305,Diretor de Operacoes de Obras Publica e Civil,Outros,Outros,,,outros,false
+123805,Diretor de Manutencao,Outros,Outros,,,outros,false
+142350,Profissonal De Relações Internacionais,"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+212320,Administrador em Segurança da Informação,Outros,Outros,,,outros,false
+212425,Arquiteto De Soluções De Tecnologia Da Informação,Engenharia e P&D,Superior,,herdada da família 2124,heranca,false
+253225,Operador de Negocios,Outros,Outros,,,outros,false
+253410,Influenciador Digital,Outros,Outros,,,outros,false
+311625,Tecnico Textil de Tecelagem,Outros,Outros,,,outros,false
+325005,Enologo,Outros,Outros,,,outros,false
+341105,Piloto Comercial (Exceto Linhas Aereas),Outros,Outros,,,outros,false
+341110,Piloto Comercial de Helicoptero (Exceto Linhas Aereas),Outros,Outros,,,outros,false
+342550,Agente de Protecao de Aviacao Civil,Outros,Outros,,,outros,false
+351110,Chefe de Contabilidade (Tecnico),Outros,Outros,,,outros,false
+351715,Assistente Comercial de Seguros,Outros,Outros,,,outros,false
+411050,Agente de Microcrédito,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+519105,Ciclista Mensageiro,Outros,Outros,,,outros,false
+711310,Operador de Sonda Rotativa,Construção,Qualificação acima de 200h,,herdada da família 7113,heranca,false
+716210,Telhador (Telhas de Cimento-Amianto),Outros,Outros,,,outros,false
+720145,Mestre de Trefilacao de Metais,Outros,Outros,,,outros,false
+723230,Operador de Maquina Recobridora de Arame,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+751010,Joalheiro,Outros,Outros,,,outros,false
+762110,"Descarnador de Couros e Peles, À Maquina",Outros,Outros,,,outros,false
+768325,Seleiro,Outros,Outros,,,outros,false
+776410,"Confeccionador de Escovas, Pinceis e Produtos Similares (A Mao)",Outros,Outros,,,outros,false
+841730,Cozinhador de Malte,Outros,Outros,,,outros,false
+914415,Mecanico de Manutencao de Motocicletas,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9144,heranca,false
+951320,Monitor de Sistemas Eletronicos de Seguranca Externo,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 9513,heranca,false
+122405,Diretor de Operacoes Comerciais (Comercio Atacadista e Varejista),Outros,Outros,,,outros,false
+142110,Gerente de Riscos,"Gestão, administrativo e comercial",Superior,,herdada da família 1421,heranca,false
+212305,Administrador de Banco de Dados,Outros,Outros,,,outros,false
+214540,Engenheiro Têxtil,Outros,Outros,,,outros,false
+222110,Engenheiro Agronomo,Outros,Outros,,,outros,false
+251230,Economista Ambiental,"Gestão, administrativo e comercial",Superior,,herdada da família 2512,heranca,false
+322230,Auxiliar de Enfermagem,Outros,Outros,,,outros,false
+415115,Codificador de Dados,Outros,Outros,,,outros,false
+415210,Operador de Triagem e Transbordo,Outros,Outros,,,outros,false
+420105,Supervisor de Caixas e Bilheteiros (Exceto Caixa de Banco),Outros,Outros,,,outros,false
+422120,Recepcionista de Hotel,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 4221,heranca,false
+516505,Agente Funerario,Outros,Outros,,,outros,false
+517310,Agente de Seguranca,Outros,Outros,,,outros,false
+712230,Tracador de Pedras,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7122,heranca,false
+717005,Demolidor de Edificacoes,Construção,Qualificação até 200h,,herdada da família 7170,heranca,false
+720160,Supervisor de Controle de Tratamento Termico,Outros,Outros,,,outros,false
+723210,Fosfatizador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+723240,Oxidador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7232,heranca,false
+750205,Supervisor da Industria de Minerais nao Metalicos (Exceto Os Derivados de Petroleo e Carvao),Outros,Outros,,,outros,false
+751125,Ourives,Outros,Outros,,,outros,false
+768210,Cerzidor,Outros,Outros,,,outros,false
+782725,Marinheiro de Esporte e Recreio (Desativado em 01/2009),Outros,Outros,,,outros,false
+823110,Preparador de Massa (Fabricacao de Vidro),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+832105,Calandrista de Papel,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8321,heranca,false
+861110,Operador de Quadro de Distribuicao de Energia Eletrica,Outros,Outros,,,outros,false
+910905,Supervisor de Reparos Linhas Ferreas,Outros,Outros,,,outros,false
+123205,Diretor de Recursos Humanos,Outros,Outros,,,outros,false
+123310,Diretor de Marketing,Outros,Outros,,,outros,false
+141715,Gerente de Cambio e Comercio Exterior,Outros,Outros,,,outros,false
+212215,Engenheiros de Sistemas Operacionais em Computacao,Outros,Outros,,,outros,false
+223605,Fisioterapeuta Geral,Outros,Outros,,,outros,false
+225125,Médico Clínico,Outros,Outros,,,outros,false
+261110,Assessor de Imprensa,Outros,Outros,,,outros,false
+261615,Editor de Midia Eletronica,Outros,Outros,,,outros,false
+313405,Tecnico em Calibracao,Outros,Outros,,,outros,false
+413230,Operador de Cobranca Bancaria,Outros,Outros,,,outros,false
+420110,Supervisor de Cobranca,Outros,Outros,,,outros,false
+422335,Monitor De Teleatendimento,Outros,Outros,,,outros,false
+513210,Cozinheiro do Servico Domestico,Serviços de apoio,Qualificação acima de 200h,,herdada da família 5132,heranca,false
+643025,Trabalhador na Operacao de Sistemas de Irrigacao por Superficie e Drenagem,Outros,Outros,,,outros,false
+710105,Supervisor de Apoio Operacional na Mineracao,Outros,Outros,,,outros,false
+710115,Supervisor de Perfuracao e Desmonte,Outros,Outros,,,outros,false
+712225,Torneiro (Lavra de Pedra),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7122,heranca,false
+721305,Afiador de Cardas,Metalmecânica e soldagem,Qualificação até 200h,,herdada da família 7213,heranca,false
+723105,Cementador de Metais,Outros,Outros,,,outros,false
+724230,"Rebitador, a  Mao",Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7242,heranca,false
+725210,Montador de Maquinas Graficas,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7252,heranca,false
+762330,Prensador de Couros e Peles,Outros,Outros,,,outros,false
+791125,Artesão do Couro,Outros,Outros,,,outros,false
+791135,Artesão Moveleiro (Exceto Reciclado),Outros,Outros,,,outros,false
+811315,Operador de Filtro de Secagem (Mineracao),Outros,Outros,,,outros,false
+813105,Cilindrista (Petroquimica e Afins),"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8131,heranca,false
+820110,Mestre de Aciaria,Outros,Outros,,,outros,false
+823230,"Moldador de Abrasivos na Fabricacao de Ceramica, Vidro e Porcelana","Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+142365,(sem título no dicionário),"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+142535,Tecnólogo em Gestão da Tecnologia da Informação,Outros,Outros,,,outros,false
+203225,"Pesquisador de Engenharia Metalurgica, de Minas e de Materiais",Outros,Outros,,,outros,false
+203230,Pesquisador de Engenharia Quimica,Outros,Outros,,,outros,false
+214120,Arquiteto Paisagista,Outros,Outros,,,outros,false
+214330,Engenheiro Eletronico de Projetos,Outros,Outros,,,outros,false
+214430,Engenheiro Naval,Outros,Outros,,,outros,false
+239410,Orientador Educacional,Outros,Outros,,,outros,false
+261120,Editor,Outros,Outros,,,outros,false
+262905,Decorador de Interiores de Nivel Superior,Outros,Outros,,,outros,false
+314805,Inspetor De Equipamentos,Outros,Outros,,,outros,false
+322505,Tecnico de Ortopedia,Outros,Outros,,,outros,false
+325110,Tecnico em Laboratorio de Farmacia,Outros,Outros,,,outros,false
+342310,Inspetor de Servicos de Transportes Rodoviarios (Passageiros e Cargas),Outros,Outros,,,outros,false
+342410,Operador de Centro de Controle (Ferrovia e Metro),Outros,Outros,,,outros,false
+342610,Supervisor de Operacoes Portuarias,Outros,Outros,,,outros,false
+411035,Auxiliar de Estatistica,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+413205,Atendente de Agencia,Outros,Outros,,,outros,false
+420120,Supervisor de Entrevistadores e Recenseadores,Outros,Outros,,,outros,false
+423110,Despachante de Trânsito,Outros,Outros,,,outros,false
+510135,Maître,Outros,Outros,,,outros,false
+510310,Supervisor de Vigilantes,Outros,Outros,,,outros,false
+517220,Agente de Transito,Outros,Outros,,,outros,false
+517305,Agente de Protecao de Aeroporto,Outros,Outros,,,outros,false
+715730,"Instalador de Material Isolante, a Maquina (Edificacoes)",Construção,Qualificação acima de 200h,,herdada da família 7157,heranca,false
+717015,Poceiro (Edificacoes),Construção,Qualificação até 200h,,herdada da família 7170,heranca,false
+720105,Mestre (Afiador de Ferramentas),Outros,Outros,,,outros,false
+752320,Ceramista Modelador,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7523,heranca,false
+752430,"Pintor de Ceramica, a  Pincel",Outros,Outros,,,outros,false
+761105,Classificador de Fibras Texteis,Outros,Outros,,,outros,false
+773210,Prensista de Aglomerados,Madeira e móveis,Qualificação acima de 200h,,herdada da família 7732,heranca,false
+776405,Cesteiro,Outros,Outros,,,outros,false
+782730,Marinheiro Auxiliar de Convés (Marítimo e Aquaviário),Outros,Outros,,,outros,false
+811725,Confeccionador de Velas por Imersao,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8117,heranca,false
+820125,Mestre de Laminacao,Outros,Outros,,,outros,false
+841464,Prensador de Frutas (Exceto Oleaginosas),Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+141710,Gerente de Agencia,Outros,Outros,,,outros,false
+203105,Pesquisador em Ciencias da Computacao e Informatica,Outros,Outros,,,outros,false
+212310,Administrador de Redes,Outros,Outros,,,outros,false
+214220,Engenheiro Civil (Estruturas Metalicas),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214270,Engenheiro Civil (Transportes e Transito),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214360,Tecnologo em Eletricidade,Outros,Outros,,,outros,false
+214375,Engenheiro De Energia,Outros,Outros,,,outros,false
+214805,Engenheiro Agrimensor,Outros,Outros,,,outros,false
+214925,Engenheiro de Tempos e Movimentos,Outros,Outros,,,outros,false
+214950,(sem título no dicionário),Outros,Outros,,,outros,false
+215125,Imediato da Marinha Mercante,Outros,Outros,,,outros,false
+223204,Cirurgiao Dentista - Auditor,Outros,Outros,,,outros,false
+251510,Psicologo Clinico,Outros,Outros,,,outros,false
+252215,Perito Contabil,"Gestão, administrativo e comercial",Superior,,herdada da família 2522,heranca,false
+254310,Agente de Higiene e Seguranca,Outros,Outros,,,outros,false
+261420,Tradutor,Outros,Outros,,,outros,false
+311615,Tecnico Textil de Fiacao,Outros,Outros,,,outros,false
+314305,Tecnico em Automobilistica,Outros,Outros,,,outros,false
+314705,Tecnico de Acabamento em Siderurgia,Outros,Outros,,,outros,false
+314835,Inspetor De Pintura,Outros,Outros,,,outros,false
+342120,Afretador,Logística e movimentação,Superior,,herdada da família 3421,heranca,false
+351115,Consultor Contabil (Tecnico),Outros,Outros,,,outros,false
+411020,Auxiliar de Judiciario,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+423115,(sem título no dicionário),Outros,Outros,,,outros,false
+510110,Administrador de Edificios,Outros,Outros,,,outros,false
+510305,Supervisor de Bombeiros,Outros,Outros,,,outros,false
+513605,Churrasqueiro,Outros,Outros,,,outros,false
+515135,Socorrista (Exceto Médicos e Enfermeiros),Outros,Outros,,,outros,false
+516210,Cuidador de Idosos,Outros,Outros,,,outros,false
+711105,Amostrador de Minerios,Outros,Outros,,,outros,false
+716605,Calafetador,Construção,Qualificação acima de 200h,,herdada da família 7166,heranca,false
+724135,Instalador de Tubulacoes de Vapor (Producao e Distribuicao),Construção,Qualificação acima de 200h,,herdada da família 7241,heranca,false
+741110,Montador de Instrumentos de Optica,Outros,Outros,,,outros,false
+791145,Artesão Trançador,Outros,Outros,,,outros,false
+811605,Operador de Britador de Coque,Outros,Outros,,,outros,false
+812105,Pirotecnico,Outros,Outros,,,outros,false
+823235,Operador de Banho Metalico de Vidro por Flutuacao,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8232,heranca,false
+122505,Diretor de  Producao e Operacoes de Alimentacao,Outros,Outros,,,outros,false
+122620,Diretor de Operacoes de Servicos de Transporte,Outros,Outros,,,outros,false
+141720,Gerente de Credito e Cobranca,Outros,Outros,,,outros,false
+142120,Tecnólogo em Gestão Administrativo- Financeira,"Gestão, administrativo e comercial",Superior,,herdada da família 1421,heranca,false
+212205,Engenheiro de Aplicativos em Computacao,Outros,Outros,,,outros,false
+212210,Engenheiro de Equipamentos em Computacao,Outros,Outros,,,outros,false
+214520,Engenheiro Quimico (Papel e Celulose),Outros,Outros,,,outros,false
+223208,Cirurgiao Dentista - Clinico Geral,Outros,Outros,,,outros,false
+231110,Professor de Nivel Superior na Educacao Infantil (Zero a Tres Anos),Outros,Outros,,,outros,false
+252505,Administrador de Fundos e Carteiras de Investimento,"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+262330,Diretor de Arte,Outros,Outros,,,outros,false
+311620,Tecnico Textil de Malharia,Outros,Outros,,,outros,false
+318110,Desenhista Tecnico (Cartografia),Outros,Outros,,,outros,false
+318310,"Desenhista Tecnico (Calefacao, Ventilacao e Refrigeracao)",Outros,Outros,,,outros,false
+321205,Tecnico em Madeira,Outros,Outros,,,outros,false
+325105,Auxiliar Tecnico em Laboratorio de Farmacia,Outros,Outros,,,outros,false
+341230,Piloto Fluvial,Outros,Outros,,,outros,false
+342555,Fiscal De Pista De Aeroporto,Outros,Outros,,,outros,false
+351720,Assistente Tecnico de Seguros,Outros,Outros,,,outros,false
+353230,Tesoureiro de Banco,Outros,Outros,,,outros,false
+354415,Avaliador de Bens Moveis,Outros,Outros,,,outros,false
+354605,Corretor de Imoveis,Outros,Outros,,,outros,false
+354815,Agente de Viagem,Outros,Outros,,,outros,false
+371305,Tecnico em Programacao Visual,Outros,Outros,,,outros,false
+395110,Tecnico de Apoio em Pesquisa e Desenvolvimento Agropecuario Florestal,Engenharia e P&D,Técnico,,herdada da família 3951,heranca,false
+420125,Supervisor de Recepcionistas,Outros,Outros,,,outros,false
+421305,Cobrador Externo,Outros,Outros,,,outros,false
+511110,Comissario de Trem,Outros,Outros,,,outros,false
+515310,Agente de Ação Social,Outros,Outros,,,outros,false
+516340,Atendente de Lavanderia,Serviços de apoio,Qualificação até 200h,,herdada da família 5163,heranca,false
+524205,Feirante,Outros,Outros,,,outros,false
+612505,Produtor de Arvores Frutiferas,Outros,Outros,,,outros,false
+622310,Trabalhador na Olericultura (Legumes),Outros,Outros,,,outros,false
+622420,Trabalhador no Cultivo de Mudas,Outros,Outros,,,outros,false
+631315,Criador de Mexilhoes,Outros,Outros,,,outros,false
+711125,Escorador de Minas,Outros,Outros,,,outros,false
+712135,Operador de Peneiras Hidraulicas,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7121,heranca,false
+724605,Operador de Lacos de Cabos de Aco,Outros,Outros,,,outros,false
+732115,"Examinador de Cabos, Linhas Eletricas e Telefonicas",Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7321,heranca,false
+761255,Operador de Penteadeira,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7612,heranca,false
+763005,Alfaiate,"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7630,heranca,false
+766210,Impressor Calcografico,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+768605,Tipografo,Outros,Outros,,,outros,false
+773310,Operador de Entalhadeira (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+773350,Operador de Tupia (Usinagem de Madeira),Madeira e móveis,Qualificação acima de 200h,,herdada da família 7733,heranca,false
+782210,Operador de Docagem,Logística e movimentação,Qualificação acima de 200h,,herdada da família 7822,heranca,false
+782320,Condutor de Ambulancia,Logística e movimentação,Qualificação até 200h,,herdada da família 7823,heranca,false
+810105,Mestre (Industria Petroquimica e Carboquimica),Outros,Outros,,,outros,false
+811320,Operador de Filtro de Tambor Rotativo (Tratamentos Quimicos e Afins),Outros,Outros,,,outros,false
+821255,Soprador de Convertedor,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+841460,Operador de Preparacao de Graos Vegetais (Oleos e Gorduras),Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+841472,Refinador de Oleo e Gordura,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+919305,Mecanico de Manutencao de Aparelhos Esportivos e de Ginastica,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9193,heranca,false
+123405,Diretor de Suprimentos,Outros,Outros,,,outros,false
+123605,Diretor de Servicos de Informatica,Outros,Outros,,,outros,false
+141120,Gerente de Producao e Operacoes Pesqueiras,Outros,Outros,,,outros,false
+142140,(sem título no dicionário),"Gestão, administrativo e comercial",Superior,,herdada da família 1421,heranca,false
+142345,Profissional de Relacoes Institucionais e Governamentais,"Gestão, administrativo e comercial",Superior,,herdada da família 1423,heranca,false
+203125,Pesquisador em Quimica,Outros,Outros,,,outros,false
+211205,Estatistico,Outros,Outros,,,outros,false
+213405,Geologo,Outros,Outros,,,outros,false
+214705,Engenheiro de Minas,Outros,Outros,,,outros,false
+223420,Farmaceutico de Alimentos,Outros,Outros,,,outros,false
+223705,Dietista,Outros,Outros,,,outros,false
+224135,Treinador Profissional de Futebol,Outros,Outros,,,outros,false
+233225,Professor Instrutor de Ensino e Aprendizagem em Servicos,Outros,Outros,,,outros,false
+251105,Antropologo,Outros,Outros,,,outros,false
+251210,Economista Agroindustrial,"Gestão, administrativo e comercial",Superior,,herdada da família 2512,heranca,false
+252320,Tecnólogo em Secretariado Escolar,"Gestão, administrativo e comercial",Superior,,herdada da família 2523,heranca,false
+254405,Fiscal de Tributos Estadual,Outros,Outros,,,outros,false
+254415,Tecnico de Tributos Estadual,Outros,Outros,,,outros,false
+311510,Tecnico de Meteorologia,Outros,Outros,,,outros,false
+311725,Tingidor de Couros e Peles,"Têxtil, confecção e calçados",Técnico,,herdada da família 3117,heranca,false
+314730,Tecnico de Refratario em Siderurgia,Outros,Outros,,,outros,false
+318410,Desenhista Tecnico (Ilustracoes Artisticas),"Têxtil, confecção e calçados",Técnico,,herdada da família 3184,heranca,false
+322235,Auxiliar de Enfermagem do Trabalho,Outros,Outros,,,outros,false
+322405,Tecnico em Saude Bucal,Qualidade e controle,Técnico,,herdada da família 3224,heranca,false
+325010,Aromista,Outros,Outros,,,outros,false
+341205,Contramestre de Cabotagem,Outros,Outros,,,outros,false
+341210,Mestre de Cabotagem,Outros,Outros,,,outros,false
+342205,Ajudante de Despachante Aduaneiro,Outros,Outros,,,outros,false
+372205,Operador de Rede de Teleprocessamento,Outros,Outros,,,outros,false
+412105,Datilografo,Outros,Outros,,,outros,false
+415310,Analista De Informação Em Saúde,Outros,Outros,,,outros,false
+424115,Entrevistador de Pesquisas de Mercado,Outros,Outros,,,outros,false
+512110,Empregado Domestico  Arrumador,Outros,Outros,,,outros,false
+512120,Empregado Domestico Diarista,Outros,Outros,,,outros,false
+612615,Produtor de Erva-Mate,Outros,Outros,,,outros,false
+623115,Trabalhador da Pecuaria (Bovinos Leite),Outros,Outros,,,outros,false
+643015,Trabalhador na Operacao de Sistemas Convencionais de Irrigacao por Aspersao,Outros,Outros,,,outros,false
+710110,Supervisor de Extracao de Sal,Outros,Outros,,,outros,false
+711235,Operador de Motoniveladora (Extracao de Minerais Solidos),Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+712130,Operador de Jig (Minas),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7121,heranca,false
+715520,Carpinteiro (Mineracao),Construção,Qualificação acima de 200h,,herdada da família 7155,heranca,false
+716205,Telhador (Telhas de Argila e Materias Similares),Outros,Outros,,,outros,false
+722410,Estirador de Tubos de Metal sem Costura,Outros,Outros,,,outros,false
+725315,Montador de Maquinas de Minas e Pedreiras,Outros,Outros,,,outros,false
+751130,Trefilador (Joalheria e Ourivesaria),Outros,Outros,,,outros,false
+760205,Supervisor de Curtimento,Outros,Outros,,,outros,false
+761110,Lavador de La,Outros,Outros,,,outros,false
+762305,Estirador de Couros e Peles (Acabamento),Outros,Outros,,,outros,false
+765315,Montador de Artefatos de Couro (Exceto Roupas e Calcados),Outros,Outros,,,outros,false
+768120,Redeiro,Outros,Outros,,,outros,false
+783110,Manobrador,Outros,Outros,,,outros,false
+811120,Operador de Concentracao,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 8111,heranca,false
+821420,"Operador de Bobinadeira de Tiras a Quente, no Acabamento de Chapas e Metais",Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8214,heranca,false
+822105,Forneiro de Cubilo,Outros,Outros,,,outros,false
+823120,Preparador de Barbotina,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+823135,Operador de Atomizador,"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 8231,heranca,false
+823330,Trabalhador da Fabricacao de Pedras Artificiais,"Cerâmica, vidro e minerais",Qualificação até 200h,,herdada da família 8233,heranca,false
+841416,Cozinhador de Carnes,Alimentos e bebidas,Qualificação até 200h,,herdada da família 8414,heranca,false
+862105,Foguista (Locomotivas a Vapor),Operação de linha e montagem,Qualificação até 200h,,herdada da família 8621,heranca,false
+950205,Encarregado de Manutencao Eletrica de Veiculos,Outros,Outros,,,outros,false
+122615,Diretor de Operacoes de Servicos de Telecomunicacoes,Outros,Outros,,,outros,false
+122705,Diretor Comercial em Operacoes de Intermediacao Financeira,Outros,Outros,,,outros,false
+131315,Gerente de Instituicao Educacional da Area Privada,Outros,Outros,,,outros,false
+201220,Especialista em Instrumentacao Metrologica,Outros,Outros,,,outros,false
+201225,Especialista em Materiais de Referencia Metrologica,Outros,Outros,,,outros,false
+202115,Tecnologo em Mecatronica,Outros,Outros,,,outros,false
+213315,Meteorologista,Outros,Outros,,,outros,false
+214250,Engenheiro Civil (Portos e Vias Navegaveis),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214345,Engenheiro Projetista de Telecomunicacoes,Outros,Outros,,,outros,false
+214510,Engenheiro Quimico (Industria Quimica),Outros,Outros,,,outros,false
+214720,Engenheiro de Minas (Lavra Subterranea),Outros,Outros,,,outros,false
+214735,Engenheiro de Minas (Processo),Outros,Outros,,,outros,false
+223425,Farmaceutico Praticas Integrativas e Complementares,Outros,Outros,,,outros,false
+223660,Fisioterapeuta  do Trabalho,Outros,Outros,,,outros,false
+225225,Médico Cirurgião Geral,Outros,Outros,,,outros,false
+225230,Médico Cirurgião Pediátrico,Outros,Outros,,,outros,false
+233120,Professor de Tecnicas Comerciais e Secretariais,Outros,Outros,,,outros,false
+239405,Coordenador Pedagogico,Outros,Outros,,,outros,false
+242905,Oficial de Inteligencia,Outros,Outros,,,outros,false
+252550,Profissional de Relações com Investidores,"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+253130,Diretor de Criacao,Outros,Outros,,,outros,false
+261125,Jornalista,Outros,Outros,,,outros,false
+261410,Interprete,Outros,Outros,,,outros,false
+262230,Diretor de Producao,Outros,Outros,,,outros,false
+263105,Ministro de Culto Religioso,Outros,Outros,,,outros,false
+301205,Tecnico de Apoio À Bioengenharia,Outros,Outros,,,outros,false
+311115,Tecnico em Curtimento,Engenharia e P&D,Técnico,,herdada da família 3111,heranca,false
+311205,Tecnico em Petroquimica,Outros,Outros,,,outros,false
+312310,Tecnico em Geodesia e Cartografia,Construção,Técnico,,herdada da família 3123,heranca,false
+314810,Inspetor De Fabricação,Outros,Outros,,,outros,false
+318210,Desenhista Tecnico Aeronautico,Metalmecânica e soldagem,Técnico,,herdada da família 3182,heranca,false
+342540,Supervisor da Administracao de Aeroportos,Outros,Outros,,,outros,false
+351725,Inspetor de Risco,Outros,Outros,,,outros,false
+352320,Agente Fiscal Textil,Outros,Outros,,,outros,false
+353215,Tecnico de Operacoes e Servicos Bancarios - Credito Rural,Outros,Outros,,,outros,false
+354805,Tecnico em Turismo,Outros,Outros,,,outros,false
+373145,Assistente de Operacoes Audiovisuais,Outros,Outros,,,outros,false
+374120,Projetista de Som,Outros,Outros,,,outros,false
+411015,Atendente de Judiciario,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+422220,Operador de Radio-Chamada,Outros,Outros,,,outros,false
+513115,Governanta de Hotelaria,Outros,Outros,,,outros,false
+513310,Camareira de Televisao,Outros,Outros,,,outros,false
+513410,Garcom (Servicos de Vinhos),Alimentos e bebidas,Qualificação até 200h,,herdada da família 5134,heranca,false
+515220,Auxiliar de Laboratorio de Imunobiologicos,"Plástico, borracha e química",Qualificação até 200h,,herdada da família 5152,heranca,false
+516410,"Limpador de Roupas a Seco, À Mao","Têxtil, confecção e calçados",Qualificação até 200h,,herdada da família 5164,heranca,false
+517405,Porteiro (Hotel),Serviços de apoio,Qualificação até 200h,,herdada da família 5174,heranca,false
+519305,Auxiliar de Veterinario,Outros,Outros,,,outros,false
+524215,Vendedor  Permissionario,Outros,Outros,,,outros,false
+613405,Apicultor,Outros,Outros,,,outros,false
+622405,Trabalhador no Cultivo de Flores e Folhagens de Corte,Outros,Outros,,,outros,false
+622425,Trabalhador no Cultivo de Plantas Ornamentais,Outros,Outros,,,outros,false
+630105,Supervisor da Aquicultura,Outros,Outros,,,outros,false
+631420,Redeiro (Pesca),Outros,Outros,,,outros,false
+632015,Viveirista Florestal,Outros,Outros,,,outros,false
+710210,Mestre de Linhas (Ferrovias),Construção,Qualificação acima de 200h,,herdada da família 7102,heranca,false
+711240,Operador de Schutthecar,Construção,Qualificação acima de 200h,,herdada da família 7112,heranca,false
+711330,Torrista (Petroleo),Construção,Qualificação acima de 200h,,herdada da família 7113,heranca,false
+716220,Telhador (Telhas Platicas),Outros,Outros,,,outros,false
+720220,Mestre de Construcao de Fornos,Outros,Outros,,,outros,false
+722405,Cableador,Outros,Outros,,,outros,false
+723115,Operador de Equipamento para Resfriamento,Outros,Outros,,,outros,false
+732135,Ligador de Linhas Telefonicas,Eletroeletrônica e automação,Qualificação acima de 200h,,herdada da família 7321,heranca,false
+740105,Supervisor da Mecanica de Precisao,Outros,Outros,,,outros,false
+751005,Engastador (Joias),Outros,Outros,,,outros,false
+751015,Joalheiro (Reparacoes),Outros,Outros,,,outros,false
+751020,Lapidador (Joias),Outros,Outros,,,outros,false
+752310,Ceramista (Torno de Pedal e Motor),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7523,heranca,false
+762315,Lixador de Couros e Peles,Outros,Outros,,,outros,false
+768130,"Crocheteiro, a  Mao",Outros,Outros,,,outros,false
+776425,Esteireiro,Outros,Outros,,,outros,false
+777105,Carpinteiro Naval (Construcao de Pequenas Embarcacoes),Outros,Outros,,,outros,false
+783205,Carregador (Aeronaves),Logística e movimentação,Qualificação até 200h,,herdada da família 7832,heranca,false
+841610,Torrador de Cafe,Outros,Outros,,,outros,false
+910910,Supervisor de Manutencao de Vias Ferreas,Outros,Outros,,,outros,false
+913125,(sem título no dicionário),Outros,Outros,,,outros,false
+954305,Reparador de Equipamentos de Escritorio,Outros,Outros,,,outros,false
+114205,Dirigentes de Entidades de Trabalhadores,Outros,Outros,,,outros,false
+122725,Diretor de Compliance,Outros,Outros,,,outros,false
+131105,Diretor de Servicos Culturais,Outros,Outros,,,outros,false
+131210,Gerente de Servicos de Saude,Outros,Outros,,,outros,false
+141525,Gerente de Turismo,Outros,Outros,,,outros,false
+141705,Gerente de Produtos Bancarios,Outros,Outros,,,outros,false
+141815,Gerente De Operações Em Aeroportos,Outros,Outros,,,outros,false
+141820,Gerente De Operações De Cargas,Outros,Outros,,,outros,false
+141825,Gerente De Segurança Da Aviação Civil,Outros,Outros,,,outros,false
+142525,Gerente de Seguranca de Tecnologia da Informacao,Outros,Outros,,,outros,false
+201210,Especialista em Calibracoes Metrologicas,Outros,Outros,,,outros,false
+201215,Especialista em Ensaios Metrologicos,Outros,Outros,,,outros,false
+203505,Pesquisador em Ciencias Sociais e Humanas,Outros,Outros,,,outros,false
+203525,Pesquisador em Psicologia,Outros,Outros,,,outros,false
+211105,Atuario,Outros,Outros,,,outros,false
+211215,Estatistico Teorico,Outros,Outros,,,outros,false
+213440,Oceanógrafo,Outros,Outros,,,outros,false
+214230,Engenheiro Civil (Geotecnia),Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214280,Tecnólogo em Construção Civil,Engenharia e P&D,Superior,,herdada da família 2142,heranca,false
+214340,Engenheiro de Telecomunicacoes,Outros,Outros,,,outros,false
+214350,Engenheiro de Redes de Comunicacao,Outros,Outros,,,outros,false
+214370,Tecnólogo em Telecomunicações,Outros,Outros,,,outros,false
+214530,Engenheiro Quimico (Utilidades e Meio Ambiente),Outros,Outros,,,outros,false
+215150,Vistoriador Naval,Outros,Outros,,,outros,false
+221205,Biomédico,Outros,Outros,,,outros,false
+223310,Zootecnista,Outros,Outros,,,outros,false
+223820,Fonoaudiologo em Audiologia,Outros,Outros,,,outros,false
+224125,Tecnico de Desporto Individual e Coletivo (Exceto Futebol),Outros,Outros,,,outros,false
+224140,Profissional De Educação Física Na Saúde,Outros,Outros,,,outros,false
+225124,Médico Pediatra,Outros,Outros,,,outros,false
+239435,Designer Educacional,Outros,Outros,,,outros,false
+251305,Geografo,Outros,Outros,,,outros,false
+252510,Analista de Cambio,"Gestão, administrativo e comercial",Superior,,herdada da família 2525,heranca,false
+254205,Auditor-Fiscal da Previdencia Social,Outros,Outros,,,outros,false
+261115,Diretor de Redacao,Outros,Outros,,,outros,false
+262110,Produtor Cinematografico,Outros,Outros,,,outros,false
+262135,Tecnólogo em Produção Audiovisual,Outros,Outros,,,outros,false
+271110,Tecnólogo em Gastronomia,Outros,Outros,,,outros,false
+316305,Tecnico de Mineracao,Outros,Outros,,,outros,false
+322120,Massoterapeuta,Outros,Outros,,,outros,false
+322210,Tecnico de Enfermagem de Terapia Intensiva,Outros,Outros,,,outros,false
+322220,Tecnico de Enfermagem Psiquiatrica,Outros,Outros,,,outros,false
+324205,Tecnico em Patologia Clinica,Outros,Outros,,,outros,false
+325115,Técnico em Farmácia,Outros,Outros,,,outros,false
+325210,Técnico em Nutrição e Dietética,Outros,Outros,,,outros,false
+328105,Embalsamador,Outros,Outros,,,outros,false
+333110,Instrutor de Cursos Livres,Outros,Outros,,,outros,false
+341305,Condutor Maquinista Fluvial,Outros,Outros,,,outros,false
+342215,Analista de Desembaraco Aduaneiro,Outros,Outros,,,outros,false
+351425,Oficial de Justica,Outros,Outros,,,outros,false
+351730,Inspetor de Sinistros,Outros,Outros,,,outros,false
+351910,Agente Tecnico de Inteligencia,Outros,Outros,,,outros,false
+373130,Tecnico de Sistemas Audiovisuais,Outros,Outros,,,outros,false
+374135,Projetista de Sistemas de Audio,Outros,Outros,,,outros,false
+374305,Operador de Projetor Cinematografico,Outros,Outros,,,outros,false
+374310,Operador-Mantenedor de Projetor Cinematografico,Outros,Outros,,,outros,false
+374415,Finalizador de Video,Outros,Outros,,,outros,false
+375120,Decorador de Eventos,Outros,Outros,,,outros,false
+376410,Modelo de Modas,Outros,Outros,,,outros,false
+377215,Arbitro de Basquete,Outros,Outros,,,outros,false
+410210,Supervisor de Cambio,"Gestão, administrativo e comercial",Superior,,herdada da família 4102,heranca,false
+411025,Auxiliar de Cartorio,"Gestão, administrativo e comercial",Qualificação acima de 200h,,herdada da família 4110,heranca,false
+413220,Conferente de Servicos Bancarios,Outros,Outros,,,outros,false
+415215,Entregador de Publicacoes,Outros,Outros,,,outros,false
+422130,Concierge,"Gestão, administrativo e comercial",Qualificação até 200h,,herdada da família 4221,heranca,false
+422210,Teleoperador,Outros,Outros,,,outros,false
+424120,Entrevistador de Precos,Outros,Outros,,,outros,false
+510120,Chefe de Portaria de Hotel,Outros,Outros,,,outros,false
+511215,Cobrador de Transportes Coletivos (Exceto Trem),Outros,Outros,,,outros,false
+513105,Mordomo de Residencia,Outros,Outros,,,outros,false
+516205,Baba,Outros,Outros,,,outros,false
+517120,Brigadista Florestal,Outros,Outros,,,outros,false
+517320,Vigia Florestal,Outros,Outros,,,outros,false
+519945,Recepcionista de Casas de Espetaculos,Outros,Outros,,,outros,false
+524210,Jornaleiro (Em Banca de Jornal),Outros,Outros,,,outros,false
+612125,Produtor de Milho e Sorgo,Outros,Outros,,,outros,false
+612320,Produtor na Olericultura de Frutos e Sementes,Outros,Outros,,,outros,false
+622105,Trabalhador da Cultura de Arroz,Outros,Outros,,,outros,false
+622305,Trabalhador na Olericultura (Frutos e Sementes),Outros,Outros,,,outros,false
+622620,Trabalhador da Cultura de Fumo,Outros,Outros,,,outros,false
+623105,Trabalhador da Pecuaria (Asininos e Muares),Outros,Outros,,,outros,false
+623125,Trabalhador da Pecuaria (Equinos),Outros,Outros,,,outros,false
+632410,Trabalhador da Exploracao de Castanha,Outros,Outros,,,outros,false
+632505,"Trabalhador da Exploracao de Arvores e Arbustos Produtores de Substancias Aromat., Medic. e Toxicas",Outros,Outros,,,outros,false
+632605,Carvoeiro,Outros,Outros,,,outros,false
+711315,Sondador (Pocos de Petroleo e Gas),Construção,Qualificação acima de 200h,,herdada da família 7113,heranca,false
+711325,Plataformista (Petroleo),Construção,Qualificação acima de 200h,,herdada da família 7113,heranca,false
+722210,Lingotador,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 7222,heranca,false
+725320,Montador de Maquinas de Terraplenagem,Outros,Outros,,,outros,false
+752120,Transformador de Tubos de Vidro,Outros,Outros,,,outros,false
+752315,Ceramista (Torno Semi-Automatico),"Cerâmica, vidro e minerais",Qualificação acima de 200h,,herdada da família 7523,heranca,false
+752425,Operador de Espelhamento,Outros,Outros,,,outros,false
+761342,Tecelao de Meias (Maquina Retilinea),"Têxtil, confecção e calçados",Qualificação acima de 200h,,herdada da família 7613,heranca,false
+762120,Fuloneiro,Outros,Outros,,,outros,false
+762215,Enxugador de Couros,Outros,Outros,,,outros,false
+766240,Impressor Letterset,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 7662,heranca,false
+768115,"Tricoteiro, À Mao",Outros,Outros,,,outros,false
+768610,Linotipista,Outros,Outros,,,outros,false
+777205,Carpinteiro de Carretas,Outros,Outros,,,outros,false
+781310,Operador De Aeronaves Não Tripuladas,Outros,Outros,,,outros,false
+781705,Mergulhador Profissional (Raso e Profundo),Outros,Outros,,,outros,false
+782815,Boiadeiro,Outros,Outros,,,outros,false
+820115,Mestre de Alto-Forno,Outros,Outros,,,outros,false
+821225,Forneiro e Operador de Forno de Reducao Direta,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+821240,Operador de Aciaria (Recebimento de Gusa),Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8212,heranca,false
+821325,Operador de Laminador de Tubos,Metalmecânica e soldagem,Qualificação acima de 200h,,herdada da família 8213,heranca,false
+840115,Supervisor da Industria de Fumo,Alimentos e bebidas,Superior,,herdada da família 8401,heranca,false
+841705,Alambiqueiro,Outros,Outros,,,outros,false
+841715,Fermentador,Outros,Outros,,,outros,false
+911125,Mecanico de Manutencao de Redutores,Outros,Outros,,,outros,false
+914110,Mecanico de Manutencao de Sistema Hidraulico de Aeronaves (Servicos de Pista e Hangar),Outros,Outros,,,outros,false
+915110,Tecnico em Manutencao de Hidrometros,Outros,Outros,,,outros,false
+954110,Eletromecanico de Manutencao de Escadas Rolantes,Manutenção industrial,Qualificação acima de 200h,,herdada da família 9541,heranca,false
+991120,Soldador Aluminotermico em Conservacao de Trilhos,Outros,Outros,,,outros,false
+991205,Mantenedor de Equipamentos de Parques de Diversoes e Similares,Outros,Outros,,,outros,false
+992110,Balanceador,"Plástico, borracha e química",Qualificação acima de 200h,,herdada da família 9921,heranca,false

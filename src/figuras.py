@@ -33,6 +33,7 @@ def main() -> list[Path]:
     if (cfg.PROCESSED / "kpis_microrregiao.csv").exists() and cfg.GEOJSON_MICRO.exists():
         mic = pl.read_csv(cfg.PROCESSED / "kpis_microrregiao.csv", schema_overrides={"cod_microrregiao": pl.Utf8})
         figs["04_mapa_microrregioes"] = g.mapa_microrregioes(mic, cfg.GEOJSON_MICRO, segmento)
+        figs["05_mapa_saldo_microrregioes"] = g.mapa_microrregioes(mic, cfg.GEOJSON_MICRO, segmento, "kpi2")
     saidas = []
     for nome, fig in figs.items():
         p = cfg.FIGURES / f"{nome}.png"

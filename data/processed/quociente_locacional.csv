@@ -1,0 +1,258 @@
+cod_microrregiao,microrregiao,grupo_setorial,mov_sr,mov_r,mov_s,ql,polo
+42013,Itajaí,Eletroeletrônica,2760,146575,42338,0.5068551424403113,false
+42015,Tijucas,Química e farmacêutica,398,33736,16391,0.8202553095161,false
+42008,Joinville,Outras da transformação,2176,178475,15550,0.8935443715040206,false
+42009,Curitibanos,Utilidades,200,14660,26228,0.5927831726859083,false
+42012,Blumenau,Minerais não metálicos e cerâmica,3498,181895,33492,0.6543693932273127,false
+42012,Blumenau,Madeira e móveis,3858,181895,78864,0.3064980231868469,false
+42003,Xanxerê,Alimentos e bebidas,9881,20471,182711,3.0106631223486686,true
+42012,Blumenau,Química e farmacêutica,2194,181895,16391,0.8386397209018004,false
+42009,Curitibanos,"Têxtil, confecção e calçados",170,14660,195178,0.06770942163166495,false
+42002,Chapecó,Utilidades,2560,91864,26228,1.2108614559366597,false
+42015,Tijucas,Madeira e móveis,732,33736,78864,0.3135477644900485,false
+42002,Chapecó,Química e farmacêutica,911,91864,16391,0.689497334107833,false
+42017,Tabuleiro,Utilidades,8,1211,26228,0.28704215727747034,false
+42008,Joinville,"Têxtil, confecção e calçados",27781,178475,195178,0.908876002895133,false
+42009,Curitibanos,Extrativa,90,14660,5476,1.2776447541896825,false
+42001,São Miguel do Oeste,Eletroeletrônica,40,21936,42338,0.04908369307761487,false
+42006,Canoinhas,"Papel, celulose e gráfica",2657,24596,27488,4.478668769562935,true
+42018,Tubarão,Minerais não metálicos e cerâmica,3021,66796,33492,1.5389489128639704,true
+42011,Rio do Sul,Madeira e móveis,6746,42963,78864,2.2690180623272838,true
+42007,São Bento do Sul,"Têxtil, confecção e calçados",2008,27015,195178,0.4340031579861685,false
+42010,Campos de Lages,Utilidades,469,20948,26228,0.9728146875904311,false
+42003,Xanxerê,Plástico e borracha,1653,20471,65547,1.4039317390927208,true
+42008,Joinville,Extrativa,661,178475,5476,0.7707714965204657,false
+42011,Rio do Sul,"Têxtil, confecção e calçados",13566,42963,195178,1.843704714880074,true
+42004,Joaçaba,Química e farmacêutica,281,63391,16391,0.30820400876603354,false
+42015,Tijucas,Utilidades,240,33736,26228,0.3091131602410036,false
+42017,Tabuleiro,Metalmecânica,22,1211,178307,0.11611148007622868,false
+42003,Xanxerê,Extrativa,36,20471,5476,0.36598646077711383,false
+42009,Curitibanos,Minerais não metálicos e cerâmica,238,14660,33492,0.5524168545716931,false
+42001,São Miguel do Oeste,Utilidades,102,21936,26228,0.20204242655468005,false
+42007,São Bento do Sul,Plástico e borracha,2015,27015,65547,1.2968276919355863,true
+42006,Canoinhas,Alimentos e bebidas,3963,24596,182711,1.0049857640514215,false
+42004,Joaçaba,Utilidades,1844,63391,26228,1.2639594909801917,true
+42001,São Miguel do Oeste,Minerais não metálicos e cerâmica,478,21936,33492,0.7414713812362562,false
+42015,Tijucas,"Têxtil, confecção e calçados",10450,33736,195178,1.8086596733296212,true
+42008,Joinville,Utilidades,3729,178475,26228,0.907851539175367,false
+42014,Ituporanga,Construção,2144,9807,272063,0.9157652077403762,false
+42016,Florianópolis,Eletroeletrônica,3474,80844,42338,1.1566892479812494,false
+42006,Canoinhas,Metalmecânica,2134,24596,178307,0.5545319251144232,false
+42017,Tabuleiro,Outras da transformação,3,1211,15550,0.18155647189083984,false
+42015,Tijucas,Extrativa,120,33736,5476,0.7402684410884809,false
+42016,Florianópolis,"Papel, celulose e gráfica",921,80844,27488,0.47231714551830345,false
+42018,Tubarão,Outras da transformação,825,66796,15550,0.9051865987700902,false
+42001,São Miguel do Oeste,"Têxtil, confecção e calçados",1198,21936,195178,0.3188845907618981,false
+42013,Itajaí,Plástico e borracha,1516,146575,65547,0.1798255906829498,false
+42011,Rio do Sul,"Papel, celulose e gráfica",903,42963,27488,0.8713949228031908,false
+42002,Chapecó,Madeira e móveis,5886,91864,78864,0.9258936841205734,false
+42005,Concórdia,Plástico e borracha,167,22844,65547,0.12710320938926048,false
+42012,Blumenau,Outras da transformação,3847,181895,15550,1.550015525546566,true
+42010,Campos de Lages,Alimentos e bebidas,2324,20948,182711,0.6919805385401027,false
+42011,Rio do Sul,Química e farmacêutica,50,42963,16391,0.08091610533241105,false
+42014,Ituporanga,Utilidades,21,9807,26228,0.09304284059502586,false
+42010,Campos de Lages,Minerais não metálicos e cerâmica,338,20948,33492,0.5490325198512973,false
+42019,Criciúma,Plástico e borracha,6618,70292,65547,1.636941124617357,true
+42016,Florianópolis,Metalmecânica,7666,80844,178307,0.6060628236795843,false
+42002,Chapecó,Metalmecânica,11335,91864,178307,0.7886290959215237,false
+42013,Itajaí,Alimentos e bebidas,14451,146575,182711,0.6149478962167907,false
+42007,São Bento do Sul,"Papel, celulose e gráfica",1200,27015,27488,1.8416120522875987,true
+42006,Canoinhas,Eletroeletrônica,250,24596,42338,0.2735962888657098,false
+42018,Tubarão,"Têxtil, confecção e calçados",5341,66796,195178,0.4668810801371544,false
+42016,Florianópolis,Utilidades,3163,80844,26228,1.7000090760299489,true
+42015,Tijucas,Outras da transformação,141,33736,15550,0.30630927527302976,false
+42019,Criciúma,Utilidades,2387,70292,26228,1.4755242794863224,true
+42002,Chapecó,Eletroeletrônica,3632,91864,42338,1.0642291880892496,false
+42002,Chapecó,Minerais não metálicos e cerâmica,1792,91864,33492,0.6637684219041772,false
+42006,Canoinhas,Utilidades,680,24596,26228,1.2012800642119212,false
+42020,Araranguá,Plástico e borracha,183,19314,65547,0.16473696468440963,false
+42010,Campos de Lages,"Papel, celulose e gráfica",1751,20948,27488,3.465496425138205,true
+42013,Itajaí,Construção,82178,146575,272063,2.348503427901132,true
+42005,Concórdia,Alimentos e bebidas,12596,22844,182711,3.439226847899408,true
+42006,Canoinhas,"Têxtil, confecção e calçados",1215,24596,195178,0.28843366380976654,false
+42004,Joaçaba,Extrativa,200,63391,5476,0.6566046738643496,false
+42019,Criciúma,Eletroeletrônica,699,70292,42338,0.26767385479643535,false
+42013,Itajaí,Extrativa,384,146575,5476,0.545221406183832,false
+42004,Joaçaba,Alimentos e bebidas,19335,63391,182711,1.9024659625736706,true
+42009,Curitibanos,Outras da transformação,21,14660,15550,0.1049832341213267,false
+42011,Rio do Sul,Minerais não metálicos e cerâmica,1800,42963,33492,1.4256136322144926,true
+42009,Curitibanos,Construção,1649,14660,272063,0.47117497823549503,false
+42011,Rio do Sul,Alimentos e bebidas,6910,42963,182711,1.0031913292685748,false
+42012,Blumenau,Construção,27026,181895,272063,0.6223813138581019,false
+42005,Concórdia,"Têxtil, confecção e calçados",164,22844,195178,0.041918511197100064,false
+42016,Florianópolis,Extrativa,525,80844,5476,1.3514907793089697,false
+42017,Tabuleiro,Plástico e borracha,39,1211,65547,0.5599286129454175,false
+42020,Araranguá,Extrativa,162,19314,5476,1.745598517839771,false
+42016,Florianópolis,Alimentos e bebidas,12577,80844,182711,0.9703526347883364,false
+42005,Concórdia,"Papel, celulose e gráfica",446,22844,27488,0.8094398499342302,false
+42006,Canoinhas,Química e farmacêutica,434,24596,16391,1.2268311976695618,false
+42018,Tubarão,Metalmecânica,11000,66796,178307,1.0525405890495907,false
+42014,Ituporanga,Eletroeletrônica,82,9807,42338,0.22506727615668887,false
+42006,Canoinhas,Outras da transformação,279,24596,15550,0.8313317016491323,false
+42007,São Bento do Sul,Eletroeletrônica,169,27015,42338,0.16839004408499408,false
+42014,Ituporanga,Alimentos e bebidas,356,9807,182711,0.22641966556942944,false
+42013,Itajaí,Outras da transformação,859,146575,15550,0.42950466388759856,false
+42013,Itajaí,Utilidades,3352,146575,26228,0.9936740507044446,false
+42003,Xanxerê,Construção,2143,20471,272063,0.438509136598954,false
+42011,Rio do Sul,Construção,2704,42963,272063,0.26363776524478505,false
+42015,Tijucas,Alimentos e bebidas,2535,33736,182711,0.46868893169724885,false
+42017,Tabuleiro,Química e farmacêutica,5,1211,16391,0.28706842554883366,false
+42017,Tabuleiro,Minerais não metálicos e cerâmica,50,1211,33492,1.4049141774665392,false
+42015,Tijucas,Eletroeletrônica,70,33736,42338,0.055852051513619855,false
+42012,Blumenau,Metalmecânica,20697,181895,178307,0.7272492162310825,false
+42002,Chapecó,Plástico e borracha,2473,91864,65547,0.4680486119488717,false
+42014,Ituporanga,Outras da transformação,15,9807,15550,0.11209589449363061,false
+42015,Tijucas,"Papel, celulose e gráfica",664,33736,27488,0.816011662355072,false
+42010,Campos de Lages,Plástico e borracha,133,20948,65547,0.11038784950625942,false
+42010,Campos de Lages,Madeira e móveis,6144,20948,78864,4.238330870830952,true
+42018,Tubarão,Plástico e borracha,8290,66796,65547,2.157825254312597,true
+42009,Curitibanos,Química e farmacêutica,603,14660,16391,2.8598477161500884,false
+42018,Tubarão,Alimentos e bebidas,10970,66796,182711,1.024369156399485,false
+42010,Campos de Lages,Construção,3554,20948,272063,0.7106739427148782,false
+42010,Campos de Lages,Outras da transformação,325,20948,15550,1.1370391513022293,false
+42012,Blumenau,Plástico e borracha,8401,181895,65547,0.8030127124448723,false
+42008,Joinville,Química e farmacêutica,3766,178475,16391,1.4671093714381007,true
+42001,São Miguel do Oeste,Metalmecânica,2094,21936,178307,0.6101208452846779,false
+42010,Campos de Lages,"Têxtil, confecção e calçados",1951,20948,195178,0.5438120882817751,false
+42002,Chapecó,"Papel, celulose e gráfica",1294,91864,27488,0.5839972456816509,false
+42006,Canoinhas,Construção,3923,24596,272063,0.668112131333992,false
+42001,São Miguel do Oeste,Química e farmacêutica,92,21936,16391,0.2916016359158156,false
+42007,São Bento do Sul,Minerais não metálicos e cerâmica,2925,27015,33492,3.6842138638293824,true
+42011,Rio do Sul,Extrativa,68,42963,5476,0.3293941563558852,false
+42012,Blumenau,Eletroeletrônica,7208,181895,42338,1.0666665956808647,false
+42002,Chapecó,"Têxtil, confecção e calçados",5667,91864,195178,0.3601985944944329,false
+42020,Araranguá,Química e farmacêutica,288,19314,16391,1.0367638049271577,false
+42001,São Miguel do Oeste,Plástico e borracha,106,21936,65547,0.08401573380060345,false
+42008,Joinville,Alimentos e bebidas,10084,178475,182711,0.3524161223262323,false
+42008,Joinville,Construção,30589,178475,272063,0.7179321840546007,false
+42003,Xanxerê,"Papel, celulose e gráfica",920,20471,27488,1.863247912703561,false
+42007,São Bento do Sul,Alimentos e bebidas,594,27015,182711,0.13714557353511472,false
+42014,Ituporanga,Madeira e móveis,459,9807,78864,0.6763363445539695,false
+42012,Blumenau,Alimentos e bebidas,10705,181895,182711,0.36708465670654417,false
+42005,Concórdia,Outras da transformação,54,22844,15550,0.1732432137224885,false
+42016,Florianópolis,Outras da transformação,1592,80844,15550,1.4432112085663453,true
+42016,Florianópolis,"Têxtil, confecção e calçados",1829,80844,195178,0.13209916276873548,false
+42002,Chapecó,Outras da transformação,1020,91864,15550,0.8137470797737352,false
+42014,Ituporanga,Extrativa,22,9807,5476,0.4668615230858416,false
+42016,Florianópolis,Construção,39954,80844,272063,2.0701795097423474,true
+42002,Chapecó,Alimentos e bebidas,37111,91864,182711,2.51975100555169,true
+42005,Concórdia,Utilidades,634,22844,26228,1.2059156959242718,false
+42020,Araranguá,Alimentos e bebidas,4285,19314,182711,1.3838178270471855,true
+42020,Araranguá,Madeira e móveis,1579,19314,78864,1.1813976934465895,false
+42004,Joaçaba,Minerais não metálicos e cerâmica,504,63391,33492,0.2705371231662657,false
+42009,Curitibanos,Alimentos e bebidas,2877,14660,182711,1.2240698852853322,false
+42005,Concórdia,Construção,3771,22844,272063,0.6914804639906857,false
+42003,Xanxerê,Eletroeletrônica,23,20471,42338,0.030242901544945137,false
+42002,Chapecó,Extrativa,217,91864,5476,0.49160462385498627,false
+42008,Joinville,Metalmecânica,48385,178475,178307,1.732726343079464,true
+42016,Florianópolis,Minerais não metálicos e cerâmica,2071,80844,33492,0.8716783097611965,false
+42009,Curitibanos,Plástico e borracha,13,14660,65547,0.015417770583831298,false
+42013,Itajaí,Metalmecânica,20942,146575,178307,0.9131768135087458,false
+42006,Canoinhas,Madeira e móveis,8205,24596,78864,4.8205913449969895,true
+42009,Curitibanos,Eletroeletrônica,1,14660,42338,0.0018361185050316505,false
+42003,Xanxerê,Metalmecânica,2687,20471,178307,0.8389290467988082,false
+42017,Tabuleiro,Construção,286,1211,272063,0.9892758876193285,false
+42011,Rio do Sul,Utilidades,649,42963,26228,0.6563718375360711,false
+42001,São Miguel do Oeste,"Papel, celulose e gráfica",149,21936,27488,0.2816117071362856,false
+42007,São Bento do Sul,Química e farmacêutica,267,27015,16391,0.6871726338085008,false
+42012,Blumenau,Utilidades,3220,181895,26228,0.7691923423753494,false
+42010,Campos de Lages,Eletroeletrônica,19,20948,42338,0.02441438077102902,false
+42001,São Miguel do Oeste,Outras da transformação,111,21936,15550,0.37085160630984965,false
+42007,São Bento do Sul,Metalmecânica,7436,27015,178307,1.759264068178485,true
+42020,Araranguá,Eletroeletrônica,34,19314,42338,0.04738505268965392,false
+42011,Rio do Sul,Outras da transformação,301,42963,15550,0.513459885059252,false
+42005,Concórdia,Minerais não metálicos e cerâmica,466,22844,33492,0.6941250202354948,false
+42007,São Bento do Sul,Outras da transformação,778,27015,15550,2.1106161076405687,false
+42019,Criciúma,Minerais não metálicos e cerâmica,4816,70292,33492,2.3313340772435245,true
+42004,Joaçaba,"Papel, celulose e gráfica",5455,63391,27488,3.5677057340862977,true
+42019,Criciúma,"Têxtil, confecção e calçados",14747,70292,195178,1.2249882779865928,false
+42003,Xanxerê,Outras da transformação,16,20471,15550,0.05728165371105325,false
+42013,Itajaí,"Papel, celulose e gráfica",1122,146575,27488,0.31736192985866457,false
+42017,Tabuleiro,"Papel, celulose e gráfica",1,1211,27488,0.0342355832593927,false
+42001,São Miguel do Oeste,Construção,2743,21936,272063,0.5237980821902941,false
+42013,Itajaí,Madeira e móveis,2775,146575,78864,0.27358312141223384,false
+42017,Tabuleiro,Madeira e móveis,197,1211,78864,2.350760034856649,false
+42003,Xanxerê,"Têxtil, confecção e calçados",653,20471,195178,0.18625514403201543,false
+42003,Xanxerê,Utilidades,731,20471,26228,1.55159424521558,false
+42012,Blumenau,"Têxtil, confecção e calçados",86094,181895,195178,2.7636705955996983,true
+42019,Criciúma,Alimentos e bebidas,10448,70292,182711,0.9271021441449854,false
+42013,Itajaí,"Têxtil, confecção e calçados",12088,146575,195178,0.48153593418752005,false
+42019,Criciúma,Extrativa,957,70292,5476,2.833398204991662,false
+42019,Criciúma,Outras da transformação,438,70292,15550,0.45667036887742324,false
+42011,Rio do Sul,Plástico e borracha,1280,42963,65547,0.5179973849617964,false
+42011,Rio do Sul,Eletroeletrônica,588,42963,42338,0.3683981193783774,false
+42018,Tubarão,Eletroeletrônica,695,66796,42338,0.2800715703367863,false
+42005,Concórdia,Metalmecânica,1556,22844,178307,0.43534550486962736,false
+42014,Ituporanga,Metalmecânica,2897,9807,178307,1.8880302282812396,true
+42006,Canoinhas,Plástico e borracha,243,24596,65547,0.1717726383665541,false
+42015,Tijucas,Metalmecânica,1800,33736,178307,0.3410166160106324,false
+42008,Joinville,Madeira e móveis,3321,178475,78864,0.26889188807726105,false
+42004,Joaçaba,Outras da transformação,663,63391,15550,0.7665148069697175,false
+42018,Tubarão,Construção,16938,66796,272063,1.0622022238164717,false
+42019,Criciúma,Metalmecânica,13342,70292,178307,1.2131420578388585,false
+42020,Araranguá,Utilidades,208,19314,26228,0.4679408389788978,false
+42020,Araranguá,"Papel, celulose e gráfica",224,19314,27488,0.48083676386434204,false
+42007,São Bento do Sul,Extrativa,80,27015,5476,0.6162920878169164,false
+42016,Florianópolis,Madeira e móveis,2641,80844,78864,0.4720704582040383,false
+42003,Xanxerê,Química e farmacêutica,148,20471,16391,0.5026691395072675,false
+42005,Concórdia,Extrativa,59,22844,5476,0.5375036740446428,false
+42013,Itajaí,Minerais não metálicos e cerâmica,3258,146575,33492,0.7563365898025213,false
+42010,Campos de Lages,Química e farmacêutica,321,20948,16391,1.065422915142483,false
+42020,Araranguá,Minerais não metálicos e cerâmica,1120,19314,33492,1.9731937425509127,true
+42018,Tubarão,"Papel, celulose e gráfica",1082,66796,27488,0.6715814302645184,false
+42014,Ituporanga,Plástico e borracha,380,9807,65547,0.6736892515425198,false
+42011,Rio do Sul,Metalmecânica,7398,42963,178307,1.10056665624583,false
+42003,Xanxerê,Minerais não metálicos e cerâmica,270,20471,33492,0.44879565102460484,false
+42016,Florianópolis,Química e farmacêutica,1647,80844,16391,1.4164634479253455,true
+42008,Joinville,Minerais não metálicos e cerâmica,3082,178475,33492,0.5875964694648235,false
+42004,Joaçaba,Metalmecânica,9291,63391,178307,0.9367667786516579,false
+42007,São Bento do Sul,Madeira e móveis,8176,27015,78864,4.373429465014346,true
+42004,Joaçaba,Plástico e borracha,4562,63391,65547,1.2512378552335224,true
+42014,Ituporanga,"Papel, celulose e gráfica",164,9807,27488,0.6933133249361098,false
+42004,Joaçaba,Madeira e móveis,7595,63391,78864,1.7313560584706933,true
+42009,Curitibanos,"Papel, celulose e gráfica",677,14660,27488,1.9145934671530238,false
+42019,Criciúma,"Papel, celulose e gráfica",1408,70292,27488,0.8304598274140924,false
+42005,Concórdia,Química e farmacêutica,139,22844,16391,0.42306024342680465,false
+42012,Blumenau,"Papel, celulose e gráfica",4529,181895,27488,1.0322940730671384,false
+42014,Ituporanga,Minerais não metálicos e cerâmica,1012,9807,33492,3.511302705697813,true
+42005,Concórdia,Eletroeletrônica,68,22844,42338,0.08012562665452423,false
+42008,Joinville,Plástico e borracha,23175,178475,65547,2.2576392625078094,true
+42003,Xanxerê,Madeira e móveis,1310,20471,78864,0.9247374649087433,false
+42014,Ituporanga,"Têxtil, confecção e calçados",2255,9807,195178,1.3425934495324885,true
+42019,Criciúma,Construção,9954,70292,272063,0.5931810519711356,false
+42017,Tabuleiro,Alimentos e bebidas,565,1211,182711,2.910077979094392,false
+42007,São Bento do Sul,Construção,1281,27015,272063,0.19862764418380308,false
+42001,São Miguel do Oeste,Extrativa,98,21936,5476,0.9297586237991494,false
+42016,Florianópolis,Plástico e borracha,2784,80844,65547,0.5987336053262728,false
+42015,Tijucas,Plástico e borracha,1516,33736,65547,0.7812999749334054,false
+42018,Tubarão,Madeira e móveis,4085,66796,78864,0.8837467313184182,false
+42005,Concórdia,Madeira e móveis,2724,22844,78864,1.7231423941027197,true
+42004,Joaçaba,"Têxtil, confecção e calçados",3311,63391,195178,0.3049760469828255,false
+42006,Canoinhas,Minerais não metálicos e cerâmica,500,24596,33492,0.6917186001431042,false
+42020,Araranguá,Metalmecânica,1676,19314,178307,0.5546236831878817,false
+42010,Campos de Lages,Extrativa,112,20948,5476,1.1126973006169367,false
+42013,Itajaí,Química e farmacêutica,890,146575,16391,0.42217223724683944,false
+42008,Joinville,Eletroeletrônica,19805,178475,42338,2.9869787572766264,true
+42004,Joaçaba,Eletroeletrônica,2721,63391,42338,1.155408655946772,false
+42007,São Bento do Sul,Utilidades,86,27015,26228,0.1383226564492848,false
+42004,Joaçaba,Construção,7629,63391,272063,0.5041218784554554,false
+42019,Criciúma,Madeira e móveis,2171,70292,78864,0.4463136184635574,false
+42018,Tubarão,Utilidades,1945,66796,26228,1.2652285728946482,true
+42015,Tijucas,Construção,12817,33736,272063,1.5914328929097452,true
+42010,Campos de Lages,Metalmecânica,3507,20948,178307,1.0700148968868832,false
+42015,Tijucas,Minerais não metálicos e cerâmica,2253,33736,33492,2.272435355856467,true
+42018,Tubarão,Química e farmacêutica,1650,66796,16391,1.717485401851614,true
+42002,Chapecó,Construção,17966,91864,272063,0.8192219447283156,false
+42008,Joinville,"Papel, celulose e gráfica",1921,178475,27488,0.446243443840349,false
+42009,Curitibanos,Madeira e móveis,5679,14660,78864,5.597886827015932,true
+42012,Blumenau,Extrativa,618,181895,5476,0.7070812010340531,false
+42009,Curitibanos,Metalmecânica,2442,14660,178307,1.0646535650291087,false
+42018,Tubarão,Extrativa,954,66796,5476,2.972346910324868,false
+42006,Canoinhas,Extrativa,113,24596,5476,0.9561268981837806,false
+42017,Tabuleiro,"Têxtil, confecção e calçados",35,1211,195178,0.16875554592319078,false
+42020,Araranguá,Outras da transformação,2086,19314,15550,7.915469870580193,true
+42020,Araranguá,"Têxtil, confecção e calçados",4655,19314,195178,1.4072835504311318,true
+42001,São Miguel do Oeste,Alimentos e bebidas,10144,21936,182711,2.8843776719030974,true
+42001,São Miguel do Oeste,Madeira e móveis,4581,21936,78864,3.0177903815553955,true
+42019,Criciúma,Química e farmacêutica,2307,70292,16391,2.281924442965185,true
+42020,Araranguá,Construção,2814,19314,272063,0.6103056631151861,false

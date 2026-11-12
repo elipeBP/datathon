@@ -129,9 +129,13 @@ T1_REFERENCIA_FIESC = {
 
 # ---------------------------------------------------------------- IA (seção 6)
 RODAR_LLM = False
-GEMINI_MODEL = "gemini-3.8-flash"          # Flash mais recente em ai.google.dev (consultado em 10/11/2026)
-GEMINI_MODEL_RESERVA = "gemini-3.5-flash-lite"  # usar se o limite diário do plano gratuito estourar
+# 11/11/2026: o gemini-3.8-flash bateu o limite do plano gratuito (429) após 2 de 8 lotes, sob 503 repetidos.
+# Decisão da equipe: refazer os 8 lotes no modelo reserva, para toda a classificação vir de um só modelo.
+# Os 2 lotes do 3.8 ficam em data/interim/llm_cache/gemini-3.8-flash/ (não usados).
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+GEMINI_MODEL_RESERVA = "gemini-3.8-flash"
 LLM_MAX_TENTATIVAS = 3
+LLM_ESPERAS_503 = 8   # 503 = pico de demanda; esperas de 15 s a 120 s (cerca de 12 min no total por lote)
 CBOS_SEM_TITULO_CONFIANCA = "baixa"  # V20
 LOTE_LLM = 50
 COBERTURA_CBO = 0.95

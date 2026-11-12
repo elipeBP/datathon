@@ -1,0 +1,496 @@
+segmento,grupo_setorial,area,nivel,movimentos,admissoes,desligamentos,saldo,desl_a_pedido,pop,kpi1_pct_a_pedido,kpi2_saldo_10mil_hab,kpi1_suficiente,kpi2_suficiente,kpi3_premio_contratacao,kpi3_cobertura_pct,kpi3_celulas,kpi3_n,kpi4_descasamento_sup_pp,kpi4_cobertura_pct,kpi4_celulas,kpi4_n
+Construção,Construção,Alimentos e bebidas,Qualificação acima de 200h,78,35,43,-8,17,7610361,39.53488372093023,-0.010511984911096858,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Alimentos e bebidas,Qualificação até 200h,269,147,122,25,30,7610361,24.59016393442623,0.032849952847177684,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Alimentos e bebidas,Superior,14,7,7,0,4,7610361,57.142857142857146,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,"Cerâmica, vidro e minerais",Qualificação acima de 200h,296,141,155,-14,55,7610361,35.483870967741936,-0.018395973594419503,false,false,1.00164744645799,36.486486486486484,1,108,NaN,0.0,0,0
+Construção,Construção,"Cerâmica, vidro e minerais",Qualificação até 200h,264,127,137,-10,67,7610361,48.90510948905109,-0.013139981138871073,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Construção,Qualificação acima de 200h,129863,64064,65799,-1735,24818,7610361,37.71789844830469,-2.2797867275941313,true,true,0.9981432868218839,91.05598776671633,132,115520,-0.013088306766979241,86.60819478989397,97,112472
+Construção,Construção,Construção,Qualificação até 200h,71217,37279,33938,3341,14340,7610361,42.25352112676056,4.390067698496825,true,true,1.0009864201796828,96.2318757521921,31,67166,0.09046234341392957,94.79197382647402,24,67508
+Construção,Construção,Construção,Superior,321,129,192,-63,57,7610361,29.6875,-0.08278188117488776,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Construção,Técnico,1640,782,858,-76,361,7610361,42.074592074592076,-0.09986385665542015,true,true,0.9506404824499889,64.90683229813665,4,1045,-8.95723864645061,56.03658536585366,3,919
+Construção,Construção,Eletroeletrônica e automação,Qualificação acima de 200h,3950,1773,2177,-404,853,7610361,39.18236104731282,-0.5308552380103914,true,true,1.0189857473982356,46.639089968976215,8,1804,2.121127664571962,26.9873417721519,3,1066
+Construção,Construção,Eletroeletrônica e automação,Técnico,1726,822,904,-82,379,7610361,41.924778761061944,-0.10774784533874279,true,true,0.9592018070676901,6.311274509803922,1,103,NaN,0.0,0,0
+Construção,Construção,Engenharia e P&D,Superior,883,346,537,-191,157,7610361,29.236499068901303,-0.25097363975243747,true,true,0.7486777938045195,15.795868772782503,1,130,NaN,0.0,0,0
+Construção,Construção,Engenharia e P&D,Técnico,973,532,441,91,187,7610361,42.40362811791383,0.11957382836372676,true,true,1.0,37.387387387387385,1,332,-1.1834089939083536,34.32682425488181,1,334
+Construção,Construção,"Gestão, administrativo e comercial",Qualificação acima de 200h,7803,3941,3862,79,1435,7610361,37.15691351631279,0.10380585099708146,true,true,0.9748933706155805,74.61249796051558,13,4573,0.47337388859296187,72.11328976034858,11,5627
+Construção,Construção,"Gestão, administrativo e comercial",Qualificação até 200h,1993,1050,943,107,381,7610361,40.402969247083774,0.14059779818592047,true,true,1.0338188457514035,25.769007544979686,2,444,-4.39377085650723,13.49724034119418,1,269
+Construção,Construção,"Gestão, administrativo e comercial",Superior,2615,1197,1418,-221,454,7610361,32.01692524682652,-0.29039358316905073,true,true,0.9775135587663489,4.926499801350815,1,124,NaN,0.0,0,0
+Construção,Construção,"Gestão, administrativo e comercial",Técnico,905,445,460,-15,177,7610361,38.47826086956522,-0.01970997170830661,true,true,1.0657373437029576,11.499436302142051,1,102,NaN,0.0,0,0
+Construção,Construção,Logística e movimentação,Qualificação acima de 200h,10631,5296,5335,-39,1902,7610361,35.651358950328024,-0.05124592644159718,true,true,0.9918062593740392,70.9934665641814,20,7389,-0.0902147498047092,61.151349825980624,14,6501
+Construção,Construção,Logística e movimentação,Qualificação até 200h,1633,841,792,49,278,7610361,35.101010101010104,0.06438590758046826,true,true,1.0,8.124576844955993,1,120,NaN,0.0,0,0
+Construção,Construção,Logística e movimentação,Superior,62,29,33,-4,9,7610361,27.272727272727273,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Madeira e móveis,Qualificação acima de 200h,765,379,386,-7,124,7610361,32.12435233160622,-0.009197986797209751,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Madeira e móveis,Qualificação até 200h,85,54,31,23,13,7610361,41.935483870967744,0.030221956619403467,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Madeira e móveis,Técnico,6,3,3,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Manutenção industrial,Qualificação acima de 200h,5348,2713,2635,78,801,7610361,30.398481973434535,0.10249185288319436,true,true,0.9960157350020409,60.34412955465587,14,2981,0.4122440220789068,30.68436798803291,5,1641
+Construção,Construção,Manutenção industrial,Técnico,766,380,386,-6,169,7610361,43.78238341968912,-0.007883988683322645,true,true,0.9505432441130319,33.15290933694181,2,245,NaN,0.0,0,0
+Construção,Construção,Metalmecânica e soldagem,Qualificação acima de 200h,12826,6581,6245,336,1950,7610361,31.22497998398719,0.44150336626606806,true,true,1.003640248538897,70.38433763941266,29,8772,-0.06441702972340793,51.97255574614065,14,6666
+Construção,Construção,Metalmecânica e soldagem,Qualificação até 200h,43,34,9,25,1,7610361,11.11111111111111,0.032849952847177684,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Metalmecânica e soldagem,Técnico,101,54,47,7,8,7610361,17.02127659574468,0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Operação de linha e montagem,Qualificação acima de 200h,18,7,11,-4,6,7610361,54.54545454545455,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Operação de linha e montagem,Qualificação até 200h,2515,1337,1178,159,606,7610361,51.44312393887946,0.20892570010805006,true,true,0.9778533322625954,63.65843787940105,8,1573,-0.657171863630924,22.186878727634195,2,558
+Construção,Construção,"Plástico, borracha e química",Qualificação acima de 200h,58,26,32,-6,10,7610361,31.25,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,"Plástico, borracha e química",Qualificação até 200h,3,2,1,1,0,7610361,0.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Qualidade e controle,Qualificação acima de 200h,60,28,32,-4,11,7610361,34.375,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Qualidade e controle,Técnico,1743,884,859,25,244,7610361,28.405122235157158,0.032849952847177684,true,true,0.9955125648208858,51.758499413833526,4,883,-1.0766456265425648,40.73436603557086,3,710
+Construção,Construção,Serviços de apoio,Qualificação acima de 200h,159,72,87,-15,11,7610361,12.64367816091954,-0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,Serviços de apoio,Qualificação até 200h,5750,2942,2808,134,1003,7610361,35.71937321937322,0.17607574726087236,true,true,1.0039487401981468,65.61604584527221,11,3435,0.09223477976147068,52.417391304347824,6,3014
+Construção,Construção,Serviços de apoio,Técnico,42,17,25,-8,10,7610361,40.0,-0.010511984911096858,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,"Têxtil, confecção e calçados",Qualificação acima de 200h,24,10,14,-4,2,7610361,14.285714285714286,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,"Têxtil, confecção e calçados",Qualificação até 200h,5,3,2,1,1,7610361,50.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Construção,Construção,"Têxtil, confecção e calçados",Técnico,23,9,14,-5,5,7610361,35.714285714285715,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Alimentos e bebidas,Qualificação acima de 200h,2,1,1,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Alimentos e bebidas,Qualificação até 200h,2,1,1,0,1,7610361,100.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Cerâmica, vidro e minerais",Qualificação acima de 200h,326,166,160,6,60,7610361,37.5,0.007883988683322645,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Construção,Qualificação acima de 200h,788,368,420,-52,137,7610361,32.61904761904762,-0.06832790192212958,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Construção,Qualificação até 200h,336,171,165,6,61,7610361,36.96969696969697,0.007883988683322645,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Construção,Técnico,12,6,6,0,1,7610361,16.666666666666668,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Eletroeletrônica e automação,Técnico,53,21,32,-11,11,7610361,34.375,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Engenharia e P&D,Superior,10,5,5,0,2,7610361,40.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Engenharia e P&D,Técnico,27,8,19,-11,1,7610361,5.2631578947368425,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Gestão, administrativo e comercial",Qualificação acima de 200h,447,234,213,21,79,7610361,37.08920187793427,0.027593960391629254,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Gestão, administrativo e comercial",Qualificação até 200h,57,25,32,-7,14,7610361,43.75,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Gestão, administrativo e comercial",Superior,99,34,65,-31,14,7610361,21.53846153846154,-0.04073394153050033,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Gestão, administrativo e comercial",Técnico,54,21,33,-12,9,7610361,27.272727272727273,-0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Logística e movimentação,Qualificação acima de 200h,1028,499,529,-30,210,7610361,39.69754253308128,-0.03941994341661322,true,true,0.8454580245625021,11.336898395721924,1,106,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Logística e movimentação,Qualificação até 200h,133,75,58,17,22,7610361,37.93103448275862,0.02233796793608082,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Logística e movimentação,Superior,7,3,4,-1,1,7610361,25.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Madeira e móveis,Qualificação acima de 200h,2,1,1,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Manutenção industrial,Qualificação acima de 200h,194,107,87,20,33,7610361,37.93103448275862,0.026279962277742146,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Manutenção industrial,Técnico,6,1,5,-4,2,7610361,40.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Metalmecânica e soldagem,Qualificação acima de 200h,229,109,120,-11,40,7610361,33.333333333333336,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Metalmecânica e soldagem,Qualificação até 200h,2,0,2,-2,0,7610361,0.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Metalmecânica e soldagem,Técnico,3,2,1,1,0,7610361,0.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Operação de linha e montagem,Qualificação até 200h,643,353,290,63,119,7610361,41.03448275862069,0.08278188117488776,false,true,1.0,70.87227414330218,1,455,-0.9950248756218906,70.91757387247279,1,456
+Extrativa e utilidades,Extrativa,"Plástico, borracha e química",Qualificação acima de 200h,34,7,27,-20,6,7610361,22.22222222222222,-0.026279962277742146,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Plástico, borracha e química",Técnico,1,0,1,-1,1,7610361,100.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Qualidade e controle,Qualificação acima de 200h,12,4,8,-4,2,7610361,25.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Qualidade e controle,Técnico,72,34,38,-4,8,7610361,21.05263157894737,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Serviços de apoio,Qualificação acima de 200h,7,4,3,1,1,7610361,33.333333333333336,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Serviços de apoio,Qualificação até 200h,159,84,75,9,23,7610361,30.666666666666668,0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,Serviços de apoio,Técnico,3,2,1,1,0,7610361,0.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Extrativa,"Têxtil, confecção e calçados",Qualificação acima de 200h,2,1,1,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Alimentos e bebidas,Qualificação acima de 200h,47,22,25,-3,4,7610361,16.0,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Alimentos e bebidas,Qualificação até 200h,6,4,2,2,0,7610361,0.0,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Cerâmica, vidro e minerais",Qualificação acima de 200h,4,1,3,-2,1,7610361,33.333333333333336,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Construção,Qualificação acima de 200h,1071,523,548,-25,182,7610361,33.21167883211679,-0.032849952847177684,true,true,1.0,10.648596321393999,1,110,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Construção,Qualificação até 200h,883,454,429,25,172,7610361,40.09324009324009,0.032849952847177684,true,true,1.0,18.068181818181817,1,159,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Construção,Superior,10,3,7,-4,0,7610361,0.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Construção,Técnico,38,22,16,6,10,7610361,62.5,0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Eletroeletrônica e automação,Qualificação acima de 200h,286,186,100,86,59,7610361,59.0,0.11300383779429123,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Eletroeletrônica e automação,Técnico,189,102,87,15,52,7610361,59.770114942528735,0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Engenharia e P&D,Superior,55,24,31,-7,14,7610361,45.16129032258065,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Engenharia e P&D,Técnico,104,41,63,-22,29,7610361,46.03174603174603,-0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Gestão, administrativo e comercial",Qualificação acima de 200h,1878,965,913,52,486,7610361,53.231106243154436,0.06832790192212958,true,true,0.904228136653593,28.650355169692187,3,363,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Gestão, administrativo e comercial",Qualificação até 200h,306,169,137,32,67,7610361,48.90510948905109,0.04204793964438743,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Gestão, administrativo e comercial",Superior,585,264,321,-57,133,7610361,41.43302180685358,-0.07489789249156512,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Gestão, administrativo e comercial",Técnico,120,53,67,-14,27,7610361,40.298507462686565,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Logística e movimentação,Qualificação acima de 200h,3656,1877,1779,98,713,7610361,40.078695896571105,0.12877181516093653,true,true,0.9917027777704043,81.85382245869505,8,2923,-0.08540115588090838,73.24945295404814,6,2678
+Extrativa e utilidades,Utilidades,Logística e movimentação,Qualificação até 200h,1009,472,537,-65,207,7610361,38.547486033519554,-0.08540987740266197,true,true,0.9911596009975064,13.53305785123967,1,131,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Logística e movimentação,Superior,48,25,23,2,12,7610361,52.17391304347826,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Madeira e móveis,Qualificação acima de 200h,33,16,17,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Manutenção industrial,Qualificação acima de 200h,263,121,142,-21,53,7610361,37.32394366197183,-0.027593960391629254,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Manutenção industrial,Técnico,34,16,18,-2,5,7610361,27.77777777777778,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Metalmecânica e soldagem,Qualificação acima de 200h,202,77,125,-48,49,7610361,39.2,-0.06307190946658116,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Metalmecânica e soldagem,Qualificação até 200h,6,3,3,0,1,7610361,33.333333333333336,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Metalmecânica e soldagem,Técnico,43,24,19,5,10,7610361,52.63157894736842,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Operação de linha e montagem,Qualificação acima de 200h,11,7,4,3,2,7610361,50.0,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Operação de linha e montagem,Qualificação até 200h,2899,1519,1380,139,798,7610361,57.82608695652174,0.1826457378303079,true,true,1.0031126507736314,80.5623047552933,7,2321,-0.004802308377678055,61.15902035184546,4,1773
+Extrativa e utilidades,Utilidades,"Plástico, borracha e química",Qualificação acima de 200h,372,170,202,-32,108,7610361,53.46534653465346,-0.04204793964438743,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Plástico, borracha e química",Técnico,20,9,11,-2,2,7610361,18.181818181818183,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Qualidade e controle,Qualificação acima de 200h,11,7,4,3,1,7610361,25.0,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Qualidade e controle,Técnico,183,94,89,5,37,7610361,41.57303370786517,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Serviços de apoio,Qualificação acima de 200h,7,3,4,-1,1,7610361,25.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,Serviços de apoio,Qualificação até 200h,10045,5060,4985,75,2196,7610361,44.052156469408224,0.09854985854153304,true,true,1.0043891903491722,79.23153692614771,17,7939,-0.0891306043016621,69.92533598805376,10,7024
+Extrativa e utilidades,Utilidades,Serviços de apoio,Técnico,323,163,160,3,70,7610361,43.75,0.003941994341661322,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Extrativa e utilidades,Utilidades,"Têxtil, confecção e calçados",Qualificação acima de 200h,84,53,31,22,17,7610361,54.83870967741935,0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Alimentos e bebidas,Qualificação acima de 200h,47389,24856,22533,2323,14164,7610361,62.858918031331825,3.05241761855975,true,true,0.9783222887390449,90.8105131626321,33,42878,-0.3711697564297868,85.82582455844184,19,40672
+Transformação,Alimentos e bebidas,Alimentos e bebidas,Qualificação até 200h,13279,7247,6032,1215,3238,7610361,53.680371352785144,1.5965077083728352,true,true,0.9748284538247797,68.58016304347827,18,8076,0.1243188418752547,52.02198960765118,8,6908
+Transformação,Alimentos e bebidas,Alimentos e bebidas,Superior,771,253,518,-265,201,7610361,38.803088803088805,-0.3482095001800834,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Cerâmica, vidro e minerais",Qualificação acima de 200h,1,0,1,-1,1,7610361,100.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Construção,Qualificação acima de 200h,323,147,176,-29,58,7610361,32.95454545454545,-0.03810594530272611,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Construção,Qualificação até 200h,484,256,228,28,115,7610361,50.43859649122807,0.036791947188839005,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Construção,Superior,2,2,0,2,0,7610361,NaN,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Construção,Técnico,5,2,3,-1,1,7610361,33.333333333333336,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Eletroeletrônica e automação,Qualificação acima de 200h,19,8,11,-3,2,7610361,18.181818181818183,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Eletroeletrônica e automação,Técnico,464,220,244,-24,138,7610361,56.557377049180324,-0.03153595473329058,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Engenharia e P&D,Superior,127,58,69,-11,32,7610361,46.3768115942029,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Engenharia e P&D,Técnico,181,86,95,-9,43,7610361,45.26315789473684,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Gestão, administrativo e comercial",Qualificação acima de 200h,8562,4461,4101,360,1662,7610361,40.52670080468179,0.47303932099935864,true,true,0.9545787864047683,45.797767564018386,10,1395,-0.8850916102783623,66.3162812427003,13,5678
+Transformação,Alimentos e bebidas,"Gestão, administrativo e comercial",Qualificação até 200h,10131,5062,5069,-7,2667,7610361,52.61392779640955,-0.009197986797209751,true,true,0.9959729211714569,70.20092735703246,21,6813,-0.45047839341870294,56.92429177771197,13,5767
+Transformação,Alimentos e bebidas,"Gestão, administrativo e comercial",Superior,2018,875,1143,-268,435,7610361,38.05774278215223,-0.3521514945217447,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Gestão, administrativo e comercial",Técnico,794,396,398,-2,202,7610361,50.753768844221106,-0.0026279962277742145,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Logística e movimentação,Qualificação acima de 200h,6160,2846,3314,-468,1774,7610361,53.53047676523838,-0.6149511172991663,true,true,0.9926965898036342,61.00225420495925,18,3518,0.33078779147269716,20.113636363636363,2,1239
+Transformação,Alimentos e bebidas,Logística e movimentação,Qualificação até 200h,8479,4221,4258,-37,2097,7610361,49.248473461719115,-0.04861793021382297,true,true,0.9923764536267864,48.22608270124786,21,3942,0.40586733851477697,17.938436136336833,4,1521
+Transformação,Alimentos e bebidas,Logística e movimentação,Superior,235,119,116,3,52,7610361,44.827586206896555,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Madeira e móveis,Qualificação acima de 200h,80,23,57,-34,32,7610361,56.14035087719298,-0.04467593587216164,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Madeira e móveis,Qualificação até 200h,13,9,4,5,3,7610361,75.0,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Madeira e móveis,Técnico,1,0,1,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Manutenção industrial,Qualificação acima de 200h,1591,759,832,-73,377,7610361,45.3125,-0.09592186231375883,true,true,1.0031965304911707,16.370106761565836,2,230,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Manutenção industrial,Técnico,107,55,52,3,25,7610361,48.07692307692308,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Metalmecânica e soldagem,Qualificação acima de 200h,195,83,112,-29,61,7610361,54.464285714285715,-0.03810594530272611,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Metalmecânica e soldagem,Qualificação até 200h,19,5,14,-9,8,7610361,57.142857142857146,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Metalmecânica e soldagem,Técnico,200,83,117,-34,77,7610361,65.8119658119658,-0.04467593587216164,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Operação de linha e montagem,Qualificação acima de 200h,4,3,1,2,1,7610361,100.0,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Operação de linha e montagem,Qualificação até 200h,56763,29579,27184,2395,15900,7610361,58.49028840494408,3.1470254827596222,true,true,0.9844937185045975,95.58256585992719,28,53553,0.17106626634566358,92.85097686873492,20,52705
+Transformação,Alimentos e bebidas,"Plástico, borracha e química",Qualificação acima de 200h,205,89,116,-27,60,7610361,51.724137931034484,-0.035477949074951894,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Plástico, borracha e química",Qualificação até 200h,68,33,35,-2,15,7610361,42.857142857142854,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Plástico, borracha e química",Técnico,6,3,3,0,1,7610361,33.333333333333336,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Qualidade e controle,Qualificação acima de 200h,294,142,152,-10,85,7610361,55.921052631578945,-0.013139981138871073,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Qualidade e controle,Técnico,3830,1707,2123,-416,1335,7610361,62.8827131417805,-0.5466232153770366,true,true,0.9288206817298965,52.92864749733759,9,1988,-0.6942197252010183,25.221932114882506,2,966
+Transformação,Alimentos e bebidas,Serviços de apoio,Qualificação acima de 200h,883,411,472,-61,235,7610361,49.78813559322034,-0.08015388494711355,true,true,0.9706231180747157,50.287686996547755,3,437,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,Serviços de apoio,Qualificação até 200h,15531,7953,7578,375,4056,7610361,53.523357086302454,0.4927492927076652,true,true,0.9930865032114549,88.88161769517701,31,13582,0.15600688803401033,79.71154465263022,21,12380
+Transformação,Alimentos e bebidas,Serviços de apoio,Técnico,167,79,88,-9,48,7610361,54.54545454545455,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Têxtil, confecção e calçados",Qualificação acima de 200h,196,104,92,12,56,7610361,60.869565217391305,0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Têxtil, confecção e calçados",Qualificação até 200h,76,41,35,6,23,7610361,65.71428571428571,0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Alimentos e bebidas,"Têxtil, confecção e calçados",Técnico,14,7,7,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Alimentos e bebidas,Qualificação acima de 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Alimentos e bebidas,Qualificação até 200h,5,3,2,1,1,7610361,50.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Alimentos e bebidas,Superior,1,0,1,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Cerâmica, vidro e minerais",Qualificação acima de 200h,9,6,3,3,2,7610361,66.66666666666667,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Cerâmica, vidro e minerais",Qualificação até 200h,13,7,6,1,1,7610361,16.666666666666668,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Construção,Qualificação acima de 200h,716,357,359,-2,139,7610361,38.71866295264624,-0.0026279962277742145,true,true,0.8943841735800894,17.58957654723127,1,108,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Construção,Qualificação até 200h,194,98,96,2,41,7610361,42.708333333333336,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Construção,Superior,6,4,2,2,0,7610361,0.0,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Construção,Técnico,12,9,3,6,1,7610361,33.333333333333336,0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Eletroeletrônica e automação,Qualificação acima de 200h,11133,6090,5043,1047,2866,7610361,56.83125123934166,1.3757560252398013,true,true,0.9696778376425517,90.07177033492823,10,9789,-0.07406143544818869,84.69415251953652,7,9429
+Transformação,Eletroeletrônica,Eletroeletrônica e automação,Técnico,1119,620,499,121,219,7610361,43.8877755511022,0.15899377178034,true,true,0.7374267201481024,16.194790486976217,1,143,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Engenharia e P&D,Superior,298,127,171,-44,69,7610361,40.35087719298246,-0.05781591701103272,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Engenharia e P&D,Técnico,565,309,256,53,127,7610361,49.609375,0.06964190003601668,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Gestão, administrativo e comercial",Qualificação acima de 200h,2309,1184,1125,59,489,7610361,43.46666666666667,0.07752588871933934,true,true,0.9718113450652895,29.22868741542625,3,432,-1.2269994847465835,35.77306193157211,3,826
+Transformação,Eletroeletrônica,"Gestão, administrativo e comercial",Qualificação até 200h,767,363,404,-41,168,7610361,41.584158415841586,-0.053873922669371396,true,true,0.9867713660730791,18.4407796101949,1,123,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Gestão, administrativo e comercial",Superior,1140,476,664,-188,282,7610361,42.46987951807229,-0.24703164541077616,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Gestão, administrativo e comercial",Técnico,563,282,281,1,141,7610361,50.1779359430605,0.0013139981138871072,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Logística e movimentação,Qualificação acima de 200h,2935,1531,1404,127,689,7610361,49.074074074074076,0.16687776046366262,true,true,0.9781559274407486,83.44086021505376,6,2328,0.436291862089248,54.923339011925044,2,1612
+Transformação,Eletroeletrônica,Logística e movimentação,Qualificação até 200h,1339,713,626,87,301,7610361,48.08306709265176,0.11431783590817833,true,true,0.995984933742941,44.39178515007899,2,562,-0.34562813162921624,43.01717699775952,2,576
+Transformação,Eletroeletrônica,Logística e movimentação,Superior,112,44,68,-24,26,7610361,38.23529411764706,-0.03153595473329058,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Madeira e móveis,Qualificação acima de 200h,64,29,35,-6,12,7610361,34.285714285714285,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Madeira e móveis,Qualificação até 200h,2,1,1,0,1,7610361,100.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Manutenção industrial,Qualificação acima de 200h,816,350,466,-116,180,7610361,38.62660944206009,-0.15242378121090444,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Manutenção industrial,Técnico,177,86,91,-5,30,7610361,32.967032967032964,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Metalmecânica e soldagem,Qualificação acima de 200h,4322,2168,2154,14,1099,7610361,51.021355617455896,0.018395973594419503,true,true,0.9487726175533776,49.9054820415879,9,2112,-0.6067108737422151,30.56455344747802,3,1321
+Transformação,Eletroeletrônica,Metalmecânica e soldagem,Qualificação até 200h,12,6,6,0,1,7610361,16.666666666666668,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Metalmecânica e soldagem,Técnico,111,58,53,5,20,7610361,37.735849056603776,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Operação de linha e montagem,Qualificação acima de 200h,8,3,5,-2,2,7610361,40.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Operação de linha e montagem,Qualificação até 200h,10558,5780,4778,1002,2522,7610361,52.78359146086228,1.3166261101148815,true,true,0.9781292220526642,92.22566886390074,8,9514,-0.002497688761084752,89.26880090926312,6,9425
+Transformação,Eletroeletrônica,"Plástico, borracha e química",Qualificação acima de 200h,283,83,200,-117,72,7610361,36.0,-0.15373777932479157,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Plástico, borracha e química",Técnico,91,46,45,1,36,7610361,80.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Qualidade e controle,Qualificação acima de 200h,45,7,38,-31,20,7610361,52.63157894736842,-0.04073394153050033,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Qualidade e controle,Técnico,881,390,491,-101,211,7610361,42.973523421588595,-0.13271380950259784,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Serviços de apoio,Qualificação até 200h,435,223,212,11,76,7610361,35.84905660377358,0.01445397925275818,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,Serviços de apoio,Técnico,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Têxtil, confecção e calçados",Qualificação acima de 200h,7,3,4,-1,2,7610361,50.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Têxtil, confecção e calçados",Qualificação até 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Eletroeletrônica,"Têxtil, confecção e calçados",Técnico,9,4,5,-1,1,7610361,20.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Alimentos e bebidas,Qualificação acima de 200h,45,26,19,7,8,7610361,42.10526315789474,0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Alimentos e bebidas,Qualificação até 200h,49,28,21,7,11,7610361,52.38095238095238,0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Alimentos e bebidas,Superior,8,2,6,-4,2,7610361,33.333333333333336,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Cerâmica, vidro e minerais",Qualificação acima de 200h,109,51,58,-7,31,7610361,53.44827586206897,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Cerâmica, vidro e minerais",Qualificação até 200h,17,11,6,5,4,7610361,66.66666666666667,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Construção,Qualificação acima de 200h,890,416,474,-58,197,7610361,41.561181434599156,-0.07621189060545222,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Construção,Qualificação até 200h,372,184,188,-4,87,7610361,46.276595744680854,-0.005255992455548429,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Construção,Superior,3,0,3,-3,0,7610361,0.0,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Construção,Técnico,8,3,5,-2,5,7610361,100.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Eletroeletrônica e automação,Qualificação acima de 200h,49,25,24,1,11,7610361,45.833333333333336,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Eletroeletrônica e automação,Técnico,116,49,67,-18,27,7610361,40.298507462686565,-0.023651966049967933,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Engenharia e P&D,Superior,74,30,44,-14,21,7610361,47.72727272727273,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Engenharia e P&D,Técnico,209,93,116,-23,43,7610361,37.06896551724138,-0.030221956619403467,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Gestão, administrativo e comercial",Qualificação acima de 200h,3341,1639,1702,-63,721,7610361,42.36192714453584,-0.08278188117488776,true,true,0.940206807410599,4.832881662149955,1,107,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Gestão, administrativo e comercial",Qualificação até 200h,653,320,333,-13,125,7610361,37.53753753753754,-0.017081975480532394,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Gestão, administrativo e comercial",Superior,951,376,575,-199,206,7610361,35.82608695652174,-0.26148562466353437,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Gestão, administrativo e comercial",Técnico,310,143,167,-24,70,7610361,41.91616766467066,-0.03153595473329058,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Logística e movimentação,Qualificação acima de 200h,3920,1851,2069,-218,992,7610361,47.94586756887385,-0.2864515888273894,true,true,0.9798356865587365,34.42622950819672,8,1176,NaN,0.0,0,0
+Transformação,Madeira e móveis,Logística e movimentação,Qualificação até 200h,1675,883,792,91,397,7610361,50.12626262626262,0.11957382836372676,true,true,1.0,16.0,1,216,NaN,0.0,0,0
+Transformação,Madeira e móveis,Logística e movimentação,Superior,56,30,26,4,13,7610361,50.0,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Madeira e móveis,Qualificação acima de 200h,20298,9156,11142,-1986,5504,7610361,49.39867169269431,-2.609600254179795,true,true,0.9703943268224721,64.11976767474464,42,12806,-0.14648316128436387,47.20169474825106,22,9581
+Transformação,Madeira e móveis,Madeira e móveis,Qualificação até 200h,977,464,513,-49,278,7610361,54.19103313840156,-0.06438590758046826,true,true,0.983562941385283,46.303901437371664,2,451,1.4388489208633095,30.29682702149437,1,296
+Transformação,Madeira e móveis,Madeira e móveis,Técnico,341,156,185,-29,68,7610361,36.75675675675676,-0.03810594530272611,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Manutenção industrial,Qualificação acima de 200h,1224,526,698,-172,257,7610361,36.81948424068768,-0.22600767558858245,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Manutenção industrial,Técnico,48,17,31,-14,20,7610361,64.51612903225806,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Metalmecânica e soldagem,Qualificação acima de 200h,1871,832,1039,-207,508,7610361,48.893166506256016,-0.2719976095746312,true,true,0.9476876421531463,12.12777476989713,1,224,NaN,0.0,0,0
+Transformação,Madeira e móveis,Metalmecânica e soldagem,Qualificação até 200h,124,43,81,-38,34,7610361,41.97530864197531,-0.049931928327710075,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Metalmecânica e soldagem,Técnico,24,13,11,2,6,7610361,54.54545454545455,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Operação de linha e montagem,Qualificação acima de 200h,22,7,15,-8,10,7610361,66.66666666666667,-0.010511984911096858,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Operação de linha e montagem,Qualificação até 200h,37653,19186,18467,719,11123,7610361,60.231764769589,0.9447646438848302,true,true,0.9770622191333127,96.4873205420636,23,35956,0.04321984454612341,95.05749873848033,20,35792
+Transformação,Madeira e móveis,"Plástico, borracha e química",Qualificação acima de 200h,68,29,39,-10,20,7610361,51.282051282051285,-0.013139981138871073,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Plástico, borracha e química",Técnico,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Qualidade e controle,Qualificação acima de 200h,7,5,2,3,0,7610361,0.0,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Qualidade e controle,Técnico,477,186,291,-105,129,7610361,44.329896907216494,-0.13796980195814626,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Serviços de apoio,Qualificação acima de 200h,29,11,18,-7,7,7610361,38.888888888888886,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Serviços de apoio,Qualificação até 200h,1031,521,510,11,241,7610361,47.254901960784316,0.01445397925275818,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,Serviços de apoio,Técnico,7,3,4,-1,3,7610361,75.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Têxtil, confecção e calçados",Qualificação acima de 200h,493,210,283,-73,144,7610361,50.88339222614841,-0.09592186231375883,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Têxtil, confecção e calçados",Qualificação até 200h,93,45,48,-3,37,7610361,77.08333333333333,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Madeira e móveis,"Têxtil, confecção e calçados",Técnico,108,53,55,-2,19,7610361,34.54545454545455,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Alimentos e bebidas,Qualificação acima de 200h,34,19,15,4,8,7610361,53.333333333333336,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Alimentos e bebidas,Qualificação até 200h,225,110,115,-5,76,7610361,66.08695652173913,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Alimentos e bebidas,Superior,9,3,6,-3,2,7610361,33.333333333333336,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Cerâmica, vidro e minerais",Qualificação acima de 200h,94,47,47,0,22,7610361,46.808510638297875,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Cerâmica, vidro e minerais",Qualificação até 200h,123,66,57,9,36,7610361,63.1578947368421,0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Construção,Qualificação acima de 200h,5224,2666,2558,108,860,7610361,33.620015637216575,0.14191179629980757,true,true,0.9844962365819717,37.953091684434966,9,1780,0.5766454452559749,20.252679938744258,4,1058
+Transformação,Metalmecânica,Construção,Qualificação até 200h,2065,1056,1009,47,430,7610361,42.616451932606545,0.06175791135269404,true,true,0.9498063388886173,16.623376623376622,2,320,NaN,0.0,0,0
+Transformação,Metalmecânica,Construção,Superior,29,10,19,-9,6,7610361,31.57894736842105,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Construção,Técnico,98,55,43,12,18,7610361,41.86046511627907,0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Eletroeletrônica e automação,Qualificação acima de 200h,1226,434,792,-358,292,7610361,36.86868686868687,-0.4704113247715844,true,true,0.9475699300699302,21.14236999147485,1,248,-1.0052910052910053,20.22838499184339,1,248
+Transformação,Metalmecânica,Eletroeletrônica e automação,Técnico,1595,763,832,-69,342,7610361,41.10576923076923,-0.09066586985821039,true,true,0.90693625,12.648497554157931,1,181,NaN,0.0,0,0
+Transformação,Metalmecânica,Engenharia e P&D,Superior,570,270,300,-30,130,7610361,43.333333333333336,-0.03941994341661322,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Engenharia e P&D,Técnico,2256,1011,1245,-234,611,7610361,49.07630522088353,-0.30747555864958315,true,true,0.8918702317462355,17.528195488721803,2,373,-4.787603114640349,10.106382978723405,1,228
+Transformação,Metalmecânica,"Gestão, administrativo e comercial",Qualificação acima de 200h,9993,5260,4733,527,1920,7610361,40.56623705894781,0.6924770060185055,true,true,0.9448541228705797,80.09116067068207,20,4920,-1.1360931430252572,72.760932652857,14,7271
+Transformação,Metalmecânica,"Gestão, administrativo e comercial",Qualificação até 200h,2298,1111,1187,-76,469,7610361,39.511373209772536,-0.09986385665542015,true,true,1.0114869763172494,27.86506469500924,4,603,NaN,0.0,0,0
+Transformação,Metalmecânica,"Gestão, administrativo e comercial",Superior,3546,1542,2004,-462,754,7610361,37.624750499002,-0.6070671286158436,true,true,0.9189393434159306,12.221231043710972,3,411,NaN,0.0,0,0
+Transformação,Metalmecânica,"Gestão, administrativo e comercial",Técnico,2277,1050,1227,-177,597,7610361,48.655256723716384,-0.23257766615801798,true,true,0.9582332166298619,20.908273381294965,2,465,5.348222156920363,12.6921387790953,1,289
+Transformação,Metalmecânica,Logística e movimentação,Qualificação acima de 200h,8398,4244,4154,90,1845,7610361,44.41502166586423,0.11825983024983966,true,true,0.9593642221298355,65.67240280433397,12,5152,-0.8280558577331124,60.669206954036675,10,5095
+Transformação,Metalmecânica,Logística e movimentação,Qualificação até 200h,4098,2158,1940,218,940,7610361,48.45360824742268,0.2864515888273894,true,true,0.9522290997411618,45.06269592476489,9,1725,-1.163926212003007,16.666666666666668,2,683
+Transformação,Metalmecânica,Logística e movimentação,Superior,299,130,169,-39,60,7610361,35.50295857988166,-0.05124592644159718,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Madeira e móveis,Qualificação acima de 200h,1233,619,614,5,306,7610361,49.8371335504886,0.006569990569435536,true,true,0.9945860032932123,32.89581624282199,3,401,NaN,0.0,0,0
+Transformação,Metalmecânica,Madeira e móveis,Qualificação até 200h,12,5,7,-2,6,7610361,85.71428571428571,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Madeira e móveis,Técnico,62,31,31,0,17,7610361,54.83870967741935,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Manutenção industrial,Qualificação acima de 200h,12717,6716,6001,715,2586,7610361,43.09281786368938,0.9395086514292817,true,true,0.9766512755532969,73.6425648021828,18,8097,0.28352268817797366,66.55657780923174,12,8464
+Transformação,Metalmecânica,Manutenção industrial,Técnico,575,286,289,-3,127,7610361,43.944636678200695,-0.003941994341661322,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Metalmecânica e soldagem,Qualificação acima de 200h,60811,29737,31074,-1337,14013,7610361,45.095578296968526,-1.7568154782670624,true,true,0.9795822009098842,78.04777453170648,122,45416,0.049192664172572925,62.072651329529194,65,37747
+Transformação,Metalmecânica,Metalmecânica e soldagem,Qualificação até 200h,2503,1243,1260,-17,543,7610361,43.095238095238095,-0.02233796793608082,true,true,0.9535798327277248,61.2999150382328,5,1443,0.7409075540509561,46.74390731122653,3,1170
+Transformação,Metalmecânica,Metalmecânica e soldagem,Técnico,616,302,314,-12,112,7610361,35.6687898089172,-0.01576797736664529,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Operação de linha e montagem,Qualificação acima de 200h,72,30,42,-12,17,7610361,40.476190476190474,-0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Operação de linha e montagem,Qualificação até 200h,41880,23564,18316,5248,9758,7610361,53.275824415811314,6.895862101679539,true,true,0.989272808569237,98.0616096432485,30,40269,-0.08032149120720555,94.7134670487106,21,39666
+Transformação,Metalmecânica,"Plástico, borracha e química",Qualificação acima de 200h,1263,646,617,29,249,7610361,40.356564019448946,0.03810594530272611,true,true,0.9585057799343514,29.027113237639554,2,364,NaN,0.0,0,0
+Transformação,Metalmecânica,"Plástico, borracha e química",Qualificação até 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Plástico, borracha e química",Técnico,32,17,15,2,2,7610361,13.333333333333334,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Qualidade e controle,Qualificação acima de 200h,49,24,25,-1,11,7610361,44.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Qualidade e controle,Técnico,2973,1361,1612,-251,700,7610361,43.424317617866,-0.32981352658566393,true,true,0.9436504801742787,48.85958660014255,6,1371,4.35170554884283,22.56979482004709,1,671
+Transformação,Metalmecânica,Serviços de apoio,Qualificação acima de 200h,34,16,18,-2,11,7610361,61.111111111111114,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,Serviços de apoio,Qualificação até 200h,2411,1246,1165,81,486,7610361,41.716738197424895,0.10643384722485569,true,true,0.9805099050476939,46.34146341463415,5,1083,-0.03757369411801415,27.74782248029863,2,669
+Transformação,Metalmecânica,Serviços de apoio,Técnico,162,93,69,24,36,7610361,52.17391304347826,0.03153595473329058,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Têxtil, confecção e calçados",Qualificação acima de 200h,165,83,82,1,36,7610361,43.90243902439025,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Têxtil, confecção e calçados",Qualificação até 200h,82,38,44,-6,17,7610361,38.63636363636363,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Metalmecânica,"Têxtil, confecção e calçados",Técnico,37,16,21,-5,6,7610361,28.571428571428573,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Alimentos e bebidas,Qualificação acima de 200h,13,6,7,-1,2,7610361,28.571428571428573,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Alimentos e bebidas,Qualificação até 200h,19,6,13,-7,5,7610361,38.46153846153846,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Cerâmica, vidro e minerais",Qualificação acima de 200h,5728,2837,2891,-54,1552,7610361,53.6838464199239,-0.07095589814990379,true,true,0.956202918564088,76.70992634163451,11,4374,0.06656487056993492,64.66480446927375,7,3704
+Transformação,Minerais não metálicos e cerâmica,"Cerâmica, vidro e minerais",Qualificação até 200h,3107,1525,1582,-57,854,7610361,53.982300884955755,-0.07489789249156512,true,true,0.9983461682010697,49.06270200387848,8,1518,-0.2623342115336981,25.29771483746379,3,786
+Transformação,Minerais não metálicos e cerâmica,Construção,Qualificação acima de 200h,3139,1490,1649,-159,723,7610361,43.844754396604,-0.20892570010805006,true,true,1.1095106474091954,5.542648523066711,1,167,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Construção,Qualificação até 200h,2561,1293,1268,25,567,7610361,44.71608832807571,0.032849952847177684,true,true,0.9703436751123389,41.475927387529595,6,1051,-0.8641484524344129,18.976962124170246,2,486
+Transformação,Minerais não metálicos e cerâmica,Construção,Superior,10,2,8,-6,4,7610361,50.0,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Construção,Técnico,88,36,52,-16,25,7610361,48.07692307692308,-0.021023969822193716,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Eletroeletrônica e automação,Qualificação acima de 200h,23,10,13,-3,6,7610361,46.15384615384615,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Eletroeletrônica e automação,Técnico,74,37,37,0,11,7610361,29.72972972972973,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Engenharia e P&D,Superior,77,39,38,1,13,7610361,34.21052631578947,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Engenharia e P&D,Técnico,163,71,92,-21,45,7610361,48.91304347826087,-0.027593960391629254,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Gestão, administrativo e comercial",Qualificação acima de 200h,2132,1047,1085,-38,441,7610361,40.645161290322584,-0.049931928327710075,true,true,NaN,0.0,0,0,2.184734513274336,11.303939962476548,1,241
+Transformação,Minerais não metálicos e cerâmica,"Gestão, administrativo e comercial",Qualificação até 200h,582,287,295,-8,105,7610361,35.59322033898305,-0.010511984911096858,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Gestão, administrativo e comercial",Superior,562,226,336,-110,107,7610361,31.845238095238095,-0.1445397925275818,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Gestão, administrativo e comercial",Técnico,204,88,116,-28,44,7610361,37.93103448275862,-0.036791947188839005,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Logística e movimentação,Qualificação acima de 200h,3181,1537,1644,-107,768,7610361,46.715328467153284,-0.14059779818592047,true,true,1.0148399550147762,34.79960899315738,6,1068,-0.5943105059795805,17.793146809179504,2,566
+Transformação,Minerais não metálicos e cerâmica,Logística e movimentação,Qualificação até 200h,1279,673,606,67,264,7610361,43.56435643564357,0.08803787363043618,true,true,0.9895652173913043,10.318791946308725,1,123,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Logística e movimentação,Superior,51,22,29,-7,8,7610361,27.586206896551722,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Madeira e móveis,Qualificação acima de 200h,255,116,139,-23,83,7610361,59.71223021582734,-0.030221956619403467,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Madeira e móveis,Qualificação até 200h,14,9,5,4,3,7610361,60.0,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Madeira e móveis,Técnico,12,4,8,-4,2,7610361,25.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Manutenção industrial,Qualificação acima de 200h,498,219,279,-60,116,7610361,41.577060931899645,-0.07883988683322644,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Manutenção industrial,Técnico,27,10,17,-7,8,7610361,47.05882352941177,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Metalmecânica e soldagem,Qualificação acima de 200h,1055,489,566,-77,277,7610361,48.93992932862191,-0.10117785476930725,true,true,0.9333333333333332,14.775977121067683,1,155,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Metalmecânica e soldagem,Qualificação até 200h,7,2,5,-3,4,7610361,80.0,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Metalmecânica e soldagem,Técnico,34,6,28,-22,8,7610361,28.571428571428573,-0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Operação de linha e montagem,Qualificação acima de 200h,25,14,11,3,9,7610361,81.81818181818181,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Operação de linha e montagem,Qualificação até 200h,6182,3139,3043,96,1531,7610361,50.312191915872496,0.12614381893316232,true,true,0.991701428005489,88.52965069049553,15,5449,0.13717379685357017,72.306696861857,9,4470
+Transformação,Minerais não metálicos e cerâmica,"Plástico, borracha e química",Qualificação acima de 200h,288,137,151,-14,68,7610361,45.033112582781456,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Plástico, borracha e química",Técnico,3,2,1,1,0,7610361,0.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Qualidade e controle,Qualificação acima de 200h,75,39,36,3,13,7610361,36.111111111111114,0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Qualidade e controle,Técnico,411,194,217,-23,91,7610361,41.935483870967744,-0.030221956619403467,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Serviços de apoio,Qualificação acima de 200h,7,1,6,-5,3,7610361,50.0,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Serviços de apoio,Qualificação até 200h,488,233,255,-22,97,7610361,38.03921568627451,-0.02890795850551636,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,Serviços de apoio,Técnico,9,1,8,-7,3,7610361,37.5,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Têxtil, confecção e calçados",Qualificação acima de 200h,14,7,7,0,5,7610361,71.42857142857143,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Têxtil, confecção e calçados",Qualificação até 200h,5,2,3,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Minerais não metálicos e cerâmica,"Têxtil, confecção e calçados",Técnico,3,1,2,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Alimentos e bebidas,Qualificação acima de 200h,4,2,2,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Alimentos e bebidas,Qualificação até 200h,1585,716,869,-153,146,7610361,16.800920598388952,-0.2010417114247274,true,true,1.0410004232474215,93.74605180037902,2,1484,0.26586847043653383,85.29968454258675,1,1352
+Transformação,Outras da transformação,Alimentos e bebidas,Superior,3,0,3,-3,0,7610361,0.0,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Cerâmica, vidro e minerais",Qualificação acima de 200h,19,10,9,1,5,7610361,55.55555555555556,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Cerâmica, vidro e minerais",Qualificação até 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Construção,Qualificação acima de 200h,60,37,23,14,11,7610361,47.82608695652174,0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Construção,Qualificação até 200h,142,82,60,22,20,7610361,33.333333333333336,0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Construção,Superior,1,0,1,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Construção,Técnico,1,0,1,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Eletroeletrônica e automação,Qualificação acima de 200h,34,7,27,-20,12,7610361,44.44444444444444,-0.026279962277742146,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Eletroeletrônica e automação,Técnico,35,17,18,-1,8,7610361,44.44444444444444,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Engenharia e P&D,Superior,121,66,55,11,28,7610361,50.90909090909091,0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Engenharia e P&D,Técnico,90,42,48,-6,17,7610361,35.416666666666664,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Gestão, administrativo e comercial",Qualificação acima de 200h,1053,516,537,-21,239,7610361,44.506517690875235,-0.027593960391629254,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Gestão, administrativo e comercial",Qualificação até 200h,420,195,225,-30,82,7610361,36.44444444444444,-0.03941994341661322,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Gestão, administrativo e comercial",Superior,357,150,207,-57,82,7610361,39.61352657004831,-0.07489789249156512,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Gestão, administrativo e comercial",Técnico,178,90,88,2,37,7610361,42.04545454545455,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Logística e movimentação,Qualificação acima de 200h,681,320,361,-41,123,7610361,34.07202216066482,-0.053873922669371396,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Logística e movimentação,Qualificação até 200h,690,328,362,-34,109,7610361,30.11049723756906,-0.04467593587216164,true,true,1.0,24.390243902439025,1,120,NaN,0.0,0,0
+Transformação,Outras da transformação,Logística e movimentação,Superior,39,17,22,-5,7,7610361,31.818181818181817,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Madeira e móveis,Qualificação acima de 200h,224,105,119,-14,63,7610361,52.94117647058823,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Madeira e móveis,Qualificação até 200h,84,44,40,4,30,7610361,75.0,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Madeira e móveis,Técnico,4,2,2,0,2,7610361,100.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Manutenção industrial,Qualificação acima de 200h,107,54,53,1,14,7610361,26.41509433962264,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Manutenção industrial,Técnico,12,9,3,6,2,7610361,66.66666666666667,0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Metalmecânica e soldagem,Qualificação acima de 200h,712,319,393,-74,172,7610361,43.76590330788804,-0.09723586042764594,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Metalmecânica e soldagem,Qualificação até 200h,41,18,23,-5,10,7610361,43.47826086956522,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Metalmecânica e soldagem,Técnico,11,6,5,1,2,7610361,40.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Operação de linha e montagem,Qualificação acima de 200h,48,23,25,-2,14,7610361,56.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Operação de linha e montagem,Qualificação até 200h,3823,2043,1780,263,782,7610361,43.93258426966292,0.3455815039523092,true,true,0.9912907518726009,85.05901287553648,9,3171,0.8293500147925466,75.41198012032436,7,2883
+Transformação,Outras da transformação,"Plástico, borracha e química",Qualificação acima de 200h,1625,839,786,53,532,7610361,67.68447837150127,0.06964190003601668,true,true,1.0,84.54828660436137,1,1357,0.990626194269225,84.12307692307692,1,1367
+Transformação,Outras da transformação,"Plástico, borracha e química",Qualificação até 200h,11,5,6,-1,2,7610361,33.333333333333336,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Plástico, borracha e química",Técnico,11,2,9,-7,1,7610361,11.11111111111111,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Qualidade e controle,Qualificação acima de 200h,28,15,13,2,5,7610361,38.46153846153846,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Qualidade e controle,Técnico,615,280,335,-55,140,7610361,41.791044776119406,-0.0722698962637909,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,Serviços de apoio,Qualificação até 200h,208,103,105,-2,38,7610361,36.19047619047619,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Têxtil, confecção e calçados",Qualificação acima de 200h,1291,619,672,-53,444,7610361,66.07142857142857,-0.06964190003601668,true,true,0.9447665544435625,55.98326359832636,2,669,-0.025618207804115098,42.21533694810225,1,545
+Transformação,Outras da transformação,"Têxtil, confecção e calçados",Qualificação até 200h,157,66,91,-25,40,7610361,43.956043956043956,-0.032849952847177684,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Outras da transformação,"Têxtil, confecção e calçados",Técnico,27,11,16,-5,2,7610361,12.5,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Alimentos e bebidas,Qualificação acima de 200h,9,4,5,-1,2,7610361,40.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Alimentos e bebidas,Qualificação até 200h,15,5,10,-5,4,7610361,40.0,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Cerâmica, vidro e minerais",Qualificação acima de 200h,24,14,10,4,7,7610361,70.0,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Construção,Qualificação acima de 200h,254,135,119,16,21,7610361,17.647058823529413,0.021023969822193716,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Construção,Qualificação até 200h,124,70,54,16,27,7610361,50.0,0.021023969822193716,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Eletroeletrônica e automação,Qualificação acima de 200h,24,10,14,-4,5,7610361,35.714285714285715,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Eletroeletrônica e automação,Técnico,130,58,72,-14,41,7610361,56.94444444444444,-0.018395973594419503,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Engenharia e P&D,Superior,241,120,121,-1,55,7610361,45.45454545454545,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Engenharia e P&D,Técnico,145,53,92,-39,35,7610361,38.04347826086956,-0.05124592644159718,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Gestão, administrativo e comercial",Qualificação acima de 200h,2004,1005,999,6,383,7610361,38.33833833833834,0.007883988683322645,true,true,NaN,0.0,0,0,-2.592481203007519,12.874251497005988,1,258
+Transformação,"Papel, celulose e gráfica","Gestão, administrativo e comercial",Qualificação até 200h,536,274,262,12,108,7610361,41.221374045801525,0.01576797736664529,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Gestão, administrativo e comercial",Superior,542,221,321,-100,120,7610361,37.38317757009346,-0.13139981138871074,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Gestão, administrativo e comercial",Técnico,237,95,142,-47,60,7610361,42.25352112676056,-0.06175791135269404,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Logística e movimentação,Qualificação acima de 200h,1319,618,701,-83,297,7610361,42.368045649072755,-0.1090618434526299,true,true,1.030266245173722,13.122923588039868,1,158,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Logística e movimentação,Qualificação até 200h,1506,841,665,176,319,7610361,47.96992481203007,0.23126366804413087,true,true,0.9547256243662062,40.915593705293276,2,572,1.2924291826350829,37.98140770252324,2,572
+Transformação,"Papel, celulose e gráfica",Logística e movimentação,Superior,126,74,52,22,30,7610361,57.69230769230769,0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Madeira e móveis,Qualificação acima de 200h,319,157,162,-5,83,7610361,51.23456790123457,-0.006569990569435536,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Madeira e móveis,Qualificação até 200h,139,90,49,41,21,7610361,42.857142857142854,0.053873922669371396,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Manutenção industrial,Qualificação acima de 200h,663,333,330,3,117,7610361,35.45454545454545,0.003941994341661322,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Manutenção industrial,Técnico,21,10,11,-1,6,7610361,54.54545454545455,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Metalmecânica e soldagem,Qualificação acima de 200h,482,243,239,4,119,7610361,49.7907949790795,0.005255992455548429,false,true,1.0,25.757575757575758,1,119,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Metalmecânica e soldagem,Técnico,26,14,12,2,2,7610361,16.666666666666668,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Operação de linha e montagem,Qualificação acima de 200h,976,410,566,-156,258,7610361,45.58303886925795,-0.20498370576638872,true,true,0.9924882226980728,13.092783505154639,1,127,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Operação de linha e montagem,Qualificação até 200h,12514,6730,5784,946,3114,7610361,53.83817427385892,1.2430422157372036,true,true,0.9877875147016416,88.3412090598012,23,10843,0.06187976851401834,80.43790954131373,16,10066
+Transformação,"Papel, celulose e gráfica","Plástico, borracha e química",Qualificação acima de 200h,2201,980,1221,-241,569,7610361,46.6011466011466,-0.3166735454467929,true,true,0.9360501589820256,30.15099853872382,4,619,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Plástico, borracha e química",Qualificação até 200h,245,112,133,-21,84,7610361,63.1578947368421,-0.027593960391629254,false,false,0.9950248756218906,49.583333333333336,1,119,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Plástico, borracha e química",Técnico,7,3,4,-1,0,7610361,0.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Qualidade e controle,Qualificação acima de 200h,20,8,12,-4,6,7610361,50.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Qualidade e controle,Técnico,447,192,255,-63,144,7610361,56.470588235294116,-0.08278188117488776,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Serviços de apoio,Qualificação acima de 200h,23,14,9,5,6,7610361,66.66666666666667,0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Serviços de apoio,Qualificação até 200h,486,252,234,18,131,7610361,55.98290598290598,0.023651966049967933,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica",Serviços de apoio,Técnico,83,41,42,-1,21,7610361,50.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Têxtil, confecção e calçados",Qualificação acima de 200h,61,29,32,-3,14,7610361,43.75,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Têxtil, confecção e calçados",Qualificação até 200h,111,65,46,19,25,7610361,54.34782608695652,0.024965964163855037,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Papel, celulose e gráfica","Têxtil, confecção e calçados",Técnico,107,53,54,-1,20,7610361,37.03703703703704,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Alimentos e bebidas,Qualificação acima de 200h,2,1,1,0,1,7610361,100.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Alimentos e bebidas,Qualificação até 200h,31,16,15,1,7,7610361,46.666666666666664,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Alimentos e bebidas,Superior,8,3,5,-2,3,7610361,60.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Cerâmica, vidro e minerais",Qualificação acima de 200h,20,7,13,-6,2,7610361,15.384615384615385,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Cerâmica, vidro e minerais",Qualificação até 200h,4,3,1,2,0,7610361,0.0,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Construção,Qualificação acima de 200h,187,82,105,-23,44,7610361,41.904761904761905,-0.030221956619403467,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Construção,Qualificação até 200h,177,95,82,13,36,7610361,43.90243902439025,0.017081975480532394,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Construção,Superior,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Construção,Técnico,10,5,5,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Eletroeletrônica e automação,Qualificação acima de 200h,67,34,33,1,17,7610361,51.515151515151516,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Eletroeletrônica e automação,Técnico,191,101,90,11,40,7610361,44.44444444444444,0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Engenharia e P&D,Superior,100,47,53,-6,20,7610361,37.735849056603776,-0.007883988683322645,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Engenharia e P&D,Técnico,110,43,67,-24,20,7610361,29.850746268656717,-0.03153595473329058,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Gestão, administrativo e comercial",Qualificação acima de 200h,3711,1921,1790,131,822,7610361,45.92178770949721,0.17213375291921104,true,true,0.9948938877794944,38.58560794044665,4,622,-0.8050357502737895,48.181083265966045,5,1788
+Transformação,Plástico e borracha,"Gestão, administrativo e comercial",Qualificação até 200h,697,311,386,-75,145,7610361,37.56476683937824,-0.09854985854153304,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Gestão, administrativo e comercial",Superior,1258,566,692,-126,268,7610361,38.72832369942196,-0.16556376234977552,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Gestão, administrativo e comercial",Técnico,757,366,391,-25,150,7610361,38.36317135549872,-0.032849952847177684,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Logística e movimentação,Qualificação acima de 200h,2253,1029,1224,-195,548,7610361,44.77124183006536,-0.25622963220798595,true,true,0.9417103005945654,37.493975903614455,4,778,-1.3335987261146494,12.649800266311585,1,285
+Transformação,Plástico e borracha,Logística e movimentação,Qualificação até 200h,2951,1472,1479,-7,703,7610361,47.53211629479378,-0.009197986797209751,true,true,0.9709521344643037,52.36147266641874,6,1408,-0.10374625077533546,25.923415791257202,2,765
+Transformação,Plástico e borracha,Logística e movimentação,Superior,152,67,85,-18,39,7610361,45.88235294117647,-0.023651966049967933,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Madeira e móveis,Qualificação acima de 200h,117,65,52,13,30,7610361,57.69230769230769,0.017081975480532394,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Madeira e móveis,Qualificação até 200h,4,4,0,4,0,7610361,NaN,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Manutenção industrial,Qualificação acima de 200h,698,308,390,-82,169,7610361,43.333333333333336,-0.10774784533874279,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Manutenção industrial,Técnico,67,30,37,-7,16,7610361,43.24324324324324,-0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Metalmecânica e soldagem,Qualificação acima de 200h,2615,1291,1324,-33,626,7610361,47.2809667673716,-0.04336193775827454,true,true,1.0037787695904954,50.096562379297026,6,1297,-1.8621084797555385,19.235181644359464,1,503
+Transformação,Plástico e borracha,Metalmecânica e soldagem,Qualificação até 200h,26,7,19,-12,4,7610361,21.05263157894737,-0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Metalmecânica e soldagem,Técnico,49,17,32,-15,6,7610361,18.75,-0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Operação de linha e montagem,Qualificação acima de 200h,339,156,183,-27,90,7610361,49.18032786885246,-0.035477949074951894,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Operação de linha e montagem,Qualificação até 200h,31873,16832,15041,1791,8105,7610361,53.88604481085034,2.353370621971809,true,true,0.9885843313774656,96.29454131918119,24,30483,-0.16063631466730524,92.15637059580209,16,29373
+Transformação,Plástico e borracha,"Plástico, borracha e química",Qualificação acima de 200h,11519,5481,6038,-557,2941,7610361,48.70818151705863,-0.7318969494351187,true,true,0.9656542608639731,74.83260423176502,21,8382,0.1432891509098629,59.33674798159562,10,6835
+Transformação,Plástico e borracha,"Plástico, borracha e química",Qualificação até 200h,94,53,41,12,30,7610361,73.17073170731707,0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Plástico, borracha e química",Técnico,1197,592,605,-13,249,7610361,41.15702479338843,-0.017081975480532394,true,true,0.9956676164614657,68.05437553101105,2,801,-4.290552873889588,52.88220551378446,1,633
+Transformação,Plástico e borracha,Qualidade e controle,Qualificação acima de 200h,41,24,17,7,10,7610361,58.8235294117647,0.009197986797209751,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Qualidade e controle,Técnico,1185,533,652,-119,272,7610361,41.717791411042946,-0.15636577555256578,true,true,0.917969199916262,33.50785340314136,2,384,1.7170663885992352,20.421940928270043,1,242
+Transformação,Plástico e borracha,Serviços de apoio,Qualificação acima de 200h,30,16,14,2,9,7610361,64.28571428571429,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Serviços de apoio,Qualificação até 200h,684,334,350,-16,155,7610361,44.285714285714285,-0.021023969822193716,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,Serviços de apoio,Técnico,10,3,7,-4,2,7610361,28.571428571428573,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Têxtil, confecção e calçados",Qualificação acima de 200h,824,340,484,-144,281,7610361,58.05785123966942,-0.18921572839974346,true,true,0.9306303635255555,24.264705882352942,1,198,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Têxtil, confecção e calçados",Qualificação até 200h,160,81,79,2,42,7610361,53.164556962025316,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Plástico e borracha,"Têxtil, confecção e calçados",Técnico,131,55,76,-21,34,7610361,44.73684210526316,-0.027593960391629254,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Alimentos e bebidas,Qualificação acima de 200h,4,0,4,-4,1,7610361,25.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Alimentos e bebidas,Qualificação até 200h,12,5,7,-2,5,7610361,71.42857142857143,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Alimentos e bebidas,Superior,3,0,3,-3,2,7610361,66.66666666666667,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Cerâmica, vidro e minerais",Qualificação acima de 200h,4,2,2,0,1,7610361,50.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Construção,Qualificação acima de 200h,85,35,50,-15,13,7610361,26.0,-0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Construção,Qualificação até 200h,102,51,51,0,21,7610361,41.1764705882353,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Construção,Superior,1,0,1,-1,1,7610361,100.0,-0.0013139981138871072,false,false,,,,,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Construção,Técnico,2,1,1,0,0,7610361,0.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Eletroeletrônica e automação,Qualificação acima de 200h,6,5,1,4,1,7610361,100.0,0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Eletroeletrônica e automação,Técnico,62,35,27,8,12,7610361,44.44444444444444,0.010511984911096858,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Engenharia e P&D,Superior,54,28,26,2,10,7610361,38.46153846153846,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Engenharia e P&D,Técnico,164,88,76,12,36,7610361,47.36842105263158,0.01576797736664529,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Gestão, administrativo e comercial",Qualificação acima de 200h,1536,791,745,46,332,7610361,44.56375838926174,0.060443913238806934,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Gestão, administrativo e comercial",Qualificação até 200h,406,183,223,-40,88,7610361,39.46188340807175,-0.05255992455548429,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Gestão, administrativo e comercial",Superior,640,263,377,-114,137,7610361,36.3395225464191,-0.14979578498313023,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Gestão, administrativo e comercial",Técnico,320,146,174,-28,67,7610361,38.50574712643678,-0.036791947188839005,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Logística e movimentação,Qualificação acima de 200h,1128,599,529,70,217,7610361,41.02079395085066,0.0919798679720975,true,true,0.9437550475721037,22.823098075160402,2,249,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Logística e movimentação,Qualificação até 200h,835,423,412,11,191,7610361,46.359223300970875,0.01445397925275818,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Logística e movimentação,Superior,81,36,45,-9,18,7610361,40.0,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Madeira e móveis,Qualificação acima de 200h,396,188,208,-20,126,7610361,60.57692307692308,-0.026279962277742146,false,true,0.99009900990099,94.17721518987342,1,372,-0.46913008224255764,93.93939393939394,1,372
+Transformação,Química e farmacêutica,Madeira e móveis,Qualificação até 200h,3,0,3,-3,1,7610361,33.333333333333336,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Manutenção industrial,Qualificação acima de 200h,255,122,133,-11,41,7610361,30.827067669172934,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Manutenção industrial,Técnico,25,10,15,-5,3,7610361,20.0,-0.006569990569435536,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Metalmecânica e soldagem,Qualificação acima de 200h,196,109,87,22,44,7610361,50.57471264367816,0.02890795850551636,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Metalmecânica e soldagem,Qualificação até 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Metalmecânica e soldagem,Técnico,13,5,8,-3,1,7610361,12.5,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Operação de linha e montagem,Qualificação acima de 200h,142,70,72,-2,29,7610361,40.27777777777778,-0.0026279962277742145,false,false,0.8681818181818182,92.90780141843972,1,131,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Operação de linha e montagem,Qualificação até 200h,4033,2072,1961,111,941,7610361,47.985721570627234,0.14585379064146892,true,true,0.9809971355903123,76.34546386468477,8,2979,0.8704415888751798,69.89833870567816,6,2819
+Transformação,Química e farmacêutica,"Plástico, borracha e química",Qualificação acima de 200h,3027,1634,1393,241,693,7610361,49.74874371859296,0.3166735454467929,true,true,0.9777857677546461,77.89941840574753,5,2277,0.6385521672776551,73.40601255368351,4,2222
+Transformação,Química e farmacêutica,"Plástico, borracha e química",Qualificação até 200h,457,266,191,75,118,7610361,61.78010471204188,0.09854985854153304,false,true,1.0,73.96061269146608,1,338,-0.23241456948832478,73.96061269146608,1,338
+Transformação,Química e farmacêutica,"Plástico, borracha e química",Técnico,8,5,3,2,1,7610361,33.333333333333336,0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Qualidade e controle,Qualificação acima de 200h,263,153,110,43,49,7610361,44.54545454545455,0.05650191889714561,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Qualidade e controle,Técnico,595,305,290,15,150,7610361,51.724137931034484,0.01970997170830661,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Serviços de apoio,Qualificação acima de 200h,1,1,0,1,0,7610361,NaN,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Serviços de apoio,Qualificação até 200h,405,218,187,31,78,7610361,41.711229946524064,0.04073394153050033,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,Serviços de apoio,Técnico,10,4,6,-2,3,7610361,50.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Têxtil, confecção e calçados",Qualificação acima de 200h,59,37,22,15,10,7610361,45.45454545454545,0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Têxtil, confecção e calçados",Qualificação até 200h,5,1,4,-3,2,7610361,50.0,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,Química e farmacêutica,"Têxtil, confecção e calçados",Técnico,109,55,54,1,21,7610361,38.888888888888886,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Alimentos e bebidas,Qualificação acima de 200h,14,11,3,8,2,7610361,66.66666666666667,0.010511984911096858,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Alimentos e bebidas,Qualificação até 200h,38,17,21,-4,10,7610361,47.61904761904762,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Alimentos e bebidas,Superior,3,1,2,-1,1,7610361,50.0,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Cerâmica, vidro e minerais",Qualificação acima de 200h,7,4,3,1,0,7610361,0.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Cerâmica, vidro e minerais",Qualificação até 200h,2,0,2,-2,1,7610361,50.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Construção,Qualificação acima de 200h,332,173,159,14,43,7610361,27.044025157232703,0.018395973594419503,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Construção,Qualificação até 200h,233,112,121,-9,60,7610361,49.586776859504134,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Construção,Técnico,3,2,1,1,1,7610361,100.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Eletroeletrônica e automação,Qualificação acima de 200h,21,11,10,1,7,7610361,70.0,0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Eletroeletrônica e automação,Técnico,163,80,83,-3,43,7610361,51.80722891566265,-0.003941994341661322,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Engenharia e P&D,Superior,1121,494,627,-133,286,7610361,45.6140350877193,-0.17476174914698525,true,true,1.0522463671864946,37.48837209302326,2,403,13.492063492063489,24.88849241748439,1,279
+Transformação,"Têxtil, confecção e calçados",Engenharia e P&D,Técnico,345,142,203,-61,92,7610361,45.320197044334975,-0.08015388494711355,false,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Gestão, administrativo e comercial",Qualificação acima de 200h,9030,4455,4575,-120,2007,7610361,43.868852459016395,-0.1576797736664529,true,true,0.941803071232537,81.11923796564041,12,4769,-1.0613948875336632,79.80066445182725,10,7206
+Transformação,"Têxtil, confecção e calçados","Gestão, administrativo e comercial",Qualificação até 200h,4179,2052,2127,-75,942,7610361,44.287729196050776,-0.09854985854153304,true,true,0.9818161220344459,53.67922175106011,7,2152,-0.7559080482206936,42.617851160564726,4,1781
+Transformação,"Têxtil, confecção e calçados","Gestão, administrativo e comercial",Superior,3723,1560,2163,-603,906,7610361,41.88626907073509,-0.7923408626739257,true,true,1.0204167588421784,24.79220406993408,5,865,2.0881763266518996,12.785388127853881,2,476
+Transformação,"Têxtil, confecção e calçados","Gestão, administrativo e comercial",Técnico,1634,713,921,-208,415,7610361,45.05971769815418,-0.2733116076885183,true,true,0.93826539615077,50.53695514845231,3,800,0.17156862745097978,35.49571603427172,1,580
+Transformação,"Têxtil, confecção e calçados",Logística e movimentação,Qualificação acima de 200h,7378,3548,3830,-282,1871,7610361,48.85117493472585,-0.3705474681161643,true,true,0.9563873618742592,82.33401579409184,9,5630,-0.18624154569155152,73.16345893195988,5,5398
+Transformação,"Têxtil, confecção e calçados",Logística e movimentação,Qualificação até 200h,11557,5752,5805,-53,2792,7610361,48.09646856158484,-0.06964190003601668,true,true,0.9729766300647423,85.91603791835945,15,8882,0.060145764206363236,78.70554642208185,11,9096
+Transformação,"Têxtil, confecção e calçados",Logística e movimentação,Superior,171,78,93,-15,36,7610361,38.70967741935484,-0.01970997170830661,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Madeira e móveis,Qualificação acima de 200h,119,55,64,-9,33,7610361,51.5625,-0.011825983024983966,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Madeira e móveis,Qualificação até 200h,10,3,7,-4,2,7610361,28.571428571428573,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Manutenção industrial,Qualificação acima de 200h,1825,815,1010,-195,427,7610361,42.277227722772274,-0.25622963220798595,true,true,0.8933097445560101,55.08532423208191,4,807,-1.582050442188012,19.561643835616437,1,357
+Transformação,"Têxtil, confecção e calçados",Manutenção industrial,Técnico,65,23,42,-19,17,7610361,40.476190476190474,-0.024965964163855037,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Metalmecânica e soldagem,Qualificação acima de 200h,728,347,381,-34,141,7610361,37.00787401574803,-0.04467593587216164,true,true,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Metalmecânica e soldagem,Qualificação até 200h,2,1,1,0,1,7610361,100.0,0.0,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Metalmecânica e soldagem,Técnico,65,27,38,-11,6,7610361,15.789473684210526,-0.01445397925275818,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Operação de linha e montagem,Qualificação acima de 200h,188,70,118,-48,56,7610361,47.45762711864407,-0.06307190946658116,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Operação de linha e montagem,Qualificação até 200h,24403,12512,11891,621,6467,7610361,54.38566983432848,0.8159928287238936,true,true,0.9830107617185809,94.98293946670037,22,22548,-0.15002093150141627,89.13248371101913,13,21751
+Transformação,"Têxtil, confecção e calçados","Plástico, borracha e química",Qualificação acima de 200h,595,259,336,-77,158,7610361,47.023809523809526,-0.10117785476930725,true,true,0.9250902527075813,32.93103448275862,1,191,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Plástico, borracha e química",Qualificação até 200h,5,2,3,-1,1,7610361,33.333333333333336,-0.0013139981138871072,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Plástico, borracha e química",Técnico,8,3,5,-2,2,7610361,40.0,-0.0026279962277742145,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Qualidade e controle,Qualificação acima de 200h,96,46,50,-4,19,7610361,38.0,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Qualidade e controle,Técnico,3159,1440,1719,-279,847,7610361,49.27283304246655,-0.3666054737745029,true,true,0.9945773270390197,56.93996126533247,4,1764,0.9033629355702794,46.37543526432415,2,1465
+Transformação,"Têxtil, confecção e calçados",Serviços de apoio,Qualificação acima de 200h,101,64,37,27,19,7610361,51.351351351351354,0.035477949074951894,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados",Serviços de apoio,Qualificação até 200h,3196,1626,1570,56,807,7610361,51.40127388535032,0.07358389437767801,true,true,0.9829774345178923,53.6231884057971,6,1665,-0.52399295993352,40.707133917396746,3,1301
+Transformação,"Têxtil, confecção e calçados",Serviços de apoio,Técnico,84,40,44,-4,15,7610361,34.09090909090909,-0.005255992455548429,false,false,NaN,0.0,0,0,NaN,0.0,0,0
+Transformação,"Têxtil, confecção e calçados","Têxtil, confecção e calçados",Qualificação acima de 200h,86784,41250,45534,-4284,25285,7610361,55.529933675934465,-5.629167919892367,true,true,0.9666470806404509,91.97768236293291,98,77975,-0.04783162348235337,85.89256084070796,66,74541
+Transformação,"Têxtil, confecção e calçados","Têxtil, confecção e calçados",Qualificação até 200h,26841,13567,13274,293,7199,7610361,54.2338405906283,0.38500144736892244,true,true,0.9809339635192622,88.78247900149148,38,22620,0.016232022113963376,81.8784695056071,25,21977
+Transformação,"Têxtil, confecção e calçados","Têxtil, confecção e calçados",Técnico,3004,1474,1530,-56,712,7610361,46.5359477124183,-0.07358389437767801,true,true,0.9548836253974867,75.30581039755351,5,1970,0.600931297163115,61.95073235685752,4,1861

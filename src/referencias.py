@@ -77,9 +77,35 @@ def baixar_regioes() -> pd.DataFrame:
     return df
 
 
+def _area_assinada(anel: list) -> float:
+    """Fórmula do laço (lon = x, lat = y): positiva = anti-horário, negativa = horário."""
+    return sum(x1 * y2 - x2 * y1 for (x1, y1, *_), (x2, y2, *_) in zip(anel, anel[1:] + anel[:1])) / 2
+
+
+def orientar_para_plotly(geo: dict) -> dict:
+    """O Plotly (d3-geo) exige anel externo no sentido horário e buracos no anti-horário.
+    O IBGE segue a RFC 7946 (o contrário); sem isso, cada polígono vira 'o mundo menos a região'
+    e o mapa pinta o fundo inteiro."""
+    def ajustar(poligono: list) -> list:
+        saida = []
+        for i, anel in enumerate(poligono):
+            horario = _area_assinada(anel) < 0
+            externo = i == 0
+            saida.append(anel if horario == externo else anel[::-1])
+        return saida
+
+    for f in geo["features"]:
+        g = f["geometry"]
+        if g["type"] == "Polygon":
+            g["coordinates"] = ajustar(g["coordinates"])
+        elif g["type"] == "MultiPolygon":
+            g["coordinates"] = [ajustar(p) for p in g["coordinates"]]
+    return geo
+
+
 def baixar_geojson() -> Path:
-    """GeoJSON das microrregiões de SC (API de malhas v3 do IBGE)."""
-    geo = _get(cfg.IBGE_MALHA_MICRO_URL).json()
+    """GeoJSON das microrregiões de SC (API de malhas v3 do IBGE), com os anéis orientados para o Plotly."""
+    geo = orientar_para_plotly(_get(cfg.IBGE_MALHA_MICRO_URL).json())
     cfg.GEOJSON_MICRO.write_text(json.dumps(geo), encoding="utf-8")
     mb = cfg.GEOJSON_MICRO.stat().st_size / 1e6
     if mb > cfg.GEOJSON_MAX_MB:

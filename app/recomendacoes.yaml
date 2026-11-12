@@ -1,5 +1,69 @@
-gerado_em: 2026-11-10 15:17
-status_geral: pendente
-motivo: faltam as microrregiões do IBGE (V21) e/ou a classificação das macrofamílias
-  (Fase 2)
-recomendacoes: []
+gerado_em: 2026-11-11 23:10
+status_geral: aprovada
+nota: >-
+  Versão reescrita pela equipe a partir do rascunho automático (src/recomendacoes.py), em 11/11/2026.
+  Mudanças: as duas candidatas do Oeste (São Miguel do Oeste e Concórdia) viraram uma só, por mesorregião;
+  a ação deixou de ser "formação" para quem já é qualificado e pede para sair; a 3ª vaga foi para Blumenau,
+  o maior volume do têxtil. O pipeline não sobrescreve este arquivo enquanto status_geral = aprovada.
+recomendacoes:
+- status: aprovada
+  acao: Programa de retenção na agroindústria
+  macrofamilia: Alimentos e bebidas × Qualificação acima de 200h (e Operação de linha × até 200h)
+  regiao: Oeste Catarinense (Chapecó, Joaçaba, Concórdia, Xanxerê, São Miguel do Oeste)
+  quadrante: Expansão sob pressão
+  porque: >-
+    64,6% dos desligamentos de magarefes e demais ofícios da agroindústria são a pedido, contra 50,9% na
+    transformação de SC (n = 17.954 desligamentos), com saldo positivo de +2.699 vagas em 12 meses; na operação de
+    linha da região, 60,3% a pedido (n = 26.296). O salário de reposição está na média de SC (prêmio 0,979 × 0,975),
+    então o problema é reter, não pagar a entrada
+  quem_executa: Agroindústrias do Oeste, com apoio da FIESC
+  texto: >-
+    Programa de retenção para Alimentos e bebidas × Qualificação acima de 200h no Oeste Catarinense, porque 64,6% dos
+    desligamentos são a pedido, contra 50,9% na transformação de SC, num setor que ainda cresce (+2.699 vagas).
+    Quem executa: agroindústrias, com apoio da FIESC.
+  indicador_de_acompanhamento:
+    kpi: '% de desligamentos a pedido (KPI 1) em Alimentos e bebidas × acima de 200h no Oeste'
+    linha_de_base: 64.6
+    referencia_sc: 50.9
+    unidade: '%'
+    fonte: Novo CAGED, mensal (MTE)
+- status: aprovada
+  acao: Revisão de faixa salarial e programa de retenção no têxtil
+  macrofamilia: Têxtil, confecção e calçados × Qualificação acima de 200h
+  regiao: Rio do Sul (Vale do Itajaí)
+  quadrante: Retenção problemática
+  porque: >-
+    68,6% dos desligamentos são a pedido, contra 50,9% na transformação de SC (n = 5.256 desligamentos); o setor
+    encolhe (−15,6 vagas por 10 mil habitantes) e quem entra ganha 4,3% menos que quem sai na mesma ocupação
+    (prêmio 0,957, abaixo dos 0,975 de SC)
+  quem_executa: Confecções do Alto Vale, com apoio da FIESC
+  texto: >-
+    Revisão de faixa salarial e programa de retenção para Têxtil × Qualificação acima de 200h em Rio do Sul, porque
+    68,6% dos desligamentos são a pedido (SC: 50,9%) e a reposição paga 4,3% menos que o salário de quem sai.
+    Quem executa: confecções, com apoio da FIESC.
+  indicador_de_acompanhamento:
+    kpi: '% de desligamentos a pedido (KPI 1) no têxtil acima de 200h em Rio do Sul'
+    linha_de_base: 68.6
+    referencia_sc: 50.9
+    unidade: '%'
+    fonte: Novo CAGED, mensal (MTE)
+- status: aprovada
+  acao: Requalificação do têxtil para eletroeletrônica e automação
+  macrofamilia: Têxtil, confecção e calçados × Qualificação acima de 200h → Eletroeletrônica e automação × Qualificação acima de 200h
+  regiao: Blumenau (Vale do Itajaí)
+  quadrante: Retenção problemática
+  porque: >-
+    é o maior volume do têxtil em SC (37.339 movimentos) e perdeu 1.283 vagas em 12 meses, enquanto a eletroeletrônica
+    da mesma microrregião criou 568; a eletroeletrônica e automação acima de 200h cresce (+189) e paga 5,1% menos na
+    reposição (prêmio 0,949), sinal de que falta gente formada para entrar
+  quem_executa: SENAI-SC, com as empresas de eletroeletrônica de Blumenau
+  texto: >-
+    Formação profissional direcionada para levar Têxtil × acima de 200h a Eletroeletrônica e automação × acima de 200h
+    em Blumenau, porque o têxtil perdeu 1.283 vagas e a eletroeletrônica criou 568 na mesma região.
+    Quem executa: SENAI-SC.
+  indicador_de_acompanhamento:
+    kpi: Saldo de 12 meses da Eletroeletrônica e automação × acima de 200h em Blumenau
+    linha_de_base: 189
+    referencia_sc: null
+    unidade: vagas
+    fonte: Novo CAGED, mensal (MTE)

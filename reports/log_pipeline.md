@@ -1,6 +1,6 @@
 # Log do pipeline
 
-Execução: 2026-11-10 15:17
+Execução: 2026-11-11 22:36
 
 ## Ingestão (R1–R2)
 
@@ -10,8 +10,8 @@ Execução: 2026-11-10 15:17
 | Colunas | 28 |
 | Nulos em idade | 2,202 |
 | Salário não numérico | 0 |
-| Tempo de leitura | 3.5 s |
-| Pico de memória do processo | 1,927 MB |
+| Tempo de leitura | 2.6 s |
+| Pico de memória do processo | 2,240 MB |
 
 ## Dicionário (R12b)
 
@@ -38,13 +38,13 @@ Execução: 2026-11-10 15:17
 | R7 cópias excedentes de linhas idênticas mantidas (B–F) | 26,916 |
 | R7 fora do prazo mantidas | 9,599 |
 | R11 municípios casados | 295 de 295; sem população: 0 |
-| R12 regiões | NÃO APLICADO (--sem-regioes). Rodar src/referencias.py com internet. |
+| R12 regiões | 20 microrregiões; nulos: 0 |
 | R12b CBO sem título | 131 linhas |
 | R12b subclasse sem descrição | 0 linhas |
 | Nulos em divisao_cnae | 0 |
 | Nulos em cbo2002ocupacao | 0 |
 | Nulos em grupo_setorial | 0 |
-| Nulos em microrregiao | 1,139,633 |
+| Nulos em microrregiao | 0 |
 | Saída (caged_ind.parquet) | 1,139,633 linhas, 41 colunas |
 
 ## KPIs (seção 5)
@@ -58,6 +58,15 @@ Execução: 2026-11-10 15:17
 | kpis_grupo_setorial_sem_cbo_dominante | 13 linhas |
 | perfil_escolaridade_grupo | 104 linhas |
 | perfil_salario_grupo | 26 linhas |
-| Recortes por microrregião, quadrantes e QL | PENDENTES: falta municipios_regioes.csv (V21) |
-| Recortes por macrofamília | PENDENTES: falta macrofamilias.csv (Fase 2) |
-| Tamanho de data/processed | 0.02 MB (limite 20 MB) |
+| kpis_microrregiao | 60 linhas |
+| kpis_micro_grupo | 257 linhas |
+| quadrantes | 169 linhas |
+| perfil_escolaridade_micro_grupo | 1962 linhas |
+| perfil_salario_micro_grupo | 512 linhas |
+| quociente_locacional | 257 linhas |
+| Polos (QL > 1,1 / 1,25 / 1,5 com ≥1.000 mov.) | 62 / 54 / 41 |
+| kpis_macrofamilia | 115 linhas |
+| kpis_grupo_macrofamilia | 495 linhas |
+| kpis_micro_macrofamilia | 1760 linhas |
+| kpis_micro_grupo_macrofamilia | 5540 linhas |
+| Tamanho de data/processed | 2.08 MB (limite 20 MB) |

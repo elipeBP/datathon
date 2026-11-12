@@ -1,27 +1,27 @@
 segmento,grupo_setorial,tipo,salario_mediano,n
-Construção,Construção,Admitidos,2587.0,132360
-Transformação,Outras da transformação,Desligados,2158.2,7447
-Transformação,Minerais não metálicos e cerâmica,Admitidos,2300.0,15638
-Extrativa e utilidades,Utilidades,Admitidos,1978.0,12638
 Transformação,Metalmecânica,Desligados,2556.4,81461
-Construção,Construção,Desligados,2657.6,130741
-Transformação,Alimentos e bebidas,Desligados,2164.15,84465
-Transformação,Química e farmacêutica,Admitidos,2210.0,7813
-Transformação,"Têxtil, confecção e calçados",Admitidos,2140.6,89132
-Transformação,Madeira e móveis,Desligados,2127.4,38968
-Transformação,"Papel, celulose e gráfica",Desligados,2233.86,12562
-Transformação,Metalmecânica,Admitidos,2413.76,84242
-Extrativa e utilidades,Utilidades,Desligados,2022.0,12443
 Transformação,Plástico e borracha,Admitidos,2229.8,31111
-Extrativa e utilidades,Extrativa,Admitidos,2659.1400000000003,2458
-Transformação,Alimentos e bebidas,Admitidos,2100.0,87994
-Transformação,"Têxtil, confecção e calçados",Desligados,2220.0,94920
-Transformação,"Papel, celulose e gráfica",Admitidos,2106.0,12865
-Transformação,Eletroeletrônica,Desligados,2406.8,18983
-Transformação,Minerais não metálicos e cerâmica,Desligados,2436.975,16416
-Transformação,Química e farmacêutica,Desligados,2325.52,7362
-Extrativa e utilidades,Extrativa,Desligados,2890.0,2613
-Transformação,Eletroeletrônica,Admitidos,2268.2,20373
+Transformação,"Papel, celulose e gráfica",Desligados,2233.86,12562
+Transformação,Alimentos e bebidas,Desligados,2164.15,84465
+Extrativa e utilidades,Utilidades,Desligados,2022.0,12443
+Transformação,Metalmecânica,Admitidos,2413.76,84242
+Transformação,"Têxtil, confecção e calçados",Admitidos,2140.6,89132
 Transformação,Plástico e borracha,Desligados,2274.8,30824
-Transformação,Madeira e móveis,Admitidos,2039.4,36395
+Transformação,Eletroeletrônica,Admitidos,2268.2,20373
+Construção,Construção,Desligados,2657.6,130741
+Transformação,Química e farmacêutica,Admitidos,2210.0,7813
 Transformação,Outras da transformação,Admitidos,2068.48,7158
+Transformação,Outras da transformação,Desligados,2158.2,7447
+Extrativa e utilidades,Extrativa,Admitidos,2659.1400000000003,2458
+Transformação,"Têxtil, confecção e calçados",Desligados,2220.0,94920
+Extrativa e utilidades,Utilidades,Admitidos,1978.0,12638
+Extrativa e utilidades,Extrativa,Desligados,2890.0,2613
+Transformação,Eletroeletrônica,Desligados,2406.8,18983
+Transformação,Alimentos e bebidas,Admitidos,2100.0,87994
+Transformação,Madeira e móveis,Admitidos,2039.4,36395
+Transformação,Minerais não metálicos e cerâmica,Desligados,2436.975,16416
+Transformação,Madeira e móveis,Desligados,2127.4,38968
+Construção,Construção,Admitidos,2587.0,132360
+Transformação,"Papel, celulose e gráfica",Admitidos,2106.0,12865
+Transformação,Minerais não metálicos e cerâmica,Admitidos,2300.0,15638
+Transformação,Química e farmacêutica,Desligados,2325.52,7362

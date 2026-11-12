@@ -1,5 +1,4 @@
 """R1, R1b, R2: leitura do CSV bruto do Novo CAGED e gravação de caged_raw.parquet."""
-import resource
 import sys
 import time
 from pathlib import Path
@@ -11,10 +10,35 @@ import config as cfg  # noqa: E402
 from src.log import registrar  # noqa: E402
 
 
-def pico_memoria_mb() -> float:
-    """Pico de memória residente do processo (Linux em KB, macOS em bytes)."""
-    pico = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
-    return pico / 1024 ** 2 if sys.platform == "darwin" else pico / 1024
+def pico_memoria_mb() -> float | None:
+    """Pico de memória residente do processo. Linux (KB), macOS (bytes), Windows (API do sistema)."""
+    try:
+        import resource  # só existe em Linux e macOS
+        pico = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        return pico / 1024 ** 2 if sys.platform == "darwin" else pico / 1024
+    except ImportError:
+        pass
+    if sys.platform == "win32":
+        import ctypes
+        from ctypes import wintypes
+
+        class PMC(ctypes.Structure):
+            _fields_ = [("cb", wintypes.DWORD), ("PageFaultCount", wintypes.DWORD),
+                        ("PeakWorkingSetSize", ctypes.c_size_t), ("WorkingSetSize", ctypes.c_size_t),
+                        ("QuotaPeakPagedPoolUsage", ctypes.c_size_t), ("QuotaPagedPoolUsage", ctypes.c_size_t),
+                        ("QuotaPeakNonPagedPoolUsage", ctypes.c_size_t), ("QuotaNonPagedPoolUsage", ctypes.c_size_t),
+                        ("PagefileUsage", ctypes.c_size_t), ("PeakPagefileUsage", ctypes.c_size_t)]
+        pmc = PMC()
+        pmc.cb = ctypes.sizeof(PMC)
+        try:
+            psapi = ctypes.WinDLL("psapi")
+            psapi.GetProcessMemoryInfo.argtypes = [wintypes.HANDLE, ctypes.POINTER(PMC), wintypes.DWORD]
+            ok = psapi.GetProcessMemoryInfo(ctypes.windll.kernel32.GetCurrentProcess(), ctypes.byref(pmc), pmc.cb)
+            if ok:
+                return pmc.PeakWorkingSetSize / 1024 ** 2
+        except OSError:
+            pass
+    return None
 
 
 def ler_caged(caminho: Path = cfg.CAGED_CSV) -> pl.DataFrame:
@@ -45,7 +69,8 @@ def main() -> pl.DataFrame:
         ("Nulos em idade", f"{df['idade'].null_count():,}"),
         ("Salário não numérico", f"{df['salario'].null_count():,}"),
         ("Tempo de leitura", f"{time.time() - t0:.1f} s"),
-        ("Pico de memória do processo", f"{pico_memoria_mb():,.0f} MB"),
+        ("Pico de memória do processo",
+         f"{pico:,.0f} MB" if (pico := pico_memoria_mb()) is not None else "não medido neste sistema"),
     ])
     return df
 

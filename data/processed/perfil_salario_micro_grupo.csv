@@ -1,0 +1,513 @@
+segmento,cod_microrregiao,microrregiao,grupo_setorial,tipo,salario_mediano,n
+Transformação,42020,Araranguá,Química e farmacêutica,Desligados,2172.6,133
+Transformação,42004,Joaçaba,Minerais não metálicos e cerâmica,Admitidos,2200.0,251
+Construção,42002,Chapecó,Construção,Admitidos,2600.0,8573
+Transformação,42019,Criciúma,Eletroeletrônica,Admitidos,2337.0,288
+Transformação,42001,São Miguel do Oeste,Outras da transformação,Desligados,1964.0,58
+Transformação,42014,Ituporanga,Alimentos e bebidas,Admitidos,2022.0,169
+Transformação,42020,Araranguá,"Têxtil, confecção e calçados",Admitidos,1934.0,2104
+Extrativa e utilidades,42010,Campos de Lages,Extrativa,Desligados,2445.38,51
+Extrativa e utilidades,42002,Chapecó,Utilidades,Admitidos,2000.0,1223
+Transformação,42009,Curitibanos,Madeira e móveis,Desligados,1950.0,2790
+Transformação,42019,Criciúma,Minerais não metálicos e cerâmica,Admitidos,2374.0,2015
+Construção,42020,Araranguá,Construção,Desligados,2276.24,1424
+Transformação,42008,Joinville,Madeira e móveis,Admitidos,2300.0,1581
+Transformação,42009,Curitibanos,Minerais não metálicos e cerâmica,Desligados,2215.4,127
+Extrativa e utilidades,42020,Araranguá,Utilidades,Admitidos,2129.42,96
+Transformação,42016,Florianópolis,Plástico e borracha,Desligados,2291.0,1276
+Construção,42017,Tabuleiro,Construção,Desligados,2228.6,138
+Transformação,42009,Curitibanos,Eletroeletrônica,Desligados,2105.4,1
+Transformação,42003,Xanxerê,Madeira e móveis,Desligados,2065.71,678
+Construção,42004,Joaçaba,Construção,Admitidos,2400.0,3993
+Transformação,42006,Canoinhas,Plástico e borracha,Admitidos,2156.0,123
+Extrativa e utilidades,42006,Canoinhas,Extrativa,Desligados,2349.28,49
+Transformação,42003,Xanxerê,Eletroeletrônica,Desligados,2130.0,7
+Transformação,42014,Ituporanga,Minerais não metálicos e cerâmica,Desligados,2614.0,445
+Transformação,42017,Tabuleiro,Química e farmacêutica,Admitidos,3880.5,2
+Extrativa e utilidades,42018,Tubarão,Utilidades,Admitidos,2233.66,951
+Construção,42001,São Miguel do Oeste,Construção,Admitidos,2345.0,1353
+Transformação,42003,Xanxerê,Metalmecânica,Admitidos,2625.0,1208
+Transformação,42009,Curitibanos,"Papel, celulose e gráfica",Desligados,2224.37,290
+Transformação,42019,Criciúma,Madeira e móveis,Admitidos,2195.5,1086
+Transformação,42005,Concórdia,Alimentos e bebidas,Admitidos,1999.8,5862
+Transformação,42007,São Bento do Sul,Química e farmacêutica,Admitidos,2165.025,126
+Transformação,42005,Concórdia,Plástico e borracha,Admitidos,2000.0,63
+Transformação,42006,Canoinhas,Plástico e borracha,Desligados,2185.0,118
+Transformação,42019,Criciúma,"Papel, celulose e gráfica",Desligados,2229.8,659
+Transformação,42001,São Miguel do Oeste,"Têxtil, confecção e calçados",Desligados,1950.36,619
+Transformação,42012,Blumenau,Madeira e móveis,Desligados,2493.5,2028
+Transformação,42007,São Bento do Sul,Eletroeletrônica,Admitidos,2120.8,70
+Transformação,42004,Joaçaba,Plástico e borracha,Desligados,2200.0,2093
+Transformação,42017,Tabuleiro,"Têxtil, confecção e calçados",Admitidos,2051.0,15
+Transformação,42009,Curitibanos,Química e farmacêutica,Desligados,2020.0,303
+Transformação,42005,Concórdia,"Papel, celulose e gráfica",Desligados,2204.95,208
+Construção,42013,Itajaí,Construção,Admitidos,2700.0,40401
+Transformação,42006,Canoinhas,Madeira e móveis,Desligados,1882.7,3987
+Transformação,42009,Curitibanos,Metalmecânica,Admitidos,2200.0,1034
+Transformação,42004,Joaçaba,Outras da transformação,Admitidos,2051.78,311
+Transformação,42014,Ituporanga,"Têxtil, confecção e calçados",Desligados,2300.0,1106
+Extrativa e utilidades,42002,Chapecó,Extrativa,Admitidos,2658.48,113
+Extrativa e utilidades,42016,Florianópolis,Extrativa,Admitidos,2829.7799999999997,230
+Transformação,42020,Araranguá,Outras da transformação,Admitidos,2041.6,928
+Transformação,42008,Joinville,Eletroeletrônica,Admitidos,2219.8,9785
+Construção,42009,Curitibanos,Construção,Admitidos,2100.0,754
+Transformação,42011,Rio do Sul,Alimentos e bebidas,Admitidos,2210.0,3169
+Transformação,42020,Araranguá,Minerais não metálicos e cerâmica,Desligados,2276.24,526
+Transformação,42012,Blumenau,Alimentos e bebidas,Admitidos,2100.0,4965
+Extrativa e utilidades,42012,Blumenau,Utilidades,Desligados,1999.8,1541
+Transformação,42014,Ituporanga,Madeira e móveis,Desligados,2321.0,235
+Transformação,42018,Tubarão,Madeira e móveis,Desligados,2100.0,2054
+Transformação,42009,Curitibanos,"Papel, celulose e gráfica",Admitidos,2219.7,322
+Transformação,42011,Rio do Sul,Madeira e móveis,Admitidos,2070.2,3033
+Transformação,42010,Campos de Lages,Minerais não metálicos e cerâmica,Admitidos,1763.0,157
+Transformação,42020,Araranguá,Madeira e móveis,Admitidos,2093.55,758
+Transformação,42006,Canoinhas,Eletroeletrônica,Desligados,2254.0,115
+Transformação,42009,Curitibanos,Alimentos e bebidas,Admitidos,1995.4,1388
+Transformação,42012,Blumenau,Química e farmacêutica,Admitidos,2307.83,1053
+Extrativa e utilidades,42012,Blumenau,Extrativa,Desligados,2862.48,271
+Transformação,42013,Itajaí,Metalmecânica,Desligados,2500.0,8442
+Transformação,42005,Concórdia,Minerais não metálicos e cerâmica,Desligados,2332.0,245
+Transformação,42004,Joaçaba,Madeira e móveis,Admitidos,2039.4,3228
+Transformação,42013,Itajaí,Química e farmacêutica,Admitidos,2250.0,427
+Extrativa e utilidades,42003,Xanxerê,Extrativa,Admitidos,2250.0,19
+Transformação,42014,Ituporanga,Alimentos e bebidas,Desligados,2153.0,178
+Transformação,42007,São Bento do Sul,Química e farmacêutica,Desligados,2208.8,124
+Transformação,42004,Joaçaba,"Têxtil, confecção e calçados",Desligados,1988.8,1578
+Construção,42014,Ituporanga,Construção,Admitidos,2390.3,1110
+Transformação,42004,Joaçaba,Metalmecânica,Admitidos,2156.0,4145
+Transformação,42016,Florianópolis,Minerais não metálicos e cerâmica,Admitidos,2295.49,1021
+Transformação,42019,Criciúma,Metalmecânica,Desligados,2638.78,6562
+Transformação,42020,Araranguá,Eletroeletrônica,Admitidos,2321.0,21
+Transformação,42007,São Bento do Sul,Madeira e móveis,Desligados,2299.0,4384
+Transformação,42013,Itajaí,Plástico e borracha,Admitidos,2205.0,760
+Transformação,42019,Criciúma,"Têxtil, confecção e calçados",Admitidos,2023.54,6923
+Transformação,42003,Xanxerê,Eletroeletrônica,Admitidos,2130.0,15
+Transformação,42019,Criciúma,Química e farmacêutica,Admitidos,2172.6,1110
+Transformação,42009,Curitibanos,Outras da transformação,Desligados,1950.0,10
+Transformação,42014,Ituporanga,Plástico e borracha,Desligados,2200.0,180
+Extrativa e utilidades,42014,Ituporanga,Extrativa,Desligados,3079.525,8
+Transformação,42005,Concórdia,"Têxtil, confecção e calçados",Admitidos,1935.0,73
+Extrativa e utilidades,42004,Joaçaba,Extrativa,Admitidos,2571.75,91
+Transformação,42008,Joinville,Alimentos e bebidas,Admitidos,2113.0,4903
+Construção,42002,Chapecó,Construção,Desligados,2757.96,8699
+Transformação,42013,Itajaí,Madeira e móveis,Admitidos,2300.0,1340
+Transformação,42003,Xanxerê,"Papel, celulose e gráfica",Admitidos,2233.86,413
+Construção,42008,Joinville,Construção,Desligados,2650.0,14865
+Transformação,42012,Blumenau,Eletroeletrônica,Admitidos,2363.22,3573
+Transformação,42009,Curitibanos,Química e farmacêutica,Admitidos,2000.0,261
+Extrativa e utilidades,42011,Rio do Sul,Utilidades,Desligados,1843.6,262
+Construção,42015,Tijucas,Construção,Desligados,2675.0,6406
+Transformação,42020,Araranguá,Plástico e borracha,Desligados,2202.5,92
+Transformação,42018,Tubarão,Plástico e borracha,Desligados,2284.54,3954
+Transformação,42018,Tubarão,Minerais não metálicos e cerâmica,Admitidos,2200.0,1409
+Transformação,42006,Canoinhas,"Papel, celulose e gráfica",Admitidos,2031.0,1190
+Extrativa e utilidades,42002,Chapecó,Extrativa,Desligados,2668.34,98
+Transformação,42020,Araranguá,"Têxtil, confecção e calçados",Desligados,2023.54,2384
+Transformação,42005,Concórdia,Minerais não metálicos e cerâmica,Admitidos,2200.0,198
+Transformação,42005,Concórdia,"Têxtil, confecção e calçados",Desligados,1960.0,81
+Transformação,42005,Concórdia,Outras da transformação,Desligados,2080.0,29
+Transformação,42004,Joaçaba,"Têxtil, confecção e calçados",Admitidos,1909.6,1598
+Transformação,42003,Xanxerê,Plástico e borracha,Desligados,2152.36,813
+Transformação,42011,Rio do Sul,Química e farmacêutica,Admitidos,2208.8,27
+Transformação,42016,Florianópolis,Eletroeletrônica,Desligados,2940.0,1768
+Transformação,42009,Curitibanos,Outras da transformação,Admitidos,2039.0,10
+Transformação,42013,Itajaí,"Papel, celulose e gráfica",Desligados,2252.61,558
+Transformação,42005,Concórdia,Eletroeletrônica,Admitidos,2350.0,26
+Transformação,42006,Canoinhas,Minerais não metálicos e cerâmica,Admitidos,2191.02,230
+Transformação,42015,Tijucas,Outras da transformação,Admitidos,2200.0,74
+Transformação,42002,Chapecó,Metalmecânica,Desligados,2500.0,5302
+Transformação,42002,Chapecó,Eletroeletrônica,Desligados,2350.0,1586
+Transformação,42007,São Bento do Sul,Alimentos e bebidas,Admitidos,2000.0,283
+Transformação,42013,Itajaí,Madeira e móveis,Desligados,2382.0,1402
+Construção,42020,Araranguá,Construção,Admitidos,2276.24,1372
+Extrativa e utilidades,42009,Curitibanos,Extrativa,Admitidos,2271.7,45
+Transformação,42013,Itajaí,Plástico e borracha,Desligados,2242.2,715
+Transformação,42011,Rio do Sul,Eletroeletrônica,Desligados,2340.27,268
+Transformação,42018,Tubarão,Eletroeletrônica,Admitidos,2309.31,333
+Transformação,42003,Xanxerê,Plástico e borracha,Admitidos,2022.0,722
+Transformação,42016,Florianópolis,Eletroeletrônica,Admitidos,2528.1949999999997,1204
+Transformação,42017,Tabuleiro,Química e farmacêutica,Desligados,3377.08,3
+Construção,42003,Xanxerê,Construção,Desligados,2617.0,1116
+Transformação,42014,Ituporanga,Eletroeletrônica,Admitidos,2100.0,39
+Transformação,42011,Rio do Sul,"Têxtil, confecção e calçados",Admitidos,1953.27,6531
+Extrativa e utilidades,42015,Tijucas,Utilidades,Admitidos,2000.0,123
+Extrativa e utilidades,42008,Joinville,Utilidades,Desligados,1908.0,1737
+Transformação,42003,Xanxerê,Metalmecânica,Desligados,2846.0,1299
+Transformação,42016,Florianópolis,Minerais não metálicos e cerâmica,Desligados,2321.145,1028
+Transformação,42020,Araranguá,Outras da transformação,Desligados,2041.6,1106
+Transformação,42018,Tubarão,Química e farmacêutica,Admitidos,2172.6,810
+Extrativa e utilidades,42013,Itajaí,Extrativa,Desligados,3714.525,222
+Transformação,42003,Xanxerê,"Têxtil, confecção e calçados",Desligados,1950.36,358
+Transformação,42017,Tabuleiro,Alimentos e bebidas,Desligados,1928.0,271
+Transformação,42020,Araranguá,"Papel, celulose e gráfica",Admitidos,1832.7,104
+Transformação,42007,São Bento do Sul,Metalmecânica,Admitidos,2120.8,3432
+Transformação,42004,Joaçaba,Alimentos e bebidas,Desligados,2039.2,8872
+Extrativa e utilidades,42020,Araranguá,Utilidades,Desligados,2140.56,98
+Transformação,42012,Blumenau,Metalmecânica,Admitidos,2500.0,9427
+Transformação,42003,Xanxerê,"Papel, celulose e gráfica",Desligados,2233.86,413
+Transformação,42002,Chapecó,Plástico e borracha,Desligados,2326.28,1112
+Transformação,42018,Tubarão,"Papel, celulose e gráfica",Admitidos,2072.05,484
+Transformação,42005,Concórdia,Química e farmacêutica,Desligados,2319.24,65
+Extrativa e utilidades,42007,São Bento do Sul,Extrativa,Admitidos,2548.7,36
+Transformação,42015,Tijucas,Minerais não metálicos e cerâmica,Desligados,2580.0,1024
+Transformação,42020,Araranguá,Plástico e borracha,Admitidos,2172.6,90
+Transformação,42007,São Bento do Sul,Outras da transformação,Admitidos,2350.0,295
+Transformação,42001,São Miguel do Oeste,Alimentos e bebidas,Admitidos,2088.4,4819
+Extrativa e utilidades,42009,Curitibanos,Utilidades,Desligados,1842.0,85
+Transformação,42018,Tubarão,"Têxtil, confecção e calçados",Admitidos,1916.0,2453
+Transformação,42012,Blumenau,Metalmecânica,Desligados,2669.785,9656
+Transformação,42018,Tubarão,Alimentos e bebidas,Desligados,2060.0,5036
+Transformação,42015,Tijucas,Metalmecânica,Admitidos,2350.41,900
+Construção,42010,Campos de Lages,Construção,Admitidos,2200.0,1328
+Transformação,42002,Chapecó,Minerais não metálicos e cerâmica,Admitidos,2480.0,890
+Transformação,42009,Curitibanos,Plástico e borracha,Admitidos,2598.68,7
+Transformação,42013,Itajaí,"Papel, celulose e gráfica",Admitidos,2200.0,522
+Transformação,42019,Criciúma,Alimentos e bebidas,Admitidos,2300.0,5226
+Transformação,42013,Itajaí,Outras da transformação,Desligados,2200.0,442
+Construção,42008,Joinville,Construção,Admitidos,2530.0,14507
+Transformação,42001,São Miguel do Oeste,Química e farmacêutica,Admitidos,2500.0,39
+Transformação,42004,Joaçaba,"Papel, celulose e gráfica",Admitidos,2114.61,2585
+Transformação,42001,São Miguel do Oeste,Plástico e borracha,Desligados,2265.335,50
+Transformação,42014,Ituporanga,"Papel, celulose e gráfica",Desligados,2061.4,77
+Transformação,42011,Rio do Sul,Eletroeletrônica,Admitidos,2150.0,271
+Transformação,42017,Tabuleiro,Outras da transformação,Admitidos,1564.775,2
+Construção,42015,Tijucas,Construção,Admitidos,2675.0,6141
+Transformação,42007,São Bento do Sul,Minerais não metálicos e cerâmica,Desligados,2087.8,1483
+Transformação,42001,São Miguel do Oeste,"Papel, celulose e gráfica",Admitidos,2059.59,68
+Transformação,42012,Blumenau,Minerais não metálicos e cerâmica,Desligados,2500.0,1681
+Transformação,42013,Itajaí,"Têxtil, confecção e calçados",Desligados,2100.0,5739
+Extrativa e utilidades,42016,Florianópolis,Utilidades,Desligados,2189.74,1501
+Transformação,42004,Joaçaba,Metalmecânica,Desligados,2280.14,4117
+Transformação,42010,Campos de Lages,Eletroeletrônica,Desligados,2033.0,10
+Transformação,42011,Rio do Sul,Metalmecânica,Desligados,2799.45,3255
+Extrativa e utilidades,42014,Ituporanga,Utilidades,Admitidos,2336.3900000000003,8
+Construção,42007,São Bento do Sul,Construção,Admitidos,2189.97,621
+Transformação,42006,Canoinhas,Metalmecânica,Admitidos,2120.0,901
+Transformação,42016,Florianópolis,Madeira e móveis,Admitidos,2200.0,1267
+Transformação,42006,Canoinhas,Outras da transformação,Admitidos,2395.8,138
+Transformação,42005,Concórdia,Outras da transformação,Admitidos,1880.0,23
+Extrativa e utilidades,42001,São Miguel do Oeste,Utilidades,Admitidos,1865.1100000000001,50
+Transformação,42002,Chapecó,Minerais não metálicos e cerâmica,Desligados,2577.0,845
+Extrativa e utilidades,42003,Xanxerê,Utilidades,Admitidos,2110.0,367
+Transformação,42020,Araranguá,Eletroeletrônica,Desligados,2500.0,11
+Extrativa e utilidades,42008,Joinville,Extrativa,Admitidos,2557.6,322
+Transformação,42015,Tijucas,Outras da transformação,Desligados,2209.56,65
+Transformação,42010,Campos de Lages,Alimentos e bebidas,Admitidos,1900.0,1131
+Construção,42012,Blumenau,Construção,Admitidos,2675.0,13618
+Transformação,42004,Joaçaba,Química e farmacêutica,Desligados,2208.8,136
+Transformação,42008,Joinville,"Têxtil, confecção e calçados",Desligados,2455.2349999999997,13532
+Transformação,42002,Chapecó,Química e farmacêutica,Desligados,2372.02,454
+Transformação,42003,Xanxerê,Alimentos e bebidas,Desligados,2146.34,4454
+Transformação,42006,Canoinhas,Metalmecânica,Desligados,2120.0,1096
+Transformação,42014,Ituporanga,"Papel, celulose e gráfica",Admitidos,2059.2,72
+Extrativa e utilidades,42003,Xanxerê,Extrativa,Desligados,2250.0,17
+Extrativa e utilidades,42015,Tijucas,Extrativa,Admitidos,2675.0,56
+Extrativa e utilidades,42004,Joaçaba,Utilidades,Desligados,1960.0,866
+Extrativa e utilidades,42006,Canoinhas,Utilidades,Admitidos,2156.0,334
+Transformação,42002,Chapecó,Madeira e móveis,Desligados,2259.45,2822
+Transformação,42011,Rio do Sul,Plástico e borracha,Admitidos,2310.0,597
+Transformação,42008,Joinville,Outras da transformação,Admitidos,2250.0,1037
+Transformação,42003,Xanxerê,Minerais não metálicos e cerâmica,Admitidos,2500.0,119
+Extrativa e utilidades,42020,Araranguá,Extrativa,Desligados,2474.875,74
+Transformação,42012,Blumenau,Outras da transformação,Desligados,2030.6,1798
+Transformação,42014,Ituporanga,"Têxtil, confecção e calçados",Admitidos,2150.0,1060
+Transformação,42002,Chapecó,"Têxtil, confecção e calçados",Admitidos,1908.0,2324
+Transformação,42007,São Bento do Sul,Minerais não metálicos e cerâmica,Admitidos,2013.0,1371
+Transformação,42019,Criciúma,"Papel, celulose e gráfica",Admitidos,2229.8,704
+Transformação,42010,Campos de Lages,"Têxtil, confecção e calçados",Admitidos,1870.0,809
+Construção,42019,Criciúma,Construção,Admitidos,2454.9,4890
+Transformação,42006,Canoinhas,Eletroeletrônica,Admitidos,2170.0,130
+Transformação,42012,Blumenau,"Têxtil, confecção e calçados",Desligados,2340.0,41343
+Transformação,42015,Tijucas,Alimentos e bebidas,Desligados,2132.11,1306
+Transformação,42018,Tubarão,Outras da transformação,Admitidos,2025.0,349
+Construção,42018,Tubarão,Construção,Desligados,2800.0,8295
+Extrativa e utilidades,42011,Rio do Sul,Extrativa,Desligados,2637.5,36
+Transformação,42019,Criciúma,Plástico e borracha,Admitidos,2341.29,3276
+Extrativa e utilidades,42010,Campos de Lages,Utilidades,Admitidos,1960.0,211
+Transformação,42010,Campos de Lages,Metalmecânica,Desligados,2888.1549999999997,1358
+Transformação,42005,Concórdia,Metalmecânica,Admitidos,2332.0,758
+Transformação,42018,Tubarão,Madeira e móveis,Admitidos,2018.4,1926
+Transformação,42020,Araranguá,"Papel, celulose e gráfica",Desligados,1957.0,116
+Extrativa e utilidades,42009,Curitibanos,Extrativa,Desligados,2310.0,45
+Transformação,42008,Joinville,"Papel, celulose e gráfica",Desligados,2301.0,938
+Transformação,42012,Blumenau,Química e farmacêutica,Desligados,2355.77,934
+Transformação,42018,Tubarão,Minerais não metálicos e cerâmica,Desligados,2271.88,1519
+Extrativa e utilidades,42018,Tubarão,Utilidades,Desligados,2245.0,913
+Transformação,42020,Araranguá,Madeira e móveis,Desligados,2106.0,798
+Transformação,42008,Joinville,Plástico e borracha,Admitidos,2217.6,11094
+Extrativa e utilidades,42012,Blumenau,Extrativa,Admitidos,2663.0,260
+Transformação,42017,Tabuleiro,Madeira e móveis,Desligados,1908.0,94
+Transformação,42004,Joaçaba,Eletroeletrônica,Desligados,2161.08,1204
+Extrativa e utilidades,42011,Rio do Sul,Utilidades,Admitidos,1843.6,365
+Transformação,42004,Joaçaba,Minerais não metálicos e cerâmica,Desligados,2200.0,242
+Transformação,42018,Tubarão,Plástico e borracha,Admitidos,2238.0,3835
+Transformação,42018,Tubarão,Metalmecânica,Admitidos,2413.43,5193
+Transformação,42016,Florianópolis,"Papel, celulose e gráfica",Desligados,2231.015,432
+Transformação,42016,Florianópolis,"Têxtil, confecção e calçados",Desligados,2125.0,927
+Transformação,42013,Itajaí,Minerais não metálicos e cerâmica,Admitidos,2500.0,1584
+Transformação,42001,São Miguel do Oeste,Minerais não metálicos e cerâmica,Desligados,2300.0,223
+Transformação,42007,São Bento do Sul,"Papel, celulose e gráfica",Admitidos,2059.59,554
+Transformação,42013,Itajaí,Alimentos e bebidas,Desligados,2022.0,6853
+Transformação,42014,Ituporanga,Eletroeletrônica,Desligados,2529.29,43
+Extrativa e utilidades,42008,Joinville,Extrativa,Desligados,2847.02,309
+Construção,42001,São Miguel do Oeste,Construção,Desligados,2475.0,1289
+Transformação,42008,Joinville,"Têxtil, confecção e calçados",Admitidos,2300.0,12141
+Transformação,42010,Campos de Lages,Metalmecânica,Admitidos,2600.0,1076
+Transformação,42016,Florianópolis,Outras da transformação,Desligados,2255.0,730
+Construção,42018,Tubarão,Construção,Admitidos,2800.0,8413
+Transformação,42002,Chapecó,Química e farmacêutica,Admitidos,2208.8,419
+Transformação,42015,Tijucas,Eletroeletrônica,Desligados,2100.0,34
+Extrativa e utilidades,42019,Criciúma,Extrativa,Admitidos,3812.16,331
+Transformação,42001,São Miguel do Oeste,"Têxtil, confecção e calçados",Admitidos,1950.36,522
+Transformação,42002,Chapecó,Metalmecânica,Admitidos,2350.0,5439
+Construção,42005,Concórdia,Construção,Admitidos,2500.0,1765
+Transformação,42007,São Bento do Sul,Metalmecânica,Desligados,2216.0,3336
+Extrativa e utilidades,42018,Tubarão,Extrativa,Admitidos,2205.0,484
+Transformação,42015,Tijucas,Química e farmacêutica,Desligados,2208.8,179
+Transformação,42010,Campos de Lages,Minerais não metálicos e cerâmica,Desligados,1816.0,174
+Transformação,42012,Blumenau,Outras da transformação,Admitidos,2030.6,1788
+Extrativa e utilidades,42012,Blumenau,Utilidades,Admitidos,1842.0,1596
+Transformação,42001,São Miguel do Oeste,Plástico e borracha,Admitidos,2133.97,51
+Transformação,42012,Blumenau,Minerais não metálicos e cerâmica,Admitidos,2327.66,1687
+Extrativa e utilidades,42016,Florianópolis,Extrativa,Desligados,3019.4849999999997,230
+Transformação,42003,Xanxerê,Química e farmacêutica,Desligados,2208.8,41
+Transformação,42004,Joaçaba,Outras da transformação,Desligados,2075.8900000000003,300
+Transformação,42015,Tijucas,"Têxtil, confecção e calçados",Admitidos,2155.8,4902
+Transformação,42017,Tabuleiro,Plástico e borracha,Desligados,2100.0,18
+Construção,42007,São Bento do Sul,Construção,Desligados,2120.0,630
+Transformação,42016,Florianópolis,Alimentos e bebidas,Admitidos,2022.0,6195
+Extrativa e utilidades,42006,Canoinhas,Extrativa,Admitidos,2288.0,59
+Transformação,42005,Concórdia,"Papel, celulose e gráfica",Admitidos,2100.0,208
+Extrativa e utilidades,42001,São Miguel do Oeste,Utilidades,Desligados,1950.0,46
+Extrativa e utilidades,42010,Campos de Lages,Utilidades,Desligados,2056.05,246
+Transformação,42001,São Miguel do Oeste,Eletroeletrônica,Desligados,2032.0,21
+Transformação,42006,Canoinhas,Química e farmacêutica,Admitidos,2219.0,213
+Transformação,42004,Joaçaba,Alimentos e bebidas,Admitidos,2035.0,9327
+Transformação,42015,Tijucas,Metalmecânica,Desligados,2404.23,861
+Transformação,42006,Canoinhas,"Têxtil, confecção e calçados",Desligados,2092.2,577
+Construção,42006,Canoinhas,Construção,Admitidos,1988.0,1843
+Transformação,42011,Rio do Sul,Alimentos e bebidas,Desligados,2314.4,3398
+Transformação,42004,Joaçaba,Eletroeletrônica,Admitidos,2106.0,1368
+Transformação,42010,Campos de Lages,Outras da transformação,Admitidos,1908.0,147
+Transformação,42019,Criciúma,Alimentos e bebidas,Desligados,2300.44,4634
+Transformação,42011,Rio do Sul,"Papel, celulose e gráfica",Desligados,2100.0,448
+Transformação,42012,Blumenau,"Papel, celulose e gráfica",Desligados,2410.265,2192
+Extrativa e utilidades,42005,Concórdia,Utilidades,Desligados,1828.0,278
+Transformação,42017,Tabuleiro,Madeira e móveis,Admitidos,1908.0,92
+Transformação,42008,Joinville,Minerais não metálicos e cerâmica,Admitidos,2420.0,1409
+Transformação,42001,São Miguel do Oeste,Alimentos e bebidas,Desligados,2176.63,4669
+Transformação,42013,Itajaí,Química e farmacêutica,Desligados,2452.0,416
+Transformação,42010,Campos de Lages,"Têxtil, confecção e calçados",Desligados,1912.94,1043
+Transformação,42018,Tubarão,"Têxtil, confecção e calçados",Desligados,1949.61,2667
+Extrativa e utilidades,42010,Campos de Lages,Extrativa,Admitidos,2182.4,50
+Extrativa e utilidades,42013,Itajaí,Utilidades,Admitidos,1978.0,1650
+Transformação,42005,Concórdia,Plástico e borracha,Desligados,2131.31,95
+Transformação,42001,São Miguel do Oeste,Minerais não metálicos e cerâmica,Admitidos,2200.0,236
+Transformação,42017,Tabuleiro,Outras da transformação,Desligados,1963.0,1
+Transformação,42016,Florianópolis,Alimentos e bebidas,Desligados,2022.0,6011
+Transformação,42009,Curitibanos,"Têxtil, confecção e calçados",Admitidos,2050.0,72
+Transformação,42001,São Miguel do Oeste,Metalmecânica,Admitidos,2200.0,1035
+Extrativa e utilidades,42015,Tijucas,Extrativa,Desligados,2662.5,61
+Extrativa e utilidades,42005,Concórdia,Extrativa,Admitidos,2438.0,35
+Transformação,42003,Xanxerê,Madeira e móveis,Admitidos,2055.0,592
+Transformação,42001,São Miguel do Oeste,Outras da transformação,Admitidos,1720.0,51
+Extrativa e utilidades,42005,Concórdia,Utilidades,Admitidos,1730.0,285
+Transformação,42004,Joaçaba,"Papel, celulose e gráfica",Desligados,2309.17,2341
+Transformação,42013,Itajaí,Alimentos e bebidas,Admitidos,2022.0,6771
+Transformação,42008,Joinville,Química e farmacêutica,Admitidos,2248.4,1825
+Transformação,42003,Xanxerê,Alimentos e bebidas,Admitidos,2044.14,4906
+Transformação,42013,Itajaí,"Têxtil, confecção e calçados",Admitidos,2024.0,5338
+Transformação,42006,Canoinhas,Alimentos e bebidas,Admitidos,2043.59,1979
+Transformação,42009,Curitibanos,Minerais não metálicos e cerâmica,Admitidos,2130.0,104
+Transformação,42011,Rio do Sul,Química e farmacêutica,Desligados,2208.4,22
+Transformação,42008,Joinville,Outras da transformação,Desligados,2310.0,995
+Transformação,42004,Joaçaba,Química e farmacêutica,Admitidos,2081.2,131
+Transformação,42005,Concórdia,Madeira e móveis,Admitidos,2400.0,1371
+Construção,42009,Curitibanos,Construção,Desligados,2100.0,827
+Transformação,42005,Concórdia,Alimentos e bebidas,Desligados,2060.0,5650
+Transformação,42018,Tubarão,Eletroeletrônica,Desligados,2321.45,338
+Transformação,42013,Itajaí,Outras da transformação,Admitidos,2200.0,404
+Transformação,42010,Campos de Lages,Madeira e móveis,Desligados,1901.0,2800
+Transformação,42020,Araranguá,Metalmecânica,Admitidos,2500.0,714
+Transformação,42006,Canoinhas,Alimentos e bebidas,Desligados,2148.66,1848
+Transformação,42010,Campos de Lages,Química e farmacêutica,Desligados,2276.0,124
+Transformação,42010,Campos de Lages,Plástico e borracha,Desligados,2266.0,68
+Transformação,42019,Criciúma,Eletroeletrônica,Desligados,2532.985,392
+Extrativa e utilidades,42009,Curitibanos,Utilidades,Admitidos,1945.0,89
+Construção,42003,Xanxerê,Construção,Admitidos,2461.0,984
+Transformação,42011,Rio do Sul,"Têxtil, confecção e calçados",Desligados,2083.35,6787
+Extrativa e utilidades,42019,Criciúma,Extrativa,Desligados,4478.04,499
+Transformação,42014,Ituporanga,Plástico e borracha,Admitidos,2200.0,181
+Transformação,42017,Tabuleiro,Alimentos e bebidas,Admitidos,1928.0,280
+Transformação,42015,Tijucas,Madeira e móveis,Desligados,2427.08,368
+Transformação,42016,Florianópolis,Plástico e borracha,Admitidos,2266.0,1307
+Transformação,42017,Tabuleiro,"Papel, celulose e gráfica",Desligados,1621.0,1
+Transformação,42019,Criciúma,Madeira e móveis,Desligados,2300.0,1072
+Transformação,42014,Ituporanga,Minerais não metálicos e cerâmica,Admitidos,2547.0,512
+Extrativa e utilidades,42005,Concórdia,Extrativa,Desligados,2634.1,14
+Construção,42011,Rio do Sul,Construção,Desligados,2335.13,1298
+Transformação,42015,Tijucas,Alimentos e bebidas,Admitidos,2132.11,1089
+Transformação,42008,Joinville,Eletroeletrônica,Desligados,2369.32,8890
+Transformação,42011,Rio do Sul,Minerais não metálicos e cerâmica,Admitidos,2292.4,827
+Extrativa e utilidades,42020,Araranguá,Extrativa,Admitidos,2427.0,82
+Transformação,42003,Xanxerê,Química e farmacêutica,Admitidos,2208.8,69
+Extrativa e utilidades,42008,Joinville,Utilidades,Admitidos,1908.0,1819
+Transformação,42019,Criciúma,Minerais não metálicos e cerâmica,Desligados,2668.0,2455
+Transformação,42018,Tubarão,Química e farmacêutica,Desligados,2172.6,760
+Transformação,42008,Joinville,Metalmecânica,Admitidos,2500.0,22728
+Extrativa e utilidades,42001,São Miguel do Oeste,Extrativa,Desligados,2506.0,44
+Transformação,42003,Xanxerê,Minerais não metálicos e cerâmica,Desligados,2500.0,149
+Transformação,42011,Rio do Sul,"Papel, celulose e gráfica",Admitidos,2061.4,397
+Transformação,42008,Joinville,Plástico e borracha,Desligados,2266.0,10844
+Extrativa e utilidades,42017,Tabuleiro,Utilidades,Admitidos,2579.59,3
+Transformação,42001,São Miguel do Oeste,"Papel, celulose e gráfica",Desligados,2059.59,75
+Extrativa e utilidades,42007,São Bento do Sul,Extrativa,Desligados,2501.4,41
+Transformação,42015,Tijucas,Eletroeletrônica,Admitidos,2100.0,32
+Construção,42013,Itajaí,Construção,Desligados,2800.0,39011
+Construção,42005,Concórdia,Construção,Desligados,2500.0,1894
+Extrativa e utilidades,42006,Canoinhas,Utilidades,Desligados,2156.0,322
+Transformação,42014,Ituporanga,Outras da transformação,Admitidos,2269.0,4
+Transformação,42012,Blumenau,Plástico e borracha,Admitidos,2200.0,3855
+Transformação,42015,Tijucas,Madeira e móveis,Admitidos,2415.52,356
+Construção,42016,Florianópolis,Construção,Desligados,2730.47,19765
+Transformação,42016,Florianópolis,Metalmecânica,Desligados,2467.0,3639
+Extrativa e utilidades,42013,Itajaí,Extrativa,Admitidos,3000.0,158
+Construção,42019,Criciúma,Construção,Desligados,2507.42,4707
+Transformação,42008,Joinville,Minerais não metálicos e cerâmica,Desligados,2500.0,1528
+Extrativa e utilidades,42014,Ituporanga,Utilidades,Desligados,1978.0,6
+Extrativa e utilidades,42007,São Bento do Sul,Utilidades,Desligados,2016.2849999999999,36
+Transformação,42001,São Miguel do Oeste,Eletroeletrônica,Admitidos,2000.0,15
+Transformação,42018,Tubarão,"Papel, celulose e gráfica",Desligados,2084.92,567
+Transformação,42011,Rio do Sul,Outras da transformação,Desligados,2486.0,149
+Transformação,42006,Canoinhas,Madeira e móveis,Admitidos,1843.6,3870
+Transformação,42015,Tijucas,Minerais não metálicos e cerâmica,Admitidos,2572.5,1035
+Transformação,42006,Canoinhas,"Têxtil, confecção e calçados",Admitidos,2092.2,578
+Extrativa e utilidades,42002,Chapecó,Utilidades,Desligados,2100.0,1240
+Extrativa e utilidades,42013,Itajaí,Utilidades,Desligados,2054.03,1547
+Transformação,42005,Concórdia,Madeira e móveis,Desligados,2308.505,1136
+Transformação,42009,Curitibanos,Alimentos e bebidas,Desligados,2103.2,1371
+Transformação,42017,Tabuleiro,"Têxtil, confecção e calçados",Desligados,2104.0,20
+Transformação,42015,Tijucas,Plástico e borracha,Admitidos,2280.09,741
+Transformação,42013,Itajaí,Minerais não metálicos e cerâmica,Desligados,2493.4700000000003,1616
+Extrativa e utilidades,42003,Xanxerê,Utilidades,Desligados,2110.0,328
+Transformação,42009,Curitibanos,Plástico e borracha,Desligados,2252.68,5
+Construção,42014,Ituporanga,Construção,Desligados,2500.0,949
+Transformação,42016,Florianópolis,Química e farmacêutica,Admitidos,2209.85,714
+Transformação,42002,Chapecó,"Papel, celulose e gráfica",Desligados,2200.0,594
+Transformação,42008,Joinville,Madeira e móveis,Desligados,2360.1800000000003,1646
+Transformação,42008,Joinville,"Papel, celulose e gráfica",Admitidos,2200.0,904
+Extrativa e utilidades,42019,Criciúma,Utilidades,Desligados,1842.0,1277
+Extrativa e utilidades,42001,São Miguel do Oeste,Extrativa,Admitidos,2520.0,51
+Construção,42017,Tabuleiro,Construção,Admitidos,2200.0,147
+Transformação,42020,Araranguá,Minerais não metálicos e cerâmica,Admitidos,2276.24,560
+Transformação,42007,São Bento do Sul,"Têxtil, confecção e calçados",Desligados,2134.0,913
+Transformação,42020,Araranguá,Alimentos e bebidas,Desligados,2375.23,2049
+Transformação,42002,Chapecó,Alimentos e bebidas,Admitidos,2156.23,18158
+Transformação,42002,Chapecó,Outras da transformação,Desligados,2128.0,495
+Transformação,42015,Tijucas,Química e farmacêutica,Admitidos,2208.8,207
+Transformação,42017,Tabuleiro,Plástico e borracha,Admitidos,2100.0,21
+Transformação,42002,Chapecó,"Papel, celulose e gráfica",Admitidos,2059.59,626
+Extrativa e utilidades,42004,Joaçaba,Utilidades,Admitidos,1950.0,928
+Transformação,42016,Florianópolis,Metalmecânica,Admitidos,2337.25,3779
+Transformação,42002,Chapecó,Eletroeletrônica,Admitidos,2284.02,1765
+Transformação,42012,Blumenau,Eletroeletrônica,Desligados,2497.0,3027
+Transformação,42017,Tabuleiro,Metalmecânica,Desligados,1980.0,11
+Transformação,42014,Ituporanga,Metalmecânica,Admitidos,2270.0,1284
+Transformação,42006,Canoinhas,"Papel, celulose e gráfica",Desligados,2066.5,1130
+Transformação,42008,Joinville,Metalmecânica,Desligados,2665.9449999999997,22394
+Transformação,42012,Blumenau,Alimentos e bebidas,Desligados,2150.0,5263
+Transformação,42006,Canoinhas,Química e farmacêutica,Desligados,2246.0,195
+Transformação,42008,Joinville,Química e farmacêutica,Desligados,2448.2,1682
+Transformação,42006,Canoinhas,Outras da transformação,Desligados,2395.8,127
+Transformação,42012,Blumenau,Madeira e móveis,Admitidos,2300.0,1679
+Transformação,42002,Chapecó,Madeira e móveis,Admitidos,2153.0,2798
+Transformação,42012,Blumenau,"Papel, celulose e gráfica",Admitidos,2197.8,2025
+Transformação,42007,São Bento do Sul,Plástico e borracha,Admitidos,2266.0,1002
+Transformação,42007,São Bento do Sul,Madeira e móveis,Admitidos,2134.0,3408
+Transformação,42015,Tijucas,"Têxtil, confecção e calçados",Desligados,2200.0,5011
+Construção,42010,Campos de Lages,Construção,Desligados,2240.0,1662
+Transformação,42014,Ituporanga,Metalmecânica,Desligados,2270.0,1241
+Transformação,42014,Ituporanga,Outras da transformação,Desligados,2185.38,11
+Transformação,42009,Curitibanos,Madeira e móveis,Admitidos,1908.0,2612
+Transformação,42013,Itajaí,Metalmecânica,Admitidos,2318.8,11568
+Transformação,42019,Criciúma,Outras da transformação,Desligados,2124.71,222
+Transformação,42016,Florianópolis,"Têxtil, confecção e calçados",Admitidos,2120.0,867
+Transformação,42007,São Bento do Sul,"Papel, celulose e gráfica",Desligados,2113.35,563
+Transformação,42013,Itajaí,Eletroeletrônica,Admitidos,2431.0,1432
+Construção,42011,Rio do Sul,Construção,Admitidos,2240.59,1329
+Transformação,42009,Curitibanos,Metalmecânica,Desligados,2500.0,1094
+Transformação,42020,Araranguá,Química e farmacêutica,Admitidos,2172.6,149
+Transformação,42007,São Bento do Sul,Eletroeletrônica,Desligados,2246.2,89
+Extrativa e utilidades,42016,Florianópolis,Utilidades,Admitidos,2022.46,1441
+Transformação,42006,Canoinhas,Minerais não metálicos e cerâmica,Desligados,2135.13,247
+Transformação,42002,Chapecó,Outras da transformação,Admitidos,2050.0,491
+Construção,42016,Florianópolis,Construção,Admitidos,2699.7,19218
+Transformação,42016,Florianópolis,"Papel, celulose e gráfica",Admitidos,2131.94,441
+Transformação,42001,São Miguel do Oeste,Metalmecânica,Desligados,2300.0,974
+Transformação,42018,Tubarão,Outras da transformação,Desligados,2250.95,431
+Transformação,42001,São Miguel do Oeste,Madeira e móveis,Desligados,1913.0,2122
+Extrativa e utilidades,42019,Criciúma,Utilidades,Admitidos,1842.0,1052
+Construção,42012,Blumenau,Construção,Desligados,2675.0,12889
+Transformação,42016,Florianópolis,Madeira e móveis,Desligados,2300.0,1343
+Transformação,42011,Rio do Sul,Minerais não metálicos e cerâmica,Desligados,2500.0,833
+Transformação,42019,Criciúma,Outras da transformação,Admitidos,2171.0,214
+Extrativa e utilidades,42014,Ituporanga,Extrativa,Admitidos,3268.63,10
+Construção,42006,Canoinhas,Construção,Desligados,2081.2,1488
+Transformação,42007,São Bento do Sul,Plástico e borracha,Desligados,2266.0,940
+Transformação,42003,Xanxerê,"Têxtil, confecção e calçados",Admitidos,1950.36,247
+Transformação,42016,Florianópolis,Química e farmacêutica,Desligados,2263.8,707
+Transformação,42015,Tijucas,"Papel, celulose e gráfica",Admitidos,2200.0,303
+Transformação,42017,Tabuleiro,Metalmecânica,Admitidos,1980.0,11
+Transformação,42003,Xanxerê,Outras da transformação,Desligados,2510.0,8
+Transformação,42018,Tubarão,Alimentos e bebidas,Admitidos,2022.0,5300
+Transformação,42005,Concórdia,Eletroeletrônica,Desligados,2859.25,39
+Extrativa e utilidades,42017,Tabuleiro,Utilidades,Desligados,2254.76,5
+Transformação,42013,Itajaí,Eletroeletrônica,Desligados,2554.2,1140
+Transformação,42005,Concórdia,Metalmecânica,Desligados,2411.8900000000003,722
+Transformação,42015,Tijucas,"Papel, celulose e gráfica",Desligados,2200.0,310
+Extrativa e utilidades,42018,Tubarão,Extrativa,Desligados,2310.2,444
+Transformação,42012,Blumenau,Plástico e borracha,Desligados,2266.0,4035
+Transformação,42010,Campos de Lages,Química e farmacêutica,Admitidos,2215.4,171
+Transformação,42010,Campos de Lages,Plástico e borracha,Admitidos,2200.0,65
+Transformação,42011,Rio do Sul,Madeira e móveis,Desligados,2169.2,3349
+Transformação,42010,Campos de Lages,"Papel, celulose e gráfica",Desligados,2409.28,650
+Construção,42004,Joaçaba,Construção,Desligados,2362.0,3389
+Transformação,42010,Campos de Lages,Alimentos e bebidas,Desligados,2038.78,1009
+Transformação,42015,Tijucas,Plástico e borracha,Desligados,2280.09,747
+Transformação,42001,São Miguel do Oeste,Química e farmacêutica,Desligados,2427.0,48
+Transformação,42010,Campos de Lages,"Papel, celulose e gráfica",Admitidos,2181.7,943
+Transformação,42011,Rio do Sul,Plástico e borracha,Desligados,2310.0,645
+Transformação,42011,Rio do Sul,Outras da transformação,Admitidos,2400.0,139
+Transformação,42001,São Miguel do Oeste,Madeira e móveis,Admitidos,1850.0,2179
+Transformação,42004,Joaçaba,Plástico e borracha,Admitidos,2100.0,2154
+Transformação,42007,São Bento do Sul,Alimentos e bebidas,Desligados,2022.0,277
+Transformação,42007,São Bento do Sul,"Têxtil, confecção e calçados",Admitidos,2019.6,878
+Transformação,42020,Araranguá,Metalmecânica,Desligados,2600.0,876
+Extrativa e utilidades,42011,Rio do Sul,Extrativa,Admitidos,2710.5,26
+Transformação,42017,Tabuleiro,Minerais não metálicos e cerâmica,Desligados,2277.0,26
+Transformação,42019,Criciúma,Química e farmacêutica,Desligados,2337.565,1036
+Transformação,42003,Xanxerê,Outras da transformação,Admitidos,2250.0,8
+Transformação,42004,Joaçaba,Madeira e móveis,Desligados,2123.42,3860
+Transformação,42016,Florianópolis,Outras da transformação,Admitidos,2192.59,745
+Transformação,42019,Criciúma,Plástico e borracha,Desligados,2396.09,3024
+Transformação,42019,Criciúma,"Têxtil, confecção e calçados",Desligados,2023.61,7259
+Transformação,42017,Tabuleiro,Minerais não metálicos e cerâmica,Admitidos,2051.0,23
+Transformação,42010,Campos de Lages,Outras da transformação,Desligados,1960.0,170
+Transformação,42010,Campos de Lages,Eletroeletrônica,Admitidos,1970.0,6
+Transformação,42002,Chapecó,Plástico e borracha,Admitidos,2326.0,1167
+Transformação,42012,Blumenau,"Têxtil, confecção e calçados",Admitidos,2226.0,39697
+Transformação,42010,Campos de Lages,Madeira e móveis,Admitidos,1865.0,3008
+Transformação,42002,Chapecó,Alimentos e bebidas,Desligados,2211.0,16558
+Transformação,42020,Araranguá,Alimentos e bebidas,Admitidos,2262.22,2074
+Transformação,42011,Rio do Sul,Metalmecânica,Admitidos,2600.0,3361
+Extrativa e utilidades,42004,Joaçaba,Extrativa,Desligados,2766.0,100
+Transformação,42002,Chapecó,"Têxtil, confecção e calçados",Desligados,1950.36,2883
+Transformação,42005,Concórdia,Química e farmacêutica,Admitidos,2100.0,60
+Extrativa e utilidades,42015,Tijucas,Utilidades,Desligados,2000.0,109
+Extrativa e utilidades,42007,São Bento do Sul,Utilidades,Admitidos,2068.09,47
+Transformação,42018,Tubarão,Metalmecânica,Desligados,2413.43,5226
+Transformação,42009,Curitibanos,"Têxtil, confecção e calçados",Desligados,2001.5,93
+Transformação,42007,São Bento do Sul,Outras da transformação,Desligados,2350.0,300
+Transformação,42008,Joinville,Alimentos e bebidas,Desligados,2173.35,4758
+Transformação,42019,Criciúma,Metalmecânica,Admitidos,2475.8,6249
+Transformação,42014,Ituporanga,Madeira e móveis,Admitidos,2314.14,211
