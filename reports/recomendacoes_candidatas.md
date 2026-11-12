@@ -1,6 +1,6 @@
 # Recomendações candidatas
 
-Execução: 2026-11-12 20:27 · segmento: Transformação
+Execução: 2026-11-12 20:55 · segmento: Transformação
 
 Critério: combinações área × nível × microrregião nos quadrantes "Expansão sob pressão" e "Retenção problemática", com KPI 1 acima da mediana das combinações (48,2%), ordenadas pelo KPI 1. Total: 115 candidatas.
 

@@ -2,76 +2,76 @@
  "mercado": {
   "celulas": 620,
   "desligamentos": 313848,
-  "efeito_sal10_pp": -2.243043823320784,
-  "p_sal": 0.0001817083082395751,
+  "efeito_sal10_pp": -2.2430438233207894,
+  "p_sal": 0.00018170830823957472,
   "efeitos": [
    {
     "variavel": "log_sal_rel",
     "nome": "Salário da ocupação na região × mediana da ocupação em SC",
-    "coef": -0.9632190888931216,
-    "p": 0.0001817083082395751,
-    "ic_inf": -1.4675700302694377,
+    "coef": -0.9632190888931214,
+    "p": 0.00018170830823957472,
+    "ic_inf": -1.4675700302694372,
     "ic_sup": -0.4588681475168055,
     "dp": 0.0836029864284822,
-    "efeito_1dp_pp": -1.9678641970878819
+    "efeito_1dp_pp": -1.9678641970878763
    },
    {
     "variavel": "log_premio",
     "nome": "Prêmio de contratação (quem entra × quem sai)",
-    "coef": 0.16866022431394997,
-    "p": 0.7250945284982258,
-    "ic_inf": -0.7713658020918165,
-    "ic_sup": 1.1086862507197164,
+    "coef": 0.16866022431394664,
+    "p": 0.7250945284982321,
+    "ic_inf": -0.7713658020918237,
+    "ic_sup": 1.108686250719717,
     "dp": 0.05164694927240978,
     "efeito_1dp_pp": 0.2130071591692706
    },
    {
     "variavel": "cresc",
     "nome": "Crescimento (saldo ÷ movimentações)",
-    "coef": 0.003993739534404496,
-    "p": 0.08592274307583278,
-    "ic_inf": -0.0005643138008749526,
-    "ic_sup": 0.008551792869683945,
+    "coef": 0.003993739534404739,
+    "p": 0.0859227430758187,
+    "ic_inf": -0.0005643138008747817,
+    "ic_sup": 0.00855179286968426,
     "dp": 12.00797093466003,
-    "efeito_1dp_pp": 1.1725791345494063
+    "efeito_1dp_pp": 1.172579134549473
    },
    {
     "variavel": "p_sup",
     "nome": "% com superior completo",
-    "coef": -0.7883071922870957,
-    "p": 0.0006441172660885188,
-    "ic_inf": -1.2410936595807904,
-    "ic_sup": -0.3355207249934009,
+    "coef": -0.7883071922870979,
+    "p": 0.0006441172660890491,
+    "ic_inf": -1.2410936595808235,
+    "ic_sup": -0.33552072499337215,
     "dp": 0.1134294978773336,
-    "efeito_1dp_pp": -2.18479882820089
+    "efeito_1dp_pp": -2.1847988282009068
    },
    {
     "variavel": "p_jovem",
     "nome": "% de 14 a 24 anos",
-    "coef": -0.2399033614525543,
-    "p": 0.13979989087865724,
-    "ic_inf": -0.5583525895313777,
-    "ic_sup": 0.07854586662626911,
+    "coef": -0.23990336145255486,
+    "p": 0.1397998908786545,
+    "ic_inf": -0.5583525895313768,
+    "ic_sup": 0.07854586662626711,
     "dp": 0.16167494933449614,
-    "efeito_1dp_pp": -0.948264543064864
+    "efeito_1dp_pp": -0.9482645430648584
    },
    {
     "variavel": "p_mulher",
     "nome": "% de mulheres",
     "coef": 0.6341759897970494,
-    "p": 1.6541937696793515e-18,
-    "ic_inf": 0.4925871015146439,
-    "ic_sup": 0.7757648780794548,
+    "p": 1.6541937696783398e-18,
+    "ic_inf": 0.492587101514645,
+    "ic_sup": 0.7757648780794537,
     "dp": 0.30293821195062753,
-    "efeito_1dp_pp": 4.685976727163116
+    "efeito_1dp_pp": 4.685976727163105
    },
    {
     "variavel": "p_grande",
     "nome": "% em empresas com 500 ou mais empregados",
     "coef": 0.334423239784745,
-    "p": 0.0003887736060485822,
-    "ic_inf": 0.14966186826222977,
-    "ic_sup": 0.5191846113072602,
+    "p": 0.0003887736060485904,
+    "ic_inf": 0.14966186826222946,
+    "ic_sup": 0.5191846113072605,
     "dp": 0.2511141634296974,
     "efeito_1dp_pp": 2.052712430258902
    }
@@ -81,24 +81,5159 @@
     "recorte": "células com ≥ 50 desligamentos",
     "celulas": 1069,
     "efeito_sal10_pp": -1.7802907400588985,
-    "p_sal": 0.00026574231820418475,
-    "p_premio": 0.6971925794276468
+    "p_sal": 0.0002657423182041853,
+    "p_premio": 0.6971925794276388
    },
    {
     "recorte": "células com ≥ 200 desligamentos",
     "celulas": 340,
-    "efeito_sal10_pp": -2.496499559532417,
-    "p_sal": 0.0012436583871599082,
-    "p_premio": 0.8039927215945788
+    "efeito_sal10_pp": -2.4964995595324058,
+    "p_sal": 0.0012436583871599292,
+    "p_premio": 0.8039927215945802
    },
    {
     "recorte": "sem o alimentador de linha (CBO 784205)",
     "celulas": 601,
-    "efeito_sal10_pp": -3.1433904750584163,
-    "p_sal": 5.4494743677112844e-08,
-    "p_premio": 0.8073598865450383
+    "efeito_sal10_pp": -3.143390475058422,
+    "p_sal": 5.449474367710925e-08,
+    "p_premio": 0.8073598865450426
    }
-  ]
+  ],
+  "grafico": {
+   "pontos": [
+    {
+     "x": -0.1,
+     "y": 31.12,
+     "d": 286,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Tijucas",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 4.68,
+     "y": 20.35,
+     "d": 226,
+     "o": "Ajustador Mecanico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -9.96,
+     "y": 64.8,
+     "d": 196,
+     "o": "Montador de Maquinas",
+     "m": "Ituporanga",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.65,
+     "y": 55.41,
+     "d": 157,
+     "o": "Revisor de Fios (Producao Textil)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 8.64,
+     "y": 42.95,
+     "d": 312,
+     "o": "Montador de Maquinas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -12.72,
+     "y": 72.57,
+     "d": 113,
+     "o": "Inspetor de Qualidade",
+     "m": "Canoinhas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 3.57,
+     "y": 50.53,
+     "d": 1136,
+     "o": "Expedidor de Mercadorias",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.71,
+     "y": 65.44,
+     "d": 298,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.47,
+     "y": 57.58,
+     "d": 1570,
+     "o": "Magarefe",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.26,
+     "y": 40.26,
+     "d": 154,
+     "o": "Vendedor em Comercio Atacadista",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 8.13,
+     "y": 59.59,
+     "d": 146,
+     "o": "Apontador de Producao",
+     "m": "Rio do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -15.2,
+     "y": 67.18,
+     "d": 131,
+     "o": "Marceneiro",
+     "m": "Concórdia",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -12.99,
+     "y": 53.27,
+     "d": 336,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Campos de Lages",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.91,
+     "y": 31.56,
+     "d": 507,
+     "o": "Assistente Administrativo",
+     "m": "Rio do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.0,
+     "y": 48.54,
+     "d": 103,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Tijucas",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 4.0,
+     "y": 35.51,
+     "d": 107,
+     "o": "Assistente de Vendas",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 43.09,
+     "d": 123,
+     "o": "Auxiliar de Contabilidade",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.75,
+     "y": 47.8,
+     "d": 1864,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -1.89,
+     "y": 47.75,
+     "d": 601,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.36,
+     "y": 50.52,
+     "d": 287,
+     "o": "Operador de Empilhadeira",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 5.14,
+     "y": 34.26,
+     "d": 108,
+     "o": "Estoquista",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -11.79,
+     "y": 58.93,
+     "d": 112,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.02,
+     "y": 64.35,
+     "d": 115,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.06,
+     "y": 37.18,
+     "d": 347,
+     "o": "Almoxarife",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.73,
+     "y": 48.06,
+     "d": 258,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Blumenau",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -21.55,
+     "y": 74.36,
+     "d": 117,
+     "o": "Operador de Maquina de Usinagem Madeira, em Geral",
+     "m": "São Miguel do Oeste",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 67.4,
+     "d": 408,
+     "o": "Operador de Area de Corrida",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.45,
+     "y": 65.05,
+     "d": 103,
+     "o": "Embalador, a Mao",
+     "m": "Joaçaba",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -9.26,
+     "y": 45.86,
+     "d": 133,
+     "o": "Operador de Empilhadeira",
+     "m": "Curitibanos",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.2,
+     "y": 52.94,
+     "d": 408,
+     "o": "Atendente de Lanchonete",
+     "m": "Blumenau",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 20.89,
+     "y": 41.58,
+     "d": 190,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.92,
+     "y": 28.93,
+     "d": 159,
+     "o": "Apontador de Producao",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.55,
+     "y": 36.13,
+     "d": 548,
+     "o": "Assistente Administrativo",
+     "m": "Florianópolis",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -3.94,
+     "y": 48.96,
+     "d": 627,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -12.32,
+     "y": 55.87,
+     "d": 383,
+     "o": "Tecelao (Tear Automatico)",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 56.38,
+     "d": 282,
+     "o": "Preparador de Esmaltes (Ceramica)",
+     "m": "Tijucas",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 10.31,
+     "y": 36.75,
+     "d": 283,
+     "o": "Preparador de Maquinas-Ferramenta",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.63,
+     "y": 44.12,
+     "d": 238,
+     "o": "Trefilador de Borracha",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 5.03,
+     "y": 55.14,
+     "d": 107,
+     "o": "Operador de Maquina de Fabricar Papel e Papelao",
+     "m": "Blumenau",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -1.79,
+     "y": 47.83,
+     "d": 115,
+     "o": "Analista de Negocios (A)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.83,
+     "y": 45.79,
+     "d": 107,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Blumenau",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 43.53,
+     "d": 487,
+     "o": "Assistente de Vendas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.45,
+     "y": 58.96,
+     "d": 212,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -5.62,
+     "y": 72.28,
+     "d": 3560,
+     "o": "Magarefe",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 5.52,
+     "y": 45.93,
+     "d": 135,
+     "o": "Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -1.84,
+     "y": 74.7,
+     "d": 166,
+     "o": "Desossador",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 7.52,
+     "y": 35.57,
+     "d": 149,
+     "o": "Assistente de Vendas",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -10.24,
+     "y": 54.81,
+     "d": 104,
+     "o": "Almoxarife",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.68,
+     "y": 49.1,
+     "d": 277,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.95,
+     "y": 58.92,
+     "d": 3437,
+     "o": "Alimentador de Linha de Producao",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.92,
+     "y": 47.6,
+     "d": 250,
+     "o": "Ajudante de Motorista",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 13.57,
+     "y": 25.24,
+     "d": 103,
+     "o": "Apontador de Producao",
+     "m": "Florianópolis",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 8.25,
+     "y": 63.47,
+     "d": 2743,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -8.76,
+     "y": 39.08,
+     "d": 261,
+     "o": "Assistente Administrativo",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.1,
+     "y": 52.6,
+     "d": 192,
+     "o": "Atendente de Lanchonete",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 39.46,
+     "y": 22.41,
+     "d": 232,
+     "o": "Soldador",
+     "m": "Campos de Lages",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 57.41,
+     "d": 108,
+     "o": "Trabalhador Polivalente do Curtimento de Couros e Peles",
+     "m": "Joaçaba",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -17.0,
+     "y": 46.04,
+     "d": 139,
+     "o": "Carregador (Veiculos de Transportes Terrestres)",
+     "m": "São Miguel do Oeste",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 3.76,
+     "y": 44.06,
+     "d": 261,
+     "o": "Operador de Calandras (Tecidos)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -17.32,
+     "y": 65.57,
+     "d": 183,
+     "o": "Operador de Centro de Usinagem com Comando Numerico",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -1.28,
+     "y": 54.77,
+     "d": 6938,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 16.24,
+     "y": 42.18,
+     "d": 735,
+     "o": "Soldador",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -10.76,
+     "y": 64.56,
+     "d": 158,
+     "o": "Montador de Maquinas",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.32,
+     "y": 29.44,
+     "d": 197,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 41.57,
+     "y": 47.54,
+     "d": 122,
+     "o": "Operador de Maquinas-Ferramenta Convencionais",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.91,
+     "y": 58.71,
+     "d": 155,
+     "o": "Soldador",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 10.61,
+     "y": 50.0,
+     "d": 100,
+     "o": "Desenhista Industrial Grafico (Designer Grafico)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.25,
+     "y": 46.53,
+     "d": 404,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 47.41,
+     "d": 386,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.71,
+     "y": 51.66,
+     "d": 151,
+     "o": "Operador de Maquina de Usinagem Madeira, em Geral",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 52.98,
+     "d": 1008,
+     "o": "Rebarbador de Metal",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.16,
+     "y": 62.02,
+     "d": 208,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "São Bento do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -10.91,
+     "y": 75.4,
+     "d": 187,
+     "o": "Inspetor de Qualidade",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 45.15,
+     "d": 237,
+     "o": "Moldador de Borracha por Compressao",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -2.91,
+     "y": 52.22,
+     "d": 180,
+     "o": "Operador de Empilhadeira",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.2,
+     "y": 43.69,
+     "d": 103,
+     "o": "Impressor (Serigrafia)",
+     "m": "Joinville",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": 7.16,
+     "y": 41.28,
+     "d": 109,
+     "o": "Eletricista de Manutencao Eletroeletronica",
+     "m": "Joaçaba",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": 0.08,
+     "y": 60.58,
+     "d": 104,
+     "o": "Trabalhador Polivalente da Confeccao de Calcados",
+     "m": "Joaçaba",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.28,
+     "y": 40.99,
+     "d": 3647,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.26,
+     "y": 58.17,
+     "d": 526,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Rio do Sul",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -2.32,
+     "y": 44.34,
+     "d": 106,
+     "o": "Auxiliar de Logistica",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 47.16,
+     "d": 176,
+     "o": "Montador de Bicicletas",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 7.81,
+     "y": 53.49,
+     "d": 215,
+     "o": "Marceneiro",
+     "m": "Chapecó",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -3.01,
+     "y": 49.12,
+     "d": 114,
+     "o": "Almoxarife",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.83,
+     "y": 70.13,
+     "d": 559,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.54,
+     "y": 50.12,
+     "d": 423,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.89,
+     "y": 53.88,
+     "d": 206,
+     "o": "Comprador",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.58,
+     "y": 47.24,
+     "d": 489,
+     "o": "Fundidor de Metais",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.66,
+     "y": 46.53,
+     "d": 144,
+     "o": "Servente de Obras",
+     "m": "Chapecó",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 1.42,
+     "y": 56.49,
+     "d": 131,
+     "o": "Auxiliar de Lavanderia",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.85,
+     "y": 59.62,
+     "d": 426,
+     "o": "Ajudante de Confecção",
+     "m": "Tubarão",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.97,
+     "y": 50.29,
+     "d": 849,
+     "o": "Armazenista",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.62,
+     "y": 49.92,
+     "d": 1953,
+     "o": "Almoxarife",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.63,
+     "y": 40.77,
+     "d": 861,
+     "o": "Assistente Administrativo",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.09,
+     "y": 50.9,
+     "d": 387,
+     "o": "Expedidor de Mercadorias",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.15,
+     "y": 52.24,
+     "d": 245,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.86,
+     "y": 49.64,
+     "d": 276,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Rio do Sul",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 9.98,
+     "y": 21.62,
+     "d": 111,
+     "o": "Promotor de Vendas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 6.61,
+     "y": 51.34,
+     "d": 374,
+     "o": "Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -1.51,
+     "y": 68.18,
+     "d": 1034,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 8.2,
+     "y": 31.25,
+     "d": 128,
+     "o": "Vendedor em Comercio Atacadista",
+     "m": "Florianópolis",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 2.66,
+     "y": 62.6,
+     "d": 5219,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Rio do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -2.78,
+     "y": 35.19,
+     "d": 108,
+     "o": "Almoxarife",
+     "m": "Campos de Lages",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.21,
+     "y": 44.78,
+     "d": 134,
+     "o": "Operador de Producao (Quimica, Petroquimica e Afins)",
+     "m": "Criciúma",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": 9.09,
+     "y": 43.98,
+     "d": 407,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.09,
+     "y": 40.17,
+     "d": 117,
+     "o": "Apontador de Producao",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 14.95,
+     "y": 47.62,
+     "d": 147,
+     "o": "Comprador",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -7.41,
+     "y": 54.84,
+     "d": 124,
+     "o": "Tingidor de Roupas",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -7.55,
+     "y": 56.52,
+     "d": 161,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -5.75,
+     "y": 55.68,
+     "d": 185,
+     "o": "Marceneiro",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 74.52,
+     "y": 11.32,
+     "d": 106,
+     "o": "Montador de Maquinas",
+     "m": "Campos de Lages",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.51,
+     "y": 52.47,
+     "d": 831,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.08,
+     "y": 46.79,
+     "d": 716,
+     "o": "Auxiliar de Logistica",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.26,
+     "y": 34.47,
+     "d": 409,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 11.11,
+     "y": 44.3,
+     "d": 149,
+     "o": "Confeiteiro",
+     "m": "Blumenau",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.64,
+     "y": 49.65,
+     "d": 143,
+     "o": "Assistente Administrativo",
+     "m": "Canoinhas",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.22,
+     "y": 53.89,
+     "d": 193,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Rio do Sul",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 43.08,
+     "d": 130,
+     "o": "Operador de Conicaleira",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 10.48,
+     "y": 38.64,
+     "d": 132,
+     "o": "Supervisor de Vendas Comercial",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -9.29,
+     "y": 66.13,
+     "d": 124,
+     "o": "Costureira de Pecas Sob Encomenda",
+     "m": "Chapecó",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -5.27,
+     "y": 56.94,
+     "d": 209,
+     "o": "Expedidor de Mercadorias",
+     "m": "Joaçaba",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -5.1,
+     "y": 20.11,
+     "d": 174,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Curitibanos",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.51,
+     "y": 52.28,
+     "d": 2125,
+     "o": "Operador Polivalente da Industria Textil",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.72,
+     "y": 29.5,
+     "d": 200,
+     "o": "Assistente Administrativo",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.28,
+     "y": 41.41,
+     "d": 227,
+     "o": "Auxiliar de Logistica",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 4.09,
+     "y": 25.0,
+     "d": 108,
+     "o": "Pedreiro",
+     "m": "Joinville",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 2.74,
+     "y": 35.62,
+     "d": 160,
+     "o": "Tecnico em Eletromecanica",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.17,
+     "y": 35.48,
+     "d": 496,
+     "o": "Marceneiro",
+     "m": "Florianópolis",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -20.76,
+     "y": 44.8,
+     "d": 125,
+     "o": "Contramestre de Acabamento (Industria Textil)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 18.42,
+     "y": 55.37,
+     "d": 242,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -6.99,
+     "y": 66.31,
+     "d": 374,
+     "o": "Embalador, a Mao",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -9.84,
+     "y": 32.71,
+     "d": 107,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.62,
+     "y": 53.27,
+     "d": 107,
+     "o": "Embalador, a Mao",
+     "m": "São Miguel do Oeste",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -8.87,
+     "y": 37.86,
+     "d": 103,
+     "o": "Tecnico Eletronico",
+     "m": "Florianópolis",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -0.56,
+     "y": 50.55,
+     "d": 548,
+     "o": "Tecelao de Malhas, a  Maquina",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.85,
+     "y": 34.15,
+     "d": 164,
+     "o": "Assistente Administrativo",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.25,
+     "y": 50.23,
+     "d": 213,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -12.08,
+     "y": 49.17,
+     "d": 120,
+     "o": "Operador de Empilhadeira",
+     "m": "Canoinhas",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -6.06,
+     "y": 16.29,
+     "d": 178,
+     "o": "Caldeireiro (Chapas de Ferro e Aco)",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.0,
+     "y": 31.03,
+     "d": 232,
+     "o": "Serralheiro",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 17.07,
+     "y": 54.95,
+     "d": 222,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Rio do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.04,
+     "y": 54.33,
+     "d": 289,
+     "o": "Inspetor de Qualidade",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.83,
+     "y": 64.67,
+     "d": 184,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Campos de Lages",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.39,
+     "y": 54.05,
+     "d": 111,
+     "o": "Almoxarife",
+     "m": "Canoinhas",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.97,
+     "y": 61.69,
+     "d": 154,
+     "o": "Passadeira de Pecas Confeccionadas",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.26,
+     "y": 50.44,
+     "d": 113,
+     "o": "Tecnico de Garantia da Qualidade",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 12.68,
+     "y": 58.41,
+     "d": 113,
+     "o": "Trabalhador da Elaboracao de Pre-Fabricados (Cimento Amianto)",
+     "m": "Criciúma",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 6.84,
+     "y": 40.32,
+     "d": 124,
+     "o": "Servente de Obras",
+     "m": "Itajaí",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 11.33,
+     "y": 51.92,
+     "d": 156,
+     "o": "Apontador de Producao",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 18.99,
+     "y": 50.85,
+     "d": 118,
+     "o": "Montador de Maquinas",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.04,
+     "y": 50.0,
+     "d": 124,
+     "o": "Ceramista",
+     "m": "Tubarão",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 6.22,
+     "y": 44.26,
+     "d": 122,
+     "o": "Operador de Abertura (Fiacao)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -9.71,
+     "y": 52.18,
+     "d": 573,
+     "o": "Soldador",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 9.05,
+     "y": 42.4,
+     "d": 868,
+     "o": "Tecelao (Tear Automatico)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -11.87,
+     "y": 56.68,
+     "d": 367,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 12.96,
+     "y": 70.64,
+     "d": 327,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Ituporanga",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 19.1,
+     "y": 65.31,
+     "d": 196,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Ituporanga",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -8.2,
+     "y": 44.0,
+     "d": 125,
+     "o": "Operador de Empilhadeira",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -0.71,
+     "y": 64.76,
+     "d": 227,
+     "o": "Moldador de Plastico por Compressao",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -2.46,
+     "y": 62.18,
+     "d": 119,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.37,
+     "y": 48.67,
+     "d": 113,
+     "o": "Operador de Extrusora (Quimica, Petroquimica e Afins)",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 9.09,
+     "y": 55.02,
+     "d": 289,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Chapecó",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 7.61,
+     "y": 42.65,
+     "d": 204,
+     "o": "Revisor de Tecidos Crus",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.47,
+     "y": 47.29,
+     "d": 480,
+     "o": "Marceneiro",
+     "m": "Itajaí",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 22.71,
+     "y": 43.51,
+     "d": 131,
+     "o": "Montador de Veiculos (Linha de Montagem)",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -8.95,
+     "y": 64.08,
+     "d": 103,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Campos de Lages",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -13.14,
+     "y": 60.9,
+     "d": 1665,
+     "o": "Ajudante de Confecção",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.8,
+     "y": 62.18,
+     "d": 119,
+     "o": "Classificador de Madeira",
+     "m": "Tubarão",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 8.22,
+     "y": 51.68,
+     "d": 805,
+     "o": "Inspetor de Qualidade",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -10.52,
+     "y": 52.79,
+     "d": 197,
+     "o": "Operador Eletromecanico",
+     "m": "Canoinhas",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.23,
+     "y": 40.45,
+     "d": 487,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 15.71,
+     "d": 751,
+     "o": "Auxiliar de Processamento de Fumo",
+     "m": "Araranguá",
+     "g": "Outras da transformação"
+    },
+    {
+     "x": 5.75,
+     "y": 41.41,
+     "d": 396,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.31,
+     "y": 45.97,
+     "d": 694,
+     "o": "Operador de Maquina de Usinagem Madeira, em Geral",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -3.29,
+     "y": 49.62,
+     "d": 133,
+     "o": "Carregador (Veiculos de Transportes Terrestres)",
+     "m": "Canoinhas",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -7.59,
+     "y": 58.06,
+     "d": 124,
+     "o": "Ajudante de Motorista",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -11.34,
+     "y": 67.99,
+     "d": 303,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Chapecó",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.48,
+     "y": 58.53,
+     "d": 557,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Blumenau",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.6,
+     "y": 46.18,
+     "d": 641,
+     "o": "Assistente Administrativo",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -5.73,
+     "y": 39.2,
+     "d": 301,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.18,
+     "y": 65.97,
+     "d": 2636,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.37,
+     "y": 50.31,
+     "d": 1135,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Tijucas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 6.57,
+     "y": 65.1,
+     "d": 1020,
+     "o": "Embalador, a Mao",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 2.56,
+     "y": 47.82,
+     "d": 964,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 9.09,
+     "y": 43.07,
+     "d": 202,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Criciúma",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -5.26,
+     "y": 43.72,
+     "d": 199,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.17,
+     "y": 51.48,
+     "d": 169,
+     "o": "Marceneiro",
+     "m": "Rio do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -5.73,
+     "y": 46.32,
+     "d": 136,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.02,
+     "y": 47.2,
+     "d": 214,
+     "o": "Eletricista de Manutencao Eletroeletronica",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.68,
+     "y": 74.07,
+     "d": 941,
+     "o": "Magarefe",
+     "m": "Curitibanos",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.28,
+     "y": 37.1,
+     "d": 186,
+     "o": "Assistente de Vendas",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -12.65,
+     "y": 48.08,
+     "d": 312,
+     "o": "Tecelao de Malhas (Maquina Circular)",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.5,
+     "y": 45.95,
+     "d": 111,
+     "o": "Soldador",
+     "m": "Araranguá",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -8.23,
+     "y": 57.5,
+     "d": 160,
+     "o": "Classificador de Madeira",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 6.52,
+     "y": 41.84,
+     "d": 196,
+     "o": "Estoquista",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 19.58,
+     "y": 26.19,
+     "d": 210,
+     "o": "Eletricista de Manutencao Eletroeletronica",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -5.62,
+     "y": 41.43,
+     "d": 140,
+     "o": "Apontador de Producao",
+     "m": "Tubarão",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -2.54,
+     "y": 59.35,
+     "d": 155,
+     "o": "Montador de Equipamentos Eletricos",
+     "m": "Blumenau",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 0.63,
+     "y": 53.98,
+     "d": 113,
+     "o": "Contador",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.31,
+     "y": 67.43,
+     "d": 261,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 53.72,
+     "d": 363,
+     "o": "Trabalhador do Acabamento de Artefatos de Tecidos e Couros",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 23.98,
+     "y": 46.61,
+     "d": 118,
+     "o": "Operador de Inspecao de Qualidade",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.49,
+     "y": 48.44,
+     "d": 481,
+     "o": "Ajudante de Confecção",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.16,
+     "y": 63.56,
+     "d": 118,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.92,
+     "y": 48.85,
+     "d": 305,
+     "o": "Operador Polivalente da Industria Textil",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.27,
+     "y": 57.63,
+     "d": 177,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.82,
+     "y": 33.86,
+     "d": 508,
+     "o": "Expedidor de Mercadorias",
+     "m": "Tijucas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.88,
+     "y": 68.6,
+     "d": 328,
+     "o": "Magarefe",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 8.09,
+     "y": 65.04,
+     "d": 226,
+     "o": "Embalador, a Maquina",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 3.52,
+     "y": 45.95,
+     "d": 333,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.93,
+     "y": 62.83,
+     "d": 226,
+     "o": "Operador de Maquina de Usinagem de Madeira (Producao em Serie)",
+     "m": "Curitibanos",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": -2.91,
+     "y": 51.72,
+     "d": 466,
+     "o": "Abatedor",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.94,
+     "y": 41.58,
+     "d": 457,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -8.91,
+     "y": 71.67,
+     "d": 120,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Joaçaba",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.19,
+     "y": 60.81,
+     "d": 518,
+     "o": "Operador de Maquina de Costura de Acabamento",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 50.3,
+     "d": 165,
+     "o": "Operador de Maquina Centrifugadora de Fundicao",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 1.96,
+     "y": 44.01,
+     "d": 618,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -9.78,
+     "y": 55.32,
+     "d": 2621,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -6.89,
+     "y": 55.77,
+     "d": 156,
+     "o": "Almoxarife",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 6.39,
+     "y": 47.32,
+     "d": 112,
+     "o": "Recepcionista, em Geral",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.46,
+     "y": 69.01,
+     "d": 484,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Ituporanga",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 45.61,
+     "d": 114,
+     "o": "Operador de Torno com Comando Numerico",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -8.35,
+     "y": 64.15,
+     "d": 463,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 18.94,
+     "d": 602,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -6.2,
+     "y": 45.89,
+     "d": 207,
+     "o": "Rebarbador de Metal",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 11.47,
+     "y": 42.08,
+     "d": 960,
+     "o": "Inspetor de Qualidade",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.51,
+     "y": 45.56,
+     "d": 1047,
+     "o": "Estampador de Tecido",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.67,
+     "y": 47.79,
+     "d": 113,
+     "o": "Auxiliar de Contabilidade",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 2.21,
+     "y": 37.48,
+     "d": 2028,
+     "o": "Assistente Administrativo",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 43.3,
+     "d": 261,
+     "o": "Montador de Equipamentos Eletricos",
+     "m": "Chapecó",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -11.85,
+     "y": 48.6,
+     "d": 179,
+     "o": "Marceneiro",
+     "m": "Araranguá",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -1.96,
+     "y": 47.73,
+     "d": 264,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.39,
+     "y": 23.21,
+     "d": 112,
+     "o": "Mestre (Industria de Borracha e Plastico)",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -3.2,
+     "y": 32.17,
+     "d": 143,
+     "o": "Eletricista de Instalacoes",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -10.37,
+     "y": 59.25,
+     "d": 4272,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Canoinhas",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 2.76,
+     "y": 37.44,
+     "d": 219,
+     "o": "Polidor de Metais",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.8,
+     "y": 41.75,
+     "d": 103,
+     "o": "Inspetor de Qualidade",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.21,
+     "y": 39.09,
+     "d": 110,
+     "o": "Supervisor Administrativo",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.79,
+     "y": 31.82,
+     "d": 220,
+     "o": "Trabalhador de Fabricacao de Tintas",
+     "m": "Joinville",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": 2.47,
+     "y": 54.81,
+     "d": 135,
+     "o": "Expedidor de Mercadorias",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 2.36,
+     "y": 58.85,
+     "d": 2639,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.42,
+     "y": 37.77,
+     "d": 1022,
+     "o": "Trabalhador Polivalente da Confeccao de Calcados",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.02,
+     "y": 51.72,
+     "d": 116,
+     "o": "Bordador, À Maquina",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.91,
+     "y": 50.63,
+     "d": 237,
+     "o": "Analista de Recursos Humanos",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -13.81,
+     "y": 59.55,
+     "d": 178,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "São Miguel do Oeste",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.02,
+     "y": 33.87,
+     "d": 124,
+     "o": "Operador de Empilhadeira",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.96,
+     "y": 24.72,
+     "d": 530,
+     "o": "Soldador",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.04,
+     "y": 50.48,
+     "d": 105,
+     "o": "Ajudante de Confecção",
+     "m": "Xanxerê",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.88,
+     "y": 43.05,
+     "d": 151,
+     "o": "Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -0.28,
+     "y": 41.44,
+     "d": 222,
+     "o": "Servente de Obras",
+     "m": "Florianópolis",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -3.17,
+     "y": 38.35,
+     "d": 412,
+     "o": "Assistente Administrativo",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 0.01,
+     "y": 55.19,
+     "d": 154,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 3.31,
+     "y": 44.6,
+     "d": 139,
+     "o": "Padeiro",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.08,
+     "y": 58.75,
+     "d": 160,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Chapecó",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -3.36,
+     "y": 38.4,
+     "d": 125,
+     "o": "Expedidor de Mercadorias",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -15.4,
+     "y": 44.6,
+     "d": 139,
+     "o": "Operador de Maquinas-Ferramenta Convencionais",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.41,
+     "y": 62.09,
+     "d": 182,
+     "o": "Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 21.38,
+     "y": 42.53,
+     "d": 442,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.49,
+     "y": 32.52,
+     "d": 246,
+     "o": "Montador de Veiculos (Linha de Montagem)",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.14,
+     "y": 44.0,
+     "d": 125,
+     "o": "Auxiliar de Faturamento",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 29.06,
+     "y": 54.36,
+     "d": 149,
+     "o": "Operador de Linha de Montagem (Aparelhos Eletricos)",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.73,
+     "y": 40.74,
+     "d": 162,
+     "o": "Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.7,
+     "y": 43.18,
+     "d": 359,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Joinville",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -5.96,
+     "y": 42.98,
+     "d": 114,
+     "o": "Confeiteiro",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.09,
+     "y": 55.56,
+     "d": 108,
+     "o": "Operador de Empilhadeira",
+     "m": "Rio do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 9.88,
+     "y": 64.85,
+     "d": 165,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 2.21,
+     "y": 62.33,
+     "d": 146,
+     "o": "Tecnico de Laboratorio Industrial",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 14.13,
+     "y": 43.9,
+     "d": 164,
+     "o": "Operador de Maquina de Costura de Acabamento",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -11.25,
+     "y": 57.8,
+     "d": 109,
+     "o": "Soldador",
+     "m": "Concórdia",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.3,
+     "y": 53.2,
+     "d": 406,
+     "o": "Almoxarife",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -15.91,
+     "y": 57.88,
+     "d": 463,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Canoinhas",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 38.28,
+     "d": 209,
+     "o": "Fundidor de Metais",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.25,
+     "y": 50.42,
+     "d": 361,
+     "o": "Estampador de Tecido",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 24.15,
+     "y": 56.66,
+     "d": 796,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 51.25,
+     "d": 841,
+     "o": "Apontador de Producao",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 11.92,
+     "y": 49.59,
+     "d": 369,
+     "o": "Marceneiro",
+     "m": "Blumenau",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -5.01,
+     "y": 51.89,
+     "d": 528,
+     "o": "Embalador, a Mao",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.23,
+     "y": 39.36,
+     "d": 188,
+     "o": "Preparador de Estruturas Metalicas",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 52.01,
+     "d": 273,
+     "o": "Trefilador de Borracha",
+     "m": "Joaçaba",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 0.0,
+     "y": 67.0,
+     "d": 200,
+     "o": "Ceramista Prensador",
+     "m": "São Bento do Sul",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -6.81,
+     "y": 58.45,
+     "d": 621,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Tubarão",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 9.31,
+     "y": 36.7,
+     "d": 109,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 12.12,
+     "y": 37.62,
+     "d": 303,
+     "o": "Caldeireiro (Chapas de Ferro e Aco)",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 3.49,
+     "y": 54.15,
+     "d": 205,
+     "o": "Classificador de Madeira",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.47,
+     "y": 45.13,
+     "d": 483,
+     "o": "Tecnico de Planejamento de Producao",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -12.25,
+     "y": 50.0,
+     "d": 106,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.84,
+     "y": 52.02,
+     "d": 346,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.12,
+     "y": 42.6,
+     "d": 338,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 68.03,
+     "d": 147,
+     "o": "Oleiro (Fabricacao de Tijolos)",
+     "m": "Criciúma",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -0.0,
+     "y": 35.0,
+     "d": 120,
+     "o": "Oleiro (Fabricacao de Telhas)",
+     "m": "Tubarão",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -15.52,
+     "y": 55.68,
+     "d": 837,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -16.47,
+     "y": 42.86,
+     "d": 105,
+     "o": "Montador de Maquinas",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 62.07,
+     "d": 377,
+     "o": "Operador de Filatorio",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.26,
+     "y": 43.29,
+     "d": 231,
+     "o": "Tecnico de Garantia da Qualidade",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.28,
+     "y": 40.95,
+     "d": 105,
+     "o": "Marmorista (Construcao)",
+     "m": "Florianópolis",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -4.76,
+     "y": 56.37,
+     "d": 424,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 10.0,
+     "d": 160,
+     "o": "Montador de Equipamentos Eletronicos",
+     "m": "Florianópolis",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -5.41,
+     "y": 55.12,
+     "d": 557,
+     "o": "Operador de Maquina de Cordoalha",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.76,
+     "y": 58.72,
+     "d": 109,
+     "o": "Tecnico de Laboratorio Industrial",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 19.45,
+     "y": 53.95,
+     "d": 152,
+     "o": "Operador de Maquinas Operatrizes",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 3.42,
+     "y": 44.56,
+     "d": 2033,
+     "o": "Almoxarife",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -11.36,
+     "y": 47.25,
+     "d": 182,
+     "o": "Classificador de Madeira",
+     "m": "Curitibanos",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 58.95,
+     "d": 190,
+     "o": "Impressor de Corte e Vinco",
+     "m": "Concórdia",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 4.75,
+     "y": 28.44,
+     "d": 211,
+     "o": "Eletricista de Instalacoes",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -5.58,
+     "y": 52.45,
+     "d": 326,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 33.41,
+     "y": 36.25,
+     "d": 160,
+     "o": "Operador de Maquina de Fabricar Papel e Papelao",
+     "m": "Joaçaba",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -4.4,
+     "y": 75.14,
+     "d": 181,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "São Bento do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.86,
+     "y": 53.44,
+     "d": 726,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -8.36,
+     "y": 44.8,
+     "d": 375,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Itajaí",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -13.41,
+     "y": 52.42,
+     "d": 124,
+     "o": "Assistente Administrativo",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.7,
+     "y": 49.47,
+     "d": 281,
+     "o": "Serralheiro",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 17.29,
+     "y": 50.94,
+     "d": 106,
+     "o": "Expedidor de Mercadorias",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.17,
+     "y": 49.38,
+     "d": 162,
+     "o": "Colorista Textil",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 41.74,
+     "d": 115,
+     "o": "Instalador de Tubulacoes (Embarcacoes)",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -14.71,
+     "y": 47.93,
+     "d": 121,
+     "o": "Marceneiro",
+     "m": "São Miguel do Oeste",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.98,
+     "y": 45.36,
+     "d": 194,
+     "o": "Operador de Empilhadeira",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -5.24,
+     "y": 46.36,
+     "d": 110,
+     "o": "Confeiteiro",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.71,
+     "y": 54.93,
+     "d": 304,
+     "o": "Inspetor de Qualidade",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.03,
+     "y": 46.55,
+     "d": 116,
+     "o": "Trabalhador da Elaboracao de Pre-Fabricados (Concreto Armado)",
+     "m": "Araranguá",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": -1.0,
+     "y": 51.35,
+     "d": 892,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 43.43,
+     "d": 327,
+     "o": "Montador de Estruturas Metalicas de Embarcacoes",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.36,
+     "y": 45.28,
+     "d": 265,
+     "o": "Analista de Recursos Humanos",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 6.99,
+     "y": 32.24,
+     "d": 183,
+     "o": "Encarregado de Costura na Confeccao do Vestuario",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -9.81,
+     "y": 48.04,
+     "d": 204,
+     "o": "Rebarbador de Metal",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.83,
+     "y": 45.85,
+     "d": 205,
+     "o": "Operador de Acabamento (Industria Grafica)",
+     "m": "Blumenau",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -0.55,
+     "y": 66.27,
+     "d": 255,
+     "o": "Trefilador de Borracha",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 27.12,
+     "y": 62.03,
+     "d": 187,
+     "o": "Salsicheiro (Fabricacao de Linguica, Salsicha e Produtos Similares)",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.27,
+     "y": 53.16,
+     "d": 664,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.87,
+     "y": 71.86,
+     "d": 199,
+     "o": "Trabalhador de Tratamento do Leite e Fabricacao de Laticinios e Afins",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.49,
+     "y": 51.47,
+     "d": 204,
+     "o": "Inspetor de Qualidade",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 2.3,
+     "y": 45.82,
+     "d": 646,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 63.43,
+     "d": 361,
+     "o": "Bobinador Eletricista, À Maquina",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -2.5,
+     "y": 62.14,
+     "d": 103,
+     "o": "Queijeiro na Fabricacao de Laticinio",
+     "m": "Tabuleiro",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.19,
+     "y": 40.48,
+     "d": 210,
+     "o": "Assistente Administrativo",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 2.57,
+     "y": 43.05,
+     "d": 223,
+     "o": "Operador de Empilhadeira",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 3.53,
+     "y": 51.36,
+     "d": 921,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -7.31,
+     "y": 55.67,
+     "d": 909,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.57,
+     "y": 64.74,
+     "d": 156,
+     "o": "Contador",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -8.74,
+     "y": 31.71,
+     "d": 123,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Campos de Lages",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 11.34,
+     "y": 40.77,
+     "d": 233,
+     "o": "Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.91,
+     "y": 36.59,
+     "d": 246,
+     "o": "Soldador",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -11.36,
+     "y": 66.28,
+     "d": 427,
+     "o": "Ceramista",
+     "m": "São Bento do Sul",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 2.74,
+     "y": 52.8,
+     "d": 125,
+     "o": "Operador de Centro de Usinagem com Comando Numerico",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.76,
+     "y": 48.71,
+     "d": 1778,
+     "o": "Expedidor de Mercadorias",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.66,
+     "y": 53.42,
+     "d": 6814,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.86,
+     "y": 71.53,
+     "d": 144,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Ituporanga",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.17,
+     "y": 57.14,
+     "d": 189,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -1.61,
+     "y": 55.86,
+     "d": 324,
+     "o": "Almoxarife",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.37,
+     "y": 42.78,
+     "d": 187,
+     "o": "Marceneiro",
+     "m": "Criciúma",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -2.73,
+     "y": 56.71,
+     "d": 559,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.02,
+     "y": 74.46,
+     "d": 3677,
+     "o": "Alimentador de Linha de Producao",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.23,
+     "y": 51.1,
+     "d": 638,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.33,
+     "y": 48.38,
+     "d": 1019,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.17,
+     "y": 42.92,
+     "d": 473,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 9.76,
+     "y": 30.99,
+     "d": 171,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Florianópolis",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 17.03,
+     "y": 39.29,
+     "d": 140,
+     "o": "Serralheiro",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 6.07,
+     "y": 39.18,
+     "d": 194,
+     "o": "Pintor de Estruturas Metalicas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 62.04,
+     "d": 137,
+     "o": "Auxiliar de Producao Farmaceutica",
+     "m": "Tubarão",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": 6.22,
+     "y": 35.0,
+     "d": 100,
+     "o": "Montador de Calcados",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.98,
+     "y": 45.37,
+     "d": 831,
+     "o": "Operador de Maquinas-Ferramenta Convencionais",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 7.06,
+     "y": 46.1,
+     "d": 154,
+     "o": "Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.82,
+     "y": 69.71,
+     "d": 175,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Canoinhas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 61.38,
+     "d": 145,
+     "o": "Marcador de Produtos (Siderurgico e Metalurgico)",
+     "m": "Tijucas",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.23,
+     "y": 68.42,
+     "d": 133,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.88,
+     "y": 45.57,
+     "d": 158,
+     "o": "Zelador de Edificio",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.43,
+     "y": 52.47,
+     "d": 385,
+     "o": "Soldador",
+     "m": "Rio do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -14.51,
+     "y": 50.0,
+     "d": 208,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.33,
+     "y": 37.97,
+     "d": 295,
+     "o": "Marceneiro",
+     "m": "Joinville",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -0.16,
+     "y": 48.25,
+     "d": 429,
+     "o": "Soldador",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 9.82,
+     "y": 35.09,
+     "d": 265,
+     "o": "Preparador de Calcados",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 2.56,
+     "y": 46.9,
+     "d": 226,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Chapecó",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 0.0,
+     "y": 49.23,
+     "d": 392,
+     "o": "Atendente de Lanchonete",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -12.75,
+     "y": 34.78,
+     "d": 161,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Campos de Lages",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 74.31,
+     "d": 401,
+     "o": "Trabalhador de Tratamento do Leite e Fabricacao de Laticinios e Afins",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.88,
+     "y": 58.91,
+     "d": 8075,
+     "o": "Magarefe",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.78,
+     "y": 51.47,
+     "d": 546,
+     "o": "Almoxarife",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.86,
+     "y": 43.62,
+     "d": 149,
+     "o": "Padeiro",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 10.43,
+     "y": 54.13,
+     "d": 739,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.73,
+     "y": 59.77,
+     "d": 681,
+     "o": "Almoxarife",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.04,
+     "y": 59.7,
+     "d": 526,
+     "o": "Ajudante de Confecção",
+     "m": "Chapecó",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.26,
+     "y": 45.04,
+     "d": 282,
+     "o": "Almoxarife",
+     "m": "Tijucas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -9.96,
+     "y": 69.72,
+     "d": 109,
+     "o": "Inspetor de Qualidade",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -15.0,
+     "y": 41.91,
+     "d": 136,
+     "o": "Assistente Administrativo",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 8.12,
+     "y": 52.22,
+     "d": 203,
+     "o": "Montador de Maquinas",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -1.0,
+     "y": 55.92,
+     "d": 211,
+     "o": "Operador Polivalente da Industria Textil",
+     "m": "Xanxerê",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 4.63,
+     "y": 53.04,
+     "d": 2008,
+     "o": "Ajudante de Confecção",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.06,
+     "y": 42.31,
+     "d": 858,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.93,
+     "y": 66.38,
+     "d": 116,
+     "o": "Trabalhador de Fabricacao de Sorvete",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.43,
+     "y": 60.74,
+     "d": 512,
+     "o": "Embalador, a Mao",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -12.65,
+     "y": 41.18,
+     "d": 102,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 4.78,
+     "y": 54.72,
+     "d": 159,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Criciúma",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -0.38,
+     "y": 67.57,
+     "d": 111,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.44,
+     "y": 44.66,
+     "d": 103,
+     "o": "Mecanico de Manutencao de Maquinas Texteis",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 3.48,
+     "y": 44.2,
+     "d": 491,
+     "o": "Ajudante de Confecção",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -5.18,
+     "y": 49.29,
+     "d": 140,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Canoinhas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.15,
+     "y": 41.29,
+     "d": 201,
+     "o": "Operador de Rameuse",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 48.3,
+     "d": 1145,
+     "o": "Operador de Maquinas-Ferramenta Convencionais",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.55,
+     "y": 49.01,
+     "d": 857,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Blumenau",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 8.1,
+     "y": 56.67,
+     "d": 3049,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.23,
+     "y": 61.36,
+     "d": 132,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 61.18,
+     "d": 997,
+     "o": "Montador de Equipamentos Eletricos (Aparelhos Eletrodomesticos)",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 3.52,
+     "y": 39.18,
+     "d": 490,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -26.94,
+     "y": 63.95,
+     "d": 258,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Ituporanga",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 9.81,
+     "y": 46.94,
+     "d": 490,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.21,
+     "y": 62.38,
+     "d": 210,
+     "o": "Classificador de Madeira",
+     "m": "Criciúma",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -6.91,
+     "y": 32.62,
+     "d": 141,
+     "o": "Ajudante de Motorista",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 20.69,
+     "y": 41.35,
+     "d": 532,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -5.87,
+     "y": 64.25,
+     "d": 179,
+     "o": "Costureira de Pecas Sob Encomenda",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.8,
+     "y": 41.03,
+     "d": 234,
+     "o": "Conferente de Carga e Descarga",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.22,
+     "y": 51.82,
+     "d": 110,
+     "o": "Estoquista",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 46.24,
+     "d": 359,
+     "o": "Embalador, a Maquina",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.0,
+     "y": 29.51,
+     "d": 288,
+     "o": "Eletricista de Instalacoes",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.62,
+     "y": 58.51,
+     "d": 241,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.76,
+     "y": 45.08,
+     "d": 315,
+     "o": "Expedidor de Mercadorias",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.38,
+     "y": 40.8,
+     "d": 1549,
+     "o": "Tecelao de Malhas (Maquina Circular)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.7,
+     "y": 35.45,
+     "d": 584,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Florianópolis",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.76,
+     "y": 41.57,
+     "d": 599,
+     "o": "Soldador",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.55,
+     "y": 57.79,
+     "d": 578,
+     "o": "Ceramista",
+     "m": "Criciúma",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 20.18,
+     "y": 43.31,
+     "d": 127,
+     "o": "Administrador",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.52,
+     "y": 63.87,
+     "d": 310,
+     "o": "Ajudante de Confecção",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 19.86,
+     "y": 53.21,
+     "d": 109,
+     "o": "Acabador de Embalagens (Flexiveis e Cartotecnicas)",
+     "m": "Criciúma",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 8.15,
+     "y": 54.75,
+     "d": 453,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 58.1,
+     "d": 315,
+     "o": "Operador de Producao (Quimica, Petroquimica e Afins)",
+     "m": "Florianópolis",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": -11.71,
+     "y": 56.9,
+     "d": 174,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Tubarão",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.82,
+     "y": 43.4,
+     "d": 447,
+     "o": "Operador Polivalente da Industria Textil",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.53,
+     "y": 69.92,
+     "d": 123,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "São Bento do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 17.89,
+     "y": 46.92,
+     "d": 130,
+     "o": "Marmorista (Construcao)",
+     "m": "Itajaí",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 0.75,
+     "y": 44.0,
+     "d": 100,
+     "o": "Operador de Equipamentos de Preparacao de Areia",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.54,
+     "y": 41.03,
+     "d": 273,
+     "o": "Conferente de Carga e Descarga",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -2.38,
+     "y": 59.22,
+     "d": 282,
+     "o": "Carregador (Veiculos de Transportes Terrestres)",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.84,
+     "y": 60.48,
+     "d": 167,
+     "o": "Expedidor de Mercadorias",
+     "m": "Rio do Sul",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.71,
+     "y": 72.63,
+     "d": 179,
+     "o": "Embalador, a Mao",
+     "m": "Chapecó",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -2.18,
+     "y": 52.99,
+     "d": 385,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 5.46,
+     "y": 59.39,
+     "d": 197,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Rio do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 60.82,
+     "d": 268,
+     "o": "Atendente de Lanchonete",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 6.64,
+     "y": 32.02,
+     "d": 253,
+     "o": "Ferramenteiro",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.17,
+     "y": 57.91,
+     "d": 335,
+     "o": "Trabalhador de Tratamento do Leite e Fabricacao de Laticinios e Afins",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.15,
+     "y": 39.9,
+     "d": 208,
+     "o": "Tecnico em Seguranca no Trabalho",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.76,
+     "y": 54.63,
+     "d": 227,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 17.16,
+     "y": 56.64,
+     "d": 1589,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.33,
+     "y": 33.33,
+     "d": 147,
+     "o": "Servente de Obras",
+     "m": "Joinville",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 11.14,
+     "y": 48.86,
+     "d": 264,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Joaçaba",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": 3.51,
+     "y": 52.13,
+     "d": 11502,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 3.95,
+     "y": 65.66,
+     "d": 166,
+     "o": "Ajudante de Confecção",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 46.05,
+     "d": 152,
+     "o": "Embalador, a Mao",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -5.07,
+     "y": 55.47,
+     "d": 384,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.86,
+     "y": 57.81,
+     "d": 192,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 48.03,
+     "d": 610,
+     "o": "Assistente de Vendas",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 19.18,
+     "y": 27.14,
+     "d": 210,
+     "o": "Gerente de Producao e Operacoes",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.41,
+     "y": 46.86,
+     "d": 414,
+     "o": "Almoxarife",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.89,
+     "y": 37.86,
+     "d": 206,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Florianópolis",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -13.79,
+     "y": 81.35,
+     "d": 311,
+     "o": "Desossador",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 3.47,
+     "y": 49.19,
+     "d": 370,
+     "o": "Enfestador de Roupas",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -8.11,
+     "y": 70.67,
+     "d": 1050,
+     "o": "Operador de Producao (Quimica, Petroquimica e Afins)",
+     "m": "Blumenau",
+     "g": "Outras da transformação"
+    },
+    {
+     "x": 18.71,
+     "y": 54.0,
+     "d": 100,
+     "o": "Operador de Centro de Usinagem com Comando Numerico",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.59,
+     "y": 52.0,
+     "d": 225,
+     "o": "Armazenista",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.68,
+     "y": 51.46,
+     "d": 274,
+     "o": "Almoxarife",
+     "m": "Rio do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -8.41,
+     "y": 27.19,
+     "d": 217,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Canoinhas",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.96,
+     "y": 41.61,
+     "d": 274,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 1.43,
+     "y": 35.73,
+     "d": 431,
+     "o": "Operador de Fresadora com Comando Numerico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -21.35,
+     "y": 69.91,
+     "d": 442,
+     "o": "Inspetor de Qualidade",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.71,
+     "y": 46.37,
+     "d": 179,
+     "o": "Operador de Torno com Comando Numerico",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -11.5,
+     "y": 44.29,
+     "d": 508,
+     "o": "Auxiliar de Logistica",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 4.25,
+     "y": 41.18,
+     "d": 221,
+     "o": "Operador de Empilhadeira",
+     "m": "Criciúma",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 26.92,
+     "y": 56.19,
+     "d": 105,
+     "o": "Montador de Maquinas",
+     "m": "Xanxerê",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -10.97,
+     "y": 50.0,
+     "d": 100,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 2.15,
+     "y": 34.44,
+     "d": 241,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Florianópolis",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 4.39,
+     "y": 37.9,
+     "d": 467,
+     "o": "Motorista de Furgao ou Veiculo Similar",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.39,
+     "y": 41.07,
+     "d": 1573,
+     "o": "Assistente Administrativo",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -11.71,
+     "y": 41.48,
+     "d": 311,
+     "o": "Marceneiro",
+     "m": "Tubarão",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 1.75,
+     "y": 45.71,
+     "d": 105,
+     "o": "Alvejador (Tecidos)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 5.39,
+     "y": 47.71,
+     "d": 109,
+     "o": "Inspetor de Qualidade",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 53.95,
+     "d": 1846,
+     "o": "Embalador, a Mao",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -8.72,
+     "y": 53.38,
+     "d": 133,
+     "o": "Operador de Extrusora (Quimica, Petroquimica e Afins)",
+     "m": "Criciúma",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -4.74,
+     "y": 65.63,
+     "d": 838,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.97,
+     "y": 34.19,
+     "d": 117,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 2.91,
+     "y": 49.32,
+     "d": 146,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Tijucas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.17,
+     "y": 53.98,
+     "d": 402,
+     "o": "Colorista Textil",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -9.78,
+     "y": 54.28,
+     "d": 2544,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.65,
+     "y": 42.57,
+     "d": 101,
+     "o": "Marceneiro",
+     "m": "Tijucas",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.83,
+     "y": 47.26,
+     "d": 201,
+     "o": "Operador de Maquina de Lavar Fios e Tecidos",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 16.62,
+     "y": 58.25,
+     "d": 206,
+     "o": "Serralheiro",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 13.47,
+     "y": 36.86,
+     "d": 236,
+     "o": "Pintor de Estruturas Metalicas",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.58,
+     "y": 44.62,
+     "d": 251,
+     "o": "Operador de Inspecao de Qualidade",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -12.74,
+     "y": 47.48,
+     "d": 377,
+     "o": "Montador de Maquinas",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.61,
+     "y": 62.75,
+     "d": 102,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Chapecó",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -3.35,
+     "y": 58.65,
+     "d": 7942,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.06,
+     "y": 35.11,
+     "d": 131,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Curitibanos",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -9.24,
+     "y": 59.03,
+     "d": 288,
+     "o": "Operador de Maquina de Dobrar Chapas",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.65,
+     "y": 42.75,
+     "d": 138,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 9.23,
+     "y": 57.96,
+     "d": 6348,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -5.12,
+     "y": 45.29,
+     "d": 499,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -28.05,
+     "y": 55.91,
+     "d": 220,
+     "o": "Soldador",
+     "m": "Ituporanga",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.3,
+     "y": 50.96,
+     "d": 16430,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.28,
+     "y": 31.32,
+     "d": 364,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Campos de Lages",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.19,
+     "y": 39.54,
+     "d": 564,
+     "o": "Assistente Administrativo",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.08,
+     "y": 33.1,
+     "d": 145,
+     "o": "Galvanizador",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.44,
+     "y": 64.96,
+     "d": 117,
+     "o": "Operador de Tesoura Mecanica e Maquina de Corte, no Acabamento de Chapas e Metais",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 8.67,
+     "y": 50.38,
+     "d": 395,
+     "o": "Auxiliar de Logistica",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 4.73,
+     "y": 55.68,
+     "d": 185,
+     "o": "Faxineiro (Desativado em 2010)",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.79,
+     "y": 39.65,
+     "d": 1705,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.73,
+     "y": 41.46,
+     "d": 123,
+     "o": "Tecnico Mecanico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 12.18,
+     "y": 52.19,
+     "d": 228,
+     "o": "Operador de Torno com Comando Numerico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.15,
+     "y": 54.28,
+     "d": 829,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 56.22,
+     "d": 185,
+     "o": "Preparador de Aglomerantes",
+     "m": "Joaçaba",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -1.96,
+     "y": 38.29,
+     "d": 222,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.07,
+     "y": 42.86,
+     "d": 168,
+     "o": "Eletricista de Instalacoes",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.55,
+     "y": 47.51,
+     "d": 1206,
+     "o": "Moldador de Plastico por Injecao",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 4.17,
+     "y": 55.62,
+     "d": 160,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Joinville",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -5.05,
+     "y": 28.32,
+     "d": 113,
+     "o": "Vidraceiro",
+     "m": "Tubarão",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 0.09,
+     "y": 47.71,
+     "d": 807,
+     "o": "Operador de Acabamento de Pecas Fundidas",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 62.9,
+     "d": 1380,
+     "o": "Trabalhador de Preparacao de Pescados (Limpeza)",
+     "m": "Itajaí",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.96,
+     "y": 54.04,
+     "d": 235,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.56,
+     "y": 69.28,
+     "d": 153,
+     "o": "Preparador de Calcados",
+     "m": "Joaçaba",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -4.35,
+     "y": 72.93,
+     "d": 133,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Ituporanga",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": 1.62,
+     "y": 53.43,
+     "d": 277,
+     "o": "Embalador, a Mao",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 57.78,
+     "d": 135,
+     "o": "Queijeiro na Fabricacao de Laticinio",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.45,
+     "y": 39.24,
+     "d": 976,
+     "o": "Apontador de Producao",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -4.67,
+     "y": 71.47,
+     "d": 2969,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Rio do Sul",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -10.93,
+     "y": 75.12,
+     "d": 1953,
+     "o": "Magarefe",
+     "m": "Concórdia",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 3.71,
+     "y": 46.03,
+     "d": 680,
+     "o": "Operador de Centro de Usinagem com Comando Numerico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 18.67,
+     "y": 48.05,
+     "d": 154,
+     "o": "Desenhista Industrial de Produto de Moda (Designer de Moda)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 1.41,
+     "y": 44.74,
+     "d": 152,
+     "o": "Desenhista Projetista Mecanico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 11.43,
+     "y": 41.09,
+     "d": 202,
+     "o": "Operador de Maquinas-Ferramenta Convencionais",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 4.0,
+     "y": 47.32,
+     "d": 224,
+     "o": "Serralheiro",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 3.9,
+     "y": 39.91,
+     "d": 228,
+     "o": "Assistente Administrativo",
+     "m": "Campos de Lages",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 0.0,
+     "y": 24.85,
+     "d": 169,
+     "o": "Pescador Profissional",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.76,
+     "y": 64.77,
+     "d": 948,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 55.15,
+     "d": 165,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -2.01,
+     "y": 33.33,
+     "d": 105,
+     "o": "Ajudante de Confecção",
+     "m": "Campos de Lages",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 9.02,
+     "y": 57.66,
+     "d": 222,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.01,
+     "y": 42.6,
+     "d": 331,
+     "o": "Tecelao de Malhas, a  Maquina",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 67.82,
+     "d": 174,
+     "o": "Operador de Maquina de Moldar Automatizada",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -3.06,
+     "y": 40.76,
+     "d": 184,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Canoinhas",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.39,
+     "y": 43.87,
+     "d": 930,
+     "o": "Cortador de Roupas",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.52,
+     "y": 34.8,
+     "d": 204,
+     "o": "Eletricista de Instalacoes",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.92,
+     "y": 52.34,
+     "d": 128,
+     "o": "Embalador, a Mao",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 7.0,
+     "y": 55.86,
+     "d": 401,
+     "o": "Montador de Equipamentos Eletricos",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": -3.49,
+     "y": 74.07,
+     "d": 135,
+     "o": "Auxiliar nos Serviços de Alimentação",
+     "m": "São Miguel do Oeste",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.69,
+     "y": 54.32,
+     "d": 637,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -5.5,
+     "y": 35.4,
+     "d": 113,
+     "o": "Supervisor de Vendas Comercial",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 62.14,
+     "d": 243,
+     "o": "Promotor de Vendas",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.35,
+     "y": 35.81,
+     "d": 391,
+     "o": "Auxiliar de Escritorio, em Geral",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 4.73,
+     "y": 26.44,
+     "d": 208,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 68.35,
+     "d": 158,
+     "o": "Retalhador de Carne",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.46,
+     "y": 43.97,
+     "d": 116,
+     "o": "Vidraceiro",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.21,
+     "y": 47.2,
+     "d": 214,
+     "o": "Soldador",
+     "m": "Xanxerê",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 3.54,
+     "y": 57.53,
+     "d": 219,
+     "o": "Costureiro, a  Maquina  na Confeccao em Serie",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 9.97,
+     "y": 49.24,
+     "d": 132,
+     "o": "Tecnico em Seguranca no Trabalho",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 2.35,
+     "y": 34.14,
+     "d": 331,
+     "o": "Acabador de Calcados",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -7.39,
+     "y": 37.5,
+     "d": 112,
+     "o": "Apontador de Producao",
+     "m": "São Bento do Sul",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -27.1,
+     "y": 32.5,
+     "d": 120,
+     "o": "Soldador",
+     "m": "Canoinhas",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -4.21,
+     "y": 38.53,
+     "d": 327,
+     "o": "Mecanico de Manutencao de Maquinas, em Geral",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.31,
+     "y": 53.85,
+     "d": 520,
+     "o": "Bordador, À Maquina",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 61.22,
+     "d": 196,
+     "o": "Tecelao de Meias (Maquina Circular)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -4.15,
+     "y": 44.34,
+     "d": 106,
+     "o": "Acabador de Embalagens (Flexiveis e Cartotecnicas)",
+     "m": "Blumenau",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": 9.6,
+     "y": 46.15,
+     "d": 234,
+     "o": "Mecanico de Manutencao de Maquinas Texteis",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -9.4,
+     "y": 58.22,
+     "d": 1905,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Curitibanos",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -4.41,
+     "y": 58.99,
+     "d": 178,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 7.12,
+     "y": 33.33,
+     "d": 126,
+     "o": "Carregador (Armazem)",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -4.16,
+     "y": 54.55,
+     "d": 143,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Canoinhas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.0,
+     "y": 38.31,
+     "d": 154,
+     "o": "Tecelao de Malhas, a  Maquina",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -2.43,
+     "y": 55.19,
+     "d": 183,
+     "o": "Analista de Pesquisa de Mercado (A)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -6.36,
+     "y": 46.47,
+     "d": 170,
+     "o": "Ajudante de Motorista",
+     "m": "Joinville",
+     "g": "Minerais não metálicos e cerâmica"
+    },
+    {
+     "x": 0.0,
+     "y": 53.61,
+     "d": 319,
+     "o": "Tecnico em Plastico",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -3.05,
+     "y": 30.43,
+     "d": 115,
+     "o": "Pedreiro",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -6.0,
+     "y": 60.8,
+     "d": 125,
+     "o": "Serralheiro",
+     "m": "Chapecó",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -10.36,
+     "y": 56.42,
+     "d": 374,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Tubarão",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.28,
+     "y": 60.37,
+     "d": 4527,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Tubarão",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -1.11,
+     "y": 45.05,
+     "d": 111,
+     "o": "Tecnico de Planejamento de Producao",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -0.35,
+     "y": 57.38,
+     "d": 305,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Criciúma",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -5.66,
+     "y": 46.01,
+     "d": 263,
+     "o": "Operador de Maquinas Operatrizes",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -6.55,
+     "y": 58.2,
+     "d": 122,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 33.04,
+     "d": 227,
+     "o": "Preparador de Solas e Palmilhas",
+     "m": "Tijucas",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 3.08,
+     "y": 43.15,
+     "d": 584,
+     "o": "Operador de Empilhadeira",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 5.1,
+     "y": 11.59,
+     "d": 207,
+     "o": "Montador de Estruturas Metalicas",
+     "m": "Curitibanos",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -7.62,
+     "y": 59.44,
+     "d": 180,
+     "o": "Armazenista",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 7.93,
+     "y": 49.25,
+     "d": 134,
+     "o": "Motorista de Caminhao (Rotas Regionais e Internacionais)",
+     "m": "Xanxerê",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.54,
+     "y": 39.77,
+     "d": 264,
+     "o": "Operador de Producao (Quimica, Petroquimica e Afins)",
+     "m": "Joinville",
+     "g": "Plástico e borracha"
+    },
+    {
+     "x": -2.46,
+     "y": 57.14,
+     "d": 189,
+     "o": "Revisor de Tecidos Acabados",
+     "m": "Itajaí",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.73,
+     "y": 48.39,
+     "d": 403,
+     "o": "Atendente de Lojas e Mercados",
+     "m": "Florianópolis",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 50.53,
+     "d": 188,
+     "o": "Preparador de Tintas (Fabrica de Tecidos)",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -1.53,
+     "y": 36.21,
+     "d": 522,
+     "o": "Assistente Administrativo",
+     "m": "Itajaí",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 6.44,
+     "y": 55.73,
+     "d": 131,
+     "o": "Apontador de Producao",
+     "m": "Joaçaba",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 11.49,
+     "y": 45.7,
+     "d": 186,
+     "o": "Montador de Moveis e Artefatos de Madeira",
+     "m": "Itajaí",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": 8.02,
+     "y": 49.07,
+     "d": 108,
+     "o": "Almoxarife",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -6.99,
+     "y": 59.8,
+     "d": 102,
+     "o": "Auxiliar de Corte (Preparacao da Confeccao de Roupas)",
+     "m": "Tubarão",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 0.92,
+     "y": 63.64,
+     "d": 308,
+     "o": "Cortador de Roupas",
+     "m": "Joinville",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.25,
+     "y": 22.92,
+     "d": 192,
+     "o": "Gerente de Producao e Operacoes",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": -0.86,
+     "y": 50.0,
+     "d": 122,
+     "o": "Inspetor de Qualidade",
+     "m": "Rio do Sul",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -0.16,
+     "y": 43.41,
+     "d": 417,
+     "o": "Soldador",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 12.21,
+     "y": 53.2,
+     "d": 203,
+     "o": "Analista de Pesquisa de Mercado (A)",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.89,
+     "y": 54.01,
+     "d": 1111,
+     "o": "Alimentador de Linha de Producao",
+     "m": "Araranguá",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.3,
+     "y": 55.34,
+     "d": 103,
+     "o": "Promotor de Vendas",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -3.89,
+     "y": 60.32,
+     "d": 2102,
+     "o": "Operador de Linha de Montagem (Aparelhos Eletricos)",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 0.0,
+     "y": 39.06,
+     "d": 855,
+     "o": "Operador Eletromecanico",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -2.72,
+     "y": 53.7,
+     "d": 270,
+     "o": "Armazenista",
+     "m": "Joinville",
+     "g": "Eletroeletrônica"
+    },
+    {
+     "x": 8.65,
+     "y": 51.67,
+     "d": 180,
+     "o": "Modelista de Roupas",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 6.43,
+     "y": 56.71,
+     "d": 164,
+     "o": "Lustrador de Pecas de Madeira",
+     "m": "São Bento do Sul",
+     "g": "Madeira e móveis"
+    },
+    {
+     "x": -9.69,
+     "y": 54.51,
+     "d": 477,
+     "o": "Ajudante de Confecção",
+     "m": "Araranguá",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 13.31,
+     "y": 41.95,
+     "d": 174,
+     "o": "Montador de Maquinas",
+     "m": "Rio do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -12.63,
+     "y": 36.15,
+     "d": 130,
+     "o": "Trabalhador de Fabricacao de Tintas",
+     "m": "Criciúma",
+     "g": "Química e farmacêutica"
+    },
+    {
+     "x": -0.42,
+     "y": 43.27,
+     "d": 1211,
+     "o": "Soldador",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 6.72,
+     "y": 44.19,
+     "d": 129,
+     "o": "Cartonageiro, a Mao (Caixas de Papelao)",
+     "m": "Tijucas",
+     "g": "Papel, celulose e gráfica"
+    },
+    {
+     "x": -1.34,
+     "y": 39.31,
+     "d": 173,
+     "o": "Motorista de Furgao ou Veiculo Similar",
+     "m": "Joinville",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 1.49,
+     "y": 43.59,
+     "d": 273,
+     "o": "Vendedor de Comercio Varejista",
+     "m": "Criciúma",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.48,
+     "y": 54.04,
+     "d": 396,
+     "o": "Expedidor de Mercadorias",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": -1.33,
+     "y": 47.9,
+     "d": 167,
+     "o": "Inspetor de Qualidade",
+     "m": "Tubarão",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 0.0,
+     "y": 40.78,
+     "d": 103,
+     "o": "Moldador, a  Maquina",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 16.23,
+     "y": 42.12,
+     "d": 368,
+     "o": "Tecnico de Planejamento de Producao",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -10.23,
+     "y": 72.83,
+     "d": 736,
+     "o": "Costureiro na Confeccao em Serie",
+     "m": "Chapecó",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.63,
+     "y": 60.7,
+     "d": 201,
+     "o": "Costureira de Pecas Sob Encomenda",
+     "m": "Blumenau",
+     "g": "Têxtil, confecção e calçados"
+    },
+    {
+     "x": 11.57,
+     "y": 44.53,
+     "d": 128,
+     "o": "Padeiro",
+     "m": "Blumenau",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 14.46,
+     "y": 49.55,
+     "d": 220,
+     "o": "Operador de Acabamento de Pecas Fundidas",
+     "m": "Blumenau",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 11.55,
+     "y": 51.79,
+     "d": 112,
+     "o": "Carregador (Veiculos de Transportes Terrestres)",
+     "m": "Criciúma",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 23.11,
+     "y": 32.35,
+     "d": 102,
+     "o": "Caldeireiro (Chapas de Ferro e Aco)",
+     "m": "Joaçaba",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": -6.32,
+     "y": 71.14,
+     "d": 537,
+     "o": "Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",
+     "m": "São Bento do Sul",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 0.0,
+     "y": 13.18,
+     "d": 129,
+     "o": "Montador de Andaimes (Edificacoes)",
+     "m": "Tubarão",
+     "g": "Metalmecânica"
+    },
+    {
+     "x": 8.54,
+     "y": 39.09,
+     "d": 110,
+     "o": "Supervisor de Producao da Industria Alimenticia",
+     "m": "Chapecó",
+     "g": "Alimentos e bebidas"
+    },
+    {
+     "x": 2.3,
+     "y": 36.89,
+     "d": 732,
+     "o": "Operador de Maquinas Fixas, em Geral",
+     "m": "Joinville",
+     "g": "Metalmecânica"
+    }
+   ],
+   "faixas": [
+    {
+     "x": -24.12,
+     "y": 60.76,
+     "celulas": 6,
+     "desl": 1282
+    },
+    {
+     "x": -12.01,
+     "y": 59.45,
+     "celulas": 43,
+     "desl": 17633
+    },
+    {
+     "x": -7.61,
+     "y": 56.31,
+     "celulas": 66,
+     "desl": 26035
+    },
+    {
+     "x": -3.31,
+     "y": 55.04,
+     "celulas": 88,
+     "desl": 52077
+    },
+    {
+     "x": 0.09,
+     "y": 51.8,
+     "celulas": 199,
+     "desl": 100050
+    },
+    {
+     "x": 3.34,
+     "y": 49.75,
+     "celulas": 73,
+     "desl": 49653
+    },
+    {
+     "x": 6.9,
+     "y": 51.24,
+     "celulas": 80,
+     "desl": 50493
+    },
+    {
+     "x": 13.96,
+     "y": 47.88,
+     "celulas": 50,
+     "desl": 13126
+    },
+    {
+     "x": 26.88,
+     "y": 44.98,
+     "celulas": 15,
+     "desl": 3499
+    }
+   ],
+   "curva": [
+    {
+     "x": -30.0,
+     "y": 58.262
+    },
+    {
+     "x": -27.5,
+     "y": 57.453
+    },
+    {
+     "x": -25.0,
+     "y": 56.668
+    },
+    {
+     "x": -22.5,
+     "y": 55.905
+    },
+    {
+     "x": -20.0,
+     "y": 55.164
+    },
+    {
+     "x": -17.5,
+     "y": 54.444
+    },
+    {
+     "x": -15.0,
+     "y": 53.743
+    },
+    {
+     "x": -12.5,
+     "y": 53.061
+    },
+    {
+     "x": -10.0,
+     "y": 52.398
+    },
+    {
+     "x": -7.5,
+     "y": 51.752
+    },
+    {
+     "x": -5.0,
+     "y": 51.122
+    },
+    {
+     "x": -2.5,
+     "y": 50.509
+    },
+    {
+     "x": 0.0,
+     "y": 49.911
+    },
+    {
+     "x": 2.5,
+     "y": 49.327
+    },
+    {
+     "x": 5.0,
+     "y": 48.758
+    },
+    {
+     "x": 7.5,
+     "y": 48.203
+    },
+    {
+     "x": 10.0,
+     "y": 47.661
+    },
+    {
+     "x": 12.5,
+     "y": 47.131
+    },
+    {
+     "x": 15.0,
+     "y": 46.614
+    },
+    {
+     "x": 17.5,
+     "y": 46.108
+    },
+    {
+     "x": 20.0,
+     "y": 45.614
+    },
+    {
+     "x": 22.5,
+     "y": 45.131
+    },
+    {
+     "x": 25.0,
+     "y": 44.659
+    },
+    {
+     "x": 27.5,
+     "y": 44.197
+    },
+    {
+     "x": 30.0,
+     "y": 43.744
+    }
+   ],
+   "derivacao": {
+    "beta1": -0.9632190888931214,
+    "ic_inf": -1.4675700302694372,
+    "ic_sup": -0.4588681475168055,
+    "ep": 0.25732663730281363,
+    "z": -3.743176761602167,
+    "ln11": 0.09531017980432493,
+    "p_bar": 0.49788755363612197,
+    "aprox_pp": -2.2950736466841133,
+    "exato_pp": -2.2430438233207894,
+    "n_params": 30,
+    "dev_explicada": 0.4903987879493167
+   }
+  }
  },
  "n": 388489,
  "taxa_pedido": 51.97084087322936,

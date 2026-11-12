@@ -150,6 +150,15 @@ def montar() -> str:
                  f"(75% da transformação), logit fracionário com controles de setor, mesorregião e grande grupo da ocupação. Resultado: onde a mesma ocupação paga 10% acima da "
                  f"mediana da ocupação em SC, a parcela de saídas a pedido é {n(mm['efeito_sal10_pp'])} p.p. ({pv(mm['p_sal'])}). Robustez: {rob}; "
                  f"O prêmio de contratação (quem entra × quem sai) não se sustenta com os controles ({pv(premio['p'])}). Mercado aquecido puxa as saídas a pedido para cima, sinal fraco ({pv(cres['p'])}).")
+        dv = (mm.get("grafico") or {}).get("derivacao")
+        if dv:
+            or10 = 1.1 ** dv["beta1"]
+            L.append(f"Cálculo do Nível 1: logit(p_c) = β0 + β1·ln(s_c) + β2·ln(prêmio_c) + β3·crescimento_c + composição + efeitos fixos, onde p_c é a parcela de saídas a pedido "
+                     f"da célula e s_c o salário relativo (mediana da célula ÷ mediana da ocupação em SC). Estimado por quase-verossimilhança binomial ponderada pelos desligamentos, "
+                     f"erros robustos HC1, {dv['n_params']} parâmetros, {n(100 * dv['dev_explicada'], 0)}% da deviance explicada. Coeficiente β1 = {n(dv['beta1'], 3)} "
+                     f"(IC 95%: {n(dv['ic_inf'], 3)} a {n(dv['ic_sup'], 3)}; z = {n(dv['z'], 2)}). Em chances: 1,1 elevado a β1 = {n(or10, 3)}, chances {n(100 * (1 - or10), 1)}% menores. "
+                     f"Aproximação pela derivada: Δp ≈ β1 × ln(1,1) × p̄ × (1 − p̄) = {n(dv['beta1'], 3)} × {n(dv['ln11'], 4)} × {n(dv['p_bar'], 3)} × {n(1 - dv['p_bar'], 3)} "
+                     f"≈ {n(dv['aprox_pp'], 2)} p.p. Cálculo exato (efeito marginal médio, média das previsões com e sem +10% de salário): {n(dv['exato_pp'], 2)} p.p.")
         sel = {("escolaridade", "Superior ou mais"), ("escolaridade", "Até fundamental"), ("sexo", "Mulher"), ("porte", "500 ou mais"), ("porte", "até 19"),
                ("faixa_idade", "18 a 24"), ("faixa_idade", "50 ou mais"), ("faixa_sal", "20% ou mais acima")}
         partes = [f"{e['fator_nome']} = {e['nivel']}: {s(e['dif_pp'], 1)} p.p." for e in pf["efeitos"] if (e["fator"], e["nivel"]) in sel]

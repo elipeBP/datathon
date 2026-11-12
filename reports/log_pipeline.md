@@ -94,3 +94,16 @@ Execução: 2026-11-11 22:36
 | Mercado: células ocupação × microrregião | 620 (313,848 desligamentos) |
 | Mercado: +10% de salário relativo | -2.24 p.p. de saídas a pedido (p = 0.0002) |
 | Tempo | 159 s |
+
+## Modelo das saídas a pedido
+
+| Item | Valor |
+| --- | --- |
+| Desligamentos na amostra | 388,489 |
+| Taxa a pedido na amostra | 52.0% |
+| AUC fora da amostra (logística × boosting) | 0.616 × 0.646 |
+| Pseudo-R² (McFadden) | 0.030 |
+| Fator de maior amplitude | faixa_sal (10.0 p.p.) |
+| Mercado: células ocupação × microrregião | 620 (313,848 desligamentos) |
+| Mercado: +10% de salário relativo | -2.24 p.p. de saídas a pedido (p = 0.0002) |
+| Tempo | 117 s |

@@ -327,6 +327,65 @@ h2.graf { margin: 6px 0 0; font-size: 19px; line-height: 1.3; font-weight: 600; 
 .modelo-linha .v { text-align: right; font-weight: 600; }
 @media (min-width: 960px) { .modelo-grade { grid-template-columns: 1fr 1fr; gap: 24px; } .modelo-cartao { padding: 24px; } }
 
+/* estudo em destaque: dispersão, fórmula e derivação */
+.modelo-h2 { max-width: 30ch; font-size: 22px; }
+.estudo-grade { display: grid; gap: 16px; margin-top: 20px; }
+.estudo-graf { padding: 14px 12px 10px; }
+.estudo-lado { padding: 18px 16px; }
+.legenda-disp { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--tinta2); margin: 0 4px 10px; }
+.legenda-disp span { display: inline-flex; align-items: center; gap: 6px; }
+.legenda-disp i { display: inline-block; flex: none; }
+.legenda-disp .l-ponto { width: 10px; height: 10px; border-radius: 50%; background: var(--neutro-claro); }
+.legenda-disp .l-media { width: 10px; height: 10px; border-radius: 50%; background: var(--tinta); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--linha); }
+.legenda-disp .l-curva { width: 18px; height: 3px; border-radius: 2px; background: var(--expansao); }
+.disp-tip {
+  position: absolute; z-index: 5; pointer-events: none; transform: translate(12px, -50%);
+  background: var(--tinta); color: #fff; font-size: 12.5px; line-height: 1.4; padding: 8px 10px; border-radius: 8px; max-width: 260px;
+  box-shadow: var(--sombra-flutuante);
+}
+.disp-tip b { display: block; font-size: 13px; }
+.disp-tip div { opacity: 0.85; }
+@media (max-width: 959px) { .disp-tip { position: static; transform: none; margin-top: 8px; max-width: none; pointer-events: auto; } }
+.estudo-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 14px 0 0; border-top: 1px solid var(--linha); }
+.estudo-stats > div { padding: 10px 0; border-bottom: 1px solid var(--linha); }
+.estudo-stats dt { font-size: 11.5px; color: var(--tinta3); }
+.estudo-stats dd { margin: 2px 0 0; font-size: 16px; font-weight: 600; }
+.estudo-mat { display: grid; gap: 16px; margin-top: 16px; }
+.mat-cartao { padding: 18px 16px; }
+.mat-cartao h3 { margin: 4px 0 6px; font-size: 17px; line-height: 1.3; font-weight: 600; }
+math.formula { display: block; overflow-x: auto; overflow-y: hidden; margin: 12px 0; padding: 12px; border-radius: 8px; background: var(--superficie); font-size: 17px; }
+math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; }
+.formula-bloco { margin: 12px 0; padding: 10px 12px; border-radius: 8px; background: var(--superficie); overflow-x: auto; font-size: 17px; }
+.formula-bloco math[display="block"] { margin: 4px 0; text-align: left; math-style: normal; }
+.formula-bloco math[display="block"] + math[display="block"] { padding-left: 1.2em; }
+.passos-mat .formula-bloco { font-size: 15px; margin: 8px 0; }
+@media (max-width: 559px) { .formula-bloco { font-size: 14px; padding: 10px 8px; } .passos-mat .formula-bloco { font-size: 12px; } .passos-mat li { padding-left: 30px; } }
+.legenda-mat { margin: 0; display: grid; gap: 6px; font-size: 13.5px; }
+.legenda-mat > div { display: grid; grid-template-columns: 44px 1fr; gap: 8px; align-items: baseline; }
+.legenda-mat dt { font-size: 15px; }
+.legenda-mat dd { margin: 0; color: var(--tinta2); }
+.passos-mat { list-style: none; counter-reset: passo; margin: 6px 0 0; padding: 0; }
+.passos-mat li { counter-increment: passo; position: relative; padding: 0 0 12px 34px; margin-bottom: 12px; border-bottom: 1px solid var(--linha); }
+.passos-mat li:last-child { border-bottom: 0; margin-bottom: 0; }
+.passos-mat li::before { content: counter(passo); position: absolute; left: 0; top: 0; width: 24px; height: 24px; border-radius: 50%; background: var(--tinta); color: #fff; font-size: 12px; font-weight: 600; display: grid; place-items: center; }
+.passos-mat .t { font-size: 14px; font-weight: 600; }
+.passos-mat p { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--tinta2); }
+.passos-mat math.formula { font-size: 15px; margin: 8px 0; }
+.tab-coef { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 4px; }
+.tab-coef th, .tab-coef td { text-align: left; padding: 8px 8px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.tab-coef th { font-size: 11.5px; color: var(--tinta3); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+.tabela-rolagem { overflow-x: auto; }
+.perfil-grade { display: grid; gap: 12px; }
+@media (min-width: 960px) {
+  .modelo-h2 { font-size: 30px; }
+  .estudo-grade { grid-template-columns: 2fr 1fr; gap: 24px; align-items: start; }
+  .estudo-graf { padding: 20px; }
+  .estudo-lado { padding: 24px; }
+  .estudo-mat { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .mat-cartao { padding: 24px; }
+  .perfil-grade { grid-template-columns: 1fr 1fr; gap: 32px; }
+}
+
 /* ---------------------------------------------------------------- o que fazer */
 .recs { display: grid; gap: 20px; margin: 26px var(--margem) 0; }
 .rec-topo { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 16px 16px 4px; }
@@ -380,3 +439,4 @@ h2.graf { margin: 6px 0 0; font-size: 19px; line-height: 1.3; font-weight: 600; 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+.perfil-grade > div, .estudo-grade > *, .estudo-mat > *, .passos-mat li { min-width: 0; }

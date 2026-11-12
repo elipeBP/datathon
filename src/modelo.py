@@ -218,7 +218,34 @@ def modelo_mercado() -> dict:
         rob.append({"recorte": rotulo, "celulas": len(cc), "efeito_sal10_pp": efeito_pp(mm, cc, "log_sal_rel", float(np.log(1.10))),
                     "p_sal": float(mm.pvalues["log_sal_rel"]), "p_premio": float(mm.pvalues["log_premio"])})
     return {"celulas": len(c), "desligamentos": int(c["desl"].sum()), "efeito_sal10_pp": sal10,
-            "p_sal": float(m.pvalues["log_sal_rel"]), "efeitos": linhas, "robustez": rob}
+            "p_sal": float(m.pvalues["log_sal_rel"]), "efeitos": linhas, "robustez": rob, "grafico": grafico_mercado(m, c, sal10)}
+
+
+def grafico_mercado(m, c: pd.DataFrame, sal10: float) -> dict:
+    """Dados do gráfico em destaque: pontos (células), médias por faixa, curva ajustada do modelo e a derivação do efeito."""
+    titulos = pd.read_csv(cfg.CBO_TITULOS_CSV, dtype=str).set_index("cbo2002ocupacao")["titulo_cbo"]
+    c = c.assign(x=100 * (np.exp(c["log_sal_rel"]) - 1), y=100 * c["frac"])
+    pontos = [{"x": round(float(r.x), 2), "y": round(float(r.y), 2), "d": int(r.desl), "o": str(titulos.get(r.cbo2002ocupacao, r.cbo2002ocupacao)).strip(),
+               "m": r.microrregiao, "g": r.grupo_setorial} for r in c.itertuples()]
+    bordas = [-np.inf, -20, -10, -5, -2, 2, 5, 10, 20, np.inf]
+    c["faixa"] = pd.cut(c["x"], bordas)
+    faixas = []
+    for _, g in c.groupby("faixa", observed=True):
+        w = g["desl"]
+        faixas.append({"x": round(float(np.average(g["x"], weights=w)), 2), "y": round(float(np.average(g["y"], weights=w)), 2),
+                       "celulas": int(len(g)), "desl": int(w.sum())})
+    curva = [{"x": round(100 * v, 1), "y": round(float(100 * m.predict(c.assign(log_sal_rel=np.log(1 + v))).mean()), 3)}
+             for v in np.arange(-0.30, 0.3001, 0.025)]
+    b1 = float(m.params["log_sal_rel"])
+    ic = m.conf_int().loc["log_sal_rel"]
+    p_bar = float(m.predict(c).mean())
+    ln11 = float(np.log(1.10))
+    return {
+        "pontos": pontos, "faixas": faixas, "curva": curva,
+        "derivacao": {"beta1": b1, "ic_inf": float(ic[0]), "ic_sup": float(ic[1]), "ep": float(m.bse["log_sal_rel"]), "z": float(m.tvalues["log_sal_rel"]),
+                      "ln11": ln11, "p_bar": p_bar, "aprox_pp": 100 * b1 * ln11 * p_bar * (1 - p_bar), "exato_pp": sal10,
+                      "n_params": int(len(m.params)), "dev_explicada": float(1 - m.deviance / m.null_deviance)},
+    }
 
 
 def f1(v, c=1):
