@@ -6,7 +6,7 @@
 import argparse
 
 import config as cfg
-from src import clean, exportar_web, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
+from src import base_conhecimento, clean, exportar_web, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
 from src.log import iniciar_log
 
 
@@ -24,6 +24,7 @@ def main(sem_regioes: bool) -> None:
     figuras.main()
     recomendacoes.main()  # rascunho em app/recomendacoes.yaml (a equipe aprova; não sobrescreve se aprovado)
     exportar_web.main()   # web/public/dados.json e GeoJSON para o site React
+    base_conhecimento.main()  # web/api/_base.js: base do assistente de dúvidas
 
 
 if __name__ == "__main__":

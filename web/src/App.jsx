@@ -3,6 +3,7 @@ import Mapa from "./componentes/Mapa.jsx";
 import Setores from "./componentes/Setores.jsx";
 import Quadrantes from "./componentes/Quadrantes.jsx";
 import { Escolaridade, Macrofamilias, Salario } from "./componentes/PorQue.jsx";
+import Assistente from "./componentes/Assistente.jsx";
 import { dec, int, pct, sinal, sinalInt } from "./fmt.jsx";
 
 const PREMISSAS = [
@@ -211,6 +212,7 @@ export default function App() {
           Fonte: {dados.meta.fonte}. População: {dados.meta.populacao}. {dados.meta.regioes}. Macrofamílias de ocupação classificadas por IA ({ia.modelo}) com revisão humana. Dados gerados em {dados.meta.gerado_em} pelo pipeline em Python do repositório.
         </div>
       </footer>
+      <Assistente />
     </>
   );
 }
