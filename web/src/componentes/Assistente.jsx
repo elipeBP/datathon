@@ -39,10 +39,13 @@ export function AssistenteProvider({ cap, children }) {
     try {
       const r = await fetch("/api/perguntar", {
         method: "POST", signal: ctl.signal, headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ pergunta: p, historico, contexto: { capitulo: contexto.texto, regiao: contexto.regiao, setor: contexto.setor } }),
+        body: JSON.stringify({ pergunta: p, historico, contexto: { cap: contexto.cap, capitulo: contexto.texto, regiao: contexto.regiao, setor: contexto.setor } }),
       });
       const j = await r.json().catch(() => ({}));
-      setTrocas((t) => t.map((x) => (x.id === id ? { ...x, carregando: false, a: j.resposta || j.erro || "Não consegui responder agora.", src: j.fonte, origem: j.origem || "erro" } : x)));
+      setTrocas((t) => t.map((x) => (x.id === id ? {
+        ...x, carregando: false, a: j.resposta || j.erro || "Não consegui responder agora.", src: j.fonte, origem: j.origem || "erro",
+        bars: j.grafico?.bars, chartTitle: j.grafico?.titulo, sugestoes: Array.isArray(j.sugestoes) ? j.sugestoes : null,
+      } : x)));
     } catch (e) {
       const parou = e.name === "AbortError";
       setTrocas((t) => t.map((x) => (x.id === id ? { ...x, carregando: false, a: parou ? "Resposta interrompida." : "Sem conexão com o assistente. As perguntas sugeridas funcionam mesmo assim.", origem: "erro" } : x)));
@@ -52,7 +55,12 @@ export function AssistenteProvider({ cap, children }) {
   }
 
   const feitas = new Set(trocas.map((x) => x.id));
-  const outras = [...(QA[contexto.cap] || []), ...TODAS].filter((x, i, arr) => !feitas.has(x.id) && arr.findIndex((y) => y.id === x.id) === i).slice(0, 3);
+  const feitasTexto = new Set(trocas.map((x) => normalizar(x.q)));
+  const ultima = trocas[trocas.length - 1];
+  // Depois de uma resposta da IA, as sugestões de continuação dela vêm primeiro; senão, as perguntas prontas do capítulo.
+  const daIA = (ultima?.sugestoes || []).filter((q) => !feitasTexto.has(normalizar(q))).map((q, i) => ({ id: `sug-${ultima.id}-${i}`, q, livre: true }));
+  const prontas = [...(QA[contexto.cap] || []), ...TODAS].filter((x, i, arr) => !feitas.has(x.id) && arr.findIndex((y) => y.id === x.id) === i);
+  const outras = [...daIA, ...prontas].slice(0, 3);
 
   return (
     <Ctx.Provider value={{ abrir }}>
@@ -62,7 +70,7 @@ export function AssistenteProvider({ cap, children }) {
       </button>
       <Folha aberta={aberto} onFechar={() => { abortar.current?.abort(); setAberto(false); }} rotulo="Perguntar aos dados" alta>
         <Painel contexto={contexto} trocas={trocas} outras={outras} carregando={trocas.some((x) => x.carregando)}
-          onPerguntar={perguntar} onEscolher={(qa) => setTrocas((t) => [...t, { ...qa, origem: "pronta" }])}
+          onPerguntar={perguntar} onEscolher={(qa) => (qa.livre ? perguntar(qa.q) : setTrocas((t) => [...t, { ...qa, origem: "pronta" }]))}
           onParar={() => abortar.current?.abort()} onFechar={() => { abortar.current?.abort(); setAberto(false); }} />
       </Folha>
     </Ctx.Provider>
