@@ -138,12 +138,34 @@ def montar() -> str:
         L.append(f"- {f}: admitidos {n(esc.get(('Admitidos', f), 0))}% · desligados {n(esc.get(('Desligados', f), 0))}%")
     L.append("")
 
+    mod = d.get("modelo")
+    if mod:
+        mm, pf = mod["mercado"], mod["perfil"]
+        pv = lambda p: "p < 0,001" if p < 0.001 else f"p = {n(p, 3)}"
+        rob = "; ".join(f"{x['recorte']}: {n(x['efeito_sal10_pp'])} p.p." for x in mm["robustez"])
+        premio = next(e for e in mm["efeitos"] if e["variavel"] == "log_premio")
+        cres = next(e for e in mm["efeitos"] if e["variavel"] == "cresc")
+        L.append("## Modelo estatístico das saídas a pedido (associação, não causa)\n")
+        L.append(f"Nível 1, mercado (pergunta: pagar acima do mercado retém?): {i(mm['celulas'])} células ocupação × microrregião, cobrindo {i(mm['desligamentos'])} desligamentos "
+                 f"(75% da transformação), logit fracionário com controles de setor, mesorregião e grande grupo da ocupação. Resultado: onde a mesma ocupação paga 10% acima da "
+                 f"mediana da ocupação em SC, a parcela de saídas a pedido é {n(mm['efeito_sal10_pp'])} p.p. ({pv(mm['p_sal'])}). Robustez: {rob}; "
+                 f"O prêmio de contratação (quem entra × quem sai) não se sustenta com os controles ({pv(premio['p'])}). Mercado aquecido puxa as saídas a pedido para cima, sinal fraco ({pv(cres['p'])}).")
+        sel = {("escolaridade", "Superior ou mais"), ("escolaridade", "Até fundamental"), ("sexo", "Mulher"), ("porte", "500 ou mais"), ("porte", "até 19"),
+               ("faixa_idade", "18 a 24"), ("faixa_idade", "50 ou mais"), ("faixa_sal", "20% ou mais acima")}
+        partes = [f"{e['fator_nome']} = {e['nivel']}: {s(e['dif_pp'], 1)} p.p." for e in pf["efeitos"] if (e["fator"], e["nivel"]) in sel]
+        L.append(f"\nNível 2, perfil (entre quem saiu, quem saiu a pedido?): regressão logística em {i(pf['n'])} desligamentos, na mesma ocupação e região, com controles de setor, "
+                 f"microrregião, grande grupo da ocupação e mês. Diferença na probabilidade de a saída ser a pedido em relação à referência (ensino médio, homem, 30 a 39 anos, "
+                 f"empresa de 100 a 499 empregados, salário na mediana da ocupação): " + "; ".join(partes) + "; "
+                 f"AUC fora da amostra: {n(pf['auc_logit'], 3)} (logística) e {n(pf['auc_gbm'], 3)} (gradient boosting). Entre quem saiu, quem ganha bem acima da mediana sai mais "
+                 "por demissão da empresa; por isso a pergunta sobre salário é respondida no Nível 1. Limites: o CAGED não traz tempo de casa; só olha quem saiu.\n")
+
     L.append("## Recomendações (aprovadas pela equipe)\n")
     for k, r in enumerate(d["recomendacoes"], 1):
         ind = r.get("indicador_de_acompanhamento") or {}
         L.append(f"{k}. {r['acao']}. Onde: {r['regiao']}. Para quem: {r['macrofamilia']}. Por quê: {r['porque']}. "
                  f"Quem executa: {r['quem_executa']}. Como medir: {ind.get('kpi')}, linha de base {ind.get('linha_de_base')} "
-                 f"({ind.get('unidade', '')}), fonte {ind.get('fonte')}.")
+                 f"({ind.get('unidade', '')}), fonte {ind.get('fonte')}."
+                 + (f" Evidência do modelo: {r['evidencia_modelo']}" if r.get("evidencia_modelo") else ""))
     L.append("")
 
     L.append("## Testes de validação\n")

@@ -1,0 +1,174 @@
+{
+ "mercado": {
+  "celulas": 620,
+  "desligamentos": 313848,
+  "efeito_sal10_pp": -2.243043823320784,
+  "p_sal": 0.0001817083082395751,
+  "efeitos": [
+   {
+    "variavel": "log_sal_rel",
+    "nome": "Salário da ocupação na região × mediana da ocupação em SC",
+    "coef": -0.9632190888931216,
+    "p": 0.0001817083082395751,
+    "ic_inf": -1.4675700302694377,
+    "ic_sup": -0.4588681475168055,
+    "dp": 0.0836029864284822,
+    "efeito_1dp_pp": -1.9678641970878819
+   },
+   {
+    "variavel": "log_premio",
+    "nome": "Prêmio de contratação (quem entra × quem sai)",
+    "coef": 0.16866022431394997,
+    "p": 0.7250945284982258,
+    "ic_inf": -0.7713658020918165,
+    "ic_sup": 1.1086862507197164,
+    "dp": 0.05164694927240978,
+    "efeito_1dp_pp": 0.2130071591692706
+   },
+   {
+    "variavel": "cresc",
+    "nome": "Crescimento (saldo ÷ movimentações)",
+    "coef": 0.003993739534404496,
+    "p": 0.08592274307583278,
+    "ic_inf": -0.0005643138008749526,
+    "ic_sup": 0.008551792869683945,
+    "dp": 12.00797093466003,
+    "efeito_1dp_pp": 1.1725791345494063
+   },
+   {
+    "variavel": "p_sup",
+    "nome": "% com superior completo",
+    "coef": -0.7883071922870957,
+    "p": 0.0006441172660885188,
+    "ic_inf": -1.2410936595807904,
+    "ic_sup": -0.3355207249934009,
+    "dp": 0.1134294978773336,
+    "efeito_1dp_pp": -2.18479882820089
+   },
+   {
+    "variavel": "p_jovem",
+    "nome": "% de 14 a 24 anos",
+    "coef": -0.2399033614525543,
+    "p": 0.13979989087865724,
+    "ic_inf": -0.5583525895313777,
+    "ic_sup": 0.07854586662626911,
+    "dp": 0.16167494933449614,
+    "efeito_1dp_pp": -0.948264543064864
+   },
+   {
+    "variavel": "p_mulher",
+    "nome": "% de mulheres",
+    "coef": 0.6341759897970494,
+    "p": 1.6541937696793515e-18,
+    "ic_inf": 0.4925871015146439,
+    "ic_sup": 0.7757648780794548,
+    "dp": 0.30293821195062753,
+    "efeito_1dp_pp": 4.685976727163116
+   },
+   {
+    "variavel": "p_grande",
+    "nome": "% em empresas com 500 ou mais empregados",
+    "coef": 0.334423239784745,
+    "p": 0.0003887736060485822,
+    "ic_inf": 0.14966186826222977,
+    "ic_sup": 0.5191846113072602,
+    "dp": 0.2511141634296974,
+    "efeito_1dp_pp": 2.052712430258902
+   }
+  ],
+  "robustez": [
+   {
+    "recorte": "células com ≥ 50 desligamentos",
+    "celulas": 1069,
+    "efeito_sal10_pp": -1.7802907400588985,
+    "p_sal": 0.00026574231820418475,
+    "p_premio": 0.6971925794276468
+   },
+   {
+    "recorte": "células com ≥ 200 desligamentos",
+    "celulas": 340,
+    "efeito_sal10_pp": -2.496499559532417,
+    "p_sal": 0.0012436583871599082,
+    "p_premio": 0.8039927215945788
+   },
+   {
+    "recorte": "sem o alimentador de linha (CBO 784205)",
+    "celulas": 601,
+    "efeito_sal10_pp": -3.1433904750584163,
+    "p_sal": 5.4494743677112844e-08,
+    "p_premio": 0.8073598865450383
+   }
+  ]
+ },
+ "n": 388489,
+ "taxa_pedido": 51.97084087322936,
+ "pseudo_r2": 0.030423786051347435,
+ "auc_logit": 0.6159454699089557,
+ "auc_gbm": 0.6460612906022404,
+ "importancia_gbm": [
+  {
+   "variavel": "Microrregião",
+   "queda_auc": 0.05925947977296386
+  },
+  {
+   "variavel": "Mês",
+   "queda_auc": 0.033700614750954504
+  },
+  {
+   "variavel": "Setor",
+   "queda_auc": 0.02848923887459894
+  },
+  {
+   "variavel": "Tamanho da empresa (empregados)",
+   "queda_auc": 0.02063641662224321
+  },
+  {
+   "variavel": "Salário em relação à mediana da ocupação na região",
+   "queda_auc": 0.020492069719770394
+  },
+  {
+   "variavel": "Grande grupo da ocupação",
+   "queda_auc": 0.014661491110149546
+  },
+  {
+   "variavel": "Idade",
+   "queda_auc": 0.010153662164131938
+  },
+  {
+   "variavel": "Escolaridade",
+   "queda_auc": 0.008672199381945597
+  },
+  {
+   "variavel": "Sexo",
+   "queda_auc": 0.00463928385008953
+  }
+ ],
+ "amplitude_pp": [
+  {
+   "fator": "faixa_sal",
+   "fator_nome": "Salário em relação à mediana da ocupação na região",
+   "amplitude_pp": 10.044897506116293
+  },
+  {
+   "fator": "escolaridade",
+   "fator_nome": "Escolaridade",
+   "amplitude_pp": 9.017408956635947
+  },
+  {
+   "fator": "faixa_idade",
+   "fator_nome": "Idade",
+   "amplitude_pp": 7.447520517689512
+  },
+  {
+   "fator": "porte",
+   "fator_nome": "Tamanho da empresa (empregados)",
+   "amplitude_pp": 7.128846463277661
+  },
+  {
+   "fator": "sexo",
+   "fator_nome": "Sexo",
+   "amplitude_pp": 4.345406817496411
+  }
+ ],
+ "celulas_ref": "mediana do salário na mesma CBO × microrregião (≥ 30 salários válidos); senão, mediana estadual da CBO"
+}

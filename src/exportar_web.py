@@ -50,6 +50,26 @@ def testes() -> list[dict]:
     return out
 
 
+def modelo_web() -> dict | None:
+    """Resumo do modelo das saídas a pedido (src/modelo.py) para o site."""
+    resumo_p = cfg.PROCESSED / "modelo_pedido_resumo.json"
+    efeitos_p = cfg.PROCESSED / "modelo_pedido_efeitos.csv"
+    if not (resumo_p.exists() and efeitos_p.exists()):
+        return None
+    r = json.loads(resumo_p.read_text(encoding="utf-8"))
+    ef = pl.read_csv(efeitos_p)
+    m = r["mercado"]
+    return {
+        "mercado": {"celulas": m["celulas"], "desligamentos": m["desligamentos"], "efeito_sal10_pp": limpar(m["efeito_sal10_pp"]),
+                    "p_sal": limpar(m["p_sal"]),
+                    "efeitos": [{k: limpar(e[k]) for k in ("variavel", "nome", "efeito_1dp_pp", "p")} for e in m["efeitos"]],
+                    "robustez": [{k: limpar(x[k]) for k in ("recorte", "celulas", "efeito_sal10_pp", "p_sal", "p_premio")} for x in m["robustez"]]},
+        "perfil": {"n": r["n"], "taxa_pedido": limpar(r["taxa_pedido"]), "auc_logit": limpar(r["auc_logit"]), "auc_gbm": limpar(r["auc_gbm"]),
+                   "efeitos": registros(ef, {"fator": "fator", "fator_nome": "fator_nome", "nivel": "nivel", "prob_prevista": "prob",
+                                             "dif_pp_vs_ref": "dif_pp", "referencia": "ref", "n": "n", "p": "p"})},
+    }
+
+
 def geojson_compacto() -> dict:
     """Arredonda as coordenadas a 4 casas (~11 m): metade do tamanho, mesma forma."""
     geo = json.loads(cfg.GEOJSON_MICRO.read_text(encoding="utf-8"))
@@ -120,6 +140,7 @@ def main() -> Path:
             "cbos_outros": mf.filter(pl.col("origem") == "outros").height,
             "areas": 15, "niveis": 4,
         },
+        "modelo": modelo_web(),
         "recomendacoes": recs.get("recomendacoes", []),
         "recomendacoes_status": recs.get("status_geral"),
         "testes": testes(),

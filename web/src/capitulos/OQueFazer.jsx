@@ -78,6 +78,9 @@ export default function OQueFazer({ dados }) {
                 <div className="fld"><dt>Para quem</dt><dd>{r.macrofamilia} <span className="muted" style={{ fontSize: 12.5 }}>(macrofamília da IA)</span></dd></div>
                 <div className="fld"><dt>Por quê</dt><dd>{negrito(r.porque_curto || r.porque)}</dd></div>
                 <div className="fld"><dt>Quem executa</dt><dd>{r.quem_executa}</dd></div>
+                {r.evidencia_modelo && (
+                  <div className="fld"><dt>Modelo</dt><dd style={{ fontSize: 13.5, color: "var(--tinta2)" }}>{r.evidencia_modelo}</dd></div>
+                )}
               </dl>
               {r.comparacao && <Comparacao itens={r.comparacao} i0={i * 2} />}
               <div className="empurra">

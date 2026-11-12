@@ -63,6 +63,15 @@ Se a exportação de PNG reclamar do Chrome, rode `plotly_get_chrome`; se ainda 
 | 3. Prêmio de contratação | A empresa paga mais para repor? | mediana do salário de admissão ÷ de desligamento, na mesma CBO e microrregião |
 | 4. Descasamento de escolaridade | Quem entra tem menos formação que quem sai? | % com superior nos admitidos − nos desligados, na mesma CBO e microrregião |
 
+## Modelo das saídas a pedido
+
+`src/modelo.py` (relatório em [`reports/modelo_saida_pedido.md`](reports/modelo_saida_pedido.md)) mede o que está **associado** a o trabalhador pedir para sair, em dois níveis interpretáveis:
+
+- **Mercado (pagar acima do mercado retém?):** logit fracionário em 620 células ocupação × microrregião (75% dos desligamentos), com controles de setor, mesorregião e grande grupo da ocupação. Onde a mesma ocupação paga 10% acima da mediana de SC, a parcela de saídas a pedido é 2,2 p.p. menor (p < 0,001); entre −1,8 e −3,1 p.p. em todos os testes de robustez. O prêmio de contratação não se sustenta com os controles (p = 0,725).
+- **Perfil (entre quem saiu, quem saiu a pedido?):** regressão logística em 388.489 desligamentos, validada fora da amostra contra um gradient boosting (AUC 0,616 × 0,646). Superior completo +7,2 p.p.; mulheres +4,3; empresas de 500+ empregados +3,7; 18 a 24 anos +2,9; 50 anos ou mais −3,5.
+
+Associação, não causa. O CAGED não traz tempo de casa; o Nível 2 só olha quem saiu (quem ganha bem acima da mediana sai mais por demissão da empresa, por isso o salário é lido no Nível 1).
+
 ## Resultados dos testes
 
 Ver [`reports/testes.md`](reports/testes.md). Resumo: T1 (reconciliação com a FIESC) aprovado na transformação, indústria geral e total; T2 (efeito de setor) aprovado por pouco; T3 (dependência do alimentador de linha) reprovado, e por isso o painel mostra os resultados com e sem essa ocupação; T5 aprovado no nível do estado.

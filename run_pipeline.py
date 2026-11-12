@@ -6,7 +6,7 @@
 import argparse
 
 import config as cfg
-from src import base_conhecimento, clean, dados_agente, exportar_web, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
+from src import base_conhecimento, clean, dados_agente, exportar_web, modelo, figuras, ingest, kpis, macrofamilias, recomendacoes, referencias, testes
 from src.log import iniciar_log
 
 
@@ -20,6 +20,7 @@ def main(sem_regioes: bool) -> None:
         cfg.TESTES_MD.unlink()
     macrofamilias.main()  # só chama o Gemini se RODAR_LLM = True; senão lê o CSV/cache ou prepara o plano B
     kpis.main()
+    modelo.main()         # modelo das saídas a pedido (mercado e perfil); reports/modelo_saida_pedido.md
     testes.main()         # T1, conferência da seção 3, T2–T5
     figuras.main()
     recomendacoes.main()  # rascunho em app/recomendacoes.yaml (a equipe aprova; não sobrescreve se aprovado)

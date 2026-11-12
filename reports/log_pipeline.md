@@ -70,3 +70,27 @@ Execução: 2026-11-11 22:36
 | kpis_micro_macrofamilia | 1760 linhas |
 | kpis_micro_grupo_macrofamilia | 5540 linhas |
 | Tamanho de data/processed | 2.08 MB (limite 20 MB) |
+
+## Modelo das saídas a pedido
+
+| Item | Valor |
+| --- | --- |
+| Desligamentos na amostra | 388,489 |
+| Taxa a pedido na amostra | 52.0% |
+| AUC fora da amostra (logística × boosting) | 0.616 × 0.646 |
+| Pseudo-R² (McFadden) | 0.030 |
+| Fator de maior amplitude | porte (15.2 p.p.) |
+| Tempo | 128 s |
+
+## Modelo das saídas a pedido
+
+| Item | Valor |
+| --- | --- |
+| Desligamentos na amostra | 388,489 |
+| Taxa a pedido na amostra | 52.0% |
+| AUC fora da amostra (logística × boosting) | 0.616 × 0.646 |
+| Pseudo-R² (McFadden) | 0.030 |
+| Fator de maior amplitude | faixa_sal (10.0 p.p.) |
+| Mercado: células ocupação × microrregião | 620 (313,848 desligamentos) |
+| Mercado: +10% de salário relativo | -2.24 p.p. de saídas a pedido (p = 0.0002) |
+| Tempo | 159 s |

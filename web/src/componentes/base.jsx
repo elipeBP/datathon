@@ -104,10 +104,13 @@ export function useVisto() {
   const ref = useRef(null);
   const [visto, setVisto] = useState(false);
   useEffect(() => {
-    if (!ref.current || visto) return;
-    const ob = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setVisto(true); ob.disconnect(); } }, { threshold: 0.3 });
+    if (visto) return;
+    // Salvaguarda: se o observador não disparar (navegador antigo, impressão, aba em segundo plano), mostra mesmo assim.
+    const reserva = setTimeout(() => setVisto(true), 1500);
+    if (!ref.current || typeof IntersectionObserver === "undefined") return () => clearTimeout(reserva);
+    const ob = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setVisto(true); ob.disconnect(); } }, { threshold: 0.15 });
     ob.observe(ref.current);
-    return () => ob.disconnect();
+    return () => { ob.disconnect(); clearTimeout(reserva); };
   }, [visto]);
   return [ref, visto ? "cresce" : "espera"];
 }

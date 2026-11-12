@@ -39,6 +39,9 @@ recomendacoes:
     valor: 50.9
     texto: 50,9%
     cor: neutro-claro
+  evidencia_modelo: No modelo, quem trabalha em empresas de 500 ou mais empregados tem mais chance de sair a pedido (+3,7
+    p.p.). Na agroindústria do Oeste, 68,6% das movimentações são nesse porte, contra 23,4% na transformação de SC. Associação,
+    não causa.
 - status: aprovada
   acao: Revisão de faixa salarial e programa de retenção no têxtil
   macrofamilia: Têxtil, confecção e calçados × Qualificação acima de 200h
@@ -72,6 +75,8 @@ recomendacoes:
     valor: 50.9
     texto: 50,9%
     cor: neutro-claro
+  evidencia_modelo: No modelo estatístico, onde a mesma ocupação paga 10% acima da mediana de SC, a parcela de saídas a pedido
+    é 2,2 p.p. menor (620 mercados, p < 0,001). Associação, não causa.
 - status: aprovada
   acao: Requalificação do têxtil para eletroeletrônica e automação
   macrofamilia: Têxtil, confecção e calçados × Qualificação acima de 200h → Eletroeletrônica e automação × Qualificação acima

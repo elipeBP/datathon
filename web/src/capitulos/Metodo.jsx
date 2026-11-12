@@ -44,6 +44,9 @@ export default function Metodo({ dados }) {
     ["Classificação das ocupações por IA", `${ia.cbos_llm} ocupações classificadas pelo Gemini (${ia.modelo}) em ${ia.areas} áreas e ${ia.niveis} níveis de formação, a partir de uma lista fechada de categorias, com revisão humana. ${int(ia.cbos_heranca)} herdaram a classificação pela família da ocupação.`],
     ["Quadrantes", "Microrregião × setor, com volume mínimo de 300 desligamentos e movimentações. O corte é a mediana das combinações: 37 crescem e perdem gente, 31 não crescem e perdem gente, 31 crescem e retêm, 36 estagnados."],
     ["Recorte geográfico", "20 microrregiões e 6 mesorregiões do IBGE, com o contorno oficial. População do Censo 2022."],
+    ["Modelo estatístico", dados.modelo
+      ? `Dois níveis, ambos interpretáveis. Mercado: logit fracionário em ${int(dados.modelo.mercado.celulas)} células ocupação × microrregião, com controles de setor, mesorregião e grande grupo da ocupação. Perfil: regressão logística em ${int(dados.modelo.perfil.n)} desligamentos, validada fora da amostra contra um gradient boosting (AUC ${dados.modelo.perfil.auc_logit.toFixed(3).replace(".", ",")} × ${dados.modelo.perfil.auc_gbm.toFixed(3).replace(".", ",")}). Associação, não causa; o CAGED não traz tempo de casa. Relatório completo em reports/modelo_saida_pedido.md.`
+      : "Modelo ainda não executado."],
     ["Linhas repetidas", "Linhas idênticas foram mantidas, como nos números oficiais (provável contratação em lote). Removê-las levaria o saldo de +1.008 para −12.287."],
   ];
 

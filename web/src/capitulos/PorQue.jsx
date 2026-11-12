@@ -2,6 +2,7 @@
 import { QA } from "../qa.js";
 import { Pergunte, ProximoCapitulo, useVisto } from "../componentes/base.jsx";
 import { pct, sinal } from "../fmt.jsx";
+import ModeloSecao from "./Modelo.jsx";
 
 const NIVEL = { "Qualificação até 200h": "até 200h", "Qualificação acima de 200h": "acima de 200h", "Técnico": "técnico", "Superior": "superior" };
 const reais = (v) => `R$ ${Math.round(v).toLocaleString("pt-BR")}`;
@@ -60,7 +61,7 @@ export default function PorQue({ dados }) {
               </p>
             </div>
           </div>
-          <Pergunte titulo="" itens={[QA.porque[1]]} contexto={ctx} />
+          <Pergunte titulo="" itens={[QA.porque.find((x) => x.id === "porque-2")]} contexto={ctx} />
         </section>
 
         <section className="graf-sec">
@@ -88,7 +89,7 @@ export default function PorQue({ dados }) {
           </div>
           <div className="num muted" style={{ display: "flex", justifyContent: "space-between", margin: "6px 6px 0", fontSize: 11.5 }}><span>R$ 2.000</span><span>R$ 2.300</span><span>R$ 2.600</span></div>
           <p className="nota-graf">Celetistas comuns, salários de R$ 1.000 a R$ 30.000. Na mesma ocupação e região, a reposição paga {pct(100 - t.kpi3 * 100)} menos (prêmio {t.kpi3.toFixed(3).replace(".", ",")}).</p>
-          <Pergunte titulo="" itens={[QA.porque[0]]} contexto={ctx} />
+          <Pergunte titulo="" itens={[QA.porque.find((x) => x.id === "porque-1")]} contexto={ctx} />
         </section>
 
         <section className="graf-sec">
@@ -108,11 +109,12 @@ export default function PorQue({ dados }) {
             <span className="v num">{sinal(t.kpi4, 2)} <small>p.p.</small></span>
             <span style={{ fontSize: 14, lineHeight: 1.4 }}>de diferença no ensino superior, comparando na mesma ocupação e região. A formação não explica a saída.</span>
           </div>
-          <Pergunte titulo="" itens={[QA.porque[2]]} contexto={ctx} />
+          <Pergunte titulo="" itens={[QA.porque.find((x) => x.id === "porque-3")]} contexto={ctx} />
           <p className="fonte" style={{ marginTop: 16 }}>Fonte: Novo CAGED (MTE), indústria de transformação, set/2025 a ago/2026.</p>
         </section>
       </div>
 
+      <ModeloSecao modelo={dados.modelo} />
       <ProximoCapitulo cap="porque" />
     </>
   );

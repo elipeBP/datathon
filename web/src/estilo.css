@@ -315,6 +315,18 @@ h2.graf { margin: 6px 0 0; font-size: 19px; line-height: 1.3; font-weight: 600; 
   .porque-grade .graf-sec { margin: 0; }
 }
 
+/* ---------------------------------------------------------------- modelo estatístico */
+.modelo { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--linha); }
+.modelo-grade { display: grid; gap: 16px; margin-top: 20px; }
+.modelo-cartao { padding: 18px 16px; }
+.modelo-cartao h3 { margin: 4px 0 0; font-size: 17px; line-height: 1.3; font-weight: 600; }
+.modelo-heroi { font-size: 56px; line-height: 1; font-weight: 600; letter-spacing: -0.03em; margin-top: 12px; color: var(--tinta); }
+.modelo-heroi small { font-size: 20px; font-weight: 500; letter-spacing: 0; }
+.modelo-txt { margin: 8px 0 0; font-size: 14.5px; line-height: 1.45; color: var(--tinta2); }
+.modelo-linha { display: grid; grid-template-columns: minmax(0, 1.2fr) 1fr 48px; gap: 8px; align-items: center; min-height: 36px; padding: 4px 0; border-bottom: 1px solid var(--linha); font-size: 13.5px; }
+.modelo-linha .v { text-align: right; font-weight: 600; }
+@media (min-width: 960px) { .modelo-grade { grid-template-columns: 1fr 1fr; gap: 24px; } .modelo-cartao { padding: 24px; } }
+
 /* ---------------------------------------------------------------- o que fazer */
 .recs { display: grid; gap: 20px; margin: 26px var(--margem) 0; }
 .rec-topo { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 16px 16px 4px; }
