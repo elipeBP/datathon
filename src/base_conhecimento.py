@@ -5,7 +5,7 @@
 Gera, a partir de web/public/dados.json (que já sai do pipeline) e das premissas do README:
 - BASE: texto em Markdown com todos os números que o assistente pode citar. O assistente só responde a partir dela,
   e a função confere se cada número da resposta aparece aqui (guardrail de aterramento).
-- FAQ: respostas prontas para as perguntas sugeridas, servidas sem chamar a IA (rápido e sem gastar cota).
+As respostas prontas das perguntas sugeridas ficam em web/src/qa.js (banco do design).
 
 Sem embeddings: a base inteira cabe no contexto do modelo, o que é mais preciso do que recuperar trechos.
 """
@@ -42,7 +42,7 @@ def premissas() -> str:
     return re.sub(r"`", "", bloco.strip())
 
 
-def montar() -> tuple[str, list[dict]]:
+def montar() -> str:
     d = json.loads(DADOS.read_text(encoding="utf-8"))
     t = next(x for x in d["segmentos"] if x["segmento"] == "Transformação")
     t_sem = next(x for x in d["segmentos_sem_alimentador"] if x["segmento"] == "Transformação")
@@ -83,7 +83,8 @@ def montar() -> tuple[str, list[dict]]:
 
     L.append("## Números do estado (indústria de transformação, 12 meses)\n")
     L.append(f"- Movimentações: {i(t['movimentos'])} ({i(t['admissoes'])} admissões e {i(t['desligamentos'])} desligamentos).")
-    L.append(f"- Saldo: {s(t['saldo'])} vagas em 12 meses ({n(t['kpi2'])} por 10 mil habitantes). O setor gira muito e quase não cresce.")
+    L.append(f"- Saldo: {s(t['saldo'])} vagas em 12 meses ({n(t['kpi2'])} por 10 mil habitantes), o equivalente a {n(100 * t['saldo'] / t['movimentos'], 2)}% das movimentações. O setor gira muito e quase não cresce.")
+    L.append(f"- Saídas por outros motivos (demissão pela empresa, fim de contrato etc.): {n(100 - t['kpi1'])}% dos desligamentos.")
     L.append(f"- Saídas a pedido: {n(t['kpi1'])}% dos desligamentos.")
     L.append(f"- Prêmio de contratação: {n(t['kpi3'], 3)}; quem entra ganha {n(100 * (1 - t['kpi3']))}% menos que quem sai na mesma ocupação e região (cobertura {n(t['kpi3_cob'], 0)}% dos movimentos).")
     L.append(f"- Descasamento de escolaridade: {n(t['kpi4'], 2)} pontos percentuais (cobertura {n(t['kpi4_cob'], 0)}%): quem entra tem praticamente a mesma escolaridade de quem sai.")
@@ -91,13 +92,15 @@ def montar() -> tuple[str, list[dict]]:
     L.append(f"- Alimentador de linha de produção (CBO 784205): uma única ocupação responde por {n(part_alim, 0)}% das movimentações da transformação. "
              f"Sem ela, o saldo da transformação seria {s(t_sem['saldo'])} em vez de {s(t['saldo'])}.\n")
 
-    L.append("## Setores da transformação (grupos setoriais, 12 meses)\n")
-    L.append("| Setor | % saídas a pedido | Saldo (vagas) | Saldo por 10 mil hab. | % a pedido sem o alimentador de linha | Salário mediano de quem entra | de quem sai | Prêmio de contratação |")
-    L.append("| --- | --- | --- | --- | --- | --- | --- | --- |")
+    L.append("## Setores da transformação em Santa Catarina inteira (grupos setoriais, 12 meses; valores do estado todo, não de uma microrregião)\n")
+    L.append("| Setor (SC inteira) | % saídas a pedido | Saldo (vagas) | Saldo por 10 mil hab. | % a pedido sem o alimentador de linha | Salário mediano de quem entra (SC) | de quem sai (SC) | Diferença de quem entra (SC) | Prêmio de contratação |")
+    L.append("| --- | --- | --- | --- | --- | --- | --- | --- | --- |")
     for g in grupos:
         sg = sal.get(g["grupo"], {})
+        dif = 100 * (sg["admitidos"] / sg["desligados"] - 1) if sg.get("desligados") else None
         L.append(f"| {g['grupo']} | {n(g['kpi1'])}% | {s(g['saldo'])} | {s(g['kpi2'], 1)} | {n(g['kpi1_sem'])}% | "
-                 f"R$ {i(sg.get('admitidos', 0))} | R$ {i(sg.get('desligados', 0))} | {n(g['kpi3'], 3) if g.get('kpi3') else 'n/d'} |")
+                 f"R$ {i(sg.get('admitidos', 0))} | R$ {i(sg.get('desligados', 0))} | {n(dif) + '%' if dif is not None else 'n/d'} | "
+                 f"{n(g['kpi3'], 3) if g.get('kpi3') else 'n/d'} |")
     L.append(f"\nMédia de SC na transformação: {n(t['kpi1'])}% de saídas a pedido. Em todos os setores, o salário mediano de quem entra é menor que o de quem sai.\n")
 
     L.append("## Microrregiões (transformação, 12 meses)\n")
@@ -160,43 +163,16 @@ def montar() -> tuple[str, list[dict]]:
              "Este assistente responde dúvidas usando só esta base, com o Google Gemini.")
     base = "\n".join(L)
 
-    faq = [
-        {"pergunta": "O que vocês chamam de apagão?",
-         "resposta": f"O CAGED mede fluxo de contratações e demissões, não vagas abertas. Por isso inferimos o apagão por sinais indiretos. "
-                     f"O principal: {n(t['kpi1'])}% dos desligamentos da indústria de transformação são a pedido do trabalhador, "
-                     f"enquanto o saldo do ano foi de só {s(t['saldo'])} vagas. O setor gira muito e quase não cresce: o apagão aparece como rotatividade."},
-        {"pergunta": "Onde está o maior problema?",
-         "resposta": f"No Oeste catarinense, que cresce e perde gente ao mesmo tempo: {micros[0]['nome']} tem {n(micros[0]['kpi1'])}% das saídas a pedido "
-                     f"e {micros[1]['nome']}, {n(micros[1]['kpi1'])}%. {top2[0]['nome']} é o maior polo de expansão ({s(top2[0]['kpi2'], 1)} vagas por 10 mil habitantes). "
-                     f"Já o Vale do Itajaí, puxado pelo têxtil, encolhe e também perde gente."},
-        {"pergunta": "Por que as pessoas pedem demissão?",
-         "resposta": f"Os dados não mostram causa, mas mostram dois sinais associados. Quem entra ganha {n(100 * (1 - t['kpi3']))}% menos que quem sai, "
-                     f"na mesma ocupação e região (prêmio {n(t['kpi3'], 3)}). E a escolaridade de quem entra é praticamente igual à de quem sai "
-                     f"({n(t['kpi4'], 2)} ponto percentual). Ou seja: o gargalo não é falta de formação, é retenção e salário de reposição."},
-        {"pergunta": "Como vocês usaram IA?",
-         "resposta": f"O Google Gemini ({ia['modelo']}) agrupou as {i(ia['cbos_llm'])} ocupações que cobrem 95% das movimentações em "
-                     f"{ia['areas']} áreas e {ia['niveis']} níveis de formação. Usamos lista fechada de categorias, temperatura 0 e revisão humana: "
-                     "zero respostas fora da lista. É isso que liga as recomendações a grupos de ocupação, e não a cargos soltos."},
-        {"pergunta": "Quais são as recomendações?",
-         "resposta": " ".join(f"{k}) {r['acao']} em {r['regiao'].split(' (')[0]}." for k, r in enumerate(d["recomendacoes"], 1))
-                     .replace("em Oeste", "no Oeste")
-                     + " Cada uma tem uma linha de base para acompanhar todo mês no Novo CAGED."},
-        {"pergunta": "Os dados são confiáveis?",
-         "resposta": "O saldo da transformação calculado pela equipe bate com o boletim oficial da FIESC com 0,01% de diferença (jan–mai/2026). "
-                     "Rodamos 7 testes de robustez; o que reprovou está declarado. Um exemplo: uma única ocupação, o alimentador de linha, pesa muito, "
-                     "e por isso mostramos os resultados com e sem ela."},
-    ]
-    return base, faq
+    return base
 
 
 def main() -> Path:
-    base, faq = montar()
+    base = montar()
     SAIDA.parent.mkdir(parents=True, exist_ok=True)
     js = ("// Gerado por src/base_conhecimento.py — não editar à mão.\n"
-          f"export const BASE = {json.dumps(base, ensure_ascii=False)};\n"
-          f"export const FAQ = {json.dumps(faq, ensure_ascii=False, indent=1)};\n")
+          f"export const BASE = {json.dumps(base, ensure_ascii=False)};\n")
     SAIDA.write_text(js, encoding="utf-8")
-    print(f"{SAIDA.relative_to(cfg.ROOT)}: {len(base):,} caracteres (~{len(base) // 4:,} tokens) · {len(faq)} perguntas prontas")
+    print(f"{SAIDA.relative_to(cfg.ROOT)}: {len(base):,} caracteres (~{len(base) // 4:,} tokens)")
     return SAIDA
 
 
