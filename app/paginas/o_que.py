@@ -18,14 +18,22 @@ else:
                    "(`status: aprovada` em app/recomendacoes.yaml).")
     for i, r in enumerate(recs, 1):
         with st.container(border=True):
-            st.subheader(f"{i}. {r['acao']}")
-            st.markdown(f"**Para:** {r['macrofamilia']}  \n**Onde:** {r['regiao']}  \n**Quem executa:** {r['quem_executa']}")
-            st.markdown(f"**Evidência:** {r['porque']}.")
+            st.subheader(f"{i}. {r.get('titulo_curto') or r['acao']}")
+            st.markdown(f"**Para quem (macrofamília da IA):** {r['macrofamilia']}  \n**Onde:** {r.get('onde_curto') or r['regiao']}  \n"
+                        f"**Quem executa:** {r['quem_executa']}")
+            st.markdown(f"**Por quê:** {r.get('porque_curto') or r['porque'] + '.'}")
+            if r.get("evidencia_modelo"):
+                st.caption(f"Modelo estatístico: {r['evidencia_modelo']}")
             ind = r.get("indicador_de_acompanhamento") or {}
             if ind:
                 c1, c2 = st.columns(2)
-                c1.metric("Linha de base hoje", f"{ind['linha_de_base']:.1f}%".replace(".", ","),
-                          delta=f"{ind['linha_de_base'] - ind['referencia_sc']:+.1f} p.p. vs SC".replace(".", ","), delta_color="inverse")
-                c2.markdown(f"**Como saber se funcionou:** acompanhar {ind['kpi']} ({ind['fonte']}).")
+                base, ref, unidade = ind.get("linha_de_base"), ind.get("referencia_sc"), ind.get("unidade", "%")
+                if unidade == "%":
+                    valor = f"{base:.1f}%".replace(".", ",")
+                    delta = f"{base - ref:+.1f} p.p. vs SC".replace(".", ",") if ref is not None else None
+                else:
+                    valor, delta = f"{base:+,.0f} {unidade}".replace(",", "."), None
+                c1.metric("Linha de base hoje", valor, delta=delta, delta_color="inverse")
+                c2.markdown(f"**Meta:** {r.get('meta', 'acompanhar')}. **Como saber se funcionou:** acompanhar {ind['kpi']} ({ind['fonte']}).")
 
 rodape()

@@ -25,6 +25,9 @@ python src/recomendacoes.py         # rascunho das 3 recomendações
 python src/auditoria.py             # antes do push
 python src/macrofamilias.py --llm   # classifica as 354 CBOs no Gemini (~8 chamadas, com cache)
 python src/macrofamilias.py --plano-b data/interim/resposta_plano_b.json   # plano B (chat)
+python src/modelo.py                # modelo das saídas a pedido (mercado e perfil)
+python src/exportar_web.py          # web/public/dados.json para o site
+cd web && npm run dev               # site React local
 ```
 
 ## Formato do relatório de checkpoint
@@ -40,9 +43,11 @@ python src/macrofamilias.py --plano-b data/interim/resposta_plano_b.json   # pla
 **Próxima fase:** o que será feito ao receber "pode seguir"
 ```
 
-## Estado atual
+## Estado atual (12/11/2026)
 
-- Fase 1 entregue e aprovada (`reports/checkpoint_1.md`). Pendente do usuário: rodar `python src/referencias.py` (V21).
-- Fase 4 entregue (`reports/checkpoint_4.md`). Falta o fechamento na máquina do Pietro: regiões, Gemini, revisão M3, aprovação das recomendações, git e deploy.
-- Fase 3 entregue (`reports/checkpoint_3.md`): KPIs, T2–T5, figuras e página Onde. Recortes regionais e por macrofamília rodam quando os arquivos existirem.
-- Fase 2 entregue em código (`reports/checkpoint_2.md`). Falta a execução real: criar `.env` e rodar `python src/macrofamilias.py --llm`; depois dois revisores preenchem `reports/revisao_macrofamilias.csv` (M3).
+- Fases 1 a 4 entregues (relatórios em `docs/processo/`). Regiões do IBGE baixadas; macrofamílias classificadas no `gemini-3.5-flash-lite` (V28); recomendações aprovadas em `app/recomendacoes.yaml` (o pipeline não sobrescreve).
+- Modelo estatístico das saídas a pedido em `src/modelo.py` (V29), relatório em `reports/modelo_saida_pedido.md`.
+- Site React em `web/` (Vercel, raiz `web`): https://datathon-ebon.vercel.app. Assistente em `web/api/perguntar.js`; a chave fica na variável `GEMINI_API_KEY` da Vercel.
+- Painel Python (Streamlit) em `app/`, entregável do Guia; roda localmente.
+- Pendente com a equipe: revisão humana M3 (`reports/revisao_macrofamilias.csv`) para fechar o T6.
+- Depois de mudar dados: `python run_pipeline.py` regenera `data/processed/`, `web/public/dados.json` e `web/api/_base.js`/`_dados.js`; depois `cd web && npm run build`.
